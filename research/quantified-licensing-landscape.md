@@ -55,7 +55,11 @@ feature is affirmatively not present.
 | **原仓IP数据 (Yuancang)** | yuancangip.com | IP-side analytics DB (20k+ IPs: 用户画像/衍生品市场表现力/媒体影响力/舆情), 热搜/带货/衍生品 rankings, "AI推荐 数据引擎" tagline, digitized tendering (招投标) + consultants; no brand×IP pairing score (china-platforms-verdict.md §4) | **C + marketplace (d)** | Character/IP merch | China | SaaS/marketplace | n/a | 1-src (vendor) on AI claim |
 | **JD 京纪圈 (Jingjiquan)** | JD copyright-trade services platform | Nothing quantified - bridge/matchmaking + services; JD's IP licensing head (2022) frames big-data matching as *future*, industry "相对感性" (china-platforms-verdict.md §2) | **d (marketplace)** | IP merch | China | Platform | Launched end 2017 | 2-src |
 | **CharaBiz / Character Databank** | Character Power survey; CharaBiz DATA | Character recognition / favorability / image; category rankings; market size | **C (popularity)** | Character licensing | Japan | Char.Power ¥50k mbr / ¥100k non-mbr per char; DATA ¥38k print / ¥50k elec (non-mbr) | Co. founded Jul 2000 | 2-src |
-| **KOCCA** | WelCon / Licensing Con | Trend reports + human 1:1 buyer matching | **C + directory (d)** | Character/content | Korea | Govt (free-ish) | n/a | moderate |
+| **KOCCA** | WelCon / Licensing Con / Character Licensing Fair 비즈니스 커넥팅 | Trend reports + human 1:1 buyer matching (pre-scheduled meetings) | **C + directory (d)** | Character/content | Korea | Govt (free-ish) | n/a | moderate |
+| **CHARATARO (Sumitomo Corp)** | charataro.com (defunct) | Listing/filter marketplace ("条件や希望商材／時期が可視化"); beta implemented "マッチング機能の一部のみ"; no AI/score claim; domain now SEO-spam-squatted (japan-korea-verdict.md §1) | **d (marketplace, dead PoC)** | Character/IP merch | Japan | Free beta PoC (Nov 2022) | PoC 2022-11; dormant since ~2023 | 2-src + Wayback |
+| **Video Research** | Kids/ex キャラクター版 | Survey penetration data (~150 characters: awareness/popularity/ownership, kids 3-12 + parents) | **C (survey popularity)** | Character licensing | Japan | Report sales | Annual | 2-src |
+| **WITZ (위츠)** | WitzShop (witzshop.com) | One-stop digitized licensing contracts; AI = counterfeit detection (WitzGuard) + ElevenLabs voice-IP PoC; co-CEO's 2023 column lists IP-value measurement / IP recommendation as *awaiting launch* (japan-korea-verdict.md §3) | **B (+ future-tense A claims)** | Character/IP + publicity rights | Korea | SaaS | Founded 2022; CES 2025 | 2-src + absence |
+| **Innerboos (이너부스)** | SaaS platform | Matching named as feature (methodology unstated) + e-contracts, commercialization, royalty mgmt, hologram certificates | **B + d (marketplace)** | Character merch | Korea | SaaS | Launched 2022-04-30 | **1-src** |
 | **Flowhaven** | Licensing Suite | Agreements, approvals, royalties, analytics | **B** | Consumer-product licensing | Finland/US | Enterprise, not public | Founded 2016 | 2-src + absence |
 | **Octane5 BrandComply** | BrandComply | Contracts, approvals, royalty, brand protection | **B** | Consumer-product / collegiate | US | Not public | Est. 2009 | 2-src |
 | **Brainbase Assist** + **Marketplace** | (Jonas Software, acq. 2022) | Assist = end-to-end licensing admin; **Marketplace = partner discovery + curated/AI + similarity recommendations** (no validated fit *score*) | **B (+ recommendation/discovery)** | Consumer-product licensing | US | Not public | Acq. Sep 16 2022 | 2-src |
@@ -201,6 +205,15 @@ Full incumbent-by-incumbent verdict with zh-TW trail now in `taiwan-licensing-ve
 (adds IPCP/成真文創, Hu Creates, 卡洛特, 毛毛蟲文創, the anime-merch agents, and the 2019
 Fresh Taiwan "AI smart signage" nuance - a booth gimmick, not a fit product).
 
+**Japan/Korea specifically:** full verdict with ja/ko trail now in `japan-korea-verdict.md`.
+Nothing beyond Yodo1's IPverse quantifies fit: Japan's lone platform attempt (Sumitomo's
+CHARATARO, PoC 2022) was a filterable directory and its domain is now squatted; the data
+layer (Character Databank CharaBiz, Video Research Kids/ex) sells IP-side popularity surveys;
+Korea's platforms (WITZ WitzShop, Innerboos) digitize contracts/royalties with AI applied to
+counterfeit detection and voice synthesis, and WITZ's own co-CEO framed IP-value measurement
+and licensee recommendation as services "awaiting launch" (2023) - the Korean parallel to
+JD's 高雷 future-tense admission. KOCCA's fair matching is pre-scheduled 1:1 meetings.
+
 ---
 
 ## 7. Entity-collision guard (carry every time)
@@ -224,7 +237,8 @@ vertical (Sprout Brand Fit Score) — both unvalidated as outcome predictors, ne
 physical consumer-product character licensing. The **consumer-product licensing-ops** stack
 is uniformly **post-deal admin (B)**. The **character-data** and **valuation** firms sell
 **popularity/brand-equity or isolated value (C / valuation)**. **APAC** adds attribute-based
-matchmaking (Alifish), IP-side analytics (原仓), and directories, but no fit predictor. The recurring pattern — clearest
+matchmaking (Alifish), IP-side analytics (原仓), transaction digitizers (WitzShop,
+Innerboos), a dead marketplace PoC (CHARATARO), and directories, but no fit predictor. The recurring pattern — clearest
 in influencer marketing, with **academic congruence-scoring frameworks** (e.g. Semerádová &
 Weinlich 2024, Jaccard-similarity congruence) behind it — is that fit gets quantified once
 the underlying interaction data is **digital**. That pattern's application to physical
