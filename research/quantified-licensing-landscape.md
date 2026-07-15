@@ -54,6 +54,9 @@ feature is affirmatively not present.
 | **Tencent** | topd.tencent.com/ip (T-JOY) | Licensing program + merch dev | **B** | Game/anime IP merch | China | Program | n/a | 1-src (moderate) |
 | **原仓IP数据 (Yuancang)** | yuancangip.com | IP-side analytics DB (20k+ IPs: 用户画像/衍生品市场表现力/媒体影响力/舆情), 热搜/带货/衍生品 rankings, "AI推荐 数据引擎" tagline, digitized tendering (招投标) + consultants; no brand×IP pairing score (china-platforms-verdict.md §4) | **C + marketplace (d)** | Character/IP merch | China | SaaS/marketplace | n/a | 1-src (vendor) on AI claim |
 | **JD 京纪圈 (Jingjiquan)** | JD copyright-trade services platform | Nothing quantified - bridge/matchmaking + services; JD's IP licensing head (2022) frames big-data matching as *future*, industry "相对感性" (china-platforms-verdict.md §2) | **d (marketplace)** | IP merch | China | Platform | Launched end 2017 | 2-src |
+| **秒针系统 (Miaozhen Systems)** | IP marketing solution / **IPPI 打分模型** | Brand-relative IP-selection score (社交影响 / 品牌助力 / 潜力预估, incl. 品类和品牌相关度) from proprietary 8k+ IP social DB; post-campaign 联名 effect measurement (academic-consulting-verdict.md §4) | **A-adjacent (selection score, unvalidated)** | **IP联名 marketing collabs** (not product licensing) | China | Measurement consulting + dashboards | Solution detailed 2024-04 | **1-src (vendor)** |
+| **Marketing Evaluations / Q Scores** | Cartoon Q / Character Q | Familiarity + appeal (Q Score) of 600+ characters & licensed properties, semiannual, n≈1,800 (kids/teens/parents/adults); buyer makes the pairing call (academic-consulting-verdict.md §2) | **C (survey popularity)** | Character licensing | US | Report sales | Firm est. 1963 | 2-src (PR + trade); live product page 500'd |
+| **Nevium / Brandar / Valen Group** | Licensing consulting ("brand fit assessment") | Nothing productized - expert analysis in reports; Nevium's "Brand Score Tool" is a comparison framework inside engagements (academic-consulting-verdict.md §1) | **consulting (manual fit judgment)** | Brand/celebrity licensing | US | Consulting | n/a | absence (pages read) |
 | **CharaBiz / Character Databank** | Character Power survey; CharaBiz DATA | Character recognition / favorability / image; category rankings; market size | **C (popularity)** | Character licensing | Japan | Char.Power ¥50k mbr / ¥100k non-mbr per char; DATA ¥38k print / ¥50k elec (non-mbr) | Co. founded Jul 2000 | 2-src |
 | **KOCCA** | WelCon / Licensing Con / Character Licensing Fair 비즈니스 커넥팅 | Trend reports + human 1:1 buyer matching (pre-scheduled meetings) | **C + directory (d)** | Character/content | Korea | Govt (free-ish) | n/a | moderate |
 | **CHARATARO (Sumitomo Corp)** | charataro.com (defunct) | Listing/filter marketplace ("条件や希望商材／時期が可視化"); beta implemented "マッチング機能の一部のみ"; no AI/score claim; domain now SEO-spam-squatted (japan-korea-verdict.md §1) | **d (marketplace, dead PoC)** | Character/IP merch | Japan | Free beta PoC (Nov 2022) | PoC 2022-11; dormant since ~2023 | 2-src + Wayback |
@@ -103,6 +106,15 @@ Nobody found ships a *validated* pre-deal fit-prediction model. The closest are:
   **configurable alignment score**, but a rules/alignment score,
   **not** a validated predictive model of campaign outcome; no accuracy validation is
   published. Vertical is **influencer marketing**, not IP licensing.
+- **Miaozhen Systems IPPI (China, IP联名 marketing).** Vendor-claimed (1-src): Miaozhen's IP
+  marketing solution scores candidate IPs for a specific brand with its **IPPI 打分模型**
+  across 社交影响 / 品牌助力 / 潜力预估, explicitly including 品类和品牌相关度 (category and
+  brand relevance) - i.e., genuinely **brand-relative**, the only such sold score found
+  outside influencer marketing. *Mechanism finding:* an input-scoring model over social data
+  and Miaozhen's 8k+ IP database, delivered as measurement consulting + dashboards, framed as
+  "实战验证过" with **no published outcome validation**; the object is **联名 marketing
+  campaigns** (co-branding buzz), not licensing an IP onto physical product lines. Full trail
+  in `academic-consulting-verdict.md` §4.
 - **DoLicense** claims ML matching of brands↔licensees (true type-A positioning) but its only
   sources are a **mutually-affiliated vendor cluster** (the product site, its build agency
   **DATAC**, and its CMS vendor **Directus**) — all commercially tied, so not independent
@@ -197,6 +209,10 @@ evidence of absence; JD 京纪圈 as bridge platform with the 高雷 2022 "big-d
 the future / industry is 相对感性" admission; Pop Mart's qualitative partner selection; and
 newly-surfaced player **原仓IP数据/Yuancang** - the closest analogue, quantifying the IP but not the
 pairing).
+The consulting/measurement side adds **秒针系统 Miaozhen's IPPI** (brand-relative IP-selection
+scoring for 联名 marketing campaigns, vendor-claimed, unvalidated) and social-data vendor
+**数说故事 DataStory** (trending-IP identification) - full trail in
+`academic-consulting-verdict.md` §4.
 
 **Taiwan specifically:** the ecosystem is **showcase/directory + government support**
 (TAICCA, TCBLA, CCPA "Taiwan IP Showcase," UDN, Taiwan Bar) — **no** Taiwan platform found
@@ -232,11 +248,15 @@ There are **two unrelated companies named "IPVERSE."** Confirmed distinct (2-src
 ## 8. What is quantified where — the one-paragraph synthesis
 
 Pre-deal **fit prediction** exists only as (i) a *recommendation-from-history* engine in the
-**games/in-game** vertical (IPverse) and (ii) an *alignment score* in the **influencer**
-vertical (Sprout Brand Fit Score) — both unvalidated as outcome predictors, neither in
-physical consumer-product character licensing. The **consumer-product licensing-ops** stack
-is uniformly **post-deal admin (B)**. The **character-data** and **valuation** firms sell
-**popularity/brand-equity or isolated value (C / valuation)**. **APAC** adds attribute-based
+**games/in-game** vertical (IPverse), (ii) an *alignment score* in the **influencer**
+vertical (Sprout Brand Fit Score), and (iii) a *brand-relative IP-selection score* in the
+China **联名-marketing** vertical (Miaozhen IPPI) - all unvalidated as outcome predictors,
+none in physical consumer-product character licensing. The **consumer-product
+licensing-ops** stack is uniformly **post-deal admin (B)**. The **character-data** and
+**valuation** firms sell **popularity/brand-equity or isolated value (C / valuation)** -
+Q Scores' Cartoon Q being the US survey archetype - and the **licensing consultancies**
+(Nevium, Brandar, Valen) sell fit assessment as *expert judgment in reports*, the manual
+practice itself. **APAC** adds attribute-based
 matchmaking (Alifish), IP-side analytics (原仓), transaction digitizers (WitzShop,
 Innerboos), a dead marketplace PoC (CHARATARO), and directories, but no fit predictor. The recurring pattern — clearest
 in influencer marketing, with **academic congruence-scoring frameworks** (e.g. Semerádová &
@@ -295,6 +315,15 @@ All accessed **2026-07-13**. Grouped by cluster; each URL is followed by what it
 - GRIN "Gia" — https://grin.ai/
 - Modash (correction: "brand fit score" quote refers to Sprout, not Modash) — https://www.modash.io/blog/ai-influencer-discovery-tools
 - Academic congruence scoring — Semerádová & Weinlich 2024, https://www.tandfonline.com/doi/full/10.1080/23311975.2024.2364046 (metadata via https://www.researchgate.net/publication/382000062) ; Belanche et al. 2021 https://www.sciencedirect.com/science/article/pii/S0148296321002307
+
+### Academic / consulting fit analytics (seed question 5; accessed 2026-07-15)
+- Miaozhen IPPI solution - https://www.miaozhen.com/marticles/5577.html (IPPI dimensions, brand-relative 适配度, 8k+ IP DB) ; https://www.miaozhen.com/marticles/11137.html ("IP力" framing)
+- Nevium - https://nevium.com/ip-monetization/licensing-partner-analysis/ (Brand Score Tool, best-fit product categories, consulting-only)
+- Brandar - https://brandar.com/brand-licensing (fit assessment listed, no data claims)
+- Q Scores / Cartoon Q - https://www.qscores.com/ ; https://prweb.com/releases/q-scores/cartoonq/prweb11941996.htm ; https://kidscreen.com/1996/10/01/17324-19961001/
+- DataStory / Endata - https://datastory.com.cn/ ; https://www.endata.com.cn/solution/digitalEnt.html?tags=3
+- Academic state of the field - https://www.sciencedirect.com/science/article/abs/pii/S0148296323005404 (licensing research review) ; https://www.sciencedirect.com/science/article/pii/S0167811621000811 (brand-extension fit dimensions)
+- Full trail: `academic-consulting-verdict.md`
 
 ### Notes on evidence quality
 - Aggregator profiles (Tracxn, Dealroom, PitchBook, ZoomInfo) are used only for firmographics
