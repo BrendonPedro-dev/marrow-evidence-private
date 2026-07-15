@@ -188,6 +188,9 @@ From the APAC sweep, sorted by type (full detail and the gap argument live in
 **Taiwan specifically:** the ecosystem is **showcase/directory + government support**
 (TAICCA, TCBLA, CCPA "Taiwan IP Showcase," UDN, Taiwan Bar) — **no** Taiwan platform found
 that quantifies IP × product fit ("no evidence found," multiple org pages checked).
+Full incumbent-by-incumbent verdict with zh-TW trail now in `taiwan-licensing-verdict.md`
+(adds IPCP/成真文創, Hu Creates, 卡洛特, 毛毛蟲文創, the anime-merch agents, and the 2019
+Fresh Taiwan "AI smart signage" nuance - a booth gimmick, not a fit product).
 
 ---
 
