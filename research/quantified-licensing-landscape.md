@@ -50,8 +50,10 @@ feature is affirmatively not present.
 | **HypeAuditor** | Audience Brand Affinity | Which brands an audience *actually* engages (observed behavior) | **C (behavioral)** | Influencer marketing | US (Indianapolis) HQ / Cyprus office | Tiered SaaS | Founded 2017 | 2-src |
 | **GRIN** | "Gia" | Audience fit / brand affinity as 1 of 180 attrs, trained on brand-creator transaction data | **A-adjacent (no single score)** | Influencer marketing | US | Enterprise | n/a | 1-src (own) |
 | **Parrot Analytics** | DEMAND360 / Brand Affinity | Global content-demand ranking; "demand-based brand matching" | **C (demand ranking)** | Entertainment content | Global | Enterprise | n/a | 2-src |
-| **Alibaba Alifish (阿里鱼)** | IP2B2C platform | Attribute-based licensor↔licensee matching (positioning/fan tier/price); post-hoc sales tracking; auto royalty | **B + attribute-matching (d)** | Character/IP merch | China | Agency | Est. 2016 | 2-src |
+| **Alibaba Alifish (阿里鱼)** | IP2B2C platform | Attribute-based licensor↔licensee matching (positioning/fan tier/price); post-hoc sales tracking; auto royalty. Deep-dive: live site exposes only catalog + contact form; "IP指数" became trend reports (see china-platforms-verdict.md §1) | **B + attribute-matching (d)** | Character/IP merch | China | Agency | Est. 2016 | 2-src + absence |
 | **Tencent** | topd.tencent.com/ip (T-JOY) | Licensing program + merch dev | **B** | Game/anime IP merch | China | Program | n/a | 1-src (moderate) |
+| **原仓IP数据 (Yuancang)** | yuancangip.com | IP-side analytics DB (20k+ IPs: 用户画像/衍生品市场表现力/媒体影响力/舆情), 热搜/带货/衍生品 rankings, "AI推荐 数据引擎" tagline, digitized tendering (招投标) + consultants; no brand×IP pairing score (china-platforms-verdict.md §4) | **C + marketplace (d)** | Character/IP merch | China | SaaS/marketplace | n/a | 1-src (vendor) on AI claim |
+| **JD 京纪圈 (Jingjiquan)** | JD copyright-trade services platform | Nothing quantified - bridge/matchmaking + services; JD's IP licensing head (2022) frames big-data matching as *future*, industry "相对感性" (china-platforms-verdict.md §2) | **d (marketplace)** | IP merch | China | Platform | Launched end 2017 | 2-src |
 | **CharaBiz / Character Databank** | Character Power survey; CharaBiz DATA | Character recognition / favorability / image; category rankings; market size | **C (popularity)** | Character licensing | Japan | Char.Power ¥50k mbr / ¥100k non-mbr per char; DATA ¥38k print / ¥50k elec (non-mbr) | Co. founded Jul 2000 | 2-src |
 | **KOCCA** | WelCon / Licensing Con | Trend reports + human 1:1 buyer matching | **C + directory (d)** | Character/content | Korea | Govt (free-ish) | n/a | moderate |
 | **Flowhaven** | Licensing Suite | Agreements, approvals, royalties, analytics | **B** | Consumer-product licensing | Finland/US | Enterprise, not public | Founded 2016 | 2-src + absence |
@@ -185,6 +187,13 @@ From the APAC sweep, sorted by type (full detail and the gap argument live in
   UNVERIFIED operator/date), IP365.cc (UNVERIFIED), Taiwan IP Showcase / TAICCA / TCBLA,
   KOCCA WelCon.
 
+**China specifically:** full incumbent-by-incumbent verdict with zh-CN trail now in
+`china-platforms-verdict.md` (Alifish executive quotes traced 2016-2021 and live-site
+evidence of absence; JD 京纪圈 as bridge platform with the 高雷 2022 "big-data matching is
+the future / industry is 相对感性" admission; Pop Mart's qualitative partner selection; and
+newly-surfaced player **原仓IP数据/Yuancang** - the closest analogue, quantifying the IP but not the
+pairing).
+
 **Taiwan specifically:** the ecosystem is **showcase/directory + government support**
 (TAICCA, TCBLA, CCPA "Taiwan IP Showcase," UDN, Taiwan Bar) — **no** Taiwan platform found
 that quantifies IP × product fit ("no evidence found," multiple org pages checked).
@@ -215,7 +224,7 @@ vertical (Sprout Brand Fit Score) — both unvalidated as outcome predictors, ne
 physical consumer-product character licensing. The **consumer-product licensing-ops** stack
 is uniformly **post-deal admin (B)**. The **character-data** and **valuation** firms sell
 **popularity/brand-equity or isolated value (C / valuation)**. **APAC** adds attribute-based
-matchmaking (Alifish) and directories, but no fit predictor. The recurring pattern — clearest
+matchmaking (Alifish), IP-side analytics (原仓), and directories, but no fit predictor. The recurring pattern — clearest
 in influencer marketing, with **academic congruence-scoring frameworks** (e.g. Semerádová &
 Weinlich 2024, Jaccard-similarity congruence) behind it — is that fit gets quantified once
 the underlying interaction data is **digital**. That pattern's application to physical
