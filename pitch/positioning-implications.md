@@ -100,10 +100,13 @@ cleanly if a VC who walked Licensing Expo 2026 raises it.
   `consumer-product-gap.md §2h, §3`.
 - **Guardrails:** ❌ Never call Sidechat IP a proven competitor — its claims are **UNVERIFIED**
   (vendor-stated only); don't attribute any traction to it. ❌ Never confuse it with the
-  unrelated "Sidechat" anonymous-campus app (side.chat / sidechat.lol). ⚠️ Its page attributes
-  it to "Spaceport Technologies," a name that also appears in the Negosh Dec-2024 timeline
-  (`negosh-apac.md`) — do **not** assert any connection; it is unconfirmed and irrelevant to the
-  reframe.
+  unrelated "Sidechat" anonymous-campus app (sidechat.lol — note: side.chat is actually
+  Spaceport's own Sidechat product, NOT the campus app; see `sidechat-ip-verdict.md §4`).
+  ⚠️ **CONFIRMED (2026-07-15):** the "Spaceport Technologies" behind Sidechat IP **is** the
+  same Spaceport (spaceport.xyz, CEO Le Zhang) that partnered with Negosh in Dec 2024 —
+  trail in `sidechat-ip-verdict.md §1`. Treat Negosh's digital partner and Sidechat IP as
+  **one ecosystem player**, not two independent timing proofs. Corporate identity is now
+  verified; the *product's* claims remain vendor-stated only.
 
 ---
 

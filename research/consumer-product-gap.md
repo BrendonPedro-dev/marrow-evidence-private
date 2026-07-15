@@ -123,7 +123,8 @@ physical products (detailed further in `data-availability.md`):
 
 ### 2h. Pre-deal AI *scoring* in licensing — but of applicant quality, not pairing fit (fails on 1)
 - **Sidechat IP (ip.side.host, "Sidechat for IP Licensing," at Licensing Expo 2026; a
-  Spaceport Technologies product per its own page — UNVERIFIED, vendor-described)** — the
+  Spaceport Technologies product — corporate identity since CONFIRMED, see
+  `sidechat-ip-verdict.md`; product claims still vendor-described)** — the
   single closest *surface-level* counter to this file's whole thesis, because it markets an
   **AI "deal intake scoring"** feature that runs **before** signing: inbound license requests
   are captured, AI-assessed, and **ranked by "deal quality"** in ~60 seconds. Crucially, the
@@ -137,7 +138,9 @@ physical products (detailed further in `data-availability.md`):
   licensing" is now being marketed (2026), and simultaneously that even this newest entrant
   scores the **wrong object** for the PBC wedge. Claims are vendor-stated only (no independent
   coverage, named customers, or traction) → **UNVERIFIED**; note also the name collision with
-  the unrelated "Sidechat" anonymous-campus app (side.chat / sidechat.lol).
+  the unrelated "Sidechat" anonymous-campus app (sidechat.lol only — correction 2026-07-15:
+  side.chat is Spaceport's own Sidechat "AI employee" product, not the campus app; see
+  `sidechat-ip-verdict.md §4`).
 
 ---
 
@@ -232,7 +235,8 @@ and not duplicated here. New sources introduced by this gap check:
   (revenue history / IP compliance / completeness), plus deal monitoring, infringement
   scanning, contract drafting — applicant-quality triage + type-B admin, NOT IP×product
   pairing-fit prediction; claims vendor-stated only → UNVERIFIED (name-collision guard: not the
-  "Sidechat" campus app at side.chat / sidechat.lol)
+  "Sidechat" campus app at sidechat.lol; side.chat is Spaceport's own Sidechat product —
+  full identity trail in `sidechat-ip-verdict.md`)
 - Hasbro AI studio (licenses characters out to interactive/AI experiences) — https://www.hollywoodreporter.com/business/digital/hasbro-launching-ai-studio-license-characters-interactive-1236612854/ — IP-out to AI/interactive, not a fit predictor for physical products
 
 ### Additional creator↔brand matchers (influencer adjacency)
