@@ -1,29 +1,39 @@
-Harden the "our segment is open" claim against Chinese-language sources, and
-close the Sidechat IP question with a documented trail.
+Corroborate or weaken the three candidate problem findings from our two
+brand interviews, using PUBLIC sources - the goal is independent instances,
+not our own claims restated. zh-TW primary, zh-CN/ja/en secondary.
 
-Per iteration: pick ONE open question from notes.md (seed it on the first
-iteration from the list below), research it with zh-TW and zh-CN queries as
-primary (English secondary), write findings to a per-topic md in research/
-with every source URL, verdict, and a confidence line, update notes.md,
-commit. Small complete steps - one question or sub-question per iteration.
+Per iteration: pick ONE finding from notes.md (seed on first iteration),
+hunt for public instances, write/extend findings/problem-<name>.md with
+every source URL, the quote (original language + one-line English gloss),
+who said it (brand-side voice preferred over agency/vendor), and a verdict
+line: corroborates / weakens / ambiguous. Update notes.md, commit.
 
-Seed questions:
-1. Sidechat IP: does any company by this or a similar name do AI licensing
-   scoring? Search zh + en, Crunchbase/LinkedIn/company registries. Verdict
-   with trail: exists / does not exist / conflation with [what].
-2. Taiwan licensing agencies and platforms (授權代理, IP授權平台): who are
-   the incumbents, and does ANY offer quantified matching or fit scoring vs
-   relationship brokering? Name names, cite what they actually claim.
-3. China platforms (阿里魚/Alifish, 泡泡瑪特 ecosystem, 京東IP授權): does
-   any quantify brand-IP fit for physical products, or is it marketplace/
-   listing only?
-4. Japan/Korea adjacent: any quantified-fit offering beyond Yodo1's in-game
-   IPverse?
-5. Academic/consulting: does anyone sell licensing-fit analytics to brands
-   (reports, scoring services) that a VC could name as "this exists"?
+The three findings to corroborate:
+1. BRAND ERASURE (反客為主): brands co-branding with more-famous IPs lose
+   their own recall - the IP gets remembered, the brand doesn't. Hunt:
+   marketing post-mortems, brand-manager interviews, 聯名 case analyses
+   mentioning 反客為主 / 為人作嫁 / the IP outshining the brand; agency
+   thought pieces count only as weak corroboration (flag them).
+2. ATTRIBUTION FAILURE: brands cannot isolate a collab's effect from
+   concurrent promos - ROI of licensing is unmeasurable, and some brands
+   cut back collabs on cost-vs-unclear-return. Hunt: CMO/brand interviews
+   on 聯名成效/ROI measurement pain, case studies admitting they could not
+   attribute, industry surveys on licensing measurement.
+3. GUT-FEEL SELECTION (already one incumbent quote - extend it): IP
+   selection decided on relationships and instinct, fame as the only proxy.
+   Hunt: more first-party voices beyond JD 高雷 - brand-side quotes about
+   how they choose IPs, 為什麼選這個IP interviews, criteria lists that are
+   revealingly vague.
 
-Rules: never fabricate; a claim without a URL is marked unverified; absence
-of evidence is stated as "not found under [queries tried]", never "does not
-exist" without the trail; single-source findings flagged. COMPLETION: every
-seed question has a verdict file in research/, plus research/summary.md
-ranking any real threats found vs demand-validation reads.
+Rules: never fabricate; each instance needs a URL + verbatim quote; a
+finding with zero public instances found is reported as exactly that
+("not corroborated under the queries tried" with the queries listed) -
+that is a legitimate result, not a failure; distinguish brand-side voices
+from vendor/agency content in every entry; single-source flags throughout.
+COMPLETION: all three findings have a corroboration file plus
+findings/problem-evidence-summary.md: instances found per finding, the
+strongest three quotes overall, and an honest confidence line per finding. 
+Cross-reference before searching: research/summary.md and the five verdict
+files already contain incumbent voices (JD 高雷, WITZ, Sumitomo) - reuse
+those citations where they corroborate finding 3 rather than re-finding
+them, and hunt for NEW voices beyond them.
