@@ -7,6 +7,7 @@ Excluded: plain licensed merchandise at retail, KOL/celebrity endorsements, and 
 **Method (sample census, not exhaustive):** sweep of zh-TW lifestyle/food press (聯合新聞網 udn, 自由時報 玩咖, WalkerLand, 造咖 cava.tw, 食尚玩家), campaign roundups, convenience-store event pages, and licensing coverage.
 Extension sweep (2026-07-22) added the 7-ELEVEN official campaign archive (7-11.com.tw/event), finance press for corporate-premium collabs (ETtoday財經雲, 經濟日報), gaming press (巴哈姆特 GNN), airline/transit coverage (中央社, udn科技玩家), and brand campaign microsites.
 Second extension sweep (2026-07-22, same day) added fast-food chains (麥當勞/肯德基 via ETtoday, playing.ltn, cool-style), conveyor-sushi gacha collabs (藏壽司 via GNN/WalkerLand/udn), FamilyMart gaming tie-ins (4Gamers, Pokemon Hubs, official FFXIV event site), further 7-ELEVEN archive siblings, the EasyCard 悠遊典藏館 release database, and campaign-news aggregators (TALKace).
+Third extension sweep (2026-07-22, same day) targeted the remaining under-covered formats: hotels (theme-room campaigns via 食尚玩家, ETtoday旅遊雲, 壹蘋, MOOK景點+), coffee chains (星巴克/路易莎/85度C/客美多 via udn, istyle.ltn, official 85cafe news pages, GNN), fast fashion/apparel (GU via ET Fashion, 4Gamers), drugstores (屈臣氏 via ET Fashion), supermarket loyalty programs (全聯 via fincake), department-store and culture-park pop-ups (新光三越 A11 via 4Gamers, 華山1914 official event pages), sports/VTuber events (味全龍 x hololive via 遠見, GNN), and handshake-drink year-end waves (可不可/萬波/鶴茶樓 via 食尚玩家, DailyView, CTWANT).
 Every row below was confirmed against at least one fetched source URL; rows resting on a single roundup source are flagged in the Notes column.
 Phantom (unverifiable) entries are the known failure class and are kept out.
 
@@ -74,14 +75,40 @@ Phantom (unverifiable) entries are the known failure class and are kept out.
 | 56 | 2026-07 (summer) | 2026YTD | 特‧好喝 (handshake drink chain) | 蠟筆小新 Crayon Shin-chan (玩轉！時空大冒險展 tie-in) | PORTFOLIO | Futabasha-managed | Drink (3款冰沙) + 造型冰棒 + merch + 滿額贈 | https://supertaste.tvbs.com.tw/food/360433 | Single roundup source - flagged; published 2026-07-07 |
 | 57 | 2026-07 (summer) | 2026YTD | 先喝道 (handshake drink chain) | SPY×FAMILY 間諜家家酒 | PORTFOLIO | Shueisha-managed anime IP | Drink + campaign | https://supertaste.tvbs.com.tw/food/360433 | Single roundup source - flagged; same article as row 56 |
 | 58 | 2026-07-17.. (14 days) | 2026YTD | 藏壽司 Kura Sushi Taiwan | 名偵探柯南 Detective Conan (高速公路的墮天使) | PORTFOLIO | Shogakukan/committee-managed | Food-chain gacha (24款扭蛋 + 杯墊滿額贈) | https://udn.com/news/story/7270/9624904 | Published 2026-07-13; distinct from the 2024 Conan campaign (row 40) |
+| 59 | 2024-06-28..09-05 | 2024 | 全聯 PXmart | 蠟筆小新 Crayon Shin-chan | PORTFOLIO | Futabasha-managed | Supermarket loyalty (飲料/冰品積分加價購周邊) | https://www.fincake.co/blog/pxmart-points | Single source (fincake table, published 2024-07-25) |
+| 60 | 2024-06-28..09-05 | 2024 | 全聯 PXmart | KAKAO FRIENDS | PORTFOLIO | Kakao Corp, major Korean platform conglomerate | Supermarket loyalty (福利點換購廚具) | https://www.fincake.co/blog/pxmart-points | Single source; same fincake table as row 59 |
+| 61 | 2024-12 | 2024 | 鶴茶樓 (handshake drink chain) | Bunni Konbiny 兔子便利商店 | UNCLEAR | Designer character brand; ownership/parent not established under queries run | Drink + merch | https://www.ctwant.com/article/382389/ | Article published 2024-12-12 |
+| 62 | 2024-12-18..2025-02-26 | 2024 | 客美多咖啡 KOMEDA'S Coffee Taiwan | 布丁狗 Pompompurin (店長企劃) | PORTFOLIO | Sanrio | Coffee chain (聯名飲品/甜點 + 插卡/貼紙 + 杯墊/磁鐵周邊) | https://gnn.gamer.com.tw/detail.php?sn=277798 | Also ctwant 382389, udn 8413010; TW-limited campaign stated on page |
+| 63 | 2024-12-19.. | 2024 | 可不可熟成紅茶 KEBUKE | 玩具總動員 Toy Story | PORTFOLIO | Disney/Pixar | Drink (3款) + 10款杯身 + 6款周邊加價購 | https://supertaste.tvbs.com.tw/food/352587 | Also ctwant 382389 |
+| 64 | 2024-12 | 2024 | 萬波島嶼紅茶 Wanpo | 飛天小女警 The Powerpuff Girls | PORTFOLIO | Warner Bros. Discovery / Cartoon Network | Drink + merch | https://dailyview.tw/popular/detail/28438 | Single roundup source - flagged (published 2024-12-22) |
+| 65 | 2024-12-24..2025-05-04 | 2024 | 路易莎咖啡 Louisa | 草間彌生 Yayoi Kusama (展覽限定) | UNCLEAR | Fine-artist exhibition tie-in, not a character/illustration IP; scope-borderline | Coffee chain (聯名紙杯/杯身) | https://udn.com/news/story/7186/8442048 | Article published 2024-12-24 |
+| 66 | 2024-12-27..2025-02-16 | 2024 | 新光三越 台北信義新天地 A11 (department store) | 進擊的巨人 Attack on Titan (Final Season) | PORTFOLIO | Kodansha/committee-managed anime IP | Dept-store pop-up store + 滿額贈 | https://www.4gamers.com.tw/news/detail/69287/kimetsu-aot-kanahei-garfield-pop-up-store-taiepi-a11-2024-winter | Venue-hosted pop-up - borderline vs retail licensing, kept per row 20 precedent |
+| 67 | 2024-12-27..2025-02-16 | 2024 | 新光三越 台北信義新天地 A11 | 鬼滅之刃 Demon Slayer | PORTFOLIO | Shueisha/Aniplex committee-managed | Dept-store pop-up store | https://www.4gamers.com.tw/news/detail/69287/kimetsu-aot-kanahei-garfield-pop-up-store-taiepi-a11-2024-winter | Same venue campaign window as row 66 |
+| 68 | 2024-12-27..2025-02-16 | 2024 | 新光三越 台北信義新天地 A11 | 卡娜赫拉的小動物 Kanahei (睡衣派對) | INDEPENDENT | Same as row 18 (creator-owned, agency-managed) | Dept-store pop-up store | https://gnn.gamer.com.tw/detail.php?sn=278818 | Also 4gamers 69287; the one indie IP among the four A11 winter pop-ups |
+| 69 | 2024-12-27..2025-02-16 | 2024 | 新光三越 台北信義新天地 A11 | 加菲貓 Garfield | PORTFOLIO | Garfield IP owned by Paramount (acquired 2019) | Dept-store pop-up store | https://www.4gamers.com.tw/news/detail/69287/kimetsu-aot-kanahei-garfield-pop-up-store-taiepi-a11-2024-winter | Same venue campaign window as row 66 |
+| 70 | 2025-03 (first wave), 回歸 2025-05-28 | 2025 | 星巴克 Starbucks Taiwan | 史努比 Snoopy (PEANUTS) | PORTFOLIO | Peanuts consortium (WildBrain/Sony/Schulz) | Coffee chain merch (8款杯款/鑰匙圈/隔熱套) + 貼紙 campaign | https://www.skm.com.tw/skmmedia/lifestyleandfood/living/peanuts0318op | Also c3.coffee/starbucks202505 (published 2025-05-26); two 2025 waves counted once; the 2024-10 Asia wave excluded as TW-unconfirmed |
+| 71 | 2025-06-05.. | 2025 | 85度C | 蠟筆小新 Crayon Shin-chan | PORTFOLIO | Futabasha-managed | Food (4款造型蛋糕 + 公仔/磁鐵, 限量9.7萬個) | https://supertaste.tvbs.com.tw/food/355048 | Published 2025-06-03; also nownews 6690638 |
+| 72 | 2025-06-28..09-14 | 2025 | 華山1914文創園區 (venue, with 楽玩多WAYTOFUN) | 三麗鷗男團 HAPIDANBUI | PORTFOLIO | Sanrio | Culture-park pop-up store (中4A館, themed food + merch) | https://www.huashan1914.com/w/huashan1914/exhibition_25062017525772023 | Official venue event page with dates; venue-hosted pop-up borderline |
+| 73 | 2025-08.. (bookable to 2026-01) | 2025 | 東旅集團 Hotel East (台北/台中) | 三麗鷗男團 HAPIDANBUI | PORTFOLIO | Sanrio | Hotel (5款主題房 + 角色備品/拖鞋/浴巾/馬克杯) | https://www.mook.com.tw/article/38479 | Published 2025-08-18 |
+| 74 | 2025-08-29..31 | 2025 | 味全龍 WeiChuan Dragons (CPBL) | hololive production (EN成員) | PORTFOLIO | Cover Corp, Tokyo-listed VTuber conglomerate | Sports event (大巨蛋主題日 + 入場特典 + 聯名周邊) | https://www.gvm.com.tw/article/131331 | GVM article (2026-07-04) confirms 2025 first edition and dates |
+| 75 | 2025 (article 10-08) | 2025 | 高雄漢來大飯店 Grand Hi-Lai | 三麗鷗8大角色 (Hello Kitty/美樂蒂/酷洛米/蛋黃哥等) | PORTFOLIO | Sanrio | Hotel (10間主題房 + 迎賓下午茶/限定備品) | https://travel.ettoday.net/article/3042487.htm | Single source - flagged; exact launch window not stated |
+| 76 | 2025 (article 10-08; 文博會 tie-in) | 2025 | 台北南港老爺行旅 Hotel Royal-Nangang | 臺灣印事 & 腋毛人Yemao (台灣插畫家) | INDEPENDENT | Taiwan illustrator IPs, creator-owned, surfaced via 台灣文博會 | Hotel (聯名主題房 + 限定明信片/角色小物) | https://travel.ettoday.net/article/3042487.htm | Single source - flagged; the only indie hotel row found |
+| 77 | 2025-10-16.. | 2025 | 85度C | 吉伊卡哇 Chiikawa | PORTFOLIO | Major publisher-managed property | Food (3款造型蛋糕 + 樂扣樂扣吸管杯) | https://www.85cafe.com/News_content.php?data=9223 | Official 85cafe news page (2025-10-09) |
+| 78 | 2025-12 (至12-30) | 2025 | 屈臣氏 Watsons Taiwan | 吉伊卡哇 Chiikawa | PORTFOLIO | Major publisher-managed property | Drugstore (獨家加價購3款 + 限店換購) | https://fashion.ettoday.net/news/3079308 | Published 2025-12-05 |
+| 79 | 2025-12 | 2025 | 7-ELEVEN Taiwan | 米飛 Miffy (白色系, 86款) | INDEPENDENT | Owned by Mercis bv, the Bruna-family estate company; no conglomerate parent - legacy-brand scale caveat noted in verdict | 集點/周邊 program (86款) | https://woman.udn.com/woman/story/123164/9179195 | Published 2025-12-03; classification sensitivity flagged in _VERDICT §4 |
+| 80 | 2026-03-23.. | 2026YTD | 星巴克 Starbucks Taiwan | 哈利波特 Harry Potter | PORTFOLIO | Warner Bros. | Coffee chain (聯名限定飲品「蜂蜜公爵爆爆星冰茶」 + 杯款/徽章/熊寶寶) | https://istyle.ltn.com.tw/article/39395 | Published 2026-03-17; first TW Starbucks collab with a co-branded drink |
+| 81 | 2026-07-04..05 (天母) + 07-21..22 (大巨蛋) | 2026YTD | 味全龍 WeiChuan Dragons | hololive production (JP+EN成員) | PORTFOLIO | Cover Corp | Sports event (2週4場主題日 + 特典/應援套組/聯名周邊/拍照會) | https://www.gvm.com.tw/article/131331 | Also gnn.gamer.com.tw/detail.php?sn=306603; second consecutive year |
+| 82 | 2026-07-13.. | 2026YTD | GU Taiwan (fast fashion) | 三麗鷗 曬黑系列 (Hello Kitty/布丁狗等9款) | PORTFOLIO | Sanrio | Apparel (T恤/家居服) | https://fashion.ettoday.net/news/3197344 | Published 2026-07-08 |
+| 83 | 2026-07..08 (暑假) | 2026YTD | 台北遠東香格里拉 Shangri-La Far Eastern | 美樂蒂 & 雙星仙子 My Melody & Little Twin Stars | PORTFOLIO | Sanrio | Hotel (主題房 + 5款周邊 + 主題樂園/手作課) | https://supertaste.tvbs.com.tw/travel/359718 | Also news.nextapple.com 2026-07-08; 香格里拉首度攜手三麗鷗 |
+| 84 | 2024-12-13.. | 2024 | GU Taiwan | 葬送的芙莉蓮 Frieren | PORTFOLIO | Shogakukan/committee-managed anime IP | Apparel (台日同步聯名系列) | https://www.4gamers.com.tw/news/detail/68866/gu-taiwan-frieren-collab-release-date | Published 2024-12-06 |
 
 ## Running counts (recompute on each append)
 
-- Total rows: 58
-- PORTFOLIO: 38  |  INDEPENDENT: 16  |  UNCLEAR: 4
-- 2024: 10 rows (3 indie, 7 portfolio, 0 unclear)
-- 2025: 28 rows (10 indie, 18 portfolio, 0 unclear)
-- 2026YTD: 20 rows (3 indie, 13 portfolio, 4 unclear)
+- Total rows: 84
+- PORTFOLIO: 59  |  INDEPENDENT: 19  |  UNCLEAR: 6
+- 2024: 22 rows (4 indie, 16 portfolio, 2 unclear)
+- 2025: 38 rows (12 indie, 26 portfolio, 0 unclear)
+- 2026YTD: 24 rows (3 indie, 17 portfolio, 4 unclear)
 
 ## Excluded (logged so we do not re-add)
 
@@ -104,3 +131,9 @@ Phantom (unverifiable) entries are the known failure class and are kept out.
 - 台灣高鐵 x 卡娜赫拉 - official page (thsrc.com.tw ArticleContent) is a JS shell with no dates extractable via curl; not logged until datable.
 - 清心福全 x 咖波 書籤加購 second wave - only found source (ioiotimes.com/?p=80502) returns 406 to curl; row 1 already covers the 2024 pairing.
 - 摩斯漢堡 MOS Friends x 超級瑪利歐 - mentioned in one 2026-04 roundup line but the same article attributes the 12-figure Mario program to 麥當勞 (row 54); not logged until a MOS-specific dated source is found.
+- 味全龍 x 白爛貓 聯名主題日 - resolved: the official wdragons.com news page dates it 2023-06-10/11 (published 2023-05-23), outside the 2024-01-01 window; the undated shop collection belongs to that campaign.
+- 星巴克 x 史努比 2024-10-15 Asia wave - udn 8276631 covers it with Hong Kong Starbucks images and TW availability is not confirmed (beauty321 notes fans hoping TW would get it); the TW-confirmed PEANUTS waves are 2025 (row 70).
+- 合作金庫 x 卡娜赫拉 聯名卡 (icash/悠遊) - card product pages (cardu.com.tw, tcb-bank.com.tw) carry no launch dates; not logged until the issue date is established inside the window.
+- HOYACASA x 黃阿瑪 - still undated after this sweep (shop/blog pages only); remains on the backlog.
+- 吉伊卡哇 x 三麗鷗 聯名系列 (2025-12-12 發售, 2026 巡迴快閃來台) - IP-x-IP pairing, out of brand-x-IP scope.
+- 東旅 x HAPIDANBUI via flyday.hk - source blocked by Cloudflare challenge; replaced with mook.com.tw (row 73).
