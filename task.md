@@ -1,52 +1,67 @@
-# Map-v2 target research - approach-ready briefs
+# Taiwan co-branding census - portfolio vs independent IP
 
-MISSION: deep public-source research on the strategic map's top-ranked
-brands so PBC's outreach opens informed. Input: map-v2-targets.md (this
-repo) - work each IP's TOP 8 ranked brands, deduplicating brands that
-appear under several IPs (one brief per brand, noting all IPs it ranked
-for). Roughly 20-25 unique brands.
+RECURRING TASK (tasks/cobranding-census.md). First run builds the census;
+later runs EXTEND it - append newly found campaigns to the existing
+table, never re-verify existing rows, and rewrite _VERDICT.md with a
+fresh "as of" date.
 
-THE IPs (context for angle-fit):
-- Bichi Mao 彼奇貓: Malaysian cat character, healing/warm style, Taiwan
-  licensing via PBC; strongest with pet/animal-welfare/F&B audiences.
-- Cheesy Duck 確幸鴨: Thai duck character; picture-book and F&B angles.
-- Jolly Gee Studio: Korean retro-kitsch character family (JOLLY/LYGEE/
-  LYLEE); stationery, lifestyle goods, cafe collabs.
-- SHUYA 舒雅: illustration IP; lifestyle/pastry/bookstore angles.
+MISSION: count and classify identifiable brand-x-IP CO-BRANDING campaigns
+in Taiwan from 2024-01-01 to present (full-year 2024, full-year 2025, and
+2026 year-to-date - kept separable so complete years can be cited alone),
+answering: what share used corporate-portfolio IPs vs independent-creator
+IPs, and how prominent are indies really? ATTACK the founder thesis
+("indies are shut out") as hard as the data allows - if indies are more
+present than we believe, that finding matters MORE, not less.
 
-PER BRAND, research and write findings/brands/<brand-slug>.md with:
-1. IDENTITY: official name (en+zh), what they sell, ownership/parent,
-   scale (stores/size if public), official site + socials with follower
-   counts (dated, labelled estimates).
-2. AUDIENCE: who buys/follows - demographics as publicly evidenced,
-   always labelled estimate vs stated.
-3. RECENT MOMENTUM: campaigns, launches, expansion, press from the last
-   ~18 months, each dated with URL.
-4. COLLAB/IP HISTORY: past character/IP collaborations - partner, year,
-   format, any public read on results. "None found under [queries]" is a
-   valid answer and must be stated as exactly that.
-5. DECISION CONTEXT: how marketing decisions appear to run (marketing
-   dept? owner-led? franchise HQ?), any named marketing contacts ONLY
-   from official/public pages (title + where seen; no scraped personal
-   emails/phones - note the official contact surface instead).
-6. SUGGESTED ANGLE: 2-3 sentences - which of the ranked IPs fits this
-   brand best and why, tied to evidence above; flag which campaign goal
-   it maps to (foot traffic/seasonal, awareness, identity, audience).
-   Label as suggestion, not finding.
-7. SOURCES: every claim URL'd; single-source claims flagged; first-person
-   brand statements ranked above third-party coverage.
+SCOPE: co-branding/collab campaigns only - a brand pairing with a
+character/illustration IP for products, drinks, events, or campaigns
+(聯名). EXCLUDE plain licensed merchandise at retail (a Disney mug is
+licensing, not co-branding) and KOL/celebrity endorsements. Taiwan-market
+campaigns only (TW brands or TW editions of chains).
 
-RULES: zh-TW sources primary for Taiwan brands, zh-CN/ja/en as needed.
-Never fabricate; curl-verify any quote used verbatim (phantom quotes from
-search snippets are a known failure - verified twice). No rights/
-territory/exclusivity guesses ever. Estimates labelled. Where the map's
-one-line why cited a research note or reply-on-record, treat that as
-PBC-internal context to build around, not to re-verify publicly.
+CLASSIFICATION RULES (record the call + evidence per campaign):
+- CORPORATE-PORTFOLIO: IP owned/controlled by a major licensor, studio,
+  or media/platform conglomerate (Disney/Pixar/Marvel, Sanrio, San-X,
+  Nintendo/Pokemon, Warner, LINE FRIENDS/IPX, Kakao Friends, major anime
+  committees, Chiikawa/major publisher-managed properties).
+- INDEPENDENT: creator- or small-studio-owned, no conglomerate parent
+  (Taiwan illustrator IPs like 咖波/Bugcat Capoo, 爽爽貓, 白爛貓-class,
+  and foreign indie characters) - note: signed-to-an-agency does NOT make
+  an IP corporate; ownership does.
+- UNCLEAR: state why; count separately, never force a bucket.
 
-PER ITERATION: complete 2-4 brand briefs fully rather than many
-partially. Maintain findings/brands/_INDEX.md as you go: brand, IPs
-ranked for, brief status, one-line headline.
+METHOD (state it in the output - this is a sample census, not a claim of
+exhaustiveness): sweep zh-TW sources - brand news (ETtoday/聯合/自由
+lifestyle sections), campaign roundups, convenience-store and hand-shake
+drink collab trackers, brand FB/IG announcements, 7-11/全家/全聯 campaign
+pages, licensing trade coverage. Log every campaign found:
+findings/census/campaigns.md as one growing table - date, YEAR tag
+(2024 / 2025 / 2026YTD, so per-year splits compute directly), brand, IP,
+IP class (+evidence), format (drink/merch/event/store), source URL.
+Every row curl-verified; phantom entries are the known failure class.
+On a refresh run: check the existing table first and only append
+campaigns not already logged.
 
-COMPLETION: all top-8-per-IP unique brands have briefs + _INDEX.md
-complete + findings/brands/_SUMMARY.md (cross-brand patterns: which
-angles repeat, which brands look strongest per IP, contact-surface gaps).
+ANALYSIS OUTPUT findings/census/_VERDICT.md (opens with "As of
+YYYY-MM-DD"; rewritten each refresh):
+1. The ratio - overall AND per year: N campaigns found; X% portfolio /
+   Y% indie / Z% unclear overall, then the same split for 2024, 2025,
+   and 2026YTD separately - is the indie share growing, flat, or
+   shrinking? The per-year trend is the deck's strongest possible form
+   of this number.
+2. Indie prominence: which indie IPs appear, how often, in what formats,
+   with which brand sizes - are the same 3-4 Taiwan illustrator IPs
+   recycling, or is there breadth? Do indies get big-brand collabs or
+   only small-brand ones?
+3. The thesis read: does the data support "indies are shut out", refine
+   it (shut out of certain formats/brand tiers), or weaken it? Honest
+   verdict with the strongest counter-examples quoted.
+4. Method limits, stated plainly: recall bias toward covered campaigns,
+   the window (2024-01-01 to run date), format skew.
+
+RULES: never fabricate; "not found under [queries]" stays as stated;
+zh-TW primary; single-source rows flagged; per iteration, aim for 15-25
+verified campaign rows or one analysis section - depth over speed.
+
+COMPLETION: campaigns.md holds the verified year-tagged table,
+_VERDICT.md exists with all four sections including the per-year splits.
