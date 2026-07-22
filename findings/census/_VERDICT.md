@@ -1,41 +1,40 @@
 # Taiwan co-branding census - verdict
 
-As of 2026-07-22 (third extension sweep, same day).
+As of 2026-07-22 (fourth extension sweep, same day).
 
-This verdict reads the campaign table in `campaigns.md` (84 curl-verified brand-x-IP co-branding rows, window 2024-01-01 to run date).
+This verdict reads the campaign table in `campaigns.md` (101 curl-verified brand-x-IP co-branding rows, window 2024-01-01 to run date).
 It is a **sample census, not an exhaustive count** - see Section 4 for limits.
 The brief is to attack the founder thesis ("indies are shut out") as hard as the data allows; where the data undercuts the thesis, that is called out plainly.
 
 ## 1. The ratio - overall and per year
 
-**Overall (n = 84):**
+**Overall (n = 101):**
 
 | Class | Count | Share |
 |---|---|---|
-| PORTFOLIO | 59 | 70.2% |
-| INDEPENDENT | 19 | 22.6% |
-| UNCLEAR | 6 | 7.1% |
+| PORTFOLIO | 72 | 71.3% |
+| INDEPENDENT | 22 | 21.8% |
+| UNCLEAR | 7 | 6.9% |
 
 **Per year:**
 
 | Year | n | Portfolio | Independent | Unclear |
 |---|---|---|---|---|
-| 2024 | 22 | 16 (72.7%) | 4 (18.2%) | 2 (9.1%) |
-| 2025 | 38 | 26 (68.4%) | 12 (31.6%) | 0 |
-| 2026YTD | 24 | 17 (70.8%) | 3 (12.5%) | 4 (16.7%) |
+| 2024 | 26 | 20 (76.9%) | 4 (15.4%) | 2 (7.7%) |
+| 2025 | 50 | 35 (70.0%) | 14 (28.0%) | 1 (2.0%) |
+| 2026YTD | 25 | 17 (68.0%) | 4 (16.0%) | 4 (16.0%) |
 
-**Trend read:** across the two complete years the indie share now reads **18% (2024) and 32% (2025)**.
-Both years moved down from the previous 58-row read (30% and 36%), and the direction of the correction is again informative: this sweep deliberately added the previously unswept mass-consumer formats (hotels, coffee chains, fast fashion, drugstores, supermarket loyalty programs, department-store pop-ups, VTuber sports events), and 20 of the 26 new rows came back portfolio.
-The 2024 drop is partly a December artifact: the new 2024 rows cluster in the heavily covered year-end collab season (可不可, 萬波, 客美多, GU, the A11 pop-ups), which ran almost entirely portfolio.
-2025 held close to 1-in-3 even after the portfolio-heavy additions.
-2026YTD again shows a lower indie share (12.5%), but the 2026 sample is a partial year and carries 4 of the 6 UNCLEAR rows; treat it as thin, not as evidence of decline.
+**Trend read:** across the two complete years the indie share now reads **15% (2024) and 28% (2025)**.
+This sweep opened the cosmetics/beauty format as a block (14 new drugstore/beauty rows) plus convenience-store coffee, a bookstore pop-up, and one drink row: 13 of the 17 new rows came back portfolio, which nudged the overall indie share down from 22.6% to 21.8% and the 2024 figure to 15.4%.
+2025 held near 28% - roughly 1-in-3.5 - because the beauty block still surfaced two fresh independent-creator rows (see below).
+2026YTD ticked up to 16.0% on the strength of one new indie drink row (迷客夏 x MIND.A.DAY), but the 2026 sample is a partial year and carries 4 of the 7 UNCLEAR rows; treat it as thin, not as a trend.
 
-Honest statement for the deck: **in the complete years 2024-2025, independent creator IPs took roughly 1 in 5 to 1 in 3 of identifiable Taiwan co-branding campaigns (18% in 2024, 32% in 2025), with corporate portfolios taking the rest; the indie share was higher in 2025 than 2024 in every pass of this census.**
-Do not cite 2026YTD alone as a trend, and cite the 18-32% range rather than a single point - the number is coverage-sensitive (Section 4).
+Honest statement for the deck: **in the complete years 2024-2025, independent creator IPs took roughly 1 in 6.5 to 1 in 3.5 of identifiable Taiwan co-branding campaigns (15% in 2024, 28% in 2025), with corporate portfolios taking ~70% throughout; the indie share was materially higher in 2025 than 2024 in every pass of this census.**
+Do not cite 2026YTD alone as a trend, and cite the 15-28% range rather than a single point - the number is coverage-sensitive (Section 4).
 
 ## 2. Indie prominence
 
-Nineteen indie rows span **ten distinct creator-owned IPs / IP pairs** (six Taiwanese, two Japanese-adjacent creator IPs, one Hong Kong, one British, one Dutch estate):
+Twenty-two indie rows span **thirteen distinct creator-owned IPs / IP pairs** (seven Taiwanese, two Japanese-adjacent creator IPs, two Korean indie studios, one Hong Kong, one British, one Dutch estate):
 
 | Indie IP | Owner | Appearances | Brand partners | Formats |
 |---|---|---|---|---|
@@ -45,45 +44,49 @@ Nineteen indie rows span **ten distinct creator-owned IPs / IP pairs** (six Taiw
 | 爽爽貓 SongSongMeow | Taiwan illustrator SECOND | 2 | 丸亀製麵 (2025), 家而適 (2025) | food-chain 集點; home-storage goods |
 | 黃阿瑪的後宮生活 | creators 志銘與狸貓 (Fumeancats) | 2 | 富采 Ennostar (2024 and 2025) | shareholder premiums, two consecutive years |
 | 我不是胖虎 | creator-owned Taiwan illustrator IP | 1 | 7-ELEVEN Taiwan (2025, shared CNY wave with 白爛貓) | 集點 add-on merch |
+| 馬來貘 LAIMO | Taiwan illustrator Cherng (creator-owned) | 1 | CeraVe 適樂膚 / L'Oréal (2025) | skincare limited sets, multi-channel |
 | LuLu the Piggy 露露豬 | creator brand Cici's Story (HK) | 1 | 麥味登 (2025) | food + store + merch |
 | noodoll | independent London designer plush brand | 1 | 7-ELEVEN Taiwan (2025) | 集點 add-on merch |
+| ZERO PER ZERO | Korean independent design studio (creator-owned duo) | 1 | 雪花秀 Sulwhasoo / AmorePacific (2025) | skincare Taiwan-exclusive series |
+| MIND.A.DAY / CoverCat 跩跩貓 | Korean original creator-owned IP | 1 | 迷客夏 Milksha (2026) | drink + 5款周邊加購 |
 | 臺灣印事 & 腋毛人Yemao | Taiwan illustrators (via 台灣文博會) | 1 | 台北南港老爺行旅 (2025) | hotel theme room + 限定明信片/小物 |
 | 米飛 Miffy | Mercis bv (Bruna family estate co.) | 1 | 7-ELEVEN Taiwan (2025) | 86-item merch program |
 
-**Do indies get big-brand collabs or only small ones?** The sample says clearly: they get big ones, and institutional ones.
+**Do indies get big-brand collabs or only small ones?** The sample says clearly: they get big ones, institutional ones, and now big-conglomerate-beauty ones.
 
 - 咖波 alone has landed a top-tier drink chain (清心福全), a major international restaurant chain (Sushiro, six themed stores), **the national postal service (中華郵政 - stamps plus themed post offices)**, **a 7,100-store 7-ELEVEN 全店集點 wave fronting the 故宮 100th-anniversary tie-in**, and **a major listed financial holding company (華南金控 shareholder gift)**.
+- **This sweep added a fresh marquee counter-example: 馬來貘 LAIMO (Cherng) x CeraVe 適樂膚 - a Taiwan indie illustrator fronting a multi-channel skincare launch for an L'Oréal-owned global brand across MOMO/蝦皮/屈臣氏/康是美/全聯.** That is an indie carried by one of the largest cosmetics conglomerates on Earth, in the most portfolio-dominated format this census has swept.
 - The premium 7-ELEVEN 集點 format is no longer a portfolio monopoly: 2024 had Kanahei, and 2025 added the 白爛貓+我不是胖虎 CNY wave, the 咖波 x 故宮 flagship, noodoll, and the Miffy year-end program.
 - Kanahei was also the only indie IP among the four A11 winter pop-ups (2024-12..2025-02), holding a department-store slot alongside 進擊的巨人, 鬼滅之刃, and 加菲貓.
 - 黃阿瑪 has a repeat institutional client (富采 Ennostar, 2024 and 2025 shareholder gifts) - evidence of renewal, not one-off novelty.
-- One genuinely new indie beachhead appeared this sweep: the 南港老爺行旅 x 臺灣印事/腋毛人Yemao theme room, the sole indie row in the newly swept hotel format - and it arrived via a public-sector platform (台灣文博會), consistent with the pattern that institutions open doors for indies.
+- Two foreign indie studios also entered the sample this sweep: **ZERO PER ZERO x 雪花秀 (AmorePacific, Taiwan-exclusive)** and **MIND.A.DAY / CoverCat x 迷客夏** - both big-brand collabs, both creator-owned with no conglomerate parent.
 
-**Breadth caveat:** the indie bench is still concentrated - 咖波 is 5 of 19 indie rows, and nearly all the IPs are established, marquee names (multi-year LINE-sticker era stars or, in Miffy's case, a legacy global estate brand).
-The only newcomer names entered through a government culture-fair platform, not through brand outreach.
+**Breadth caveat:** the indie bench widened this sweep (10 -> 13 distinct IPs) but is still concentrated - 咖波 is 5 of 22 indie rows, and most IPs are established, marquee names (multi-year LINE-sticker era stars, Cherng's 馬來貘, or, in Miffy's case, a legacy global estate brand).
+The genuinely new 2025-2026 entrants (LAIMO, ZERO PER ZERO, MIND.A.DAY) are all pre-existing popular IPs that brands sought out, not unknowns given a first break; the only first-timer names in the whole census still entered through a government culture-fair platform (臺灣印事/腋毛人 via 文博會), not through brand outreach.
 Supporting (not counted, IP-x-IP): LuLu the Piggy x 咖波 ran a joint product line from 2026-06 (cava.tw/265108; gnn.gamer.com.tw/detail.php?sn=304779).
 
 ## 3. The thesis read
 
-**Verdict: the data does NOT support "indies are shut out" in absolute terms - proven indie IPs reach flagship retail waves and national institutions - but this sweep materially strengthened the format-tier version of the thesis: every newly swept mass-consumer chain format came back portfolio-dominated, and the overall indie share settled at ~23%.**
+**Verdict: the data does NOT support "indies are shut out" in absolute terms - proven indie IPs now reach flagship retail waves, national institutions, and even global-conglomerate beauty launches - but the format-tier version of the thesis holds firmly: the mass-consumer chain formats run ~70-100% portfolio, and the overall indie share sits at ~22%.**
 
-- The blunt thesis ("indies can't get deals / can't reach big brands") is **contradicted** at every tier the sample covers: national retail (Kanahei, 白爛貓/我不是胖虎, 咖波, noodoll, Miffy all inside 7-ELEVEN waves), major chains (咖波 x Sushiro, 清心福全; LuLu x 麥味登; 爽爽貓 x 丸亀製麵), public institutions (咖波 x 中華郵政 and x 故宮; 白爛貓 x Makung festival), transit infrastructure (Kanahei x 悠遊卡), listed corporates (咖波 x 華南金; 黃阿瑪 x 富采 twice), and department-store retail (Kanahei A11 pop-up).
+- The blunt thesis ("indies can't get deals / can't reach big brands") is **contradicted** at every tier the sample covers: national retail (Kanahei, 白爛貓/我不是胖虎, 咖波, noodoll, Miffy all inside 7-ELEVEN waves), major chains (咖波 x Sushiro, 清心福全; LuLu x 麥味登; 爽爽貓 x 丸亀製麵), public institutions (咖波 x 中華郵政 and x 故宮; 白爛貓 x Makung festival), transit infrastructure (Kanahei x 悠遊卡), listed corporates (咖波 x 華南金; 黃阿瑪 x 富采 twice), department-store retail (Kanahei A11 pop-up), and now **global-conglomerate cosmetics (LAIMO x CeraVe/L'Oréal; ZERO PER ZERO x 雪花秀/AmorePacific)**.
 - The defensible refined thesis has two parts.
-  **(a) Format tiers:** the mass-media-fanbase formats ran essentially 100% portfolio in this sample: fast food, conveyor-sushi gacha, and convenience-store gaming tie-ins (10 of 10 rows), coffee chains (6 of 6 rows portfolio or artist-UNCLEAR: 星巴克 x Snoopy and x Harry Potter, 85度C x 蠟筆小新 and x 吉伊卡哇, 客美多 x 布丁狗, 路易莎 x 草間彌生), fast fashion (GU x Frieren, x 三麗鷗 - 2 of 2), drugstores (屈臣氏 x 吉伊卡哇), supermarket loyalty programs (全聯 x 蠟筆小新, x KAKAO FRIENDS - 2 of 2), VTuber-era sports events (味全龍 x hololive, both years), and hotels (3 of 4 rows Sanrio; the indie exception came via 文博會).
-  Where a campaign must move national volume on a licensed-media fanbase, brands buy portfolio - and that pattern held in every new format this census touched.
+  **(a) Format tiers:** the mass-media-fanbase formats ran essentially portfolio in this sample: fast food, conveyor-sushi gacha, and convenience-store gaming/coffee tie-ins (11 of 11 rows), coffee chains (6 of 6 portfolio or artist-UNCLEAR), fast fashion (GU - 2 of 2), supermarket loyalty programs (全聯 - 2 of 2), VTuber-era sports events (味全龍 x hololive, both years), hotels (3 of 4 Sanrio; the indie exception came via 文博會), and **the newly swept cosmetics/beauty block (14 rows: 11 portfolio, 1 UNCLEAR, only 2 indie - and those 2 were the marquee LAIMO and ZERO PER ZERO, sought by L'Oréal- and AmorePacific-owned brands, not indies-as-a-class)**.
+  Where a campaign must move national volume on a licensed-media fanbase, brands buy portfolio - and that pattern held again in cosmetics.
   **(b) Bench:** indie access concentrates in a handful of marquee creator IPs; the door is open to proven indies, not to indies as a class.
-- Strongest quotes for the counter-thesis: the 7-ELEVEN x 咖波 x 故宮100周年 全店集點 across 7,100+ stores (talkacemedia.com/article/42024; ec.ltn.com.tw/article/breakingnews/5220187), 咖波 x 壽司郎's national six-themed-store campaign, and 華南金's 2026 shareholder gift press cycle (money.udn.com/money/story/5613/9412556).
-- Sharpest fact **for** the portfolio-moat argument, updated: **26 new rows were added by sweeping seven previously untouched formats, and 20 were portfolio, 2 UNCLEAR, 3 of the 4 indie rows being the same already-known names** - the moat is format-shaped, and it covers most of the consumer economy's co-branding surface.
+- Strongest quotes for the counter-thesis: the 7-ELEVEN x 咖波 x 故宮100周年 全店集點 across 7,100+ stores (talkacemedia.com/article/42024; ec.ltn.com.tw/article/breakingnews/5220187), 咖波 x 壽司郎's national six-themed-store campaign, 華南金's 2026 shareholder gift press cycle (money.udn.com/money/story/5613/9412556), and now **CeraVe x 馬來貘's multi-channel skincare launch (marieclaire.com.tw/beauty/news/84300)**.
+- Sharpest fact **for** the portfolio-moat argument, updated: **17 new rows were added by opening the cosmetics/beauty block and three adjacent formats, and 13 were portfolio, 1 UNCLEAR; the 3 indie rows were all pre-existing marquee IPs sought by the biggest brands** - the moat is format-shaped, and beauty (a huge co-branding surface) is as portfolio-heavy as fast food and supermarkets.
 
-Net: pitch this as **"the door is open but the bench is thin, and whole format tiers remain effectively closed"** - a 1-in-5 to 1-in-3 indie share in complete years, carried by a proven few who now reach flagship 7-11 waves and national institutions, while fast food, coffee, fashion, drugstores, supermarkets, gacha, gaming, and hotels ran portfolio almost without exception.
-That framing is honest to the data and stronger for a licensing-infrastructure pitch than "indies are shut out": the opportunity is widening the bench and opening the closed formats, not breaking down a single wall.
+Net: pitch this as **"the door is open but the bench is thin, and whole format tiers remain portfolio-dominated"** - a 1-in-6.5 to 1-in-3.5 indie share in complete years, carried by a proven few who now reach flagship 7-11 waves, national institutions, and even L'Oréal/AmorePacific beauty launches, while fast food, coffee, fashion, supermarkets, gacha, gaming, hotels, and cosmetics ran portfolio almost without exception.
+That framing is honest to the data and stronger for a licensing-infrastructure pitch than "indies are shut out": the opportunity is widening the bench and opening the portfolio-locked formats, not breaking down a single wall.
 
 ## 4. Method limits (stated plainly)
 
-- **Sample, not census.** 84 rows from a curated sweep of zh-TW press, official campaign archives, and roundups; absolute counts are illustrative, ratios are the usable signal.
-- **The ratio is coverage-sensitive.** Complete-year indie share read ~33% at 17 rows, ~40% at 39 rows, ~33% at 58 rows, and ~27% (18%/32%) at 84 rows; each swing tracked which formats were added (indie-heavy premiums/postal/events vs portfolio-heavy chain formats). The remaining undated backlog (HOYACASA x 黃阿瑪, DEVILCASE x 白爛貓, 合作金庫 x 卡娜赫拉 cards) is mostly indie and would nudge the share up if dated.
-- **December clustering.** The year-end collab season is over-covered by roundups; 10 of the 12 new 2024 rows start in December 2024, which is part of why 2024's indie share fell to 18% this pass.
-- **Chain-archive weight.** 16 of 84 rows are 7-ELEVEN waves and 3 are 藏壽司 gacha; big-chain archives are easy to verify and therefore over-represented relative to one-off brand campaigns that never hit the press.
-- **Window.** 2024-01-01 to 2026-07-22; **2026 is a partial year**, its rows lean on roundup clusters, and it holds 4 of the 6 UNCLEAR calls - do not cite 2026YTD standalone.
-- **Single-source rows.** Rows resting on one roundup or one microsite are flagged in the table's Notes column (including two where the date is inferred from a URL slug or asset timestamps); flagged rows are directional, not independently corroborated.
-- **UNCLEAR is honest, not lazy.** Six rows (OBJECT/SOSO ownership, 功夫 film-IP borderline, 乖乖 brand-mascot borderline, OSAMU GOODS estate ambiguity, Bunni Konbiny ownership, 草間彌生 artist-vs-character borderline) are counted separately and never force-bucketed.
-- **Classification sensitivity.** Miffy is classed INDEPENDENT on the ownership rule (Mercis bv, no conglomerate parent) despite legacy-brand scale; reclassing it would put 2025 indie at 28.9% instead of 31.6%. Two transit-card rows (Chiikawa and Kanahei x EasyCard) sit on the co-brand vs licensed-product line; both are kept, consistently. Five pop-up rows (A11 x4, 華山 HAPIDANBUI) are venue-hosted campaigns kept per the row-20 precedent and flagged as borderline vs plain retail licensing.
+- **Sample, not census.** 101 rows from a curated sweep of zh-TW press, official campaign archives, and roundups; absolute counts are illustrative, ratios are the usable signal.
+- **The ratio is coverage-sensitive.** Complete-year indie share read ~33% at 17 rows, ~40% at 39 rows, ~33% at 58 rows, ~27% (18%/32%) at 84 rows, and ~22% (15%/28%) at 101 rows; each swing tracked which formats were added (indie-heavy premiums/postal/events vs portfolio-heavy chain and beauty formats). The remaining undated backlog (HOYACASA x 黃阿瑪, DEVILCASE x 白爛貓, 合作金庫 x 卡娜赫拉 cards) is mostly indie and would nudge the share up if dated.
+- **December clustering.** The year-end collab season is over-covered by roundups; much of the 2024 mass is December, part of why 2024's indie share is the lowest at 15.4%.
+- **Chain-archive and beauty-roundup weight.** 16 of 101 rows are 7-ELEVEN waves, 3 are 藏壽司 gacha, and 14 are drugstore/beauty rows (11 of them from two multi-brand roundups); big-chain archives and beauty roundups are easy to verify and therefore over-represented relative to one-off brand campaigns that never hit the press.
+- **Window.** 2024-01-01 to 2026-07-22; **2026 is a partial year**, its rows lean on roundup clusters, and it holds 4 of the 7 UNCLEAR calls - do not cite 2026YTD standalone.
+- **Single-source rows.** Rows resting on one roundup or one microsite are flagged in the table's Notes column (including several new beauty rows drawn from cava.tw/260843 and marieclaire/84300); flagged rows are directional, not independently corroborated.
+- **UNCLEAR is honest, not lazy.** Seven rows (OBJECT/SOSO ownership, 功夫 film-IP borderline, 乖乖 brand-mascot borderline, OSAMU GOODS estate ambiguity, Bunni Konbiny ownership, 草間彌生 artist-vs-character borderline, Brunch Brother ownership) are counted separately and never force-bucketed.
+- **Classification sensitivity.** Miffy is classed INDEPENDENT on the ownership rule (Mercis bv, no conglomerate parent) despite legacy-brand scale. BT21 is classed PORTFOLIO (IPX/LINE FRIENDS managed). Two transit-card rows sit on the co-brand vs licensed-product line; both kept, consistently. Venue-hosted pop-up rows (A11 x4, 華山 HAPIDANBUI, 誠品 R79 飛天小女警) are kept per the row-20 precedent and flagged as borderline vs plain retail licensing.

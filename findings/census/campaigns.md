@@ -8,6 +8,7 @@ Excluded: plain licensed merchandise at retail, KOL/celebrity endorsements, and 
 Extension sweep (2026-07-22) added the 7-ELEVEN official campaign archive (7-11.com.tw/event), finance press for corporate-premium collabs (ETtoday財經雲, 經濟日報), gaming press (巴哈姆特 GNN), airline/transit coverage (中央社, udn科技玩家), and brand campaign microsites.
 Second extension sweep (2026-07-22, same day) added fast-food chains (麥當勞/肯德基 via ETtoday, playing.ltn, cool-style), conveyor-sushi gacha collabs (藏壽司 via GNN/WalkerLand/udn), FamilyMart gaming tie-ins (4Gamers, Pokemon Hubs, official FFXIV event site), further 7-ELEVEN archive siblings, the EasyCard 悠遊典藏館 release database, and campaign-news aggregators (TALKace).
 Third extension sweep (2026-07-22, same day) targeted the remaining under-covered formats: hotels (theme-room campaigns via 食尚玩家, ETtoday旅遊雲, 壹蘋, MOOK景點+), coffee chains (星巴克/路易莎/85度C/客美多 via udn, istyle.ltn, official 85cafe news pages, GNN), fast fashion/apparel (GU via ET Fashion, 4Gamers), drugstores (屈臣氏 via ET Fashion), supermarket loyalty programs (全聯 via fincake), department-store and culture-park pop-ups (新光三越 A11 via 4Gamers, 華山1914 official event pages), sports/VTuber events (味全龍 x hololive via 遠見, GNN), and handshake-drink year-end waves (可不可/萬波/鶴茶樓 via 食尚玩家, DailyView, CTWANT).
+Fourth extension sweep (2026-07-22, same day) opened the previously untouched cosmetics/beauty format as a block (資生堂/媚比琳/INNISFREE/專科/CeraVe/BOBBI BROWN/ampm/雪花秀/CLIO/ORBIS/uka/Amuse/neuve via cava.tw beauty, marieclaire, @cosme, ET Fashion, 食尚玩家, official brand pages) plus the convenience-store coffee tier (全家 Let's Café x 原神 via GNN), the bookstore-pop-up tier (誠品 R79 飛天小女警 via 4Gamers/迷誠品/GNN), and a Korean-indie handshake-drink row (迷客夏 x MIND.A.DAY via official milksha.com + ETtoday). The beauty format surfaced two new independent-creator rows (LAIMO 馬來貘, ZERO PER ZERO) alongside a portfolio-heavy majority.
 Every row below was confirmed against at least one fetched source URL; rows resting on a single roundup source are flagged in the Notes column.
 Phantom (unverifiable) entries are the known failure class and are kept out.
 
@@ -101,14 +102,31 @@ Phantom (unverifiable) entries are the known failure class and are kept out.
 | 82 | 2026-07-13.. | 2026YTD | GU Taiwan (fast fashion) | 三麗鷗 曬黑系列 (Hello Kitty/布丁狗等9款) | PORTFOLIO | Sanrio | Apparel (T恤/家居服) | https://fashion.ettoday.net/news/3197344 | Published 2026-07-08 |
 | 83 | 2026-07..08 (暑假) | 2026YTD | 台北遠東香格里拉 Shangri-La Far Eastern | 美樂蒂 & 雙星仙子 My Melody & Little Twin Stars | PORTFOLIO | Sanrio | Hotel (主題房 + 5款周邊 + 主題樂園/手作課) | https://supertaste.tvbs.com.tw/travel/359718 | Also news.nextapple.com 2026-07-08; 香格里拉首度攜手三麗鷗 |
 | 84 | 2024-12-13.. | 2024 | GU Taiwan | 葬送的芙莉蓮 Frieren | PORTFOLIO | Shogakukan/committee-managed anime IP | Apparel (台日同步聯名系列) | https://www.4gamers.com.tw/news/detail/68866/gu-taiwan-frieren-collab-release-date | Published 2024-12-06 |
+| 85 | 2024-11-27..2025-01-07 | 2024 | 全家 FamilyMart Let's Café | 原神 Genshin Impact (冬日之禮 暖心時刻) | PORTFOLIO | HoYoverse/miHoYo, major game conglomerate | Convenience-store coffee (聯名杯身/杯套 + 買咖啡送虛寶序號/餚饌之翼) | https://gnn.gamer.com.tw/detail.php?sn=277192 | Published 2024-11-25; TW-market; distinct from the 2025 全家 x 原神 food row (row 49) |
+| 86 | 2024-11-08..12-26 | 2024 | 康是美 Cosmed (drugstore) | 史努比 Snoopy (Peanuts) | PORTFOLIO | Peanuts consortium (WildBrain/Sony/Schulz) | Drugstore campaign (19款集點/加購周邊 + 跨彩妝品牌滿額贈 Snoopy 收納包) | https://supertaste.tvbs.com.tw/accessories/352004 | Two waves 即日起..12/26 and 11/8..12/26; distinct from the 2025 康是美 x Snoopy 蜜粉 row (not logged separately) |
+| 87 | 2024 (Sanrio 彩妝波) | 2024 | Amuse (Korean beauty brand, TW retail) | Hello Kitty | PORTFOLIO | Sanrio | Cosmetics (氣墊/果凍唇露/眼影盤 + Y2K 唇頰兩用) | https://fashion.ettoday.net/news/2815157 | Single roundup source - flagged |
+| 88 | 2024 (Sanrio 彩妝波) | 2024 | neuve (蜜粉品牌) | 酷洛米 Kuromi | PORTFOLIO | Sanrio | Cosmetics (暢銷蜜粉限定聯名包裝) | https://fashion.ettoday.net/news/2815157 | Single roundup source - flagged |
+| 89 | 2025-02-01.. | 2025 | INNISFREE Taiwan | 美樂蒂 My Melody (25週年 x 美樂蒂50週年) | PORTFOLIO | Sanrio | Cosmetics/skincare (3款明星品限定聯名包裝 + 美樂蒂收納包) | https://www.cosme.net.tw/beautynews/28099 | Also innisfree.com.tw official product pages; 全台限量 |
+| 90 | 2025 (beauty roundup) | 2025 | INNISFREE Taiwan | Brunch Brother 早餐兄弟 (吐司大哥/小黃鴨/Mogry黑貓) | UNCLEAR | Korean character brand; ownership/parent not established under queries run | Cosmetics (滿NT.888 分級贈聯名周邊) | https://cava.tw/beauty/skincare/260843 | Single roundup source; class unresolved; a second INNISFREE 2025 collab distinct from row 89 |
+| 91 | 2025 (spring) | 2025 | 專科 Senka (Shiseido) | BT21 | PORTFOLIO | BT21 owned/managed by IPX (LINE FRIENDS); HYBE-affiliated origin | Cosmetics (4款洗面乳角色包裝 + 環保袋/收納包贈) | https://www.marieclaire.com.tw/beauty/news/84300 | Single roundup source - flagged |
+| 92 | 2025-01-09 (電商) / 01-17 (藥妝) | 2025 | CeraVe 適樂膚 (L'Oréal) | 馬來貘 LAIMO | INDEPENDENT | Taiwan illustrator IP by Cherng, creator-owned, no conglomerate parent | Skincare (保濕系列限定組 + 收納包/毛巾/化妝包; MOMO/蝦皮/屈臣氏/康是美/全聯) | https://www.marieclaire.com.tw/beauty/news/84300 | Big-brand (L'Oréal-owned CeraVe) x Taiwan indie IP; multi-channel |
+| 93 | 2025 (spring) | 2025 | 屈臣氏 Watsons Taiwan (獨家) | 小白 Shiro (蠟筆小新) | PORTFOLIO | Futabasha-managed | Drugstore-exclusive beauty (舒芙蕾粉撲限定紅色版 + 收納狗碗) | https://www.marieclaire.com.tw/beauty/news/84300 | Watsons TW exclusive; single roundup source - flagged |
+| 94 | 2025 (..12-31) | 2025 | BOBBI BROWN Taiwan (Estée Lauder) | 愛麗絲夢遊仙境 Alice in Wonderland | PORTFOLIO | Disney | Cosmetics (8色眼影盤 NT2,600 + 聯名系列) | https://cava.tw/beauty/skincare/260843 | Single roundup source - flagged |
+| 95 | 2025 (Oct..Mar) | 2025 | ampm (skincare brand) | Care Bears 彩虹熊 | PORTFOLIO | Cloudco Entertainment, major US licensor | Cosmetics (5色原液「彩虹小隊」) | https://cava.tw/beauty/skincare/260843 | Single roundup source - flagged |
+| 96 | 2025 (beauty roundup) | 2025 | 雪花秀 Sulwhasoo (AmorePacific) | ZERO PER ZERO | INDEPENDENT | Korean independent design studio (creator-owned duo), no conglomerate parent | Skincare (台灣獨家限定 illustrated 聯名系列) | https://cava.tw/beauty/skincare/260843 | Taiwan-exclusive; big-brand x indie design studio; single roundup - flagged |
+| 97 | 2025 (beauty roundup) | 2025 | CLIO Taiwan | 哈利波特 Harry Potter | PORTFOLIO | Warner Bros. | Cosmetics (眼影盤 + 氣墊, 主角旅程主題) | https://cava.tw/beauty/skincare/260843 | Single roundup source - flagged |
+| 98 | 2025 (beauty roundup) | 2025 | ORBIS Taiwan | 三麗鷗 Sanrio (大耳狗/布丁狗/帕恰狗) | PORTFOLIO | Sanrio | Hair care (瞬效護髮美容液 character bottles) | https://cava.tw/beauty/skincare/260843 | Single roundup source - flagged |
+| 99 | 2025 (beauty roundup) | 2025 | uka Taiwan | 寶可夢 Pokemon (皮卡丘/伊布/波加曼/敲音猴) | PORTFOLIO | The Pokemon Company / Nintendo | Beauty tool (舒活頭皮按摩刷 NT.880 角色款) | https://cava.tw/beauty/skincare/260843 | Single roundup source - flagged |
+| 100 | 2025-02-21..06-08 | 2025 | 誠品 R79 中山地下書街 (eslite bookstore) | 飛天小女警 The Powerpuff Girls | PORTFOLIO | Warner Bros. Discovery / Cartoon Network | Bookstore pop-up store (八大打卡點 + 百款周邊: 帽T/後背包/摺疊鏡等) | https://www.4gamers.com.tw/news/detail/70147/thepowerpuffgirls-pop-up-store-taipei-2025 | Also meet.eslite.com/tw/tc/news/202502170001, gnn.gamer.com.tw/detail.php?sn=280792; venue-hosted pop-up per row-20 precedent |
+| 101 | 2026-05-06.. | 2026YTD | 迷客夏 Milksha (handshake drink chain) | MIND.A.DAY / CoverCat 跩跩貓 | INDEPENDENT | Korean original creator-owned IP (designer based it on his own cat; "Cover" + "Cat"), no conglomerate parent | Drink (荔枝新品「果然荔夏」系列) + 5款周邊加購 (環保杯/飲料袋/寵物圍兜/保冷袋/盲袋貼紙) | https://www.milksha.com/news_detail.php?Key=394&cID=2 | Also travel.ettoday.net/article/3159824.htm; big drink chain x Korean indie IP |
 
 ## Running counts (recompute on each append)
 
-- Total rows: 84
-- PORTFOLIO: 59  |  INDEPENDENT: 19  |  UNCLEAR: 6
-- 2024: 22 rows (4 indie, 16 portfolio, 2 unclear)
-- 2025: 38 rows (12 indie, 26 portfolio, 0 unclear)
-- 2026YTD: 24 rows (3 indie, 17 portfolio, 4 unclear)
+- Total rows: 101
+- PORTFOLIO: 72  |  INDEPENDENT: 22  |  UNCLEAR: 7
+- 2024: 26 rows (4 indie, 20 portfolio, 2 unclear)
+- 2025: 50 rows (14 indie, 35 portfolio, 1 unclear)
+- 2026YTD: 25 rows (4 indie, 17 portfolio, 4 unclear)
 
 ## Excluded (logged so we do not re-add)
 
