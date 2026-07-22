@@ -42,6 +42,13 @@ Every row curl-verified; phantom entries are the known failure class.
 On a refresh run: check the existing table first and only append
 campaigns not already logged.
 
+COVERAGE PRIORITY on extension runs: the first pass over-sampled
+handshake-drink and breakfast-chain roundups. Deliberately sweep the
+under-covered formats: convenience stores (7-11/全家 campaign archives),
+apparel/footwear, stationery/lifestyle retail, cosmetics, gaming/apps,
+public events and festivals, department stores and malls. Indie IPs
+appeared in the one event row found - expect more there.
+
 ANALYSIS OUTPUT findings/census/_VERDICT.md (opens with "As of
 YYYY-MM-DD"; rewritten each refresh):
 1. The ratio - overall AND per year: N campaigns found; X% portfolio /
