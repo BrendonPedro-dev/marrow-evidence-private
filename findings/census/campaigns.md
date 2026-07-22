@@ -30,14 +30,15 @@ Phantom (unverifiable) entries are the known failure class and are kept out.
 | 14 | 2026-02 (CNY) | 2026YTD | 得正 (oolong drink chain) | OBJECT / SOSO FAMILY | UNCLEAR | Korean character brand; ownership/parent not established under queries run | Merch (red-envelope stickers, plush keychain) | https://cava.tw/lifestyle/travel-food/263159 | Single roundup source; class unresolved |
 | 15 | 2026-02 | 2026YTD | 功夫茶 (handshake drink chain) | 《功夫》 Kung Fu Hustle (film) | UNCLEAR | Film IP (Stephen Chow / Star Overseas); a film licence, borderline vs character-IP co-branding | Drink | https://cava.tw/lifestyle/travel-food/263159 | Single roundup source; scope-borderline |
 | 16 | 2026-02 | 2026YTD | 發發 (drink brand) | 乖乖 Kuai Kuai | UNCLEAR | 乖乖 is a corporate snack brand/mascot, not a character-illustration IP; brand-x-brand tie-in | Drink (yogurt) | https://cava.tw/lifestyle/travel-food/263159 | Single roundup source; scope-borderline |
+| 17 | 2026-07-01..07-19 | 2026YTD | 金色雙島藝術祭 (Makung City Government 馬公市公所 tourism festival) | 白爛貓 Lan Lan Cat | INDEPENDENT | Original Taiwan illustration IP (source calls it 超人氣原創IP); task lists 白爛貓-class as INDEPENDENT; creator-owned, no conglomerate parent | Event (island art-festival installations on 虎井/桶盤, limited commemorative fans) | https://truemii.chinatimes.com/content/20260627002337-265003 | Single-source; indie IP wins a public/tourism campaign |
 
 ## Running counts (recompute on each append)
 
-- Total rows: 16
-- PORTFOLIO: 10  |  INDEPENDENT: 3  |  UNCLEAR: 3
+- Total rows: 17
+- PORTFOLIO: 10  |  INDEPENDENT: 4  |  UNCLEAR: 3
 - 2024: 3 rows (1 indie, 2 portfolio, 0 unclear)
 - 2025: 6 rows (2 indie, 4 portfolio, 0 unclear)
-- 2026YTD: 7 rows (0 indie, 4 portfolio, 3 unclear)
+- 2026YTD: 8 rows (1 indie, 4 portfolio, 3 unclear)
 
 ## Excluded (logged so we do not re-add)
 
@@ -45,3 +46,5 @@ Phantom (unverifiable) entries are the known failure class and are kept out.
 - Mr.WISH x SOU・SOU - SOU・SOU is a Japanese textile label, no character IP (brand-x-brand). Source: cava.tw/263159.
 - 全家 蛇年福袋 (Chiikawa/Sanrio/柯南 multi-IP 福袋, Dec 2024) - licensed-goods bundle / lucky bag, closer to retail licensing than a co-branding campaign; revisit if a discrete co-brand campaign is confirmed. Source: oneone 1737.
 - COMEBUY x 可樂果 - snack-brand mascot, brand-x-brand, no character IP. Source: playing.ltn.com.tw/article/32370.
+- LuLu the Piggy 露露豬 x 貓貓蟲咖波 (joint product line, from 2026-06, sold at 咖波小浪漫快閃店/咖波屋) - this is **IP-x-IP** (two independent Taiwan IPs), not brand-x-IP, so it is kept out of the counted table; noted in _VERDICT §2 as evidence of indie prominence. Sources: cava.tw/265108, gnn.gamer.com.tw/detail.php?sn=304779.
+- 咖波小浪漫快閃店 台北站 (2026-06-05, carterislandtw.com) - the IP owner's own-brand pop-up store, not a co-branding with an outside brand. Source: carterislandtw.com/pages/news20260605b.
