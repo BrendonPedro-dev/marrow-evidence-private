@@ -6,6 +6,7 @@ Excluded: plain licensed merchandise at retail, KOL/celebrity endorsements, and 
 
 **Method (sample census, not exhaustive):** sweep of zh-TW lifestyle/food press (聯合新聞網 udn, 自由時報 玩咖, WalkerLand, 造咖 cava.tw, 食尚玩家), campaign roundups, convenience-store event pages, and licensing coverage.
 Extension sweep (2026-07-22) added the 7-ELEVEN official campaign archive (7-11.com.tw/event), finance press for corporate-premium collabs (ETtoday財經雲, 經濟日報), gaming press (巴哈姆特 GNN), airline/transit coverage (中央社, udn科技玩家), and brand campaign microsites.
+Second extension sweep (2026-07-22, same day) added fast-food chains (麥當勞/肯德基 via ETtoday, playing.ltn, cool-style), conveyor-sushi gacha collabs (藏壽司 via GNN/WalkerLand/udn), FamilyMart gaming tie-ins (4Gamers, Pokemon Hubs, official FFXIV event site), further 7-ELEVEN archive siblings, the EasyCard 悠遊典藏館 release database, and campaign-news aggregators (TALKace).
 Every row below was confirmed against at least one fetched source URL; rows resting on a single roundup source are flagged in the Notes column.
 Phantom (unverifiable) entries are the known failure class and are kept out.
 
@@ -54,14 +55,33 @@ Phantom (unverifiable) entries are the known failure class and are kept out.
 | 37 | 2026 (spring wave) | 2026YTD | 7-ELEVEN Taiwan | 牛仔史努比 Cowboy Snoopy | PORTFOLIO | Peanuts consortium | 集點 add-on merch | https://supertaste.tvbs.com.tw/accessories/358616 | Single roundup source - flagged |
 | 38 | 2026-04-29 (on sale) | 2026YTD | 悠遊卡公司 EasyCard Corp | 吉伊卡哇 Chiikawa | PORTFOLIO | Major publisher-managed property | Transit-card product launch (3款 SuperCard; blind-pack series followed 05-13) | https://tech.udn.com/tech/story/124457/9469101 | Borderline co-brand vs licensed product; kept as a co-branded functional-product campaign |
 | 39 | 2026 (announced 03-30, 股東會 06-18) | 2026YTD | 華南金控 Hua Nan Financial (listed FHC) | 貓貓蟲咖波 Bugcat Capoo | INDEPENDENT | Same as row 1 | Corporate premium (shareholder-meeting gift: 聯名限定雙盤組) | https://money.udn.com/money/story/5613/9412556 | Indie IP lands a major financial holding company; heavy press coverage |
+| 40 | 2024-07-19..08-15 | 2024 | 藏壽司 Kura Sushi Taiwan | 名偵探柯南 Detective Conan | PORTFOLIO | Shogakukan/committee-managed anime IP | Food-chain gacha (30款扭蛋 + 資料夾/基德周邊滿額贈) | https://www.walkerland.com.tw/subject/view/393664 | Article published 2024-07-21; dates on page |
+| 41 | 2024-08-23..09-02 (ended early; orig. to 09-22) | 2024 | 藏壽司 Kura Sushi Taiwan | 吉伊卡哇 Chiikawa | PORTFOLIO | Major publisher-managed property | Food-chain gacha (18款扭蛋 + 滿額贈) | https://gnn.gamer.com.tw/detail.php?sn=272437 | The 藏壽司之亂 campaign; demand chaos forced early end (yahoo/ctwant coverage) |
+| 42 | 2024-10-02..10-13 (快閃購), 集點 to 12-31 | 2024 | 7-ELEVEN Taiwan | 迪士尼米奇與好朋友 Disney Mickey & Friends | PORTFOLIO | Disney | 集點 add-on merch (都市潮流集點活動) | https://www.7-11.com.tw/event/24mickey/index.aspx | Official event page; parent wave of rows 3/18 sibling pages |
+| 43 | 2025-01-22..02-16 (兌換 to 02-18) | 2025 | 7-ELEVEN Taiwan | 白爛貓 Lan Lan Cat + 我不是胖虎 (蛇來運轉 CNY wave) | INDEPENDENT | Both are creator-owned Taiwan illustrator IPs; 7-11 ran a 2022 我不是胖虎 wave under the same name (22shinchan/tiger.aspx) | 集點/快閃購 add-on merch (incl. 白爛貓 x SOL 安全帽, 2款) | https://www.7-11.com.tw/event/25snoopy/lancat.aspx | One CNY wave bundling two Taiwan indie IPs; counted once; also dates the SOL x 白爛貓 helmet previously excluded as undated |
+| 44 | 2025-03-26..04-06 | 2025 | 7-ELEVEN Taiwan | 怪獸大學 Monsters University | PORTFOLIO | Disney/Pixar | 集點 add-on merch | https://www.7-11.com.tw/event/25tomandjerry/monsters.aspx | Official event page |
+| 45 | 2025-03-26.. | 2025 | 麥當勞 McDonald's Taiwan | MINECRAFT 麥塊電影 | PORTFOLIO | Mojang/Microsoft (film: Warner Bros.) | Food (聯名特餐) + 盲盒公仔 + SKIN兌換卡 + 兒童餐 | https://supertaste.tvbs.com.tw/food/354091 | Single roundup source - flagged; published 2025-03-25 |
+| 46 | 2025-04-09..04-30 | 2025 | 7-ELEVEN Taiwan | 玩具總動員 Toy Story (30週年) | PORTFOLIO | Disney/Pixar | 集點 add-on merch | https://www.7-11.com.tw/event/25tomandjerry/toystory.aspx | Official event page |
+| 47 | 2025-05-28.. | 2025 | 全家 FamilyMart Taiwan | 寶可夢 Pokemon (TCG 特典卡) | PORTFOLIO | The Pokemon Company / Nintendo | Convenience store (滿299元送特典卡包, 10款) | https://pokemonhubs.com/ptcg/familymart-ptcg-taiwan-2025/ | Single source (fan-news site, published 2025-05-27) |
+| 48 | 2025-09 (article 09-05) | 2025 | 肯德基 KFC Taiwan | 航海王 One Piece | PORTFOLIO | Shueisha/Toei-managed anime IP | Food (惡魔果實咔啦海陸堡) + campaign | https://playing.ltn.com.tw/article/31947 | Single roundup source - flagged |
+| 49 | 2025-10 | 2025 | 全家 FamilyMart Taiwan | 原神 Genshin Impact (納塔異世饗宴) | PORTFOLIO | HoYoverse/miHoYo, major game conglomerate | Convenience store (聯名美食 + themed campaign, TW-only) | https://www.4gamers.com.tw/saged/detail/5q9w0xg1jxq7jl | Announcement post 2025-09-19; TW-market only stated on page |
+| 50 | 2025-10-08.. (sold to stock-out) | 2025 | 麥當勞 McDonald's Taiwan | TinyTAN (BTS) | PORTFOLIO | HYBE-owned character IP | Blind-box 公仔 add-on (+129元, 7款) | https://www.ettoday.net/news/20251002/3043663.htm | |
+| 51 | 2025-10-29..11-09 (快閃購), 集點 11-10..12-31 | 2025 | 7-ELEVEN Taiwan x 國立故宮博物院 | 貓貓蟲咖波 Bugcat Capoo (x 故宮100周年) | INDEPENDENT | Same as row 1; museum is the co-brand partner, Capoo is the IP | 全店精品集點 (7,100+ stores; 翠玉白菜毯, 肉形石地墊, 盲盒 etc.) | https://talkacemedia.com/article/42024 | Also ec.ltn.com.tw/article/breakingnews/5220187; indie IP carries a flagship full-store 7-11 集點 wave |
+| 52 | 2025-10/11 (same window as row 51) | 2025 | 7-ELEVEN Taiwan | noodoll | INDEPENDENT | Independent London designer plush brand, no conglomerate parent | 集點 add-on merch | https://talkacemedia.com/article/42024 | Single source - flagged; concurrent with row 51 |
+| 53 | 2025-12-10 (regular card) + 2026-01-07..02-18 (3 Supercard releases) | 2026YTD | 悠遊卡公司 EasyCard Corp | 卡娜赫拉的小動物 Kanahei | INDEPENDENT | Same as row 18 | Transit-card product launches (Supercard 度假風情/可愛愛心/可愛臉蛋2款) | https://www.easycard.com.tw/museum?page=1&keywords=%E5%8D%A1%E5%A8%9C | Official release database, dates on page; year-tagged 2026YTD by the Supercard series; borderline co-brand vs licensed product, kept per row 38 precedent |
+| 54 | 2026-04 | 2026YTD | 麥當勞 McDonald's Taiwan | 超級瑪利歐 Super Mario (銀河電影版 tie-in) | PORTFOLIO | Nintendo | Blind-box 公仔 (12款) + campaign | https://www.cool-style.com.tw/wd2/archives/1285201 | Single roundup source - flagged; published 2026-04-02 |
+| 55 | 2026-06-24..09-01 | 2026YTD | 全家 FamilyMart Taiwan | FINAL FANTASY XIV 繁體中文版 | PORTFOLIO | Square Enix | Convenience store (聯名漢堡/酷繽沙 + 虛寶序號 + 抽獎/明信片) | https://event.ffxiv.com.tw/2026/familymart/ | Official event microsite; dates from official FB announcement |
+| 56 | 2026-07 (summer) | 2026YTD | 特‧好喝 (handshake drink chain) | 蠟筆小新 Crayon Shin-chan (玩轉！時空大冒險展 tie-in) | PORTFOLIO | Futabasha-managed | Drink (3款冰沙) + 造型冰棒 + merch + 滿額贈 | https://supertaste.tvbs.com.tw/food/360433 | Single roundup source - flagged; published 2026-07-07 |
+| 57 | 2026-07 (summer) | 2026YTD | 先喝道 (handshake drink chain) | SPY×FAMILY 間諜家家酒 | PORTFOLIO | Shueisha-managed anime IP | Drink + campaign | https://supertaste.tvbs.com.tw/food/360433 | Single roundup source - flagged; same article as row 56 |
+| 58 | 2026-07-17.. (14 days) | 2026YTD | 藏壽司 Kura Sushi Taiwan | 名偵探柯南 Detective Conan (高速公路的墮天使) | PORTFOLIO | Shogakukan/committee-managed | Food-chain gacha (24款扭蛋 + 杯墊滿額贈) | https://udn.com/news/story/7270/9624904 | Published 2026-07-13; distinct from the 2024 Conan campaign (row 40) |
 
 ## Running counts (recompute on each append)
 
-- Total rows: 39
-- PORTFOLIO: 23  |  INDEPENDENT: 12  |  UNCLEAR: 4
-- 2024: 7 rows (3 indie, 4 portfolio, 0 unclear)
-- 2025: 18 rows (7 indie, 11 portfolio, 0 unclear)
-- 2026YTD: 14 rows (2 indie, 8 portfolio, 4 unclear)
+- Total rows: 58
+- PORTFOLIO: 38  |  INDEPENDENT: 16  |  UNCLEAR: 4
+- 2024: 10 rows (3 indie, 7 portfolio, 0 unclear)
+- 2025: 28 rows (10 indie, 18 portfolio, 0 unclear)
+- 2026YTD: 20 rows (3 indie, 13 portfolio, 4 unclear)
 
 ## Excluded (logged so we do not re-add)
 
@@ -75,4 +95,12 @@ Phantom (unverifiable) entries are the known failure class and are kept out.
 - 全家 x 吉伊卡哇公仔 (2025) - the only found source (beauty321.com/post/66468) returned HTTP 403 to curl; not logged until a verifiable source is found (phantom-entry guard).
 - BOUYIEE x 醜白兔 凍膜 (cosmetics) - shop category page (bouyiee.com.tw) carries no campaign date; not logged until datable.
 - 日本麥當勞 x 吉伊卡哇 / x 寶可夢 (2025) - Japan-market campaigns widely covered by TW media, out of Taiwan-market scope.
-- 味全龍 x 白爛貓, SOL 安全帽 x 白爛貓, DEVILCASE x 白爛貓, HOYACASA x 黃阿瑪 - shop/listing pages only, no campaign dates established under queries run; revisit with dated sources.
+- 味全龍 x 白爛貓, DEVILCASE x 白爛貓, HOYACASA x 黃阿瑪 - shop/listing pages only, no campaign dates established under queries run; revisit with dated sources.
+  (SOL 安全帽 x 白爛貓 was resolved: the helmet was a premium inside the dated 7-11 蛇來運轉 wave, now row 43.)
+- 大陸麥當勞 x 蠟筆小新 兒童餐 (2025-06, supertaste.tvbs.com.tw/food/355112) - China-market campaign, out of Taiwan-market scope.
+- 咖波 x 屌面人 (announced 2026-01) - IP-x-IP pairing, and the collab was cancelled after backlash (mirrormedia.mg/story/20260108edi010); out of scope on both grounds.
+- 麥當勞 x 可口可樂 麥麥同樂撲克牌 (2025-10) - brand-x-brand premium, no character IP.
+- 必勝客 x 屋馬 (2025-09) - restaurant-x-restaurant tie-in, no character IP. Source: playing.ltn.com.tw/article/31947.
+- 台灣高鐵 x 卡娜赫拉 - official page (thsrc.com.tw ArticleContent) is a JS shell with no dates extractable via curl; not logged until datable.
+- 清心福全 x 咖波 書籤加購 second wave - only found source (ioiotimes.com/?p=80502) returns 406 to curl; row 1 already covers the 2024 pairing.
+- 摩斯漢堡 MOS Friends x 超級瑪利歐 - mentioned in one 2026-04 roundup line but the same article attributes the 12-figure Mario program to 麥當勞 (row 54); not logged until a MOS-specific dated source is found.
