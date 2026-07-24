@@ -13,10 +13,10 @@ Source of targets: `findings/census/taiwan-v2/_VERDICT.md` (and the JP/KR census
 |---|---|---|---|
 | 貓貓蟲咖波 Bugcat Capoo (TW) | 亞拉 (Ara), self-licensed via 卡特島創意 Carter Island | [bugcat-capoo.md](bugcat-capoo.md) | Fame-first, institution-early: LINE-sticker reach pulled in bank/transit cards as its *earliest* deals, then built physical retail + convenience access into a 7,100-store 7-11×故宮 full-store wave - the entire climb run in-house with no agency. |
 | 馬來貘 LAIMO / Cherng (TW) | Individual 楊承霖 (Yang Cheng-lin); **agency-run by 華研國際音樂 HIM 2015-2023, then studio-run via 承三工作室** | [laimo-cherng.md](laimo-cherng.md) | Fame-first, major-brand-immediately: viral FB + first-wave LINE stickers pulled a listed appliance maker (大同), 7-ELEVEN and cosmetics into its *earliest* 2014 deals, then a listed agency (華研) scaled it through a 2021-22 QSR/convenience/drink/apparel wave to a CeraVe/L'Oréal beauty peak - unlike Capoo, NOT self-licensed for most of its life. |
+| 星期一的布魯斯 Monday Bruce (TW) | 原石創意國際有限公司 STONE CREATIVE INT. CO., LTD. (creator Phoebe Fu); toy manufacture via TOYS ALLIANCE (HK) | [monday-bruce.md](monday-bruce.md) | Designer-toy-first, experiential-led, fast: born as a *blind box* (Dec 2022), not off a fame flywheel; grew through the pop-up/exhibition circuit + B2B licensing expos, internationalised via HK/Japan pop-ups (2025), and broke into a national landmark - 台北101 觀景台 special exhibition (2026) - in ~3.3 years, with NO mass-retail convenience/drink/finance wave yet. |
 
 ## Targets still to reconstruct (from the census)
 
-- Monday Bruce 星期一的布魯斯 (TW) - reached 台北101 觀景台; census REP=yes.
 - LuLu the Piggy (regional) - 麥味登; the IP-x-IP line with Capoo; census REP=no (ToyzeroPlus/52TOYS).
 - Any further high-escalation indies the JP/KR census runs flag as Taiwan entrants.
 
