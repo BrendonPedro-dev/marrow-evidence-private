@@ -1,81 +1,83 @@
 # Japan co-branding census - verdict
 
-As of 2026-07-24 (refresh, 87 rows).
+As of 2026-07-24 (refresh, 131 rows).
 
-This verdict reads the campaign table in `campaigns.md` (87 curl-verified brand-x-IP co-branding rows, window 2024-01-01 to run date).
+This verdict reads the campaign table in `campaigns.md` (131 curl-verified brand-x-IP co-branding rows, window 2024-01-01 to run date).
 It is a **sample census, not an exhaustive count** - see Section 5 for limits.
 This is the JAPAN run in a region-by-region series (Taiwan done: 129 rows, at `findings/census/campaigns.md`), same definition and rules so the markets are directly comparable.
 The brief is to attack the founder thesis ("indies are shut out") as hard as the data allows; where the data undercuts the thesis, that is called out plainly.
-**This is a mid-build (87 of a 120-row target); the overall and 2025 numbers are now reasonably stable, but 2024 and 2026YTD are still thinner - see Section 5.**
+**The completion target (120 curl-verified year-tagged rows across all three years) is now met; the overall and 2025 numbers are stable, and 2024/2026YTD remain the thinner slices - see Section 5.**
 
 ## 1. The ratio - overall and per year
 
-**Overall (n = 87):**
+**Overall (n = 131):**
 
 | Class | Count | Share |
 |---|---|---|
-| PORTFOLIO | 59 | 67.8% |
-| INDEPENDENT | 28 | 32.2% |
-| UNCLEAR | 0 | 0.0% |
+| PORTFOLIO | 90 | 68.7% |
+| INDEPENDENT | 40 | 30.5% |
+| UNCLEAR | 1 | 0.8% |
 
 **Per year:**
 
-| Year | n | Portfolio | Independent | Unclear |
-|---|---|---|---|---|
-| 2024 | 16 | 9 (56.3%) | 7 (43.8%) | 0 |
-| 2025 | 56 | 41 (73.2%) | 15 (26.8%) | 0 |
-| 2026YTD | 15 | 9 (60.0%) | 6 (40.0%) | 0 |
+| Year | n | PORTFOLIO | INDEPENDENT | UNCLEAR | Indie share |
+|---|---|---|---|---|---|
+| 2024 (full year) | 19 | 10 | 9 | 0 | **47.4%** |
+| 2025 (full year) | 90 | 65 | 24 | 1 | **26.7%** |
+| 2026YTD (to 07-24) | 22 | 15 | 7 | 0 | **31.8%** |
 
-**Trend read:** the overall indie share holds at **32.2%** at 87 rows - almost unchanged from the 49-row build (32.7%) and still in the same neighbourhood as Taiwan (27.1% at 129 rows). The stability of the overall number across a 38-row expansion is itself reassuring: the ratio is not an artifact of a small sample.
-The per-year line is noisier and should be read with care. 2025 is the only large bucket (n=56) and reads **26.8% indie** - the most trustworthy single figure in the table, and squarely in the Taiwan range. 2024 (n=16) reads 43.8% indie and 2026YTD (n=15) reads 40.0%, but both are pulled up by *which* formats got swept: this iteration deliberately opened indie-leaning veins (Don Quijote character fairs, Village Vanguard, illustrator apparel/stationery), several of which landed in 2024 and 2026YTD. Do not cite the 2024/2026YTD splits as evidence of a rising indie trend; they reflect sweep composition, not a real time trend. **The honest directional read remains: ~1-in-3 co-branding campaigns overall is indie-owned, ~1-in-4 in the one fully-populated year (2025).**
-The 0% unclear rate persists across all 87 rows - Japanese IP ownership was cleanly establishable for every campaign, unlike Taiwan (5.4% unclear). This is a genuine market difference (Japanese licensor/committee structures are well-documented), though partly a recall effect (Section 5).
+**Trend read:** the headline overall indie share (30.5%) has been strikingly stable across the whole build - 32.7% at 49 rows, 32.2% at 87 rows, 30.5% at 131 rows - so the "~1/3 indie" read is now a trustworthy central estimate, not a small-sample artifact.
+The per-year picture is more textured and should be read with caution.
+2024 shows the highest indie share (47.4%) but on the smallest and most selection-biased base (n=19): early passes deliberately mined illustrator/lifestyle veins, so 2024 is over-weighted toward indie-friendly formats, not evidence that 2024 was genuinely indie-heavy.
+2025 is by far the deepest and most representative slice (n=90, sampled across the widest format spread - sushi chains, gyudon, gashapon, kuji, collab cafes, amusement parks, eyewear, mobile accessories, home goods) and lands at **26.7% indie**, essentially identical to Taiwan's complete-year 2025 read.
+2026YTD (31.8%, n=22) sits between them.
+The honest synthesis: **indie share is roughly flat at a bit above a quarter of co-branding campaigns, not growing**; the apparent 2024 "peak" is a coverage artifact, and the most-sampled year (2025) is the most reliable and the lowest.
 
-## 2. The addressable number (REPRESENTABLE)
+## 2. The addressable number (the market-entry read)
 
-Of the 28 INDEPENDENT rows, the REPRESENTABLE tag splits:
+Of the 40 INDEPENDENT rows, the REPRESENTABLE tag splits:
 
 | REPRESENTABLE | Count | Share of indie rows |
 |---|---|---|
-| yes | 16 | 57.1% |
-| no | 5 | 17.9% |
-| unclear | 7 | 25.0% |
+| yes | 21 | 52.5% |
+| no | 9 | 22.5% |
+| unclear | 10 | 25.0% |
 
-**The addressable-indie read:** 16 of 87 campaigns (**18.4%**) are creator-owned AND plausibly representable - the market-entry number PBC actually needs. This share is identical to the 49-row build (18.4%), i.e. the "yes" rate grew exactly in step with the sample, another sign of stability.
-The 16 "yes" rows deduplicate to roughly **13-14 distinct representable indie IPs plus two multi-creator rosters** (the Loft "Creator meets" 18-illustrator showcase and the graniph 12-illustrator collection, and the Don Quijote "Original Character Fes" trio) - so the *underlying* count of addressable creators is well into the dozens, not a handful.
-The "yes" IPs span: Higuchi Yuko (x2 - Lawson, Morinaga), Yell Inc's Tsubura na Hitomi, Kumamine's Shigotoneko, Nakamura Yusuke (graniph), studio UG (WEGO), foxco (Calbee), SHOGO SEKINE (Dr. Ci:Labo), plus this iteration's additions: Dozle-sha (AEON), Rubi-sama (Village Vanguard), Coony (FamilyMart), Hikaru Ichijo (Kokuyo), Makoto Matsubayashi (mt), and the graniph-12 and Don-Quijote-3 illustrator rosters.
-The 5 "no" rows are the represented-but-closed cases: mofusand (x3 now - kawara, Shimamura, FamilyMart, all locked to Gray Parka Service), Suntory's Opanchu Usagi, and Kanahei's Small Animals (creator-owned but locked to an exclusive master licensor). The 7 "unclear" rows are indies whose agency-exclusivity could not be read from public sources (Esther Bunny, Lawson's Opanchu, Tomodachi wa Kuma, Yu Nagaba, Machikoriita, Catapiland, Npochamu).
-**The pattern that matters (and it sharpened this iteration):** the cleanest representable Japan indies are *individual fine-artist/illustrator names* doing open, non-exclusive brand-packaging/apparel/stationery collabs (Higuchi, Nakamura, SEKINE, Matsubayashi, Ichijo, Rubi-sama, Coony). The SNS-character-goods IPs (mofusand, Opanchu, Kanahei) are the opposite - creator-owned but locked to a management company or master licensor early, which is exactly why they read REP=no/unclear.
+**The addressable-indie number: 21 of 131 campaigns (16.0%) are REPRESENTABLE = yes** - creator-owned, no conglomerate stake, and not locked to an exclusive agency in a way that would preclude PBC representation.
+That is the market-entry signal: about **one campaign in six** in the Japan co-branding market is run with an indie IP that PBC could plausibly represent.
+Put differently, just over half of all indie co-branding activity (52.5%) is addressable; the rest is indie-by-ownership but already closed off - either locked to a captive studio/exclusive licensor (9 rows: Opanchu Usagi via Bandai, mofusand via Gray Parka Service, Colorful Peach via UUUM, Kaikai&Kiki as Murakami's captive studio, Heralbony's exclusive artist licensing, MOMOREI locked to LINDA) or genuinely unreadable from public sources (10 rows).
 
-## 3. Indie prominence
+## 3. Indie prominence - breadth or a few recycled names?
 
-**Real breadth, now clearly two-tiered.**
-The 28 indie rows carry ~24 distinct IPs (a few recur: Higuchi Yuko x2, mofusand x3, Opanchu/Npochamu x3 across the 可哀想に! creator). That is a long tail of distinct names, not a handful recycling - the single strongest quantitative signal against "indies are a token presence."
-**Do indies land big-brand collabs?** Yes, and the expanded sample strengthens this:
-- Higuchi Yuko (one living painter) co-brands with **Lawson** and **Morinaga**.
-- **UNIQLO UT** (Nagaba), **Suntory** (Opanchu, 12 SKUs), **Calbee** (foxco), **AEON** (Dozle-sha, ~320 stores), **FamilyMart** (Coony, national ねこの日 fair), **Kokuyo** (Campus 50th-anniversary, its flagship notebook line) - all handed capsules or fairs to individual indie creators.
-- **Village Vanguard** emerges as a structurally indie-friendly retailer: 4 rows, 3 of them indie (Machikoriita, Rubi-sama, Catapiland) - a lifestyle-retail channel that routes disproportionately to solo creators.
-- Don Quijote runs recurring multi-illustrator "character fes" fairs (秋乃える/イコモチ/千種みのり), an explicit indie-roster format.
-**Format skew is the sharpest finding of this iteration.** Indie IP concentrates in: convenience-store fairs/kuji, lifestyle-retail (Loft, Kiddy Land, Village Vanguard, Don Quijote), apparel/stationery capsules (graniph, WEGO, UT, Kokuyo, mt), and illustrator packaged-goods. It is **nearly absent from three whole veins swept this pass**:
-- **Gaming / payment / telecom: 8 of 8 rows were PORTFOLIO (100%).** Payment card-skins (PayPay, d払い), point-program skins (dポイント), and mobile-game gacha (Monst, Puzzdra) in Japan pair almost exclusively with conglomerate/committee IP (Sanrio, San-X, Bandai/Sunrise, Konami/Shueisha committees, COVER/hololive). No indie surfaced after targeted search.
-- **National cafe/fast-food menu-and-toy:** still overwhelmingly Pokemon/Sanrio/Bandai/game-publisher.
-- **Drink/beverage majors** (Coca-Cola, Suntory, DyDo, Asahi): almost entirely Sanrio and anime committees.
-This is the same experiential/retail-vs-mass-volume split Taiwan showed, now with a clean structural boundary: **the higher the distribution scale and the more "platform" the format (payments, games, national vending), the more monolithically corporate the IP.**
+The 21 REPRESENTABLE=yes rows resolve to **real breadth, not a handful of recycled names**, and they cluster into a clear profile: the **individual fine-artist / illustrator doing open, non-exclusive brand-packaging or capsule collabs**.
+
+Distinct addressable indie IPs appearing: Higuchi Yuko (twice - Lawson AND Morinaga), Nakamura Yusuke (graniph), Yuuji Nishimura / studio UG (WEGO), foxco (Calbee), SHOGO SEKINE (Dr. Ci:Labo), Hikaru Ichijo (Kokuyo), Makoto Matsubayashi (mt), Rubi-sama (Village Vanguard), Coony (FamilyMart), Dozle-sha (AEON), Tsubura na Hitomi / Yell Inc (Ministop), Shigotoneko (Kiddy Land), Oono Taro (3COINS), Donguri Village / Miwa Nakaya (Vie de France), KUNIKA (PEACH JOHN), foxy illustrations (CASETiFY), Yuhachi/Hachi-san (Bandai Gashapon) - **plus two multi-illustrator showcases** (Loft "Creator meets" 18 illustrators incl. mizutama; graniph's 12-illustrator capsule) that each represent a dozen-plus additional addressable creators.
+
+**Do indies land big-brand collabs? Yes, repeatedly** - and this is the strongest counter-evidence to a hard "indies are shut out" thesis:
+- Higuchi Yuko x **Lawson** (national convenience chain, drinks packaging) AND x **Morinaga** (national confectioner).
+- foxco x **Calbee** (national snack maker, Potato Chips packaging).
+- Nakamura Yusuke x **graniph**; Yu Nagaba x **UNIQLO UT** (indie-by-ownership though REP=unclear).
+- foxy x **CASETiFY** and KUNIKA x **PEACH JOHN** (indie illustrators reaching global/national retail brands in 2025).
+- Yuhachi x **Bandai Gashapon** and Oono Taro x **3COINS** (indie SNS creators reaching mass toy/variety channels in 2025-26).
+
+So the refined picture is not "indies are excluded" but **"indies are a stable minority (~27% of campaigns, ~16% addressable) that DO reach the largest brands - but concentrated in specific channels."**
 
 ## 4. The thesis read
 
-**Verdict at 87 rows: Japan REFINES rather than confirms "indies are a minor share" - and the refinement is now well-evidenced.**
-By raw count the thesis holds directionally: portfolio IP is ~2/3 of co-branding campaigns (67.8%), and entire high-scale veins (payments, mobile games, telecom, national fast-food, big-drink) are close to monolithically corporate.
-But "shut out" is contradicted by the data: **roughly one in three campaigns is indie-owned, and just under one in five is a plausible PBC client**, with individual illustrators repeatedly landing collabs at Lawson, Morinaga, Suntory, Calbee, UNIQLO, AEON, FamilyMart, Kokuyo and graniph.
-Strongest counter-examples to quote: *"Higuchi Yuko - a single living painter - co-brands with both Lawson and Morinaga in the same window"*; *"AEON handed a ~320-store limited-goods line to Dozle-sha, a creator-owned YouTuber company"*; and *"the Loft 'Creator meets' (18 illustrators) and graniph (12 illustrators) programs each showcase a whole roster of independent creators at once."* These are addressable breadth, not a token indie or two.
-The refinement Japan adds over Taiwan, now sharper with more data: the indie share is **cleaner to classify** (0% unclear) but **more structurally channelled** - indies cluster in specific retail/lifestyle channels (Village Vanguard, Don Quijote, Loft, illustrator apparel/stationery) and are effectively absent from the platform/high-scale veins. And Japan's breakout SNS-character indies (mofusand, Opanchu, Kanahei) hit management/master-licensor exclusivity early, so fame does NOT convert to representability - the representable pool is the quieter individual-illustrator tier, not the viral-character tier.
-Hold the per-year trend loosely (Section 1), but the overall verdict is now stable across two builds: **indies are a real and addressable minority (~1/3 owned, ~1/5 representable), concentrated by format, not shut out.**
+**Japan REFINES the founder thesis rather than confirming or breaking it.**
 
-## 5. Method limits, stated plainly
+- The blunt thesis "indies are a minor share of co-branding" **survives**: at 30.5% overall and 26.7% in the best-sampled year, indie IP is clearly the minority, and the mass-scale/platform formats are near-monolithically corporate. The gaming/payment/telecom vein came back **100% portfolio** on targeted search; conveyor-sushi, gyudon, kuji, and amusement-park collabs in this sample are overwhelmingly Shueisha/Kodansha/Bandai-Namco/Square-Enix committee IP. When a format is high-volume and "platform-like," it is corporate IP almost by default.
+- But the stronger thesis "indies are **shut out** / can't reach big brands" **weakens** on this data. Indie illustrators land national convenience chains, national snack/confectionery makers, global accessory brands, and mass toy channels - see the Section 3 counter-examples. The barrier is not access; it is **channel concentration**: indies live in lifestyle retail (Loft, Village Vanguard, Don Quijote, Kiddy Land), illustrator apparel/stationery (graniph, mt, Kokuyo, WEGO), convenience-store art capsules, and cosmetics/variety packaging - and are largely absent from gacha, card-skins, telecom points, and national vending.
+- **Fame does not equal representability in Japan** - a repeated, important finding. The viral SNS-character indies (mofusand, Opanchu Usagi, Kanahei, Colorful Peach) are exactly the ones locked to captive studios/master licensors (REP=no), while the cleanly addressable pool is the quieter individual-illustrator tier doing open non-exclusive brand collabs. PBC's addressable market is the second group, and it is real and broad.
 
-- **Sample census, not exhaustive.** 87 rows built across ~10 format veins (convenience store, cafe/fast-food, apparel, stationery, pop-up/event, food/beverage/snack, cosmetics, supermarket, drugstore, transit/IC, hotel, bookstore, gaming/app, payment/telecom). Recall is biased toward campaigns with ja press coverage and toward the specific chains named in the sweep briefs.
-- **Format skew is real and only partly corrected.** This iteration deliberately added both indie-leaning veins (Don Quijote, Village Vanguard, illustrator apparel/stationery) and portfolio-locked veins (payments, mobile games, cosmetics-retail, supermarket). The overall ratio barely moved (32.7%→32.2%), suggesting the veins roughly offset - but the *true* market ratio still depends on the volume weight of each vein, which this census does not measure. A payment card-skin and a national convenience fair count as one row each here despite very different reach.
-- **Window:** 2024-01-01 to 2026-07-24. Only 2025 (n=56) is large enough to read directionally. 2024 (n=16) and 2026YTD (n=15) are still thin and their high indie shares reflect sweep composition, not a trend - do not cite them as evidence of rising indie share.
-- **Ownership was establishable everywhere (0% unclear)** - a genuine Japan/Taiwan difference, but partly a recall effect: the sweep favours well-documented IPs. The unclear rate would likely rise for a more obscure long tail; 0% on this sample is not a stable population estimate.
-- **REPRESENTABLE is a public-source read, not a legal one.** "yes" means no conglomerate stake and no visible exclusive lock; "unclear" (25% of indie rows) is a real gap - for 7 indie IPs the agency/exclusivity status could not be confirmed, so the true representable count could be higher or lower than 16.
-- **Source quality:** most rows rest on brand-official domains (sej, family, lawson, aeon, donki, sanrio, dydo, tullys, doutor, kokuyo, dozle, village-v, paypay, mixi, coca-cola) or PR TIMES/digitalpr. A minority rest on aggregators (collabo-cafe, charalab, tetsudo.com) or, in a few cases, a single fan blog / secondary repost - all flagged in the Notes column. Known fetch failures left OUT rather than logged unverified: Keikyu x Rascal (403), AEON x New Prince of Tennis (connection refused), Nachoneko x Don Quijote (no verifiable date), and earlier natalie.mu/uniqlo.com timeouts - all candidates for a future pass via alternate sources.
-- **Borderline calls noted:** the Yogibo x Suica Penguin row is closer to a product license than a two-brand campaign (flagged); PayPay x Bonobono has a living creator holding © but is committee-managed (PORTFOLIO per the pinned Chiikawa rule). These are documented in the Notes column so a reviewer can re-judge them.
+**Strongest single counter-example to quote:** Higuchi Yuko - a living, self-owned painter - ran co-branding campaigns with **both Lawson and Morinaga**, two national mass-market brands, entirely as an independent artist. That one creator alone refutes "big brands only collaborate with portfolio IP."
+
+## 5. Method limits (stated plainly)
+
+- **Sample census, not exhaustive.** 131 curl-verified rows is a structured sample of Japan co-branding 2024-01-01..2026-07-24, not the full population. Shares are estimates from this sample; treat the ~1-in-3-indie / ~1-in-6-addressable reads as robust central estimates (stable across 49→87→131 rows), not precise population parameters.
+- **Recall bias toward covered/searchable campaigns.** Rows come from ja lifestyle/food/fashion press, brand-official releases, and collab trackers. Campaigns that got press are over-represented; small regional or quietly-run collabs are under-represented. Because indie collabs skew toward press-friendly lifestyle retail, this bias if anything **inflates** the indie share slightly - the true indie share may be a little below 30%.
+- **Per-year bases are uneven.** 2025 (n=90) is deep and representative; 2024 (n=19) and 2026YTD (n=22) are thin and format-skewed (2024 over-weighted to indie-leaning veins from early passes). The per-year indie trend should be read as "roughly flat above a quarter," and the apparent 2024 peak is discounted as a coverage artifact, not a real spike.
+- **Format skew is real and is itself a finding.** Deliberately opening indie-leaning veins (Village Vanguard, Loft, illustrator stationery) and portfolio-locked veins (gaming/finance/telecom, sushi/gyudon chains, kuji, amusement parks) roughly offsets, which is why the overall number held stable - but the mix of formats sampled directly drives the ratio, so the ratio describes *co-branding as surfaced in these channels*, not a channel-weighted market total.
+- **Ownership was cleanly classifiable - the unclear rate is very low (1 of 131 = 0.8% IP-class UNCLEAR).** This is a genuine finding: Japan IP ownership is generally well-documented (© lines, committee credits, licensor sites). The one UNCLEAR (Nintama Rantaro: living manga creator 尼子騒兵衛 vs NHK-controlled anime merchandising) is a true creator-vs-broadcaster split, not a research gap.
+- **The harder judgment call is REPRESENTABLE, not IP class.** 25% of indie rows are REPRESENTABLE=unclear because exclusivity/agency-lock status is often not public. The addressable number (21) should be read as "at least 21 clearly-addressable"; some of the 10 unclear rows may also be representable, so 16.0% is a conservative floor for the addressable share.
+- **Fetch failures logged for future passes:** natalie.mu (403), uniqlo.com (timeout), some Asahi/Suntory brand pages (403); worked around via aggregators quoting the release or alternate sources. Rows resting on a single aggregator source (collabo-cafe, dengeki, puchipurabu, Shokugan Ohkoku, anime.eiga, GAME Watch) are flagged in the campaigns.md Notes column.
