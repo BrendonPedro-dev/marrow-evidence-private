@@ -1,67 +1,58 @@
-# IP growth timeline - how proven indies grew
+# Marugame character-collab history - comparable evidence for the Toriki pitch
 
-RECURRING TASK. Reconstructs the PUBLIC collaboration sequence of a target
-indie IP over time, to build PBC's market-building playbook: "here is how
-indie IPs that made it actually escalated - first deals, early partners,
-the jump to big brands." One IP per run (or a small batch); reusable.
+TARGETED RESEARCH (single subject, not a census). Marugame Udon
+(丸亀製麺 / 丸龜製麵) is the COMPARABLE chain for the Torikizoku pitch -
+a Japanese casual-dining chain, similar format and positioning. Gary's
+framing: if a chain that looks a lot like Torikizoku has run character
+collaborations, the case for approaching Torikizoku gets much stronger.
+This run produces the VERIFIED evidence for that claim.
 
-WHY THIS EXISTS: the co-branding census (findings/census/) found which
-indie IPs win big in East Asia. This task reconstructs HOW a given one got
-there - the observable growth path - so PBC can show a new creator the
-proven sequence and position its market-building service against it.
+## THE HARD LIMIT - state it in the output, top and bottom
+This is Marugame's collaboration history with OTHER IPs. It is NOT, and
+must NEVER be presented as, a Bichi Mao partnership. The usable claim is
+"a closely comparable chain has successfully run character collabs" -
+never "Bichi Mao worked with Marugame". Every collab found is Marugame
+with some OTHER character/IP.
 
-## TARGETS (the census's proven indie performers - start here)
-Run these first; they're the documented success cases worth mapping:
-- 貓貓蟲咖波 Bugcat Capoo (TW) - the breakout: 8+ big-brand collabs incl.
-  the 7-ELEVEN x 故宮 7,100-store wave, 華南金控, 中華郵政, Sushiro.
-- 馬來貘 LAIMO / Cherng (TW) - reached CeraVe/L'Oreal, 台北101-tier.
-- Monday Bruce 星期一的布魯斯 (TW) - reached 台北101 觀景台.
-- LuLu the Piggy (regional) - 麥味登, the Capoo IP-x-IP line.
-- Add any others the comparison doc flags as high-escalation indies
-  (JP/KR entrants that broke into Taiwan are also valid).
+## WHAT TO FIND
+Every character / IP / illustration collaboration Marugame has run, Japan
+AND Taiwan, last ~5 years (2020-present). For each:
+- date / period
+- the partnered IP (character name + owner)
+- IP class: corporate-portfolio or INDEPENDENT (apply the census
+  ownership test - a collab with an INDEPENDENT IP is the strongest
+  evidence for our case, since it proves a Toriki-like chain will work
+  with non-portfolio characters)
+- market (Japan / Taiwan)
+- format (menu tie-in / merch / premium giveaway / event / store)
+- source URL - curl-verified
 
-## WHAT TO RECONSTRUCT (per IP -> findings/ip-timelines/<ip-slug>.md)
-Header: "Researched: YYYY-MM-DD | IP: <name> | Owner: <who owns it>".
-1. ORIGIN: when/where the character started (webtoon, sticker set,
-   illustration, etc), creator, ownership from day one.
-2. THE DEAL SEQUENCE - a dated timeline, earliest to latest, of every
-   documented brand collaboration found, each row: date, brand, brand
-   size/tier (indie/mid/major/institutional), format (drink/merch/store/
-   event/finance), source URL. Order matters - the SEQUENCE is the point.
-3. THE ESCALATION READ: how did the IP move up? Did it start with small/
-   local brands and climb to majors, or break big early? What was the
-   first "major brand" moment and roughly how long after the first deal?
-   Any visible inflection point (a collab that seemed to unlock others)?
-4. FORMAT PROGRESSION: did it move drink -> merch -> store-wave ->
-   institutional, or some other path? Which format did it break into the
-   big leagues on?
-5. GROWTH PATTERN SUMMARY: 3-4 sentences - the observable playbook this
-   IP followed. Explicitly labelled as the PUBLIC sequence, inferred from
-   announcements.
-
-## HARD LIMIT - state this in every output
-This is the OBSERVABLE sequence ONLY, reconstructed from public campaign
-announcements. It does NOT contain: who the IP pitched and got rejected
-by, deal terms, fees, the creator's strategy or reasoning, or why a brand
-was chosen. That decision context is private and comes from the INTERVIEW
-PROGRAM (talking to creators directly - e.g. the Wee/Bichi Mao interview),
-never from this run. Every timeline says at the top: "Public sequence
-only - decision context is interview-sourced, not here."
+CRITICAL: do NOT assume or infer a pairing. Every collab must trace to a
+real source. If a specific collaboration cannot be verified, it does NOT
+go in the list - state "not found under [queries]" rather than guess. (An
+earlier internal note speculated a specific Marugame x indie pairing
+without a source - do not carry any unsourced pairing forward; verify
+from scratch.)
 
 ## METHOD
-Dig public sources for each IP's collab history: the creator's/IP's
-official site and social history, brand press releases (PR TIMES/ETtoday/
-Naver-class), licensing coverage, character-goods and pop-up archives,
-Wikipedia/fan wikis as LEADS to verify (never as the citation). Every
-dated deal curl-verified to a real source; "earliest deal found under
-[queries]" stated honestly - the true first deal may predate coverage.
-zh-TW/ja/ko/en sources as the IP's market requires.
+Search ja + zh-TW sources: Marugame's official site/press (丸亀製麺
+ニュース), PR TIMES, brand collab coverage, character-goods and campaign
+archives, Taiwan Marugame (丸龜製麵) FB/IG and press. Distinguish genuine
+CHARACTER/IP collabs from ordinary menu launches or celebrity endorsements
+(exclude the latter). zh-TW for the Taiwan arm, ja for Japan.
 
-RULES: never fabricate a date or a deal; a gap in the record is stated as
-a gap, not filled. Ownership confirmed (ties to the census's ownership
-test). Single-source deals flagged. Per iteration, complete 1-2 IP
-timelines fully rather than many partially.
+## OUTPUT findings/comparables/marugame-collabs.md
+1. The verified collab table (columns above).
+2. Portfolio-vs-indie split of Marugame's collab partners - does this
+   chain work with indie IPs, or only big portfolio properties? (The
+   answer directly shapes how strong the Toriki evidence is.)
+3. The Toriki-case read, 1 paragraph: what Marugame's history proves for
+   approaching Torikizoku - stated at the evidence level the data
+   supports, with the hard limit restated.
+4. Method/coverage limits: which markets/years are well vs thinly
+   covered; any collab found but not fully datable.
 
-COMPLETION: each targeted IP has a findings/ip-timelines/<slug>.md with a
-dated deal sequence + escalation read + growth-pattern summary +
-_INDEX.md listing the IPs done with their one-line growth headline.
+COMPLETION: findings/comparables/marugame-collabs.md holds the verified
+collab table (every row source-URL'd), the portfolio-vs-indie split, and
+the Toriki-case read - COUNT the verified collabs before declaring done;
+if very few are found, say so honestly rather than pad.
