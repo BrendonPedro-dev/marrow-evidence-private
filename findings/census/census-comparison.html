@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Co-branding census - three-market comparison</title>
+<style>
+  :root{
+    color-scheme: light;
+    --plane:#f9f9f7; --surface:#fcfcfb;
+    --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,0.10);
+    /* semantic slots */
+    --open:#2a78d6;      /* indie / addressable / PBC opportunity  */
+    --closed:#eb6834;    /* portfolio / closed                    */
+    --neutral:#c3c2b7;   /* portfolio-recessive / unclear         */
+    --unclear:#d9d8d1;
+    /* market identity */
+    --tw:#2a78d6; --jp:#eb6834; --kr:#1baf7a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:where(:not([data-theme="light"])){
+      color-scheme: dark;
+      --plane:#0d0d0d; --surface:#1a1a19;
+      --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+      --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+      --open:#3987e5; --closed:#d95926; --neutral:#52514e; --unclear:#3a3a37;
+      --tw:#3987e5; --jp:#d95926; --kr:#199e70;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --plane:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+    --open:#3987e5; --closed:#d95926; --neutral:#52514e; --unclear:#3a3a37;
+    --tw:#3987e5; --jp:#d95926; --kr:#199e70;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--plane); color:var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height:1.5; font-size:16px;
+  }
+  .wrap{max-width:1040px; margin:0 auto; padding:40px 24px 80px}
+  header.top{border-bottom:1px solid var(--ring); padding-bottom:22px; margin-bottom:8px}
+  .eyebrow{font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:600}
+  h1{font-size:30px; line-height:1.15; margin:.35em 0 .15em; letter-spacing:-.01em}
+  h2{font-size:22px; margin:2.4em 0 .5em; letter-spacing:-.01em; padding-top:.3em}
+  h3{font-size:15px; margin:1.4em 0 .4em; text-transform:uppercase; letter-spacing:.06em; color:var(--ink2)}
+  p{margin:.55em 0; color:var(--ink2)}
+  p.lead{color:var(--ink); font-size:17px}
+  .asof{color:var(--muted); font-size:13px}
+  strong{color:var(--ink); font-weight:650}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.86em; background:color-mix(in srgb,var(--neutral) 30%,transparent); padding:.05em .35em; border-radius:4px}
+  a{color:var(--open)}
+
+  section.card{
+    background:var(--surface); border:1px solid var(--ring); border-radius:14px;
+    padding:22px 24px; margin:18px 0;
+  }
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+  .grid3{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+  @media (max-width:760px){ .grid2,.grid3{grid-template-columns:1fr} }
+
+  /* stat tiles */
+  .tile{background:var(--surface); border:1px solid var(--ring); border-radius:14px; padding:18px 20px}
+  .tile .k{font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); font-weight:600}
+  .tile .v{font-size:40px; font-weight:680; letter-spacing:-.02em; margin:.06em 0; line-height:1}
+  .tile .sub{font-size:13px; color:var(--ink2)}
+  .tile.tw .v{color:var(--tw)} .tile.jp .v{color:var(--jp)} .tile.kr .v{color:var(--kr)}
+
+  /* headline callout */
+  .callout{border-left:4px solid var(--open); padding:4px 0 4px 18px; margin:14px 0}
+  .callout.struct{border-left-color:var(--kr)}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; font-size:14px; margin:.4em 0}
+  .tscroll{overflow-x:auto}
+  th,td{text-align:right; padding:8px 10px; border-bottom:1px solid var(--grid); font-variant-numeric:tabular-nums; white-space:nowrap}
+  th:first-child,td:first-child{text-align:left}
+  thead th{color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.04em; border-bottom:1px solid var(--axis)}
+  tbody tr:last-child td{border-bottom:none}
+  td.hi{font-weight:680; color:var(--ink)}
+  .mk{display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:7px; vertical-align:middle}
+  .mk.tw{background:var(--tw)} .mk.jp{background:var(--jp)} .mk.kr{background:var(--kr)}
+
+  /* stacked split bars */
+  .splitrow{margin:14px 0}
+  .splitrow .lab{display:flex; justify-content:space-between; align-items:baseline; font-size:14px; margin-bottom:5px}
+  .splitrow .lab b{font-weight:650; color:var(--ink)}
+  .splitrow .lab .n{color:var(--muted); font-size:12px}
+  .stack{display:flex; height:34px; border-radius:6px; overflow:hidden; gap:2px; background:transparent}
+  .seg{display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:600; color:#fff; min-width:2px; white-space:nowrap}
+  .seg.port{background:var(--neutral); color:var(--ink)}
+  .seg.ind{background:var(--open)}
+  .seg.uncl{background:var(--unclear); color:var(--ink2)}
+  .seg.yes{background:var(--open)}
+  .seg.no{background:var(--closed)}
+  .legend{display:flex; flex-wrap:wrap; gap:14px; font-size:12.5px; color:var(--ink2); margin-top:6px}
+  .legend span{display:inline-flex; align-items:center; gap:6px}
+  .legend i{width:11px; height:11px; border-radius:3px; display:inline-block}
+
+  /* horizontal magnitude bars */
+  .hbar{display:grid; grid-template-columns:96px 1fr 62px; align-items:center; gap:12px; margin:11px 0; font-size:14px}
+  .hbar .track{background:color-mix(in srgb,var(--neutral) 26%,transparent); border-radius:6px; height:26px; position:relative; overflow:hidden}
+  .hbar .fill{height:100%; border-radius:6px; background:var(--open)}
+  .hbar.tw .fill{background:var(--tw)} .hbar.jp .fill{background:var(--jp)} .hbar.kr .fill{background:var(--kr)}
+  .hbar .val{text-align:right; font-variant-numeric:tabular-nums; font-weight:650; color:var(--ink)}
+  .hbar .name{color:var(--ink2)}
+
+  figure{margin:0}
+  figcaption{font-size:12.5px; color:var(--muted); margin-top:8px}
+  svg{display:block; width:100%; height:auto}
+
+  .exgrid{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+  @media (max-width:760px){ .exgrid{grid-template-columns:1fr} }
+  .excard{border:1px solid var(--ring); border-radius:12px; padding:16px; background:var(--surface)}
+  .excard h4{margin:0 0 4px; font-size:15px}
+  .excard .flag{font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase}
+  .excard.tw .flag{color:var(--tw)} .excard.jp .flag{color:var(--jp)} .excard.kr .flag{color:var(--kr)}
+  .excard ul{margin:8px 0 0; padding-left:18px; font-size:13.5px; color:var(--ink2)}
+  .excard li{margin:5px 0}
+
+  ul.notes{font-size:14px; color:var(--ink2)} ul.notes li{margin:7px 0}
+  .foot{margin-top:34px; padding-top:16px; border-top:1px solid var(--ring); font-size:12.5px; color:var(--muted)}
+
+  @media print{
+    body{background:#fff}
+    section.card,.tile,.excard{break-inside:avoid}
+    h2{break-after:avoid}
+    .wrap{max-width:none; padding:0}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow">PBC &middot; Licensing research</div>
+  <h1>Co-branding census: Taiwan &middot; Japan &middot; Korea</h1>
+  <p class="asof">Consolidated three-market comparison &middot; as of 2026-07-24 &middot; one shared definition (ownership test + pinned edge cases + REPRESENTABLE tag) &middot; every figure traces to a per-market verdict.</p>
+</header>
+
+<!-- HEADLINE -->
+<div class="callout">
+  <p class="lead"><strong>Market-entry read.</strong> Every market carries a real pool of independent IP PBC could plausibly represent - roughly <strong>12-16% of all co-branding campaigns</strong> (about one in six-to-eight). It is largest by volume in <strong>Japan (16.0%)</strong>, then <strong>Korea (14.1%)</strong>, then <strong>Taiwan (11.6%)</strong> - but Taiwan's low figure is a single-IP artifact (its breakout indie, Capoo, is self-licensed), and by <em>distinct</em> IP Taiwan is the most open market (~62%).</p>
+</div>
+<div class="callout struct">
+  <p class="lead"><strong>Market-structure read.</strong> Independent IP is a <strong>stable ~quarter of co-branding in all three markets</strong> on the same definition (overall 24.8-30.5%; in the best-sampled year, 2025, the three converge to <strong>30.0 / 26.7 / 26.3%</strong>). A regional structural fact, not a per-market quirk.</p>
+</div>
+
+<div class="grid3" style="margin-top:20px">
+  <div class="tile tw"><div class="k"><span class="mk tw"></span>Taiwan &middot; addressable</div><div class="v">11.6%</div><div class="sub">15 of 129 campaigns &middot; but ~62% of distinct indie IP is open</div></div>
+  <div class="tile jp"><div class="k"><span class="mk jp"></span>Japan &middot; addressable</div><div class="v">16.0%</div><div class="sub">21 of 131 campaigns &middot; broadest open bench (floor est.)</div></div>
+  <div class="tile kr"><div class="k"><span class="mk kr"></span>Korea &middot; addressable</div><div class="v">14.1%</div><div class="sub">19 of 135 campaigns &middot; concentrated in 7 creators</div></div>
+</div>
+
+<!-- 1. PER-MARKET SPLIT -->
+<h2>1. The split - portfolio vs independent</h2>
+<p>Portfolio IP holds a remarkably consistent ~69-71% majority everywhere; independent IP is the ~a-quarter-to-a-third minority. Korea's base is 133 (its 2 government/public-body rows are excluded from the split per the pinned rule); Taiwan and Japan have no excluded rows.</p>
+
+<section class="card">
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk tw"></span>Taiwan v2</b> <span class="n">n = 129</span></div>
+    <div class="stack" role="img" aria-label="Taiwan: 69.0% portfolio, 27.1% independent, 3.9% unclear">
+      <div class="seg port" style="flex:69.0">69.0%</div>
+      <div class="seg ind" style="flex:27.1">27.1%</div>
+      <div class="seg uncl" style="flex:3.9"></div>
+    </div>
+  </div>
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk jp"></span>Japan</b> <span class="n">n = 131</span></div>
+    <div class="stack" role="img" aria-label="Japan: 68.7% portfolio, 30.5% independent, 0.8% unclear">
+      <div class="seg port" style="flex:68.7">68.7%</div>
+      <div class="seg ind" style="flex:30.5">30.5%</div>
+      <div class="seg uncl" style="flex:0.8"></div>
+    </div>
+  </div>
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk kr"></span>Korea</b> <span class="n">classifiable n = 133</span></div>
+    <div class="stack" role="img" aria-label="Korea: 70.7% portfolio, 24.8% independent, 4.5% unclear">
+      <div class="seg port" style="flex:70.7">70.7%</div>
+      <div class="seg ind" style="flex:24.8">24.8%</div>
+      <div class="seg uncl" style="flex:4.5"></div>
+    </div>
+  </div>
+  <div class="legend">
+    <span><i style="background:var(--neutral)"></i> Portfolio</span>
+    <span><i style="background:var(--open)"></i> Independent</span>
+    <span><i style="background:var(--unclear)"></i> Unclear</span>
+  </div>
+</section>
+
+<!-- 2. PER-YEAR TREND -->
+<h2>2. Per-year indie trend</h2>
+<p>Read the <strong>2025 column</strong> as the reliable one in all three markets - it is by far the deepest, widest-format slice (n = 60 / 90 / 80). The 2024 outliers point in opposite directions and are both coverage artifacts: Japan's 47.4% comes off a tiny n = 19 mined early for illustrator veins; Korea's 16.7% off an n = 24 sampled late on portfolio-monolithic veins. Discount both - all three read as <strong>flat at ~a quarter, not growing</strong>.</p>
+
+<section class="card">
+<figure>
+<svg viewBox="0 0 760 320" role="img" aria-label="Indie share by year: Taiwan 24.3/30.0/25.0, Japan 47.4/26.7/31.8, Korea 16.7/26.3/27.6 percent">
+  <!-- 2025 reliability band -->
+  <rect x="277" y="20" width="120" height="260" fill="var(--open)" opacity="0.06"></rect>
+  <text x="337" y="16" text-anchor="middle" font-size="10.5" fill="var(--muted)">2025 - deepest slice (reliable)</text>
+  <!-- gridlines 0,10,20,30,40,50 -->
+  <g stroke="var(--grid)" stroke-width="1">
+    <line x1="44" y1="280" x2="630" y2="280"></line>
+    <line x1="44" y1="228" x2="630" y2="228"></line>
+    <line x1="44" y1="176" x2="630" y2="176"></line>
+    <line x1="44" y1="124" x2="630" y2="124"></line>
+    <line x1="44" y1="72"  x2="630" y2="72"></line>
+    <line x1="44" y1="20"  x2="630" y2="20"></line>
+  </g>
+  <g fill="var(--muted)" font-size="11" text-anchor="end" font-variant-numeric="tabular-nums">
+    <text x="38" y="284">0</text><text x="38" y="232">10</text><text x="38" y="180">20</text>
+    <text x="38" y="128">30</text><text x="38" y="76">40</text><text x="38" y="24">50%</text>
+  </g>
+  <!-- x labels -->
+  <g fill="var(--ink2)" font-size="12" text-anchor="middle">
+    <text x="44"  y="300">2024</text>
+    <text x="337" y="300">2025</text>
+    <text x="630" y="300">2026 YTD</text>
+  </g>
+  <!-- Korea (aqua) -->
+  <polyline fill="none" stroke="var(--kr)" stroke-width="2.5" points="44,193.2 337,143.2 630,136.5"></polyline>
+  <!-- Japan (orange) -->
+  <polyline fill="none" stroke="var(--jp)" stroke-width="2.5" points="44,33.5 337,141.2 630,114.6"></polyline>
+  <!-- Taiwan (blue) -->
+  <polyline fill="none" stroke="var(--tw)" stroke-width="2.5" points="44,153.6 337,124.0 630,150.0"></polyline>
+  <!-- dots -->
+  <g>
+    <circle cx="44" cy="153.6" r="4.5" fill="var(--tw)"></circle><circle cx="337" cy="124.0" r="4.5" fill="var(--tw)"></circle><circle cx="630" cy="150.0" r="4.5" fill="var(--tw)"></circle>
+    <circle cx="44" cy="33.5" r="4.5" fill="var(--jp)"></circle><circle cx="337" cy="141.2" r="4.5" fill="var(--jp)"></circle><circle cx="630" cy="114.6" r="4.5" fill="var(--jp)"></circle>
+    <circle cx="44" cy="193.2" r="4.5" fill="var(--kr)"></circle><circle cx="337" cy="143.2" r="4.5" fill="var(--kr)"></circle><circle cx="630" cy="136.5" r="4.5" fill="var(--kr)"></circle>
+  </g>
+  <!-- value labels -->
+  <g font-size="11.5" font-variant-numeric="tabular-nums" text-anchor="middle" font-weight="600">
+    <text x="58" y="145" fill="var(--tw)">24.3</text><text x="337" y="115" fill="var(--tw)">30.0</text><text x="600" y="150" fill="var(--tw)">25.0</text>
+    <text x="58" y="26"  fill="var(--jp)">47.4</text><text x="337" y="131" fill="var(--jp)">26.7</text><text x="600" y="112" fill="var(--jp)">31.8</text>
+    <text x="58" y="209" fill="var(--kr)">16.7</text><text x="337" y="160" fill="var(--kr)">26.3</text><text x="600" y="137" fill="var(--kr)">27.6</text>
+  </g>
+  <!-- end labels -->
+  <g font-size="12.5" font-weight="650" text-anchor="start">
+    <text x="642" y="118" fill="var(--jp)">Japan</text>
+    <text x="642" y="140" fill="var(--kr)">Korea</text>
+    <text x="642" y="153" fill="var(--tw)">Taiwan</text>
+  </g>
+</svg>
+<figcaption>Indie share (% of classifiable base) by campaign year. Values are direct-labeled; 2024 / 2026 YTD are thin, format-skewed slices - 2025 is the reliable read.</figcaption>
+</figure>
+</section>
+
+<!-- 3. REPRESENTABLE -->
+<h2>3. Addressable read - is the indie IP open?</h2>
+<p>Of each market's independent rows, the REPRESENTABLE tag asks whether PBC could plausibly represent that IP. Blue = <strong>yes / open</strong> (the PBC opportunity); orange = <strong>no / closed</strong> (self-licensed, captive studio, or platform-owned); gray = unclear.</p>
+
+<section class="card">
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk tw"></span>Taiwan</b> <span class="n">35 indie rows</span></div>
+    <div class="stack" role="img" aria-label="Taiwan indie: 42.9% yes, 48.6% no, 8.6% unclear">
+      <div class="seg yes" style="flex:42.9">yes 42.9%</div>
+      <div class="seg no" style="flex:48.6">no 48.6%</div>
+      <div class="seg uncl" style="flex:8.6">8.6%</div>
+    </div>
+  </div>
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk jp"></span>Japan</b> <span class="n">40 indie rows</span></div>
+    <div class="stack" role="img" aria-label="Japan indie: 52.5% yes, 22.5% no, 25.0% unclear">
+      <div class="seg yes" style="flex:52.5">yes 52.5%</div>
+      <div class="seg no" style="flex:22.5">no 22.5%</div>
+      <div class="seg uncl" style="flex:25.0">25.0%</div>
+    </div>
+  </div>
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk kr"></span>Korea</b> <span class="n">33 indie rows</span></div>
+    <div class="stack" role="img" aria-label="Korea indie: 57.6% yes, 24.2% no, 18.2% unclear">
+      <div class="seg yes" style="flex:57.6">yes 57.6%</div>
+      <div class="seg no" style="flex:24.2">no 24.2%</div>
+      <div class="seg uncl" style="flex:18.2">18.2%</div>
+    </div>
+  </div>
+  <div class="legend">
+    <span><i style="background:var(--open)"></i> Representable (open)</span>
+    <span><i style="background:var(--closed)"></i> Closed</span>
+    <span><i style="background:var(--unclear)"></i> Unclear</span>
+  </div>
+</section>
+
+<h3>Addressable indie as a share of all campaigns (by volume)</h3>
+<section class="card">
+  <div class="hbar jp"><div class="name"><span class="mk jp"></span>Japan</div><div class="track"><div class="fill" style="width:32.0%"></div></div><div class="val">16.0%</div></div>
+  <div class="hbar kr"><div class="name"><span class="mk kr"></span>Korea</div><div class="track"><div class="fill" style="width:28.2%"></div></div><div class="val">14.1%</div></div>
+  <div class="hbar tw"><div class="name"><span class="mk tw"></span>Taiwan</div><div class="track"><div class="fill" style="width:23.2%"></div></div><div class="val">11.6%</div></div>
+  <figcaption style="margin-top:4px">Bar width scaled to a 0-50% axis. What drives each market's "closed" block differs - see below.</figcaption>
+</section>
+
+<div class="grid3" style="margin-top:6px">
+  <div class="excard tw"><div class="flag">Taiwan &middot; what drives "no"</div><h4>One self-licensed star</h4><p style="font-size:13.5px;margin:.3em 0">8 of 17 "no" rows are <strong>Bugcat Capoo</strong>, licensed through the creator's own captive studio Carter Island (卡特島創意). Strip Capoo out and ~62% of <em>distinct</em> Taiwan indie IP is open - the volume figure understates it.</p></div>
+  <div class="excard jp"><div class="flag">Japan &middot; what drives "no"</div><h4>Captive studios</h4><p style="font-size:13.5px;margin:.3em 0">The 9 "no" rows are the viral SNS characters locked up: Opanchu Usagi (Bandai), mofusand (Gray Parka Service), Colorful Peach (UUUM), Kaikai&amp;Kiki (Murakami), Heralbony, MOMOREI. The open pool is the quieter individual-illustrator tier.</p></div>
+  <div class="excard kr"><div class="flag">Korea &middot; what drives "no"</div><h4>Platform ownership</h4><p style="font-size:13.5px;margin:.3em 0">The 8 "no" rows are platform-controlled: Maru via Naver Webtoon (x4), JOGUMAN via IPX, Bbangbbangi via studio 더그림, Chiikawa committee (x2). Korea's famous "characters" (Ryan, Loopy, BT21) are platform-owned = portfolio.</p></div>
+</div>
+
+<!-- 4. CONSISTENCY -->
+<h2>4. The consistency finding</h2>
+<p>On one shared definition, three independently built censuses - three languages of source press, three channel mixes - land within a ~5-point band on indie share. That regional consistency is what lets PBC generalize the thesis across East Asia rather than pitch it one country at a time.</p>
+<div class="tscroll">
+<table>
+  <thead><tr><th>Market</th><th>Classifiable n</th><th>Portfolio</th><th>Independent</th><th>Unclear</th><th>2025 indie</th></tr></thead>
+  <tbody>
+    <tr><td><span class="mk tw"></span>Taiwan v2</td><td>129</td><td>69.0%</td><td class="hi">27.1%</td><td>3.9%</td><td>30.0%</td></tr>
+    <tr><td><span class="mk jp"></span>Japan</td><td>131</td><td>68.7%</td><td class="hi">30.5%</td><td>0.8%</td><td>26.7%</td></tr>
+    <tr><td><span class="mk kr"></span>Korea</td><td>133</td><td>70.7%</td><td class="hi">24.8%</td><td>4.5%</td><td>26.3%</td></tr>
+  </tbody>
+</table>
+</div>
+<p style="font-size:14px">Three separate builds, one answer: indie IP is about a quarter to a third of co-branding, portfolio IP about two-thirds to seven-tenths - <strong>everywhere</strong>.</p>
+
+<!-- 5. STANDOUTS -->
+<h2>5. Big-brand indie standouts</h2>
+<p>Each market produces independent IP landing marquee brands and flagship formats - the direct refutation of a hard "indies are shut out" reading. Every example is on-record in the market's <code>campaigns.md</code>.</p>
+<div class="exgrid">
+  <div class="excard tw">
+    <div class="flag">Taiwan</div>
+    <h4>Bugcat Capoo 貓貓蟲咖波</h4>
+    <ul>
+      <li>x <strong>7-ELEVEN x 國立故宮博物院</strong> - a solo illustrator's cat headlining a 7,100+-store 全店集點 wave with the National Palace Museum</li>
+      <li>x <strong>華南金控</strong> (listed FHC, shareholder gift) and x <strong>中華郵政</strong> (national post)</li>
+      <li>馬來貘 LAIMO x <strong>CeraVe</strong>; Monday Bruce x <strong>台北101</strong></li>
+    </ul>
+  </div>
+  <div class="excard jp">
+    <div class="flag">Japan</div>
+    <h4>Higuchi Yuko ヒグチユウコ</h4>
+    <ul>
+      <li>a living, self-owned painter ran co-branding with <strong>both Lawson and Morinaga</strong> - two national brands - entirely as an independent artist</li>
+      <li>foxco x <strong>Calbee</strong> (national snack)</li>
+      <li>foxy x <strong>CASETiFY</strong>; KUNIKA x <strong>PEACH JOHN</strong></li>
+    </ul>
+  </div>
+  <div class="excard kr">
+    <div class="flag">Korea</div>
+    <h4>무직타이거 MUZIK TIGER</h4>
+    <ul>
+      <li>a creator-couple's studio IP on a <strong>first-division K-League match-day kit (Ulsan HD)</strong>, plus x <strong>SPAO</strong></li>
+      <li>망곰이 x <strong>Olive Young</strong> (4 brands) x <strong>SPAO</strong> x <strong>CU</strong> x <strong>Doosan Bears</strong></li>
+      <li>최고심 x <strong>LG Twins</strong>; 깜자 x <strong>SSG Landers</strong> (KBO merch)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 6. THESIS -->
+<h2>6. Cross-market thesis read</h2>
+<p>The founder thesis - <strong>"indies are shut out"</strong> - does not survive any market in its blunt form, but a precise version survives cleanly in all three.</p>
+<section class="card">
+  <p style="margin-top:0"><strong><span class="mk tw"></span>Taiwan refines it.</strong> ~27% and demonstrably winning the highest-prestige formats (a listed FHC premium, the national post, a 7,100-store 集點 wave, Taipei 101) - but the dominant domestic indie (Capoo) is self-licensed, so the addressable pool is real yet thin by volume and concentrated in ~5 open creators plus an inbound-foreign channel.</p>
+  <p><strong><span class="mk jp"></span>Japan refines it.</strong> "Indies are a minor share" survives (30.5% overall; mass/platform formats - gacha, telecom points, card-skins - are near-monolithically corporate), but "shut out" weakens: the barrier is <strong>channel concentration</strong>, not access. Indies live in lifestyle retail, illustrator apparel/stationery, CVS art capsules, cosmetics - and from there reach national and global brands.</p>
+  <p><strong><span class="mk kr"></span>Korea refines it, almost identically</strong> - with a distinctive <strong>dual portfolio wall</strong>: foreign licensors (Sanrio, Pokemon, Disney, plus new Netflix screen-IP: Squid Game, KPop Demon Hunters) <em>and</em> domestic platform owners (Kakao Friends, LINE Friends/IPX, Iconix's Loopy, SAMG's Teenieping, HYBE's TinyTAN). Platform ownership is the decisive line - the most famous "Korean characters" are platform-owned = portfolio, which is why they never swell the indie column.</p>
+  <p style="margin-bottom:0"><strong>The one defensible overall read:</strong> independent IP is a stable ~quarter of East-Asian co-branding and it <em>does</em> reach the largest brands - so indies are not shut out. What is true: portfolio owns the ~70% majority and near-monopolizes the high-volume, platform-like channels; and the addressable-by-PBC slice (~12-16% of campaigns) is narrower than the raw indie share because much indie IP is self-licensed (Taiwan), captive (Japan), or platform-owned (Korea). The recurring finding: <strong>fame does not equal representability</strong> - the household-name indies are the closed ones, and PBC's real market is the quieter, broader creator tier, largest and deepest in Japan.</p>
+</section>
+
+<!-- 7. METHOD LIMITS -->
+<h2>7. Method limits &amp; where the markets aren't perfectly comparable</h2>
+<h3>Shared caveats</h3>
+<ul class="notes">
+  <li><strong>Sample census, not exhaustive.</strong> ~130 curl-verified rows per market - a structured sample, not the full population. Every share is a central estimate.</li>
+  <li><strong>Recall bias toward covered campaigns.</strong> Press-friendly campaigns are over-represented; because indie collabs skew press-friendly, this if anything <em>inflates</em> the indie share slightly - the true figure may sit a touch lower.</li>
+  <li><strong>Uneven per-year bases.</strong> 2025 is deep everywhere (n = 60/90/80); 2024 and 2026 YTD are thin and format-skewed. Read the trend as "roughly flat at a quarter" and discount both 2024 outliers.</li>
+  <li><strong>REPRESENTABLE is a judgment call, not a legal finding</strong> - directional market-entry guidance about whether an IP is captive or open, to be confirmed case by case.</li>
+</ul>
+<h3>Where the three are NOT perfectly comparable (flagged)</h3>
+<ul class="notes">
+  <li><strong>Korea excluded 2 public-body rows</strong> (Seoul-city Haechi, Daejeon-city Ggumdoli), so its base is 133, not 135. Taiwan and Japan had no public-body IP to exclude. Korea's 19/135 addressable figure uses the full 135 denominator per its own verdict, so it is very slightly conservative.</li>
+  <li><strong>Taiwan v2 is a reclassify, not a re-find.</strong> v2 re-scored and enriched the 129 v1 rows on the shared definition and added REPRESENTABLE; it did not run a fresh discovery sweep, so it inherits v1's coverage exactly. (The re-scoring moved exactly 3 rows and left 27.1% unchanged - a robustness signal.)</li>
+  <li><strong>Sampling channels differ by market.</strong> Each build opened the veins most legible in that market's press. Overall shares are comparable; per-channel composition is not identical, so channel-level cross-market comparisons need care.</li>
+  <li><strong>UNCLEAR rates &amp; causes differ.</strong> Japan ~0.8% (well-documented &copy; lines); Taiwan 3.9% (borderline brand-x-brand); Korea 4.5%, driven almost entirely by the genuinely contestable webtoon/platform ownership line.</li>
+  <li><strong>REP=unclear is not uniform.</strong> Japan carries the most (25% of indie rows), so its 16.0% addressable is a conservative floor; Korea's "yes" rows are a plausible-target estimate (agency-managed creators, private terms), and Korea's 2024-01 window misses several indies' biggest institutional collabs from 2021-2023, understating their true footprint.</li>
+</ul>
+<p style="font-size:14px"><strong>Net:</strong> the indie-share reads (~a quarter everywhere) and addressable reads (~12-16% of campaigns) are robust and comparable; the residual non-comparabilities all push in known directions and none overturn the two headline findings.</p>
+
+<div class="foot">
+  Sources (on record): <code>findings/census/taiwan-v2/</code> (129 rows) &middot; <code>findings/census/japan/</code> (131 rows) &middot; <code>findings/census/korea/</code> (135 rows). Companion analysis: <code>findings/census/census-comparison.md</code>. Every figure on this page traces to a per-market <code>_VERDICT.md</code>; no figures were invented.
+</div>
+
+</div>
+</body>
+</html>
