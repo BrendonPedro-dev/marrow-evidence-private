@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Co-branding census - five-market comparison (post-re-sweep)</title>
+<style>
+  :root{
+    color-scheme: light;
+    --plane:#f9f9f7; --surface:#fcfcfb;
+    --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,0.10);
+    /* semantic slots */
+    --open:#2a78d6;      /* indie / addressable            */
+    --closed:#eb6834;    /* closed / not representable     */
+    --neutral:#c3c2b7;   /* portfolio - recessive          */
+    --unclear:#d9d8d1;
+    --pre:#c3c2b7;       /* pre-re-sweep magnitude          */
+    /* market identity - reference categorical slots 1-5, fixed per market, never by rank */
+    --tw:#2a78d6; --jp:#eb6834; --kr:#1baf7a; --my:#eda100; --th:#e87ba4;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:where(:not([data-theme="light"])){
+      color-scheme: dark;
+      --plane:#0d0d0d; --surface:#1a1a19;
+      --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+      --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+      --open:#3987e5; --closed:#d95926; --neutral:#52514e; --unclear:#3a3a37; --pre:#52514e;
+      --tw:#3987e5; --jp:#d95926; --kr:#199e70; --my:#c98500; --th:#d55181;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --plane:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,0.10);
+    --open:#3987e5; --closed:#d95926; --neutral:#52514e; --unclear:#3a3a37; --pre:#52514e;
+    --tw:#3987e5; --jp:#d95926; --kr:#199e70; --my:#c98500; --th:#d55181;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--plane); color:var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height:1.5; font-size:16px;
+  }
+  .wrap{max-width:1040px; margin:0 auto; padding:40px 24px 80px}
+  header.top{border-bottom:1px solid var(--ring); padding-bottom:22px; margin-bottom:8px}
+  .eyebrow{font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:600}
+  h1{font-size:30px; line-height:1.15; margin:.35em 0 .15em; letter-spacing:-.01em}
+  h2{font-size:22px; margin:2.4em 0 .5em; letter-spacing:-.01em; padding-top:.3em}
+  h3{font-size:15px; margin:1.6em 0 .4em; text-transform:uppercase; letter-spacing:.06em; color:var(--ink2)}
+  h4{margin:0 0 4px; font-size:15px}
+  p{margin:.55em 0; color:var(--ink2)}
+  p.lead{color:var(--ink); font-size:17px}
+  .asof{color:var(--muted); font-size:13px}
+  strong{color:var(--ink); font-weight:650}
+  em{font-style:italic}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.86em; background:color-mix(in srgb,var(--neutral) 30%,transparent); padding:.05em .35em; border-radius:4px}
+  a{color:var(--open)}
+
+  section.card{
+    background:var(--surface); border:1px solid var(--ring); border-radius:14px;
+    padding:22px 24px; margin:18px 0;
+  }
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+  .grid5{display:grid; grid-template-columns:repeat(5,1fr); gap:12px}
+  @media (max-width:900px){ .grid5{grid-template-columns:repeat(2,1fr)} }
+  @media (max-width:760px){ .grid2{grid-template-columns:1fr} }
+
+  /* stat tiles */
+  .tile{background:var(--surface); border:1px solid var(--ring); border-radius:14px; padding:16px 16px}
+  .tile .k{font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); font-weight:600}
+  .tile .v{font-size:32px; font-weight:680; letter-spacing:-.02em; margin:.08em 0; line-height:1; color:var(--ink)}
+  .tile .sub{font-size:12.5px; color:var(--ink2)}
+
+  /* callouts */
+  .callout{border-left:4px solid var(--open); padding:4px 0 4px 18px; margin:14px 0}
+  .callout.struct{border-left-color:var(--kr)}
+  .callout.warn{border-left-color:var(--closed)}
+
+  blockquote{
+    margin:14px 0; padding:10px 0 10px 18px; border-left:3px solid var(--axis);
+    color:var(--ink2); font-size:14.5px;
+  }
+  blockquote p{margin:.35em 0}
+  blockquote cite{display:block; font-style:normal; font-size:12px; color:var(--muted); margin-top:6px}
+
+  /* tables */
+  table{width:100%; border-collapse:collapse; font-size:14px; margin:.4em 0}
+  .tscroll{overflow-x:auto}
+  th,td{text-align:right; padding:8px 10px; border-bottom:1px solid var(--grid); font-variant-numeric:tabular-nums; vertical-align:top}
+  th:first-child,td:first-child{text-align:left}
+  td.wrap-cell{white-space:normal; text-align:left; font-size:13.5px; color:var(--ink2)}
+  thead th{color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.04em; border-bottom:1px solid var(--axis)}
+  tbody tr:last-child td{border-bottom:none}
+  td.hi{font-weight:680; color:var(--ink)}
+  .mk{display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:7px; vertical-align:middle}
+  .mk.tw{background:var(--tw)} .mk.jp{background:var(--jp)} .mk.kr{background:var(--kr)}
+  .mk.my{background:var(--my)} .mk.th{background:var(--th)}
+
+  /* stacked split bars */
+  .splitrow{margin:14px 0}
+  .splitrow .lab{display:flex; justify-content:space-between; align-items:baseline; font-size:14px; margin-bottom:5px}
+  .splitrow .lab b{font-weight:650; color:var(--ink)}
+  .splitrow .lab .n{color:var(--muted); font-size:12px}
+  .stack{display:flex; height:34px; border-radius:6px; overflow:hidden; gap:2px; background:transparent}
+  .seg{display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:600; min-width:2px; white-space:nowrap}
+  .seg.port{background:var(--neutral); color:var(--ink)}
+  .seg.ind{background:var(--open); color:#fff}
+  .seg.uncl{background:var(--unclear); color:var(--ink2)}
+  .legend{display:flex; flex-wrap:wrap; gap:14px; font-size:12.5px; color:var(--ink2); margin-top:8px}
+  .legend span{display:inline-flex; align-items:center; gap:6px}
+  .legend i{width:11px; height:11px; border-radius:3px; display:inline-block}
+
+  /* horizontal magnitude bars */
+  .hbar{display:grid; grid-template-columns:150px 1fr 96px; align-items:center; gap:12px; margin:11px 0; font-size:14px}
+  .hbar .track{background:color-mix(in srgb,var(--neutral) 26%,transparent); border-radius:6px; height:26px; position:relative; overflow:hidden}
+  .hbar .fill{height:100%; border-radius:6px; background:var(--open)}
+  .hbar.tw .fill{background:var(--tw)} .hbar.jp .fill{background:var(--jp)} .hbar.kr .fill{background:var(--kr)}
+  .hbar.my .fill{background:var(--my)} .hbar.th .fill{background:var(--th)}
+  .hbar .val{text-align:right; font-variant-numeric:tabular-nums; font-weight:650; color:var(--ink)}
+  .hbar .name{color:var(--ink2)}
+
+  /* growth bars - pre segment + gained segment, 2px gap */
+  .gbar{display:grid; grid-template-columns:150px 1fr 104px; align-items:center; gap:12px; margin:11px 0; font-size:14px}
+  .gbar .track{height:26px; display:flex; gap:2px; align-items:stretch}
+  .gbar .pre{background:var(--pre); border-radius:6px 0 0 6px}
+  .gbar .gain{border-radius:0 6px 6px 0; background:var(--open)}
+  .gbar.tw .gain{background:var(--tw)} .gbar.jp .gain{background:var(--jp)} .gbar.kr .gain{background:var(--kr)}
+  .gbar.my .gain{background:var(--my)} .gbar.th .gain{background:var(--th)}
+  .gbar.solo .pre{border-radius:6px}
+  .gbar .val{text-align:right; font-variant-numeric:tabular-nums; font-weight:650; color:var(--ink)}
+  .gbar .name{color:var(--ink2)}
+
+  figure{margin:0}
+  figcaption{font-size:12.5px; color:var(--muted); margin-top:8px}
+  svg{display:block; width:100%; height:auto}
+
+  .mcards{display:grid; grid-template-columns:repeat(2,1fr); gap:16px}
+  @media (max-width:860px){ .mcards{grid-template-columns:1fr} }
+  .mcard{border:1px solid var(--ring); border-radius:12px; padding:16px 18px; background:var(--surface)}
+  .mcard .flag{font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase}
+  .mcard.tw .flag{color:var(--tw)} .mcard.jp .flag{color:var(--jp)} .mcard.kr .flag{color:var(--kr)}
+  .mcard.my .flag{color:var(--my)} .mcard.th .flag{color:var(--th)}
+  .mcard .rule{display:flex; gap:14px; flex-wrap:wrap; font-size:13px; color:var(--ink2); margin:8px 0 4px; padding-bottom:8px; border-bottom:1px solid var(--grid)}
+  .mcard .rule b{color:var(--ink)}
+  .mcard h5{margin:12px 0 4px; font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted)}
+  .mcard ul{margin:6px 0 0; padding-left:18px; font-size:13.5px; color:var(--ink2)}
+  .mcard li{margin:5px 0}
+
+  ul.notes{font-size:14px; color:var(--ink2)} ul.notes li{margin:7px 0}
+  .foot{margin-top:34px; padding-top:16px; border-top:1px solid var(--ring); font-size:12.5px; color:var(--muted)}
+  .derived{font-size:11px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color:var(--muted)}
+
+  @media print{
+    /* print always renders the light instance, whatever the OS or theme stamp says */
+    :root, :root[data-theme="dark"]{
+      color-scheme: light;
+      --plane:#fff; --surface:#fff;
+      --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+      --grid:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,0.22);
+      --open:#2a78d6; --closed:#eb6834; --neutral:#c3c2b7; --unclear:#d9d8d1; --pre:#c3c2b7;
+      --tw:#2a78d6; --jp:#eb6834; --kr:#1baf7a; --my:#eda100; --th:#e87ba4;
+    }
+    body{background:#fff}
+    .wrap{max-width:none; padding:0}
+    section.card,.tile,.mcard,figure,table{break-inside:avoid}
+    h2,h3{break-after:avoid}
+    .seg,.fill,.pre,.gain,.tile,.mk,.legend i{-webkit-print-color-adjust:exact; print-color-adjust:exact}
+    a{color:inherit; text-decoration:none}
+  }
+</style>
+</head>
+<body data-palette="#eb6834,#1baf7a,#2a78d6,#eda100,#e87ba4">
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow">PBC &middot; Licensing research</div>
+  <h1>Co-branding census: Taiwan &middot; Japan &middot; Korea &middot; Malaysia &middot; Thailand</h1>
+  <p class="asof">
+    Five-market comparison, post artist-side re-sweep &middot; as of 2026-07-29 &middot;
+    one shared definition (ownership test + pinned edge cases + REPRESENTABLE tag) &middot;
+    649 curl-verified rows &middot; every figure on this page traces to a per-market <code>_VERDICT.md</code>, a per-market <code>campaigns.md</code>, or <code>RESWEEP_SUMMARY.md</code>.
+  </p>
+  <p class="asof"><strong>Supersedes <code>census-comparison.html</code></strong> (three markets, pre-re-sweep). Record version of this page: <a href="FIVE_MARKET_COMPARISON.md"><code>FIVE_MARKET_COMPARISON.md</code></a>.</p>
+</header>
+
+<div class="callout">
+  <p class="lead"><strong>The headline.</strong> On one common instrument, independent IP is
+  <strong>20.5% to 34.9%</strong> of co-branding campaigns across five Asian markets - a <strong>continuous 1.7x band</strong>
+  with no gaps and no outliers. The pre-re-sweep table read as a 2.4x range across five apparently different market structures.
+  Much of that spread was <em>press convention</em>, not market structure.</p>
+</div>
+<div class="callout struct">
+  <p class="lead"><strong>The finding that matters more.</strong> The addressable creator bench is far broader than a brand-side census can see:
+  Korea <strong>7 &rarr; 17</strong> distinct representable creators, Malaysia <strong>4 &rarr; 14</strong>, with no new source type, no definition change,
+  and nothing changing in the markets themselves. The supply exists in every measured market and is invisible through the channels brands use to look for IP.</p>
+</div>
+
+<div class="grid5" style="margin-top:20px">
+  <div class="tile"><div class="k"><span class="mk jp"></span>Japan</div><div class="v">34.9%</div><div class="sub">indie &middot; n = 146<br>26 addressable rows (17.8%)</div></div>
+  <div class="tile"><div class="k"><span class="mk kr"></span>Korea</div><div class="v">34.0%</div><div class="sub">indie &middot; classifiable n = 156<br>28 addressable rows (17.7%)</div></div>
+  <div class="tile"><div class="k"><span class="mk tw"></span>Taiwan v2</div><div class="v">27.5%</div><div class="sub">indie &middot; n = 138<br>18 addressable rows (13.0%)</div></div>
+  <div class="tile"><div class="k"><span class="mk my"></span>Malaysia</div><div class="v">25.0%</div><div class="sub">indie &middot; n = 124<br>20 addressable rows (16.1%)</div></div>
+  <div class="tile"><div class="k"><span class="mk th"></span>Thailand</div><div class="v">20.5%</div><div class="sub">indie &middot; n = 83<br>11 addressable rows (13.3%)</div></div>
+</div>
+
+<!-- ============================ 1 ============================ -->
+<h2>1. The headline table</h2>
+<p>Post-re-sweep, one instrument, five markets. Colour identifies the market and is fixed per market throughout this page; every value is also written out, so nothing is carried by colour alone.</p>
+
+<section class="card">
+  <h3>Portfolio vs independent vs unclear</h3>
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk jp"></span>Japan</b> <span class="n">n = 146</span></div>
+    <div class="stack" role="img" aria-label="Japan: 64.4% portfolio, 34.9% independent, 0.7% unclear">
+      <div class="seg port" style="flex:64.4" title="94 rows portfolio">64.4%</div>
+      <div class="seg ind" style="flex:34.9" title="51 rows independent">34.9%</div>
+      <div class="seg uncl" style="flex:0.7"></div>
+    </div>
+  </div>
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk kr"></span>Korea</b> <span class="n">classifiable n = 156 (of 158 rows)</span></div>
+    <div class="stack" role="img" aria-label="Korea: 61.5% portfolio, 34.0% independent, 4.5% unclear">
+      <div class="seg port" style="flex:61.5" title="96 rows portfolio">61.5%</div>
+      <div class="seg ind" style="flex:34.0" title="53 rows independent">34.0%</div>
+      <div class="seg uncl" style="flex:4.5" title="7 rows unclear">4.5%</div>
+    </div>
+  </div>
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk tw"></span>Taiwan v2</b> <span class="n">n = 138</span></div>
+    <div class="stack" role="img" aria-label="Taiwan: 68.8% portfolio, 27.5% independent, 3.6% unclear">
+      <div class="seg port" style="flex:68.8" title="95 rows portfolio">68.8%</div>
+      <div class="seg ind" style="flex:27.5" title="38 rows independent">27.5%</div>
+      <div class="seg uncl" style="flex:3.6" title="5 rows unclear">3.6%</div>
+    </div>
+  </div>
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk my"></span>Malaysia</b> <span class="n">n = 124</span></div>
+    <div class="stack" role="img" aria-label="Malaysia: 74.2% portfolio, 25.0% independent, 0.8% unclear">
+      <div class="seg port" style="flex:74.2" title="92 rows portfolio">74.2%</div>
+      <div class="seg ind" style="flex:25.0" title="31 rows independent">25.0%</div>
+      <div class="seg uncl" style="flex:0.8"></div>
+    </div>
+  </div>
+  <div class="splitrow">
+    <div class="lab"><b><span class="mk th"></span>Thailand</b> <span class="n">n = 83</span></div>
+    <div class="stack" role="img" aria-label="Thailand: 79.5% portfolio, 20.5% independent, no unclear rows">
+      <div class="seg port" style="flex:79.5" title="66 rows portfolio">79.5%</div>
+      <div class="seg ind" style="flex:20.5" title="17 rows independent">20.5%</div>
+    </div>
+  </div>
+  <div class="legend">
+    <span><i style="background:var(--neutral)"></i> Portfolio</span>
+    <span><i style="background:var(--open)"></i> Independent</span>
+    <span><i style="background:var(--unclear)"></i> Unclear</span>
+  </div>
+  <p style="font-size:13px; margin-top:12px">Segments under 1% are drawn but not labelled: Japan 1 unclear row (0.7%), Malaysia 1 unclear row (0.8%). Thailand has none.</p>
+</section>
+
+<h3>The full table</h3>
+<div class="tscroll">
+<table>
+  <thead>
+    <tr><th>Market</th><th>Rows</th><th>Classifiable n</th><th>Portfolio</th><th>Independent</th><th>Unclear</th><th>REP=yes rows</th><th>Addressable share of census</th><th>Distinct REP=yes creators</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><span class="mk jp"></span><strong>Japan</strong></td><td>146</td><td>146</td><td>94 (64.4%)</td><td class="hi">51 (34.9%)</td><td>1 (0.7%)</td><td>26</td><td class="hi">17.8%</td><td>25 entries <span class="derived">[derived]</span></td></tr>
+    <tr><td><span class="mk kr"></span><strong>Korea</strong></td><td>158</td><td>156</td><td>96 (61.5%)</td><td class="hi">53 (34.0%)</td><td>7 (4.5%)</td><td>28</td><td class="hi">17.7%</td><td class="hi">17</td></tr>
+    <tr><td><span class="mk tw"></span><strong>Taiwan v2</strong></td><td>138</td><td>138</td><td>95 (68.8%)</td><td class="hi">38 (27.5%)</td><td>5 (3.6%)</td><td>18</td><td class="hi">13.0%</td><td class="hi">17 of 25 distinct indie IPs</td></tr>
+    <tr><td><span class="mk my"></span><strong>Malaysia</strong></td><td>124</td><td>124</td><td>92 (74.2%)</td><td class="hi">31 (25.0%)</td><td>1 (0.8%)</td><td>20</td><td class="hi">16.1%</td><td class="hi">14</td></tr>
+    <tr><td><span class="mk th"></span><strong>Thailand</strong></td><td>83</td><td>83</td><td>66 (79.5%)</td><td class="hi">17 (20.5%)</td><td>0 (0.0%)</td><td>11</td><td class="hi">13.3%</td><td>9 <span class="derived">[derived]</span></td></tr>
+  </tbody>
+</table>
+</div>
+
+<ul class="notes">
+  <li><strong>Denominators differ slightly, and the difference is real.</strong> Korea's split runs on the classifiable base of 156 (its 2 government/public-body rows are excluded under the pinned Kumamon rule) while its addressable share runs on all 158 campaigns (28/158 = 17.7%), which is how the Korea verdict states it both pre and post re-sweep. No other market excludes any row from its split.</li>
+  <li><strong>Two distinct-creator counts are <span class="derived">[derived]</span> by the record document</strong> from the market's own <code>campaigns.md</code>, not carried from a verdict, and the contributing row numbers are cited there. Japan: 26 REP=yes rows resolve to 25 distinct entries, four of them multi-illustrator rosters rather than single creators (<code>RESWEEP_SUMMARY.md</code> records Japan as "not re-counted"). Thailand: 11 REP=yes rows resolve to 9 distinct creators.</li>
+  <li><strong>Taiwan is stated in a different unit</strong> by its own verdict - distinct indie <em>IPs</em>, not distinct creators (17 of 25 are REP=yes, up from 13 of 21) - and is left in that unit rather than converted.</li>
+</ul>
+
+<h3>What the band replaces</h3>
+<section class="card">
+<figure>
+<svg viewBox="0 0 760 340" role="img" aria-label="Indie share before and after the artist-side re-sweep. Japan 30.5 to 34.9, Korea 24.8 to 34.0, Taiwan 27.1 to 27.5, Malaysia 12.6 to 25.0, Thailand 20.5 unchanged (reference market).">
+  <title>Indie share, brand-side sweep only vs after the artist-side re-sweep</title>
+  <!-- gridlines: 10,15,20,25,30,35 -->
+  <g stroke="var(--grid)" stroke-width="1">
+    <line x1="90" y1="290" x2="560" y2="290"></line>
+    <line x1="90" y1="241.9" x2="560" y2="241.9"></line>
+    <line x1="90" y1="193.8" x2="560" y2="193.8"></line>
+    <line x1="90" y1="145.8" x2="560" y2="145.8"></line>
+    <line x1="90" y1="97.7" x2="560" y2="97.7"></line>
+    <line x1="90" y1="49.6" x2="560" y2="49.6"></line>
+  </g>
+  <g fill="var(--muted)" font-size="11" text-anchor="end" font-variant-numeric="tabular-nums">
+    <text x="82" y="294">10</text><text x="82" y="246">15</text><text x="82" y="198">20</text>
+    <text x="82" y="150">25</text><text x="82" y="102">30</text><text x="82" y="54">35%</text>
+  </g>
+  <!-- x labels -->
+  <g fill="var(--ink2)" font-size="12.5" text-anchor="middle">
+    <text x="200" y="316">Brand-side sweep only</text>
+    <text x="520" y="316">After artist-side re-sweep</text>
+  </g>
+  <!-- connectors -->
+  <g stroke-width="2.5" fill="none">
+    <line x1="200" y1="92.9" x2="520" y2="50.6" stroke="var(--jp)"></line>
+    <line x1="200" y1="147.7" x2="520" y2="59.2" stroke="var(--kr)"></line>
+    <line x1="200" y1="125.6" x2="520" y2="121.7" stroke="var(--tw)"></line>
+    <line x1="200" y1="265.0" x2="520" y2="145.8" stroke="var(--my)"></line>
+    <line x1="200" y1="189.0" x2="520" y2="189.0" stroke="var(--th)" stroke-dasharray="5 4"></line>
+  </g>
+  <!-- endpoint markers, 2px surface ring -->
+  <g stroke="var(--surface)" stroke-width="2">
+    <circle cx="200" cy="92.9" r="5" fill="var(--jp)"></circle><circle cx="520" cy="50.6" r="5.5" fill="var(--jp)"></circle>
+    <circle cx="200" cy="147.7" r="5" fill="var(--kr)"></circle><circle cx="520" cy="59.2" r="5.5" fill="var(--kr)"></circle>
+    <circle cx="200" cy="125.6" r="5" fill="var(--tw)"></circle><circle cx="520" cy="121.7" r="5.5" fill="var(--tw)"></circle>
+    <circle cx="200" cy="265.0" r="5" fill="var(--my)"></circle><circle cx="520" cy="145.8" r="5.5" fill="var(--my)"></circle>
+    <circle cx="200" cy="189.0" r="5" fill="var(--th)"></circle><circle cx="520" cy="189.0" r="5.5" fill="var(--th)"></circle>
+  </g>
+  <!-- pre-value direct labels -->
+  <g font-size="12" font-variant-numeric="tabular-nums" text-anchor="end" fill="var(--ink2)" font-weight="600">
+    <text x="188" y="97">30.5</text>
+    <text x="188" y="130">27.1</text>
+    <text x="188" y="152">24.8</text>
+    <text x="188" y="193">20.5</text>
+    <text x="188" y="269">12.6</text>
+  </g>
+  <!-- post direct labels, name + value + correction -->
+  <g font-size="12.5" font-weight="650" text-anchor="start">
+    <text x="534" y="47" fill="var(--jp)">Japan 34.9%<tspan fill="var(--muted)" font-weight="500"> +4.4</tspan></text>
+    <text x="534" y="67" fill="var(--kr)">Korea 34.0%<tspan fill="var(--muted)" font-weight="500"> +9.2</tspan></text>
+    <text x="534" y="126" fill="var(--tw)">Taiwan 27.5%<tspan fill="var(--muted)" font-weight="500"> +0.4</tspan></text>
+    <text x="534" y="150" fill="var(--my)">Malaysia 25.0%<tspan fill="var(--muted)" font-weight="500"> +12.4</tspan></text>
+    <text x="534" y="193" fill="var(--th)">Thailand 20.5%</text>
+  </g>
+  <text x="534" y="207" font-size="11" fill="var(--muted)">reference market, no correction</text>
+</svg>
+<figcaption>Indie share of the classifiable base, before and after adding artist-side keywords to the same sources, in the same window, on the same definition. Thailand was swept artist-side from the start and is the reference line. Values direct-labelled at both ends; the y axis is truncated at 10% and does not begin at zero, because the comparison here is between two measurements of the same quantity, not between magnitudes.</figcaption>
+</figure>
+</section>
+
+<div class="callout">
+  <p><strong>The direction was one-sided in all four re-swept markets.</strong> 68 rows were added: <strong>52 INDEPENDENT, 15 PORTFOLIO, 1 UNCLEAR</strong>. Brand-side querying undercounts indie, never the reverse.</p>
+</div>
+
+<section class="card">
+  <h3>Composition of the 68 added rows</h3>
+  <div class="splitrow">
+    <div class="lab"><b>Rows appended across Japan, Korea, Taiwan and Malaysia</b> <span class="n">n = 68</span></div>
+    <div class="stack" role="img" aria-label="Of 68 added rows: 52 independent (76.5%), 15 portfolio (22.1%), 1 unclear (1.5%)">
+      <div class="seg ind" style="flex:52" title="52 rows">52 independent</div>
+      <div class="seg port" style="flex:15" title="15 rows">15 portfolio</div>
+      <div class="seg uncl" style="flex:1" title="1 row"></div>
+    </div>
+  </div>
+  <p style="font-size:13px; margin-top:10px">Per market, added as indie / portfolio / unclear: Japan 11 / 4 / 0 &middot; Korea 20 / 2 / 1 &middot; Taiwan 3 / 6 / 0 &middot; Malaysia 18 / 3 / 0. Portfolio rows caught by the artist-side net were appended rather than dropped in every market, even where they reduced the correction: without its three Touch 'n Go portfolio rows Malaysia would read 12.6% &rarr; 25.6% rather than 25.0%.</p>
+</section>
+
+<div class="grid5">
+  <div class="tile"><div class="k">Rows, whole series</div><div class="v">649</div><div class="sub">curl-verified, five markets</div></div>
+  <div class="tile"><div class="k">Independent rows</div><div class="v">190</div><div class="sub">across the five censuses</div></div>
+  <div class="tile"><div class="k">REP=yes rows</div><div class="v">103</div><div class="sub">addressable campaigns</div></div>
+  <div class="tile"><div class="k">Band, post</div><div class="v">1.7x</div><div class="sub">20.5% to 34.9%, continuous</div></div>
+  <div class="tile"><div class="k">Band, pre</div><div class="v">2.4x</div><div class="sub">12.6% to 30.5%, partly artefact</div></div>
+</div>
+<p style="font-size:13.5px"><strong>A pooled five-market indie share is deliberately not quoted.</strong> The censuses differ in depth (83 to 158 rows) and in denominator convention, so a pooled ratio would weight Japan's and Korea's deeper sweeps against Thailand's thinner one and read as a market fact rather than a sampling accident. The per-market shares are the numbers.</p>
+
+<!-- ============================ 2 ============================ -->
+<h2>2. The measurement story - why these numbers can be trusted</h2>
+<p>This section exists so an external reader can check the instrument before checking the result.</p>
+
+<section class="card">
+  <div class="grid2">
+    <div>
+      <h4>One definition, applied five times</h4>
+      <p style="font-size:13.5px">The identical ownership test (who owns the IP, not who runs the brand), the identical pinned edge cases, the identical REPRESENTABLE sub-tag on every independent row. The pinned cases travel <em>by name</em> across all five <code>campaigns.md</code> headers: Miffy/Mercis and Peanuts/Sony as estate-or-controlling-stake portfolio; Sanrio, San-X, Pokemon-Nintendo, Disney-Marvel, Warner Bros, KAKAO FRIENDS and LINE FRIENDS/BT21 as platform- or studio-owned; government-owned mascots excluded entirely (the Kumamon rule); a brand's own mascot not counted; genuine 50/50 co-ownership sent to unclear. Cross-market precedents are cited by row number, which is what makes the markets comparable row for row rather than five rulebooks compared by eye.</p>
+    </div>
+    <div>
+      <h4>Every row is curl-verified against a live, dated source</h4>
+      <p style="font-size:13.5px">Not a claim about a campaign - a fetched page: HTTP 200, with the year read off machine-readable page markup or a stated campaign window, never inferred. Thailand re-verified all 97 cited URLs at build time and went from a claimed 85 rows to a verified 83 because two did not survive the rules. Malaysia dropped a 7-Eleven Sanrio row rather than guess whether it was MY or HK. Phantom entries are the known failure class in every build and are named as such.</p>
+    </div>
+  </div>
+</section>
+
+<section class="card">
+  <h3>The brand-side undercount discovery (Thailand)</h3>
+  <p>Thailand was the first market swept with artist-side keywords, and it found the effect <em>inside a single build</em>, against the same two trade titles.</p>
+  <div class="hbar th">
+    <div class="name">Pass 1, brand-side terms</div>
+    <div class="track"><div class="fill" style="width:45.4%; background:var(--neutral)" title="4 indie rows in 43"></div></div>
+    <div class="val">9.3%</div>
+  </div>
+  <div class="hbar th">
+    <div class="name">Pass 2, + artist-side terms</div>
+    <div class="track"><div class="fill" style="width:100%" title="17 indie rows in 83"></div></div>
+    <div class="val">20.5%</div>
+  </div>
+  <p style="font-size:13.5px">Pass 1 on brand-side Thai terms (<span lang="th">คอลแลบ, คาแรกเตอร์, ลิขสิทธิ์, มาสคอต</span>, entity names) returned 4 indie rows in 43. Pass 2 added three artist-side terms (<span lang="th">ศิลปินไทย, นักวาด, ครีเอเตอร์</span>) and returned 13 more, taking the census to 17 indie in 83 rows. <strong>Same sources, same geography, same definition, same window.</strong> Brand-side PR names the licensor and omits the creator, so indie rows are structurally invisible to a brand-side query. Thailand's own verdict flagged the consequence before anyone acted on it, and rated the claim "indie share is below the Japan/Taiwan/Korea band" at <strong>Low</strong> confidence for exactly this reason.</p>
+</section>
+
+<h3>Four mechanisms, not one</h3>
+<p>The re-sweep's premise was that brand-side keywords erase creators everywhere the way they do in Thailand. That held in one of the four markets. What the run found instead is that the size of the correction tracks <em>how much of a market's creator activity is documented outside the channels a brand-side query reaches</em> - and that varies for four distinct, non-exclusive reasons.</p>
+<div class="tscroll">
+<table>
+  <thead><tr><th>Mechanism</th><th style="text-align:left">Markets</th><th style="text-align:left">What it is</th><th>Correction</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><strong>Erasure</strong></td>
+      <td style="text-align:left"><span class="mk th"></span>Thailand<br><span class="mk my"></span>Malaysia</td>
+      <td class="wrap-cell">Brand-side PR names the licensor and omits the creator. Malaysia's densest local-creator format - the festive packet given with purchase at Raya and CNY - is reported brand-side as a promotion with the illustrator named nowhere; the attribution exists in one trade publication's annual design roundups (8 rows rest on two URLs).</td>
+      <td class="hi">TH +11.2<br>MY +12.4</td>
+    </tr>
+    <tr>
+      <td><strong>Channel</strong></td>
+      <td style="text-align:left"><span class="mk jp"></span>Japan</td>
+      <td class="wrap-cell">Campaigns <em>named after the artist</em> are unreachable by a brand-side query by construction: the illustrator pop-up circuit, standing brand creator-collaboration programmes, transport and tourism tie-ins.</td>
+      <td class="hi">JP +4.4</td>
+    </tr>
+    <tr>
+      <td><strong>Segregation</strong></td>
+      <td style="text-align:left"><span class="mk kr"></span>Korea</td>
+      <td class="wrap-cell">The indie coverage exists in full, in a creator-facing character-industry trade magazine (<span lang="ko">아이러브캐릭터</span>) indexed by creator and IP owner rather than by brand, which no brand-side query class touches. 17 of Korea's 23 new rows came from it.</td>
+      <td class="hi">KR +9.2</td>
+    </tr>
+    <tr>
+      <td><strong>None of the above</strong></td>
+      <td style="text-align:left"><span class="mk tw"></span>Taiwan</td>
+      <td class="wrap-cell">zh-TW trade press names the illustrator in the headline as a selling point. One new row's source is the brand's own CNA release, headlined <span lang="zh-TW">「清心福全攜手台灣插畫家」</span>.</td>
+      <td class="hi">TW +0.4</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p style="font-size:13.5px">The mechanism is not exclusive to one market: the Japan channel mechanism supplied four Malaysian rows through Rip Curl Malaysia's quarterly "Artist of the Search" programme, and Malaysia's <em>absence</em> of a Korean-style creator trade publication is recorded as a positive finding rather than an omission.</p>
+
+<div class="callout struct">
+  <p><strong>Taiwan's null result is the control that proves the instrument.</strong> If artist-side keywords simply inflated indie counts wherever they were applied, Taiwan would have moved too. It moved <strong>+0.4 points</strong>, inside noise, and its verdict explains why in terms of the sources themselves: the zh-TW vocabulary for co-branding (<span lang="zh-TW">原創IP, 插畫家, 圖文作家</span>) is already embedded in ordinary brand-side coverage, so the two keyword classes return heavily overlapping result sets. Taiwan's new rows were a <em>channel</em> correction - 7 of 9 are venue pop-ups, a gap its own verdict had already flagged - landing roughly proportionally across both classes: 3 indie, 6 portfolio. <strong>An instrument that finds nothing where there is nothing to find, and a lot where a mechanism predicts a lot, is measuring something.</strong></p>
+</div>
+
+<section class="card">
+  <div class="grid2">
+    <div>
+      <h4>The keyword is not the classifier</h4>
+      <p style="font-size:13.5px">Artist-side keywords are a self-presentation detector, not an ownership detector, and they fail in both directions. Taiwan's dtto friends bills itself as <span lang="zh-TW">「原創角色品牌」</span> and is Dcard platform-owned; Japan's BLUE HAMHAM is framed as one creator's work but is &copy; CHOCOLATE. Korea produced the mirror image: <span lang="ko">틴틴팅클</span> self-presents as an indie instatoon and its IP business is run by Iconix, while <span lang="ko">먼작귀</span> appears in LG's own release as a "global popular character IP" with no mention of Nagano at all, yet is creator-originated. The pinned per-IP ownership test did the classification work in every case. <strong>Accepting self-description would have inflated Taiwan alone from 27.5% to 31.9%.</strong></p>
+    </div>
+    <div>
+      <h4>The excluded classes push in opposite directions</h4>
+      <p style="font-size:13.5px">Japan's artist-side net returned, in volume, portfolio IP paired with a commissioned illustrator for goods drops (<span lang="ja">初音ミク</span> x <span lang="ja">望月けい</span>, <span lang="ja">ダンガンロンパ</span> x lack, <span lang="ja">サンリオ</span> x <span lang="ja">necömi</span> and a dozen more); counting them would have pushed Japan's indie share <em>down</em>. Korea's returned brands commissioning illustrators to redraw the brand's <em>own</em> mascots; counting them would have pushed Korea's indie share <em>up</em>. Both classes are excluded under standing rules and both are itemised campaign by campaign in the respective method notes, so the boundary of each census is auditable rather than asserted.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 3 ============================ -->
+<h2>3. The breadth correction - the finding that matters most</h2>
+<p>The ratio moved. The breadth number moved more, and it is the finding most likely to matter downstream.</p>
+
+<section class="card">
+  <h3>Distinct addressable (REP=yes) creators, before and after</h3>
+  <div class="gbar kr">
+    <div class="name"><span class="mk kr"></span>Korea</div>
+    <div class="track"><div class="pre" style="width:28%" title="7 before"></div><div class="gain" style="width:40%" title="+10, to 17"></div></div>
+    <div class="val">7 &rarr; 17</div>
+  </div>
+  <div class="gbar my">
+    <div class="name"><span class="mk my"></span>Malaysia</div>
+    <div class="track"><div class="pre" style="width:16%" title="4 before"></div><div class="gain" style="width:40%" title="+10, to 14"></div></div>
+    <div class="val">4 &rarr; 14</div>
+  </div>
+  <div class="gbar jp">
+    <div class="name"><span class="mk jp"></span>Japan <span class="derived">[derived]</span></div>
+    <div class="track"><div class="pre" style="width:80%" title="20 before"></div><div class="gain" style="width:20%" title="+5, to 25"></div></div>
+    <div class="val">20 &rarr; 25</div>
+  </div>
+  <div class="gbar tw">
+    <div class="name"><span class="mk tw"></span>Taiwan <span style="font-size:11px">(distinct IPs)</span></div>
+    <div class="track"><div class="pre" style="width:52%" title="13 before"></div><div class="gain" style="width:16%" title="+4, to 17"></div></div>
+    <div class="val">13 &rarr; 17</div>
+  </div>
+  <div class="gbar th solo">
+    <div class="name"><span class="mk th"></span>Thailand <span class="derived">[derived]</span></div>
+    <div class="track"><div class="pre" style="width:36%; background:var(--th)" title="9, single pass"></div></div>
+    <div class="val">9</div>
+  </div>
+  <div class="legend">
+    <span><i style="background:var(--pre)"></i> Before the artist-side re-sweep</span>
+    <span><i style="background:var(--open)"></i> Added by it (drawn in the market's colour)</span>
+    <span><i style="background:var(--th)"></i> Thailand: one artist-side pass, so a single value and no before/after</span>
+  </div>
+  <p style="font-size:13px; margin-top:12px">Bars share a common scale (0 to 25 creators) and every value is written out. <strong>The units are not identical and are not forced together:</strong> Taiwan is stated by its verdict in distinct indie <em>IPs</em> (17 of 25, up from 13 of 21), not creators. Japan's count is <span class="derived">[derived]</span> from its <code>campaigns.md</code> because <code>RESWEEP_SUMMARY.md</code> records it as "not re-counted", and four of the 25 are multi-illustrator rosters rather than single creators. Thailand was a single artist-side pass, so it has no before value.</p>
+</section>
+
+<div class="tscroll">
+<table>
+  <thead><tr><th>Market</th><th>Distinct REP=yes, pre &rarr; post</th><th>REP=yes rows, pre &rarr; post</th></tr></thead>
+  <tbody>
+    <tr><td><span class="mk kr"></span><strong>Korea</strong></td><td class="hi">7 &rarr; 17</td><td>19 &rarr; 28</td></tr>
+    <tr><td><span class="mk my"></span><strong>Malaysia</strong></td><td class="hi">4 &rarr; 14</td><td>8 &rarr; 20</td></tr>
+    <tr><td><span class="mk tw"></span>Taiwan v2</td><td>13 of 21 &rarr; <strong>17 of 25</strong> distinct indie IPs</td><td>15 &rarr; 18</td></tr>
+    <tr><td><span class="mk jp"></span>Japan</td><td>20 &rarr; 25 entries <span class="derived">[derived]</span>; verdict records "not re-counted"</td><td>21 &rarr; 26</td></tr>
+    <tr><td><span class="mk th"></span>Thailand</td><td>9 <span class="derived">[derived]</span>, single pass, no pre/post</td><td>11</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="grid2" style="margin-top:18px">
+  <section class="card" style="margin:0">
+    <h4><span class="mk kr"></span>Korea: 7 &rarr; 17</h4>
+    <p style="font-size:13.5px">The original build resolved its 19 REP=yes rows to 7 distinct addressable creators and read that as "real breadth, but with two names doing much of the volume". The 28 REP=yes rows now resolve to 17. <strong>Ten of the eleven new names had never been seen by the original pass</strong>; only one of the nine new REP=yes rows belongs to a creator it already knew. <span lang="ko">망곰이</span> and <span lang="ko">무직타이거</span> went from 12 of 19 addressable rows to 12 of 28.</p>
+  </section>
+  <section class="card" style="margin:0">
+    <h4><span class="mk my"></span>Malaysia: 4 &rarr; 14</h4>
+    <p style="font-size:13.5px">The original verdict's phrase was <strong>"four names, not a scene"</strong>: Bichi Mao, Yellobanana, QuirkyQing, Bear Boss Buddies. The post-re-sweep table names <strong>fourteen</strong> distinct creator-owned IPs that reached a national brand inside the window, ten of them new. Only one of the twelve new REP=yes rows belongs to a creator the original pass already knew.</p>
+  </section>
+</div>
+
+<blockquote>
+  <p><strong>any concentration claim made from a brand-side census should be assumed to be a query artefact until it has been tested against an artist-side sweep.</strong></p>
+  <cite>Carried verbatim from <code>RESWEEP_SUMMARY.md</code></cite>
+</blockquote>
+<p style="font-size:13.5px">That rule applies to this page too, including to the concentration claims in section 4 that <em>did</em> survive: they survived because the instrument was pointed at them, not because they were never suspect.</p>
+
+<div class="callout struct">
+  <p><strong>What the breadth correction means.</strong> The addressable indie supply exists in every measured market, at a materially larger headcount than a brand-side view of that market shows. Korea more than doubled its addressable bench and Malaysia more than tripled it without a single new source type being invented, without the definition moving, and without anything changing in the markets themselves. <strong>The creators were there the whole time. What changed is that somebody queried in a way that could see them.</strong></p>
+  <p>Brands source IP through the same channels a brand-side query reaches: licensor PR, agency rosters, the trade press that covers campaigns brand-first. That is precisely the channel set in which this addressable supply is invisible. The gap is not a supply gap and it is not an appetite gap. It is a <strong>visibility gap between an addressable creator layer that demonstrably reaches national brands and the channels through which brands look for IP</strong> - and it is measurable, in five markets, on one instrument.</p>
+</div>
+
+<!-- ============================ 4 ============================ -->
+<h2>4. Market structure divergences - what stays different after the correction</h2>
+<p>The correction narrowed the ratios. It did not make the markets the same.</p>
+
+<h3>4.1 The machinery thesis, revised</h3>
+<section class="card">
+  <p style="margin-top:0">The pre-re-sweep explanation for Malaysia's outlier position was institutional: Malaysia lacks the two institutions that manufacture indie co-branding rows in the northern markets - <strong>a mass messaging-sticker economy</strong> (LINE in JP/TW, KakaoTalk in KR) and <strong>a convenience-store <span lang="zh-TW">集點</span> collectible culture</strong> that cycles a new illustrator IP every few weeks.</p>
+  <div class="grid2" style="margin-top:14px">
+    <div>
+      <h4>What survives</h4>
+      <p style="font-size:13.5px">The machinery is real and it is visible in the addressable benches. Korea's addressable tier is explicitly emoticon-origin - <span lang="ko">망곰이</span> is a self-run emoticon-origin IP, <span lang="ko">깜자</span> is a KakaoTalk-emoticon artist, and the verdict describes the addressable pool as "the individual emoticon/illustrator tier". Taiwan's flagship indie carried a 7-ELEVEN <span lang="zh-TW">全店精品集點</span> wave across 7,100+ stores. Both machines still do what the thesis said they do.</p>
+    </div>
+    <div>
+      <h4>What the re-sweep broke</h4>
+      <p style="font-size:13.5px">The thesis was doing double duty as the explanation for the <em>gap</em>, and at 25.0% Malaysia no longer has the gap it was invented to explain. Malaysia acquired neither a sticker economy nor a <span lang="zh-TW">集點</span> culture between the two passes. It moved because two formats and a channel were found. Its own addendum states the consequence: the market is thin <strong>"by degree, not by kind"</strong>. What survives is narrower and format-shaped - Malaysia's indie campaigns are <strong>smaller in format</strong>, festive packets and capsule tees rather than nationwide drink series and pop-up circuits.</p>
+    </div>
+  </div>
+  <p style="font-size:13.5px; margin-bottom:0"><strong><span class="mk th"></span>Thailand always contradicted the machinery thesis and is worth keeping in view.</strong> Thailand has LINE at national scale, and its sticker-creator scene barely surfaced in the census at all. The pinned sticker-ownership rule was written to decide the Thai indie bucket and "in practice it decided almost nothing". Every one of the 11 Thai indie creators is an illustrator, street artist, digital artist or art-toy designer; none was recorded licensing out from a sticker-first position. Thailand's visible indie economy is an <strong>illustrator-and-art-toy economy, not a sticker economy</strong> - and its verdict is careful that this is a statement about trade-press visibility, not a claim that the sticker economy is commercially inactive, because LINE Creators Market rosters remain unswept.</p>
+</section>
+
+<h3>4.2 The closed-formats finding, and whether it travels</h3>
+<p>Thailand's sharpest cut is not its headline ratio. It is that <strong>the formats that scale are 100% portfolio</strong>, while experiential rows are 42.9% indie. Thailand's own confidence rating on this is <strong>Medium-high</strong>, on the honest grounds that 17 rows is a small base.</p>
+
+<section class="card">
+  <h3>Indie share by format, where a counted format-by-class table exists</h3>
+  <div class="hbar th">
+    <div class="name">TH retail / CVS / e-comm</div>
+    <div class="track"><div class="fill" style="width:0"></div><span style="position:absolute; left:8px; top:3px; font-size:12.5px; font-weight:650; color:var(--ink2)">0 of 11 rows</span></div>
+    <div class="val">0.0%</div>
+  </div>
+  <div class="hbar th">
+    <div class="name">TH banking / fintech</div>
+    <div class="track"><div class="fill" style="width:0"></div><span style="position:absolute; left:8px; top:3px; font-size:12.5px; font-weight:650; color:var(--ink2)">0 of 6 rows</span></div>
+    <div class="val">0.0%</div>
+  </div>
+  <div class="hbar th">
+    <div class="name">TH experiential</div>
+    <div class="track"><div class="fill" style="width:42.9%" title="9 of 21 rows indie"></div></div>
+    <div class="val">42.9%</div>
+  </div>
+  <div class="hbar my">
+    <div class="name">MY payments / platform</div>
+    <div class="track"><div class="fill" style="width:54.5%" title="6 of 11 rows indie"></div></div>
+    <div class="val">54.5%</div>
+  </div>
+  <div class="legend">
+    <span><i style="background:var(--th)"></i> Thailand, counted format-by-class table</span>
+    <span><i style="background:var(--my)"></i> Malaysia, vein counted from its post-re-sweep rows</span>
+  </div>
+  <p style="font-size:13px; margin-top:12px"><strong>Only two of the five markets can be charted this way, and that is itself the finding.</strong> Only Thailand and Malaysia carry a per-format table in their verdicts, and only Thailand's is cut by IP class; Malaysia's format table is pre-re-sweep (n=103) and was never recomputed, so the payments/platform figure above is counted from its post-re-sweep rows rather than taken from that table. Taiwan, Japan and Korea record format structure as targeted-vein observations rather than counted tables, and their bucket vocabularies differ from each other and from Thailand's. <strong>A merged five-market format-by-class table is therefore not derivable and is not presented.</strong></p>
+</section>
+
+<div class="tscroll">
+<table>
+  <thead><tr><th>Market</th><th style="text-align:left">Evidence on high-distribution formats</th><th style="text-align:left">Verdict</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><span class="mk th"></span><strong>Thailand</strong></td>
+      <td class="wrap-cell">Retail/CVS/e-comm 0 of 11 indie; banking/fintech 0 of 6. 17 rows, zero indie, every one running on Disney, Sanrio, LINE FRIENDS, POP MART, Marvel, Shin-chan or Butterbear. Counted table, cut by class.</td>
+      <td class="wrap-cell"><strong>Supports.</strong> The only market with a counted format-by-class cut.</td>
+    </tr>
+    <tr>
+      <td><span class="mk jp"></span><strong>Japan</strong></td>
+      <td class="wrap-cell">"The gaming/payment/telecom vein came back 100% portfolio on targeted search"; indies "largely absent from gacha, card-skins, telecom points, and national vending". Stated as vein observation, not a counted table.</td>
+      <td class="wrap-cell"><strong>Supports</strong>, in weaker evidentiary form.</td>
+    </tr>
+    <tr>
+      <td><span class="mk kr"></span><strong>Korea</strong></td>
+      <td class="wrap-cell">"Finance/card, telecom, travel/hospitality, bakery/dessert, mobile-game, snack/beverage packaging, and premium eyewear came back essentially 100% portfolio." The addendum confirms the artist-side pass did not dent it: "no artist-side query returned a single finance, telecom, hospitality or snack-packaging indie row."</td>
+      <td class="wrap-cell"><strong>Supports, and it survived the re-sweep</strong> - the strongest form of this finding in the series, because it was re-tested with a better instrument and held.</td>
+    </tr>
+    <tr>
+      <td><span class="mk tw"></span><strong>Taiwan</strong></td>
+      <td class="wrap-cell">Bugcat Capoo, a creator-owned indie, carried a 7-ELEVEN x <span lang="zh-TW">國立故宮博物院</span> flagship <span lang="zh-TW">全店精品集點</span> wave across 7,100+ stores; also <span lang="zh-TW">華南金控</span> (listed financial holding company, shareholder gift), <span lang="zh-TW">中華郵政</span> (national postal service) and CTBC.</td>
+      <td class="wrap-cell"><strong>Contradicts.</strong> The highest-distribution retail-loyalty format in the country was headlined by an indie IP.</td>
+    </tr>
+    <tr>
+      <td><span class="mk my"></span><strong>Malaysia</strong></td>
+      <td class="wrap-cell">The payments/platform vein is 11 rows and 6 of them are indie: Touch 'n Go x QuirkyQing (REP=yes), KTM Komuter x Bichi Mao (yes), foodpanda x Yellobanana (yes), Lalamove x Yellobanana (yes), Touch 'n Go x Loka Made (unclear), Maxim x five Sabah/Sarawak illustrators (unclear). Its verdict calls fintech/payments "a genuine Malaysian format" with no equivalent depth elsewhere in the series.</td>
+      <td class="wrap-cell"><strong>Contradicts</strong>, and in the format Thailand found most closed.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="callout warn">
+  <p><strong>The synthesis.</strong> "High-distribution formats are closed to indie IP" is a real finding in Thailand, Japan and Korea and a false one in Taiwan and Malaysia. Where it holds, the closure is in <em>corporate-premium and screen-IP-driven</em> channels - finance cards, telecom points, national vending, snack packaging. Where it breaks, it breaks through a specific instrument: a national retail-loyalty programme that chose an indie IP on its merits (Taiwan), and a stored-value card line that treats creator artwork as a product category (Malaysia). Both exceptions are existence proofs that the closure is a market convention rather than a structural impossibility. Korea's is the version to be most careful about disputing, because it is the only one re-tested with the artist-side instrument and still returning zero.</p>
+</div>
+
+<h3>4.3 Format mix per market</h3>
+<div class="tscroll">
+<table>
+  <thead><tr><th>Market</th><th style="text-align:left">What leads</th><th style="text-align:left">Evidence base</th></tr></thead>
+  <tbody>
+    <tr><td><span class="mk th"></span><strong>Thailand</strong></td><td class="wrap-cell"><strong>Licensed goods and mall experience, not F&amp;B.</strong> Product/licensed goods 38.6%, experiential 25.3%, F&amp;B 10.8%.</td><td class="wrap-cell">Counted table, <code>thailand/_VERDICT.md</code> &sect;3. Called "the sharpest format divergence from the prior markets in the series".</td></tr>
+    <tr><td><span class="mk my"></span><strong>Malaysia</strong></td><td class="wrap-cell"><strong>Retail and FMCG, not F&amp;B.</strong> Retail/FMCG/supermarket 25 rows, cafe/bubble tea 21, convenience 13, mall/venue 13, QSR 12. QSR is a 2025 arrival (0 rows in 2024).</td><td class="wrap-cell">Counted table, <code>malaysia/_VERDICT.md</code> &sect;3, <strong>pre-re-sweep n=103, not recomputed</strong>.</td></tr>
+    <tr><td><span class="mk tw"></span><strong>Taiwan</strong></td><td class="wrap-cell">Convenience-store <span lang="zh-TW">集點</span>, handshake-drink chains, cosmetics, plus a venue/pop-up circuit the re-sweep partly opened.</td><td class="wrap-cell">Vein description, <code>taiwan-v2/_VERDICT.md</code> &sect;5 + addendum. No counted format table.</td></tr>
+    <tr><td><span class="mk jp"></span><strong>Japan</strong></td><td class="wrap-cell">Lifestyle retail (Loft, Village Vanguard, Don Quijote, Kiddy Land), illustrator apparel/stationery, CVS art capsules, cosmetics/variety - plus, new from the re-sweep, the illustrator pop-up circuit, standing brand creator-programmes and transport/tourism.</td><td class="wrap-cell">Vein description, <code>japan/_VERDICT.md</code> &sect;4 + addendum. No counted format table.</td></tr>
+    <tr><td><span class="mk kr"></span><strong>Korea</strong></td><td class="wrap-cell">Beauty (the Olive Young rollout machine), apparel (SPAO), convenience, and distinctively KBO/K-League sports-club merch - plus, new from the re-sweep, mid-market apparel below the SPAO tier, hardware/houseware, cinema exhibition and K League.</td><td class="wrap-cell">Vein description, <code>korea/_VERDICT.md</code> &sect;3-4 + addendum. No counted format table.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<section class="card">
+  <h4>The mall-as-indie-buy-side finding is Thai, and has one partial analogue</h4>
+  <p style="font-size:13.5px">Siam Piwat, The Mall Group, Central, ICONSIAM, Future Park and Jungceylon between them account for most of Thailand's 9 indie experiential rows: "Thai malls are a first-class licensing channel in a way they were not in Malaysia." The nearest analogue is Taiwan's venue/pop-up channel (<span lang="zh-TW">華山, 松菸</span>, AIPXA LAND, <span lang="zh-TW">西門地下市, 新光三越</span>), which supplied 7 of the 9 rows its re-sweep added. Malaysia's mall/venue growth runs the other way: it is driven almost entirely by POP MART's nine-store footprint and the Pokemon Truck tour, which are portfolio. <strong>Same format bucket, opposite class composition</strong> - which is exactly why the merged table is refused above.</p>
+  <h4 style="margin-top:16px">One recurring non-lifestyle format is worth naming across markets</h4>
+  <p style="font-size:13.5px">It is the most agency-shaped thing the re-sweep found: <strong>hardware and durable-goods brands running standing, recurring, individually-contracted creator programmes.</strong> Japan has Pixio (2nd instalment, four named freelance illustrators), CyberAgent's Pigg Party (3rd, <span lang="ja">寺田てら</span>) and Superbag (4th, mame), which Japan's addendum calls "the single most PBC-shaped format found in the whole Japan build". Korea has Epson Korea's label-printer editions with three named illustrators, <span lang="ko">락앤락</span> x <span lang="ko">벌룬프렌즈</span> and <span lang="ko">프린팅박스</span> x <span lang="ko">해요</span>. Malaysia has Rip Curl's quarterly "Artist of the Search", Skechers' SkechVibe and Montigo x Humana Art. Three markets, the same shape, and <strong>none of the three original brand-side passes had any read on it</strong>.</p>
+</section>
+
+<h3>4.4 Concentration where it genuinely survives</h3>
+<p>Two concentration findings were tested against an artist-side instrument and held.</p>
+<div class="grid2">
+  <section class="card" style="margin:0">
+    <h4><span class="mk th"></span>Thailand: Butterbear, 17 of 83 rows</h4>
+    <div class="splitrow">
+      <div class="lab"><b>Share of the whole Thai census</b> <span class="n">n = 83</span></div>
+      <div class="stack" role="img" aria-label="Butterbear accounts for 17 of Thailand's 83 rows, 20.5%">
+        <div class="seg ind" style="flex:20.5; background:var(--th); color:#0b0b0b" title="17 rows">20.5%</div>
+        <div class="seg port" style="flex:79.5" title="66 other rows">all other IP</div>
+      </div>
+    </div>
+    <p style="font-size:13.5px">The only concentration figure in the series measured on an artist-side instrument from the start, so it is not exposed to the query-artefact rule. Distribution: 1 row in 2024, 12 in 2025, 4 in 2026YTD, across <strong>15 distinct licensee brands</strong>, each separately sourced, spanning FMCG, telco, fintech, banking, electronics, apparel, houseware, QSR, pet food, optics and travel retail. Rated <strong>High</strong> confidence as a genuine structural feature. <strong>Note what it is:</strong> a corporate-owned mascot licensed out - PORTFOLIO under the pinned Malaysia row 8 call, not an indie success story. Thai IP concentration overall is severe: Butterbear, the POP MART stable (11 rows), Sanrio (11) and the Disney family (10) cover 49 of 83 rows.</p>
+  </section>
+  <section class="card" style="margin:0">
+    <h4><span class="mk tw"></span>Taiwan: Bugcat Capoo</h4>
+    <div class="splitrow">
+      <div class="lab"><b>Share of Taiwan's REP=no rows</b> <span class="n">17 closed indie rows</span></div>
+      <div class="stack" role="img" aria-label="Capoo accounts for 8 of Taiwan's 17 REP=no rows">
+        <div class="seg ind" style="flex:8; background:var(--tw)" title="8 rows">8 rows</div>
+        <div class="seg port" style="flex:9" title="9 rows">9 rows, other closed indie</div>
+      </div>
+    </div>
+    <p style="font-size:13.5px">8 of 35 indie rows pre-re-sweep (23% of all indie rows), and post-re-sweep still 8 of the 17 REP=no rows. Taiwan's re-sweep was the null result, so this concentration was measured with the artist-side net in hand and did not dissolve. It is a different <em>kind</em> of concentration from Thailand's: Capoo is creator-owned, and the concentration matters because the owner runs licensing through his own captive studio (<span lang="zh-TW">卡特島創意</span>), which is what makes Taiwan's most prominent indie IP unaddressable. That is why Taiwan's addressable read is stronger by distinct IP (17 of 25, 68%) than by row volume (13.0% of the census).</p>
+  </section>
+</div>
+<p style="font-size:13.5px"><strong>The two that dissolved</strong> are in section 3: Korea's "a few recycled names" and Malaysia's "four names, not a scene". The pattern is legible. Concentration claims about a <em>portfolio</em> IP's licensing footprint (Butterbear) or about a <em>named, already-visible</em> indie's captivity (Capoo) survived, because brand-side querying sees those things well. Concentration claims about <em>the size of the addressable creator bench</em> did not survive, because that is precisely what brand-side querying cannot see.</p>
+
+<!-- ============================ 5 ============================ -->
+<h2>5. Per-market one-page reads</h2>
+<p>These are the pages a pitch pulls from. Each carries its market's own honesty caveats, unsoftened.</p>
+
+<div class="mcards">
+
+  <div class="mcard jp">
+    <div class="flag">Japan</div>
+    <h4>n = 146 &middot; mechanism: channel</h4>
+    <div class="rule">
+      <span>Indie <b>34.9%</b></span><span>Portfolio <b>64.4%</b></span><span>Unclear <b>0.7%</b></span><span>Correction <b>+4.4</b></span>
+    </div>
+    <div class="rule"><span>Addressable <b>26 rows, 17.8%</b> - about one campaign in six</span><span>Distinct <b>25 entries</b> <span class="derived">[derived]</span></span></div>
+    <p style="font-size:13.5px; margin-top:10px">Campaigns named after the artist are unreachable by a brand-side query by construction.</p>
+    <h5>Sharpest findings</h5>
+    <ul>
+      <li><strong>Fame does not equal representability.</strong> The viral SNS-character indies (mofusand, Opanchu Usagi, Kanahei, Colorful Peach) are exactly the ones locked to captive studios or master licensors and score REP=no. The cleanly addressable pool is the quieter individual-illustrator tier doing open non-exclusive brand collabs.</li>
+      <li><strong>Indies reach the largest brands, repeatedly.</strong> Higuchi Yuko, a living self-owned painter, ran campaigns with both Lawson and Morinaga. foxco reached Calbee; foxy reached CASETiFY; Yuhachi reached Bandai Gashapon; Oono Taro reached 3COINS.</li>
+      <li><strong>The re-sweep opened two formats the original pass had no read on at all</strong>: standing brand creator-collaboration programmes (Pixio, Pigg Party, Superbag - recurring, non-exclusive, individually contracted) and transport/tourism (JR<span lang="ja">東海</span>'s <span lang="ja">推し旅</span> built a prefecture-wide campaign around one illustrator).</li>
+    </ul>
+    <h5>Caveats</h5>
+    <ul>
+      <li><strong>The largest artist-side yield in Japan was not indie.</strong> It was portfolio IP paired with a commissioned illustrator, excluded by rule and named campaign by campaign.</li>
+      <li><strong>REPRESENTABLE is the softer call</strong>: 10 of 51 indie rows are REP=unclear because exclusivity is rarely public, so 17.8% is a conservative floor.</li>
+      <li><strong>Aggregator dependence rose in the re-sweep</strong>: 9 of the 15 new rows rest on collabo-cafe alone, each flagged.</li>
+      <li><strong>No 2024 rows were added</strong> (newest-first pagination reached back only to 2025-02), so 2024 is the only year the correction did not touch.</li>
+      <li>One marginal format was admitted and flagged; a stricter reading gives 34.5%.</li>
+    </ul>
+  </div>
+
+  <div class="mcard kr">
+    <div class="flag">Korea</div>
+    <h4>n = 158 (classifiable 156) &middot; mechanism: segregation</h4>
+    <div class="rule">
+      <span>Indie <b>34.0%</b></span><span>Portfolio <b>61.5%</b></span><span>Unclear <b>4.5%</b></span><span>Correction <b>+9.2</b></span>
+    </div>
+    <div class="rule"><span>Addressable <b>28 rows, 17.7%</b> of all 158</span><span>Distinct <b>17, up from 7</b></span></div>
+    <p style="font-size:13.5px; margin-top:10px">A creator-facing trade magazine indexed by creator and IP owner, which no brand-side query class touches.</p>
+    <h5>Sharpest findings</h5>
+    <ul>
+      <li><strong>The missing campaigns were in an untouched <em>publication</em>, not an untouched format.</strong> <span lang="ko">아이러브캐릭터</span> supplied 17 of the 23 appended rows, and essentially none appear in the ko lifestyle/beauty/brand press the original pass swept. The original verdict named "recall bias toward covered campaigns" as a limit; this is the concrete form that bias took.</li>
+      <li><strong>The dual portfolio wall is distinctive and untouched by the re-sweep.</strong> Foreign licensors (Sanrio, Pokemon, Disney, and newly Netflix screen IP) plus domestic platform owners (Kakao Friends, LINE Friends/IPX, Iconix, SAMG, HYBE, Devsisters). Both new portfolio rows are foreign-licensor rows.</li>
+      <li><strong>Indie IP reaches professional sport and national retail.</strong> <span lang="ko">무직타이거</span> on a first-division K-League match-day kit (Ulsan HD); <span lang="ko">최고심</span> with LG Twins and <span lang="ko">깜자</span> with SSG Landers (KBO); <span lang="ko">망곰이</span> across Olive Young, SPAO and CU. The re-sweep added <span lang="ko">광주FC</span> and <span lang="ko">메가박스</span>.</li>
+    </ul>
+    <h5>Caveats</h5>
+    <ul>
+      <li><strong>"Indie share sits at about a quarter" is superseded by the census's own addendum</strong>: it is about a third.</li>
+      <li><strong>Single-publication dependence is worse than Japan's</strong>: 17 of 23 new rows rest on one outlet, each flagged.</li>
+      <li><strong>Ownership evidence is thinner on the appended block</strong>: 9 of the 20 new indie rows are REP=unclear, and one row is IP-class UNCLEAR because the owning entity could not be established.</li>
+      <li><strong>2024 remains the thin, under-corrected year</strong> (only 3 of 23 new rows).</li>
+      <li><strong>Window-boundary caveat:</strong> several of the most representable indies ran their biggest institutional collabs <em>before</em> the 2024-01 window, so their true footprint is larger than this window captures.</li>
+      <li>Two marginal formats admitted and flagged; a stricter reading gives 33.1%. <span lang="ko">틴틴팅클</span> is flagged rather than buried: INDEPENDENT/REP=no on the pinned test, but a reasonable analyst could move it to PORTFOLIO.</li>
+    </ul>
+  </div>
+
+  <div class="mcard tw">
+    <div class="flag">Taiwan v2</div>
+    <h4>n = 138 &middot; mechanism: none of the above (the control)</h4>
+    <div class="rule">
+      <span>Indie <b>27.5%</b></span><span>Portfolio <b>68.8%</b></span><span>Unclear <b>3.6%</b></span><span>Correction <b>+0.4</b></span>
+    </div>
+    <div class="rule"><span>Addressable <b>18 rows, 13.0%</b></span><span>Distinct <b>17 of 25 indie IPs (68%)</b> - the highest open rate per distinct IP in the series</span></div>
+    <p style="font-size:13.5px; margin-top:10px">zh-TW trade press already names the illustrator in the headline, so the two keyword classes overlap heavily.</p>
+    <h5>Sharpest findings</h5>
+    <ul>
+      <li><strong>The volume/distinct gap is the whole Taiwan story.</strong> Only 13.0% of campaigns are addressable, because Bugcat Capoo (self-licensed through <span lang="zh-TW">卡特島創意</span>) drives 8 of 17 REP=no rows, and Kanahei, mofusand, <span lang="zh-TW">黃阿瑪</span>, Kusama and LuLu are each captive in their own way. By distinct IP the market is the most open measured.</li>
+      <li><strong>Indies win Taiwan's highest-prestige formats.</strong> A 7-ELEVEN x <span lang="zh-TW">國立故宮博物院</span> 7,100-store <span lang="zh-TW">集點</span> wave, a listed FHC's shareholder gift, the national postal service, <span lang="zh-TW">台北101</span>'s observatory, CeraVe and Sulwhasoo.</li>
+      <li><strong>The addressable bench is split domestic/inbound.</strong> Roughly five open Taiwan-origin creator IPs plus eight foreign indies active in Taiwan (KR/JP/UK), with the re-sweep adding Nuomi <span lang="zh-TW">諾米</span>, Mia <span lang="zh-TW">林孜育</span>, <span lang="zh-TW">好球先生</span> Mr. STRIKE and mikko.</li>
+    </ul>
+    <h5>Caveats</h5>
+    <ul>
+      <li><strong>v2 was a re-classification, not a re-discovery</strong> (until the re-sweep), so it inherits v1's coverage: the row set, sources and dates are v1's.</li>
+      <li><strong>Sample skew likely understates rather than overstates indie share</strong> - it over-indexes convenience-store <span lang="zh-TW">集點</span>, drink chains and cosmetics (heavily portfolio) and under-indexes indie pop-ups, stationery and gaming.</li>
+      <li><strong>Dateless indie candidates remain excluded and listed</strong>, so 27.5% is a floor. One dated row is left unclassified rather than guessed, logged as a hole. Two new rows are single-source flagged.</li>
+      <li><strong>REPRESENTABLE is directional guidance, not a legal finding</strong> - the Capoo=no call drives most of the "no" volume and rests on a defensible read of a captive studio.</li>
+    </ul>
+  </div>
+
+  <div class="mcard my">
+    <div class="flag">Malaysia</div>
+    <h4>n = 124 &middot; mechanism: erasure (+ imported channel)</h4>
+    <div class="rule">
+      <span>Indie <b>25.0%</b></span><span>Portfolio <b>74.2%</b></span><span>Unclear <b>0.8%</b></span><span>Correction <b>+12.4</b>, the largest in the series</span>
+    </div>
+    <div class="rule"><span>Addressable <b>20 rows, 16.1%</b></span><span>Distinct <b>14, up from 4</b></span></div>
+    <p style="font-size:13.5px; margin-top:10px">Brand-side PR names the licensor and omits the creator - plus the Japan channel mechanism imported through brand creator-programmes.</p>
+    <h5>Sharpest findings</h5>
+    <ul>
+      <li><strong>The undercount was an entire format and an entire channel, not the named backlog.</strong> The festive packet (sampul Raya, CNY angpao given with purchase) is Malaysia's densest local-creator format and its brand-side coverage names no illustrator anywhere; the attribution exists in one trade publication's annual design roundups. Eight rows rest on those two URLs.</li>
+      <li><strong>"Four names, not a scene" was a brand-side artefact.</strong> Fourteen distinct creator-owned IPs reached a national brand inside the window.</li>
+      <li><strong>Malaysia has no creator-facing character-industry trade publication</strong>, and that absence is itself the finding: attribution lives in general marketing trade press, in brand newsrooms, and on brand-official artist landing pages. Its payments-card vein is unique in the series for depth, and unlike Thailand's it is open to indie IP.</li>
+    </ul>
+    <h5>Caveats - the least settled market in the series</h5>
+    <ul>
+      <li><strong>The honest range is 18.4% to 25.0%.</strong> Ten of the 18 new indie rows are the definitional frontier - commissioned original artwork on a co-branded premium rather than a pre-existing licensed character. They are counted because the census's own standing rule was written for that exact shape. A reader who draws the line at pre-existing character IP gets n=114, 21 indie, <strong>18.4%</strong>. <em>Both ends of that range destroy the pre-re-sweep finding.</em></li>
+      <li><strong>The dateless backlog grew rather than closed.</strong> All 160 releases in Touch 'n Go's press-release index were enumerated and not one artist card has a press release; two further undated cards were discovered, so the backlog goes from five campaigns to <strong>seven</strong>. Adding all seven would give 38/131 = 29.0%. A further undated set is still listed. Roughly another four points sit there.</li>
+      <li><strong>Source concentration is the structural weakness, and the re-sweep swapped one dependence for another.</strong> 72 of the original 103 rows came from one deals site (69.9%); 8 of the 21 new rows rest on two Marketing-Interactive URLs. Nine of the 21 are single-source overall.</li>
+      <li><strong>The 2026 skew is an artefact, not a surge</strong> - see section 6.</li>
+      <li><strong>The zh-language Malaysian press was swept only lightly.</strong> Any Malaysian-Chinese creator whose coverage is zh-only is likely still missing.</li>
+      <li><strong>Social-only evidence remains uncounted and it censors indie rows specifically</strong>, because portfolio campaigns get press releases and indie campaigns get Instagram posts.</li>
+      <li>Four BM-language rows carry translation-confidence flags (confidence recorded high in each); one row is dated from a Shopify <code>created_at</code> timestamp; five new rows have an announcement date but no stated window. <strong>The format table in its verdict is pre-re-sweep (n=103)</strong> and was not recomputed.</li>
+    </ul>
+  </div>
+
+  <div class="mcard th">
+    <div class="flag">Thailand</div>
+    <h4>n = 83 &middot; mechanism: erasure (where it was discovered)</h4>
+    <div class="rule">
+      <span>Indie <b>20.5%</b></span><span>Portfolio <b>79.5%</b></span><span>Unclear <b>0</b></span><span>Correction <b>none</b> - artist-side from the start</span>
+    </div>
+    <div class="rule"><span>Addressable <b>11 rows, 13.3%</b></span><span>Distinct <b>9</b> <span class="derived">[derived]</span>, 10 of the 11 rows Thai</span></div>
+    <p style="font-size:13.5px; margin-top:10px">The reference market for the whole series.</p>
+    <h5>Sharpest findings</h5>
+    <ul>
+      <li><strong>The keyword finding itself</strong>, the most transferable result in the series, which reset four other markets: 9.3% brand-side, 20.5% with artist-side terms added, same two trade titles.</li>
+      <li><strong>The channels that scale are closed</strong> (section 4.2): retail/CVS/e-comm, banking and fintech are 17 rows and 0 indie, while experiential is 42.9% indie. Thai malls are the buy side for indie IP.</li>
+      <li><strong>The addressable layer is domestic, individual and named in the press</strong>, and two creators recur across four large corporates: BABYBOY/StupidnoobMacc (LG, CPF) and Bad Meaw (Samsung, AIS). Both recurrences are ad-hoc, with no agency named in any of the four sources.</li>
+    </ul>
+    <h5>Caveats</h5>
+    <ul>
+      <li><strong>This is the thinnest census in the series</strong> - 83 rows against 124-158 elsewhere - and its verdict says so plainly: a credible sample of a market that would support 120-140 rows.</li>
+      <li><strong>Single-source rate is the highest in the series: 73 of 83 rows (87.9%).</strong> Only 10 rows carry a second corroborating URL.</li>
+      <li><strong>8 rows carry a <code>TH-src (low conf)</code> translation flag</strong>, two of them on indie class calls. Reclassifying both would move 20.5% to 18.1%; dropping all four illustration-IP rows would move it to 17.7%. The finding survives both stress tests.</li>
+      <li><strong>Named holes:</strong> brand Facebook pages completely unswept (the largest known gap, and the one most likely to <em>suppress</em> the indie share); two of four trade titles unsweepable with the available tooling; LINE Creators Market rosters unswept; Lotus's contributes zero rows, which is not a plausible true value.</li>
+      <li><strong>Per-year slices are not trend-readable</strong> - see section 6. One judgement call is named as contestable rather than hidden: Watsons x Artstory by Autistic Thai was excluded as a CSR art programme.</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- ============================ 6 ============================ -->
+<h2>6. Caveats, carried verbatim and not softened</h2>
+
+<h3>1. Per-year slices within markets are NOT trend-readable</h3>
+<p><strong>The overall per-market shares are the numbers to quote.</strong></p>
+<blockquote>
+  <p><strong>The overall per-market shares are the numbers to quote across markets. The year trends within a market should not be read as growth.</strong></p>
+  <cite><code>RESWEEP_SUMMARY.md</code></cite>
+</blockquote>
+<blockquote>
+  <p>Thirteen of 21 new rows are 2026YTD, and 2026's indie share jumps to 39.1%. That is almost entirely because the festive-packet roundups exist for CNY 2026 and Raya 2026 and were not found for 2024 or 2025. Equivalent campaigns almost certainly ran in both earlier years. <strong>The per-year trend line (16.0 -&gt; 17.0 -&gt; 39.1) should not be read as growth.</strong> The overall 25.0% is the number to quote; the year series is now less trustworthy than it was before this pass, not more.</p>
+  <cite><code>malaysia/_VERDICT.md</code>, on its own 2026 figure</cite>
+</blockquote>
+<blockquote>
+  <p><strong>No 2024 rows were added.</strong> The artist-side index pages that carried this vein (collabo-cafe tag pagination) run newest-first and the pages read reached back to 2025-02. 2024 remains the thin, format-skewed slice Section 5 describes, and is now <em>also</em> the only year the artist-side correction did not touch - so the 2024 vs 2025 gap in the per-year table is even more of a coverage artifact than before, not less.</p>
+  <cite><code>japan/_VERDICT.md</code>, on its pagination artefact</cite>
+</blockquote>
+<blockquote>
+  <p><strong>Do not report that as a market trend.</strong> It is far more likely a sampling artefact, and the honest read is that this census cannot resolve a year-on-year indie trend for Thailand at all.</p>
+  <cite><code>thailand/_VERDICT.md</code>, whose per-year line reads as a collapse and recovery</cite>
+</blockquote>
+<p>Korea's 2024 slice carries the same warning (only 3 of 23 new rows are 2024, because the trade magazine's index paginates newest-first), and Taiwan's 2026YTD is a partial seven-month year. <strong>No per-year figure from any of the five markets should be quoted as a trend.</strong> That is why no per-year chart appears anywhere on this page.</p>
+
+<h3>2. The instrument is common, but not uniformly deep</h3>
+<blockquote>
+  <p>The first caveat is that the instrument is common but not uniformly deep. Taiwan's leg added 9 rows and Korea's added 23, not because Taiwan has less indie activity but because Taiwan's brand-side pass had already caught most of it; the residual risk is that a market with a low correction was well-swept and a market with a high correction may still be under-swept.</p>
+  <cite><code>RESWEEP_SUMMARY.md</code></cite>
+</blockquote>
+<p>Malaysia is explicitly the least settled of the five: its honest range is <strong>18.4% to 25.0%</strong>, and a named backlog of seven Touch 'n Go creator cards plus roughly seven further social-evidence-only campaigns remains excluded purely for want of a date - dating them would add about another four points. Each re-sweep is also, by construction, a targeted vein rather than a random sample. Japan's and Korea's addenda both say so in the same words: the post-re-sweep figure should be read as <em>the ratio after adding a channel (or a press vein) the first pass under-covered</em>, not as a random-sample correction of a biased estimate. <strong>The direction is right and the mechanism is evidenced; the magnitude is not a confidence interval.</strong></p>
+
+<h3>3. These are sample censuses, not exhaustive counts</h3>
+<p>Every one of the five verdicts says this in its own opening lines. Shares are estimates from a structured sample of press-visible campaigns, not population parameters. Recall bias runs toward campaigns that got covered, and each verdict states which direction that biases its own number: Japan and Korea judge it a slight <em>inflation</em> of indie share (indie collabs skew press-friendly), Taiwan and Thailand judge it a <em>suppression</em> (small and regional indie collabs are under-covered, and Thailand's unswept Facebook vein is the gap most likely to contain small-brand x indie campaigns).</p>
+
+<h3>4. No outcomes anywhere</h3>
+<blockquote>
+  <p><strong>What is not claimed anywhere in any of these censuses:</strong> no outcome, no sell-through, no royalty, no performance figure, for any row in any market.</p>
+  <cite><code>RESWEEP_SUMMARY.md</code></cite>
+</blockquote>
+<p>This comparison inherits that standard without exception. Nothing on this page is a claim about whether any campaign worked. Every figure here counts <em>campaigns that provably happened and who owned the IP in them</em>, and nothing else. Where a creator is described as reaching a national brand, that is a statement about a campaign existing, not about how it performed.</p>
+
+<!-- ============================ 7 ============================ -->
+<h2>7. What's next</h2>
+<section class="card">
+  <p style="margin-top:0">The five markets measured here are the ones swept, not the ones that matter. <strong>Singapore, Hong Kong, Indonesia, Vietnam and the Philippines</strong> are the named next markets, and they should be built <strong>artist-side from birth</strong> rather than swept brand-side and corrected later. The four-mechanism taxonomy in section 2 is now a set of testable per-market predictions - does the local trade press credit creators in-headline; is there an artist-named-campaign channel; is there a segregated creator-facing trade publication; is the dominant local-creator format one whose brand-side coverage omits the creator - and each new market either confirms or breaks it.</p>
+  <p>Three named pieces of unfinished work sit inside the existing five: <strong>Malaysia's dateless backlog</strong> (seven Touch 'n Go creator cards plus roughly seven social-evidence-only campaigns, worth about four points), <strong>the zh-language Malaysian press</strong>, swept only lightly because EN and BM filled the leg, and <strong>Thailand's unswept Facebook and LINE Creators Market veins</strong>, which are that market's largest known holes and the ones most likely to raise its number.</p>
+  <p style="margin-bottom:0"><strong>This document re-renders as markets join and as those holes close.</strong></p>
+</section>
+
+<div class="foot">
+  <p><strong>Method note.</strong> Every number on this page traces to a file in <code>findings/census/</code>. Two distinct-creator counts are marked <span class="derived">[derived]</span> because they were computed by the record document from a market's own <code>campaigns.md</code> rather than carried from a verdict; the contributing row numbers are cited there. Where the markets' vocabularies differ - format buckets in particular - the mapping is shown or the merge is explicitly refused (section 4.2). <strong>No discrepancy was found between the commissioning task's stated figures and the files.</strong> Charts render only real numbers and are direct-labelled; no aggregate is invented, and no pooled five-market ratio is quoted.</p>
+  <p>Sources, on record: <code>findings/census/japan/</code> (146 rows) &middot; <code>findings/census/korea/</code> (158 rows) &middot; <code>findings/census/taiwan-v2/</code> (138 rows) &middot; <code>findings/census/malaysia/</code> (124 rows) &middot; <code>findings/census/thailand/</code> (83 rows) &middot; <code>findings/census/RESWEEP_SUMMARY.md</code>. Record version: <code>findings/census/FIVE_MARKET_COMPARISON.md</code>. Supersedes <code>findings/census/census-comparison.md</code> and <code>census-comparison.html</code> (three markets, pre-re-sweep), kept in place unedited for the audit trail.</p>
+  <p>Self-contained page: no external stylesheets, fonts, scripts or images. Light and dark modes are separately stepped and validated; print styles preserve chart fills.</p>
+</div>
+
+</div>
+</body>
+</html>
