@@ -96,3 +96,72 @@ The picture is a healthy indie ecosystem with one breakout star (Capoo), a handf
 - **Format skew.** The sample over-indexes convenience-store 集點, handshake-drink chains, and cosmetics (all heavily portfolio) and under-indexes some indie-friendly channels (indie pop-ups, stationery, gaming) that were only partially swept. This too likely understates indie share.
 - **Where ownership was hard to establish (the UNCLEAR rate is itself a finding).** UNCLEAR fell from 7 to 5 in v2 (OSAMU and Kusama resolved). The remaining 5 are: three borderline-scope brand-x-brand / film-licence rows (乖乖, 功夫, and the Korean OBJECT/SOSO), plus two Korean character brands (Bunni Konbiny, Brunch Brother) whose ownership could not be pinned under queries run. At 3.9%, the unclear rate is low - most calls were confident.
 - **REPRESENTABLE is a judgement call, not a legal finding.** REP=yes/no reflects public signals about whether an IP is captive (own studio, exclusive licensor) or open; it is directional market-entry guidance, not confirmation that any creator is contractually free. The Capoo=no call in particular (which drives most of the "no" volume) rests on Carter Island being a functioning captive licensing studio - a defensible read, but PBC should confirm case by case. The single-source rows (flagged in Notes) and the reliance on zh-TW secondary press for ownership are the main confidence limits.
+
+## Post-re-sweep addendum (artist-side keyword pass, 2026-07-29)
+
+Sections 1-5 above describe the census **as of 2026-07-24 at n = 129**. They are left unedited.
+This addendum records a second DISCOVERY pass run on 2026-07-29 that added the ARTIST-SIDE keyword class - 繪師, 插畫家, 創作者, 圖文作家, 角色創作 - to the same source veins, under the identical definition, identical pinned edge cases and identical window.
+No pre-existing row was rebuilt, re-dated or reclassified. Rows **130-138** are the appended set; each is marked "re-sweep 2026-07" in Notes.
+
+### The headline: Taiwan barely moved - and that is the finding
+
+| | Pre-re-sweep (n=129) | Post-re-sweep (n=138) |
+|---|---|---|
+| PORTFOLIO | 89 (69.0%) | 95 (68.8%) |
+| INDEPENDENT | 35 (**27.1%**) | 38 (**27.5%**) |
+| UNCLEAR | 5 (3.9%) | 5 (3.6%) |
+
+Per year: 2024 **24.3% -> 24.3%** (no 2024 rows added); 2025 **30.0% -> 31.3%** (20/64); 2026YTD **25.0% -> 24.3%**.
+
+**Rows added: 9 - 3 INDEPENDENT, 6 PORTFOLIO, 0 UNCLEAR.** The indie share moved **+0.4 points (27.1% -> 27.5%)**.
+
+Set against Thailand, where the same keyword class moved the indie share **9.3% -> 20.5% (+11.2 points)**, Taiwan's +0.4 is a null result, and it needs saying plainly: **the Thailand "brand-side PR structurally erases creators" mechanism does NOT operate in Taiwan.**
+
+### Why the mechanism does not transfer - what the keywords actually found
+
+The Thai finding was that brand-side PR names the licensor and omits the creator, so indie rows are invisible to brand-side queries. In Taiwan the opposite convention holds: **zh-TW trade and lifestyle press names the illustrator in the headline as a selling point.** The evidence is in the sources themselves:
+
+- The 清心福全 x Nuomi row (130) was found under 插畫家 - but its source is the brand's OWN CNA press release, headlined 「清心福全攜手**台灣插畫家**」. The creator is named by the brand, in the brand's own PR, in the headline. Brand-side queries missed this row through incomplete brand-vein coverage, not through creator erasure.
+- Rows 17 and 115 (pre-existing) already carried creator-side framing in their brand-side sources - 「超人氣**原創IP**」, 「推廣台灣**原創IP**」.
+- Taiwan's original sweep was therefore already partly artist-side by accident: the zh-TW vocabulary for co-branding (原創IP, 插畫家, 圖文作家) is embedded in ordinary brand-side coverage, so the two keyword classes return heavily overlapping result sets.
+
+The corollary is that the artist-side net in Taiwan mostly caught **channel gaps, not creator gaps** - specifically the venue/pop-up channel (7 of 9 new rows are pop-ups at 華山, 松菸, AIPXA LAND, 西門地下市, 新光三越), which §5 already flagged as under-swept. That is a coverage correction, and it landed roughly proportionally across both classes.
+
+### The portfolio catch (honesty over convenience)
+
+**Two thirds of the new rows are PORTFOLIO, and the artist-side keywords are what surfaced them** - because platform- and licensor-owned character brands market themselves in creator language:
+
+- **dtto friends** (rows 133, 135) bills itself as 「**原創角色**品牌」and ranks top-of-results for 原創角色 - but the gnn licensor line reads 授權商：**狄卡科技股份有限公司**. It is Dcard's platform-owned IP, PORTFOLIO under the platform-owned pinned rule. This is the cleanest single illustration that artist-side keywords are not an indie-detector: they are a *self-presentation* detector.
+- **ZO&FRIENDS** (rows 132, 134, 137) surfaces under 創作者/角色創作 on G-DRAGON's authorship framing ("全程參與角色命名、設計、美術設定"). Owned by LINE FRIENDS / 韓國 IPX - PORTFOLIO per the pinned LINE FRIENDS rule, celebrity co-creation notwithstanding.
+- **奇妙萌可 Catch! Teenieping** (row 138) - SAMG Entertainment, a listed Korean IP-content company.
+
+Had these been waved through on their creator-language self-description, Taiwan's indie share would have read 44/138 = 31.9% instead of 27.5%. The pinned ownership test, not the keyword, is what does the work.
+
+### Contradicted prior calls: none
+
+No new evidence contradicts any recorded call in rows 1-129. Zero rows were reclassified, re-dated or removed by this pass.
+One near-miss worth logging: the CNA source for row 130 surfaced three additional 清心福全 x 貓貓蟲咖波 waves (中秋紙杯, 36款紙杯, 恰好瓶/保溫瓶「最終回」). Under the anti-inflation rule these were treated as **corroborating coverage of row 1**, not new rows. Row 1's cell was left untouched - the corroboration is recorded in campaigns.md's re-sweep method note instead, so that literally zero pre-existing cells were edited by this pass.
+
+### The REPRESENTABLE retrofit (absorbed sub-task) - already complete, audited
+
+The re-sweep task specified that Taiwan v2's indie rows lacked the REPRESENTABLE sub-tag and needed a retrofit. **That premise is incorrect, and no retrofit was required.** The audit:
+
+- v2's stated build method (campaigns.md, method note) was "re-classify + enrich", explicitly including "adds the REPRESENTABLE column to every INDEPENDENT row".
+- A programmatic pass over all 138 rows confirms **every one of the 38 INDEPENDENT rows carries a REP value of yes/no/unclear; zero indie rows are missing it.** The pre-existing 35 were already tagged (15 yes / 17 no / 3 unclear, tallied in v2's Running counts); the 3 new rows (130, 131, 136) were tagged on the same test as they were appended.
+- Taiwan therefore already compared cleanly with Japan and Korea on REPRESENTABLE before this pass, and still does.
+
+**Post-re-sweep REPRESENTABLE split (n = 38 indie rows):** yes **18 (47.4%)** | no **17 (44.7%)** | unclear **3 (7.9%)**.
+All three new indie rows are REP=yes, so the addressable share of indie rows rises from 42.9% to 47.4%, and the addressable slice of the whole census from 11.6% to **13.0%** (18/138). §2's structural read is unchanged - Capoo still drives 8 of the 17 REP=no rows - but the addressable bench gains four names: **Nuomi 諾米**, **Mia 林孜育** and **好球先生 Mr. STRIKE** (all three Taiwan-origin individual creators taking ad-hoc brand commissions; the latter two share row 131), plus **mikko** (JP inbound). Distinct-IP addressable count goes 13 of 21 to **17 of 25 (68%)** - row 131 is one campaign row but two distinct creator IPs.
+
+### What this does to the cross-market comparison
+
+Taiwan's number is **not** understated in the way Thailand's was. 27.1% -> 27.5% is inside noise; the "about a quarter indie" read in §1 and the thesis verdict in §4 both stand unchanged, now on a wider base (n=138) and with the pop-up channel gap partly closed.
+
+The transferable lesson for the remaining legs (JP / KR / MY) is that **the size of the artist-side correction is a function of how the market's trade press writes about creators, not of the market's actual indie share.** Thailand's +11.2 came from a press convention that omits creators; Taiwan's +0.4 comes from one that names them. Japan and Korea should be expected to behave more like Taiwan than Thailand (both have dense creator-credit conventions - 絵師/イラストレーター and 작가 are standard bylines in JP/KR goods press), while Malaysia's thinner English/BM trade press is the more plausible Thailand-style case. That is a prediction this run should test, not assume.
+
+### Method limits specific to this pass
+
+- **Discovery pass, not exhaustive.** Nine rows over one day of queries; the artist-side vein is not exhausted. The pop-up/venue channel in particular is now better but still not fully swept.
+- **Dateless indie candidates remain excluded and are listed** in campaigns.md ("Dateless / unresolved candidates"). Two are real indie x brand collabs (BONNY&READ x Kurt Wu; 寶島眼鏡/K-DESIGN x 爽爽貓) that would raise the indie share if they could be dated. The 27.5% is therefore still a floor, consistent with §5.
+- **One unresolved ownership hole:** SEMO'S / Second Morning (松菸, 2026-04-02..05-05) is dated but unclassified - no class call was guessed. It is logged as a hole rather than counted either way.
+- **Single-source rows added:** 131 and 132 rest on one source each and are flagged as such in Notes.

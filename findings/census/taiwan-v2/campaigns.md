@@ -149,6 +149,36 @@ No new fetching was required because the underlying rows were already curl-verif
 | 127 | 2025-07-10..07-28 | 2025 | 誠品書店 / 誠品生活新店 (文具展) | unpis | INDEPENDENT | unpis is an individual Japanese illustrator (studio Unpict), acted as visual director; no conglomerate owner | yes | Stationery-expo co-branding (20+ 獨家聯名) | https://www.wowlavie.com/article/250025915 | REP=yes: individual illustrator, open collabs |
 | 128 | 2025-04-10 / 04-17 | 2025 | MINISO 名創優品 Taiwan | 吉伊卡哇 Chiikawa | PORTFOLIO | Publisher/committee-managed | - | Lifestyle retail (櫻花季系列) | https://universe.oneone.com.tw/posts/2683 | TW-market article (oneone/維肯娛樂) |
 | 129 | 2026-07-09..08-05 | 2026YTD | HOLA 和樂家居 | 哆啦A夢 Doraemon / 哆啦美 | PORTFOLIO | Fujiko Pro / Shogakukan-Shueisha | - | Homeware (玩偶/抱枕/餐具) | https://chinesedora.com/news/107045.htm | HOLA's first Doraemon 聯名; within window |
+| 130 | 2025-01-20.. | 2025 | 清心福全 | Nuomi 諾米 (台灣街景建築插畫家) | INDEPENDENT | Individual Taiwan illustrator, self-owned practice; source names her directly as 台灣街景建築插畫家, no studio/conglomerate parent | yes | Drink (3款聯名紙杯: 台灣夜市/台灣走春/台灣台南) | https://www.cna.com.tw/postwrite/chi/392788 | **re-sweep 2026-07.** Found via 插畫家; brand-side 清心福全 queries returned only the 咖波 waves (row 1). CNA official brand release, 發稿 2025/01/17, launch 1/20. REP=yes: individual illustrator, ad-hoc commission |
+| 131 | 2025-07-18.. | 2025 | 新光三越 (2025夏日藝術季, 高雄左營店 10F) | Mia 林孜育 (插畫家) + 好球先生 Mr. STRIKE (FUNKTOY 玩具設計師) | INDEPENDENT | Two individual Taiwan creators exhibiting own IP (Mia「CHANNEL 5」, 好球先生「FUNKLAND」); creator-owned, no conglomerate parent | yes | Dept-store art-festival exhibition (2 creator shows within one 藝術季) | https://nvns.net/news_view.php?new_sn=93565&new_csn=1776 | **re-sweep 2026-07.** Found via 插畫家/創作者; counted ONCE (one 藝術季 wave bundling two creators, per row-26 precedent). REP=yes: individual TW creators, open collabs. Single source - flagged |
+| 132 | 2025-08-18..08-31 | 2025 | AIPXA LAND 艾比夏聚所 (台北南京西路) | ZO&FRIENDS (ZOA) | PORTFOLIO | LINE FRIENDS / 韓國 IPX-owned IP brand co-created with G-DRAGON; platform/licensor-owned per the LINE FRIENDS pinned rule | - | Pop-up (first TW stop, reservation-only) | https://keedan.com/track/2025/07/30/gd-zoafriends-dinotaeng-popup-taipei/ | **re-sweep 2026-07.** Surfaced by 創作者/角色創作 net; PORTFOLIO despite celebrity-creator framing - GD co-designed but IPX owns. Single source - flagged |
+| 133 | 2025-08-21..10-12 | 2025 | 松山文創園區 男澡堂 (主辦 FANFANS 粉粉) | dtto friends「SAUGY BRUNCH」 | PORTFOLIO | Source states 授權商：狄卡科技股份有限公司 (Dcard Tech Inc.) - platform-OWNED character brand, PORTFOLIO per the platform-owned pinned rule (not artist-owned) | - | Venue-hosted pop-up (台味早餐店 theme, 30+ 週邊) | https://gnn.gamer.com.tw/detail.php?sn=291048 | **re-sweep 2026-07.** Found via 原創角色/創作者 - the artist-side net's clearest PORTFOLIO catch: markets itself as 原創角色品牌 but the licensor line names the platform |
+| 134 | 2026-01-23..02-22 | 2026YTD | AIPXA LAND 艾比夏聚所 (台北) | ZO&FRIENDS (第二波) | PORTFOLIO | Same as row 132 (LINE FRIENDS / IPX) | - | Venue pop-up (沉浸式 ZOA 世界, 拍貼機) | https://www.wowlavie.com/article/260026693 | **re-sweep 2026-07.** Distinct dated wave from rows 132/137, per the KKOTKA rows-116/117 separate-stop precedent |
+| 135 | 2026-02-25..04-12 | 2026YTD | 西門地下市 (主辦 FANFANS 粉粉) | dtto friends「SAUGY BRUNCH」返場 | PORTFOLIO | Same as row 133 (狄卡科技 / Dcard-owned) | - | Venue-hosted pop-up (返場, 30+ 週邊, 絨毛玩偶首賣) | https://www.twdreamlife.com/dtto-friends-pop-up-store-saugy-brunch/ | **re-sweep 2026-07.** Also popdaily.com.tw/forum/travel/1609080; distinct venue+window from row 133 |
+| 136 | 2026-04-03..04-19 | 2026YTD | 華山1914文創園區 玻璃屋 1F | LIL ala mode (插畫家 mikko) | INDEPENDENT | Individual Japanese illustrator mikko; source calls it 日本甜美系插畫家mikko的代表作 - creator-owned character line, no conglomerate parent | yes | Venue-hosted pop-up (first TW stop, 扭蛋/玩偶吊飾) | https://truemii.chinatimes.com/content/20260408003946-265003 | **re-sweep 2026-07.** Found via 插畫家; REP=yes: individual illustrator running ad-hoc collabs (三麗鷗/寶可夢/初音未來/Maison de FLEUR per source), no exclusive captive licensor evidenced - same read as matsui (row 102) / unpis (row 127) |
+| 137 | 2026-04-10..05-10 | 2026YTD | AIPXA LAND 艾比夏聚所 (台北) | ZO&FRIENDS LUCKY SHOP | PORTFOLIO | Same as row 132 (LINE FRIENDS / IPX) | - | Venue pop-up (盲盒吊飾首度推出) | https://woman.udn.com/woman/story/123164/9439085 | **re-sweep 2026-07.** Third dated TW wave; 高雄 leg (2026-04-15..05-10) same wave, counted once |
+| 138 | 2026-04-01..04-30 | 2026YTD | 新光三越 信義新天地 A11 1F | 奇妙萌可 Catch! Teenieping (甜心生活樂園) | PORTFOLIO | Korean animation IP produced/owned by SAMG Entertainment, a listed global IP-content company; studio-owned, no individual creator owner | - | Dept-store pop-up + 期間限定商品專區 | https://gnn.gamer.com.tw/detail.php?sn=302962 | **re-sweep 2026-07.** Also truemii 20260408003946 (end date 4/30); distinct from row 117 (A11 **B1F** x KKOTKA, same spring) - different floor, IP and window |
+
+## Re-sweep 2026-07 (artist-side keyword pass) - method note
+
+Rows **130-138** were appended by a second discovery pass run on 2026-07-29 under the IDENTICAL definition, pinned edge cases and window as rows 1-129.
+Nothing above row 130 was rebuilt, re-dated or reclassified by this pass.
+
+**What changed was the query class only.** The v1/v2 sweep used brand-side terms (品牌 + 聯名, plus named brands and named IPs). This pass added the ARTIST-SIDE class - 繪師, 插畫家, 創作者, 圖文作家, 角色創作 - and their variants, run against the SAME source veins (udn/女子漾, ettoday, 中央社 CNA, gnn.gamer, truemii.chinatimes, wowlavie, popdaily, travel.yam, 新光三越/華山/松菸 venue press).
+Every appended row was curl-verified against a live source URL (HTTP 200) and year-tagged from an evidenced date on that source.
+
+**Anti-inflation check applied to every candidate.** Candidates already represented in rows 1-129 were treated as corroborating sources, NOT new rows. Specifically: the CNA 清心福全 page surfaced three further 清心福全 x 貓貓蟲咖波 waves (中秋紙杯, 36款紙杯, 恰好瓶/保溫瓶最終回) - these corroborate **row 1** and were not appended.
+
+**Dateless / unresolved candidates surfaced by the artist-side net (logged, NOT counted):**
+
+- **BONNY&READ x Kurt Wu 吳承暉** (台灣潮流插畫家, 厭世愛心 IP, 30+ 品項) - live campaign page carries no launch date. A real indie x brand collab that stays excluded on the dateless rule. Source: bonnyread.com.tw/pages/kurt-1.
+- **寶島眼鏡 / K-DESIGN x 爽爽貓** (聯名光學框) - retailer category page only, no launch date. Source: eyesmart.com.tw/category/366/.
+- **Knocky 原創 x 人氣繪師 保護殼系列** (麻雀商人 Will 等) - shop category pages, no dates.
+- **SEMO'S / Second Morning 松山文創園區 (2026-04-02..05-05)** - dated only in a roundup (popdaily 1609080); ownership of the Korean 文創 brand not pinned under queries run, so no class call made. Left as a hole for a later pass rather than guessed.
+- **ooowl (韓國插畫家 INAPSQUARE) 台北東區 快閃店 (2026 夏)** - the artist's OWN brand pop-up, not an outside co-brand; excluded per the 咖波小浪漫快閃店 precedent.
+- **手紙社 POP UP SHOP 華山 (2025-12-13..2026-05-31)** - Japanese paper-goods label, no character IP on the brand side (brand-x-brand); excluded per the SOU・SOU precedent.
+- **iam 我適文創 華山藝術西街 (..2026-04-15)** - multi-brand creator market, not a brand-x-IP co-brand.
+- **2026台北國際插畫博覽會 / 台北設計玩創意展 / 波隆那插畫獎** - trade expos and awards, not co-branding campaigns. They are, however, the surface that the artist-side keywords hit hardest, and the channel through which rows 76 and 131 originally surfaced.
 
 ## Reclassification delta (v1 -> v2)
 
@@ -174,9 +204,19 @@ No other row changed bucket - the v1 calls held up under the stricter definition
 The stricter definition and pinned edge cases move individual rows (one indie out, one indie in) but the indie count is identical - the ~27% Taiwan indie share is robust to the tighter rules, not an artifact of loose classification.
 What the edge cases actually tightened was the UNCLEAR bucket (7 -> 5): two genuinely-borderline rows resolved into portfolio (OSAMU estate) and independent (Kusama fine-artist).
 
-## Running counts (v2)
+## Running counts (v2 + re-sweep 2026-07)
 
-- Total rows: 129
+**Post-re-sweep (n = 138, rows 1-138):**
+
+- Total rows: 138
+- PORTFOLIO: 95  |  INDEPENDENT: 38  |  UNCLEAR: 5
+- 2024: 37 rows (9 indie, 27 portfolio, 1 unclear) - indie **24.3%** (no 2024 rows added by the re-sweep)
+- 2025: 64 rows (20 indie, 43 portfolio, 1 unclear) - indie **31.3%** (20/64 = 31.25%; +2 indie, +2 portfolio: rows 130-133)
+- 2026YTD: 37 rows (9 indie, 25 portfolio, 3 unclear) - indie **24.3%** (+1 indie, +4 portfolio: rows 134-138)
+- **Overall indie share: 38/138 = 27.5%** (pre-re-sweep: 35/129 = 27.1%)
+
+**Pre-re-sweep baseline (v2 as of 2026-07-24, n = 129) - kept for the delta:**
+
 - PORTFOLIO: 89  |  INDEPENDENT: 35  |  UNCLEAR: 5
 - 2024: 37 rows (9 indie, 27 portfolio, 1 unclear) - indie 24.3% (v1: 8 indie / 21.6%; Kusama row 65 moved unclear->indie)
 - 2025: 60 rows (18 indie, 41 portfolio, 1 unclear) - indie 30.0% (v1: 19 indie / 31.7%; Miffy row 79 moved indie->portfolio)
@@ -184,11 +224,14 @@ What the edge cases actually tightened was the UNCLEAR bucket (7 -> 5): two genu
 
 (No government/public-body-OWNED IP appears in Taiwan - every IP here is privately owned, even where the *brand* is a public body (rows 17, 32, 39). Nothing is excluded from the split, unlike Korea's Seoul-Haechi/Daejeon rows.)
 
-**REPRESENTABLE tally (INDEPENDENT rows only, n=35):**
+**REPRESENTABLE tally (INDEPENDENT rows only, n=38):**
 
-- yes: 15 (28, 33, 52, 76, 92, 96, 101, 102, 107, 115, 116, 117, 118, 120, 127)
+- yes: 18 (28, 33, 52, 76, 92, 96, 101, 102, 107, 115, 116, 117, 118, 120, 127, **130, 131, 136**)
 - no: 17 (1, 4, 5, 18, 21, 29, 32, 39, 51, 53, 65, 68, 108, 112, 114, 122, 126)
 - unclear: 3 (17, 31, 43)
+
+**REPRESENTABLE coverage check (the retrofit sub-task):** 18 + 17 + 3 = **38 = every INDEPENDENT row**.
+No indie row in this table lacks a REP value - the sub-tag was already applied to all 35 pre-re-sweep indie rows when v2 was built (v2's stated method was "re-classify + enrich ... adds the REPRESENTABLE column to every INDEPENDENT row"), and the 3 new indie rows carry it. See the verdict addendum for the audit.
 
 ## Excluded (logged so we do not re-add - carried from v1)
 
