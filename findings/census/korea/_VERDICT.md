@@ -90,3 +90,105 @@ So the refined picture is not "indies are excluded" but **"indies are a stable ~
 - **REPRESENTABLE is a softer judgment than IP class.** 18% of indie rows are REP=unclear because exclusivity/agency-lock status is rarely public; and the "yes" rows are a *plausible-target* estimate (creator-owned + no conglomerate + open multi-brand licensing), not verified open mandates. The addressable number (19 / 14.1%) should be read as a floor-ish central estimate.
 - **Window-boundary caveat (important for the addressable read).** Several of the most clearly-representable indies ran their biggest institutional collabs *before* the 2024-01 window: 우리카드 x 다이노탱 (2021), IBK x 무직타이거 (2021), 우리카드 x 망그러진곰 (2023), 신한카드 x 최고심/잔망루피 (2022). Indie-x-finance co-branding was more common in 2021-2023 than the in-window count shows, so the true addressable footprint of these creators is somewhat larger than this window captures.
 - **Single-source rows are flagged in the campaigns.md Notes column** (e.g. the five Spring-2026 hotel packages resting on one Businesskorea roundup; several brand press releases). Fetch failures logged for future passes: namu.wiki / theqoo / popply / sweetspot / nate list-pages returned 403 or JS-only and were worked around via alternate outlets or brand-official pages. Phantom (unverifiable) entries are the known failure class and were kept out.
+
+## Post-re-sweep addendum (artist-side keyword pass, 2026-07-29)
+
+This section is appended, not a rewrite.
+Sections 1-5 above describe the table as it stood at 135 rows and are left exactly as written.
+The re-sweep added rows 136-158 to `campaigns.md` under the identical definition, pinned edge cases and window; see the "Re-sweep 2026-07" method note at the foot of that file for the query class, the anti-inflation checks, and the excluded/logged candidates.
+
+### The numbers
+
+Two public/gov rows stay excluded from the split, so the classifiable base moves 133 -> 156.
+
+| | Before (classifiable n=133) | After (classifiable n=156) |
+|---|---|---|
+| PORTFOLIO | 94 (70.7%) | 96 (61.5%) |
+| INDEPENDENT | 33 (**24.8%**) | 53 (**34.0%**) |
+| UNCLEAR | 6 (4.5%) | 7 (4.5%) |
+
+**Indie share: 24.8% -> 34.0% (+9.2pts).**
+
+Per year:
+
+| Year | n before | indie before | n after | indie after |
+|---|---|---|---|---|
+| 2024 | 24 | 16.7% | 27 | **22.2%** |
+| 2025 | 80 | 26.3% | 92 | **34.8%** |
+| 2026YTD | 29 | 27.6% | 37 | **40.5%** |
+
+**Rows added: 23 - 20 INDEPENDENT, 2 PORTFOLIO, 1 UNCLEAR.**
+The two portfolio rows (139 무신사/주미소 x 주술회전, 156 K리그 x 토이 스토리) and the one unclear row (137 라타플랑 x 모모레이, where the owning entity could not be established) were appended deliberately: the artist-side net returned them, and dropping them would have manufactured a larger correction than the evidence supports.
+
+Addressable number: REPRESENTABLE=yes on indie rows moves **19 -> 28**, so the addressable-indie share moves **14.1% -> 17.7%** of all campaigns - from about one campaign in seven to about one in six.
+The nine new REP=yes rows are 다이노맨/스튜디오버튼 (138), 노이신 (141), 미스터두낫띵/제이샤 (142), 하이다나 (143), the Epson three-illustrator edition 김잼·김현주·나무13 (148), 엔리케 (149), 가나디 at SSG (153), 마인드어데이 커버캣 (154) and 벌룬프렌즈/Project624 (157).
+The full REPRESENTABLE tally across all 53 indie rows is **28 yes / 10 no / 15 unclear**, and 53 of 53 indie rows carry a value.
+
+**The breadth number moves more than the volume number.** Section 3 resolved 19 REP=yes rows to **7 distinct addressable creators**.
+The 28 REP=yes rows now resolve to **17** - 스튜디오버튼, 노이신, 제이샤(미스터두낫띵), 하이다나, 김잼, 김현주, 나무13, 엔리케, 마인드어데이 and Project624(벌룬프렌즈) are all new names, and only one of the nine new yes-rows (SSG x 가나디) belongs to a creator the original pass already knew about.
+That is the single most consequential change in this addendum: the original build's "a few recycled names" reading was an artefact of brand-side querying.
+
+### Contradicted prior calls
+
+**None reclassified.** No row 1-135 was re-dated, re-classed or edited by this pass.
+
+One near-contradiction is worth recording because it cuts the other way from what the artist-side framing suggests.
+**틴틴팅클** (row 152) presents as the purest possible indie: an Instagram webtoon serialised by a single artist since 2020, discovered through an 이모티콘/인스타툰 작가 query, and covered in sports press as an SNS-webtoon character.
+The trade source states plainly that its **IP business is run by 아이코닉스 (Iconix)** - the Pororo/Loopy company that rows 48, 55, 91, 100 and 121 all class as PORTFOLIO when it is the *owner*.
+Applying the pinned per-IP ownership test and the 조구만/IPX precedent (row 86: creator-origin, conglomerate-managed = INDEPENDENT with REP=no) puts 틴틴팅클 at INDEPENDENT / REP=no rather than at the REP=yes the artist-side framing invites.
+Nothing prior is contradicted, but a reasonable analyst could move this row to PORTFOLIO, and it is flagged rather than buried.
+
+### What the artist-side keywords found that brand-side missed
+
+**A publication, not just a channel.** The decisive finding in Korea is that the missing campaigns were not hiding in an untouched retail format - they were being reported in an untouched *press vein*. 아이러브캐릭터 (ilovecharacter.com), the Korean character-industry trade magazine, indexes its news by creator and IP owner rather than by brand; 17 of the 23 appended rows came from it, and essentially none of them appear in the ko lifestyle/beauty/brand press that the original pass swept.
+The original Section 5 named "recall bias toward covered/searchable campaigns" as a limit; the concrete form that bias took was that indie campaigns *were* covered, just in a publication brand-side queries never surface.
+
+**Three formats the original pass had no read on at all:**
+- **Hardware / durable-goods brands x named freelance illustrators** - Epson Korea's label-printer editions with three individually named illustrators (row 148) is Korea's exact analogue of the Japan Pixio row, and 락앤락 x 벌룬프렌즈 (157) and 프린팅박스 x 해요 (150) sit in the same non-lifestyle-retail space. The original build's format list had no hardware/houseware vein.
+- **Mid-market apparel x illustrators, below the SPAO tier** - 폴햄, 마인드브릿지, 르꼬끄골프, 탑텐/탑텐키즈 (rows 141, 142, 143, 154). The original pass reached SPAO because SPAO is press-visible; the tier below it is where the volume actually is, and it is close to entirely indie.
+- **Football-club and cinema-chain collabs** - 광주FC x 다이노맨 (138) and 메가박스 x 곽철이 (140). Section 4 identified KBO club merch as a distinctive Korean indie channel; K League and cinema exhibition belong on that list too.
+
+**The Korea version of the "self-presentation, not ownership" pattern is inverted, and that is the interesting part.** Taiwan and Japan produced hits that *self-present as creator IP but are portfolio-owned* (dtto friends, BLUE HAMHAM, ナガノマーケット).
+Korea produced the mirror image: 틴틴팅클 self-presents as an indie instatoon and is Iconix-run; 먼작귀 self-presents as a "글로벌 인기 캐릭터 IP" in LG's own release with no mention of Nagano at all, yet is creator-originated.
+The keyword class is a poor ownership signal in **both** directions here, and the pinned ownership test did the work each time.
+
+**The excluded class is different from Japan's, and matters.** Japan's artist-side net returned portfolio IP x hired illustrator goods in volume.
+Korea's returned **brands commissioning illustrators to redraw the brand's own mascots** - 궁중비책 x 윰마 on its own 촉촉이/폼폼이, Starbucks Korea's art-contest goods across two years, Starbucks x 고봄 packaging.
+These are excluded under the standing "a brand's OWN mascot = NOT COUNTED" rule.
+They are named in the campaigns.md method note because counting them would have inflated the indie column with what is plainly work-for-hire.
+
+### How Korea compares to the three prior legs
+
+Thailand moved +11.2pts (9.3% -> 20.5%), Taiwan +0.4pts (27.1% -> 27.5%), Japan +4.4pts (30.5% -> 34.9%), Korea **+9.2pts** (24.8% -> 34.0%).
+
+Korea is the second-largest correction in the series and it breaks the mechanism the Japan leg proposed.
+Japan's reading was that correction size tracks *the size of the artist-named-campaign channel*.
+Korea has no equivalent of Japan's illustrator pop-up circuit - only two of the 23 appended rows are pop-ups - and yet it corrected almost as much as Thailand.
+The Korean mechanism is a third one: **a segregated trade press**.
+Korean indie-IP co-branding is documented thoroughly, just in a creator-facing publication that no brand-side query reaches, while the general lifestyle/beauty press that brand-side queries do reach is structurally skewed toward the licensor-led campaigns that come with a PR budget.
+
+That gives the series three distinct mechanisms rather than one: **erasure** (Thailand - the press names the licensor and omits the creator), **channel** (Japan - campaigns named after the artist are unreachable by construction), and **segregation** (Korea - the coverage exists in a publication the brand-side query class never touches).
+Taiwan is the null case where none of the three operates strongly.
+The practical consequence for the remaining Malaysia leg is that "does the press credit creators?" is the wrong diagnostic; the right one is "is there a creator-facing trade publication, and did the original pass use it?"
+
+Note also that Korea's post-re-sweep 34.0% and Japan's 34.9% now land within a point of each other, as do their 2025 slices (34.8% vs 32.3%) - a convergence that the pre-re-sweep numbers (24.8% vs 30.5%) concealed.
+
+### Does this change the thesis read?
+
+Section 4's structure survives but two of its claims need softening, and one strengthens.
+
+- **"Indie share sits at about a quarter"** (Section 1) is superseded: it is about a third, and the 2026YTD slice is 40.5%. The direction of the original error is now known and is one-sided - brand-side querying undercounts indie.
+- **"7 distinct addressable creators - real breadth, but with two names doing much of the volume"** (Section 3) is the reading that changes most. At 17 distinct addressable creators, the concentration story weakens substantially; 망곰이 and 무직타이거 are no longer 12 of 19 addressable rows but 12 of 28.
+- **"The barrier is not access; it is channel concentration"** (Section 4) *strengthens*, and the channel list gets longer: mid-market apparel, hardware/houseware, cinema, K League and the 배달의민족/락앤락/엡손 tier of consumer brands all now have evidenced indie co-branding. The corporate-premium and screen-IP channels stayed monolithically portfolio through this pass too - no artist-side query returned a single finance, telecom, hospitality or snack-packaging indie row.
+
+The dual-portfolio-wall finding (foreign licensors + domestic platform owners) is untouched: both new portfolio rows are foreign-licensor rows.
+
+### Method limits specific to this pass
+
+- **The pass is a targeted vein, not a random sample.** Querying artist-side terms returns artist-led campaigns; the appended block is indie-skewed by construction (20 of 23). The post-re-sweep 34.0% should be read as *the ratio after adding a press vein the first pass did not use*, not as a random-sample correction of a biased estimate. The direction is right and the mechanism is evidenced; the magnitude is not a confidence interval.
+- **Single-publication dependence is the quality cost, and it is worse than Japan's.** 17 of 23 new rows rest on 아이러브캐릭터 alone. It is a genuine trade publication with bylined staff and stamped 기사승인 dates, and four rows are additionally anchored on brand-official or major-outlet sources (LG PR, Shinsegae newsroom, Sports Seoul, Seoul Economic Daily) - but a single-outlet block of this size is a real concentration risk, and each such row is flagged in the campaigns.md Notes column.
+- **2024 is still the thin, under-corrected year.** Only 3 of 23 new rows are 2024, because the trade magazine's index paginates newest-first and reaching mid-2024 took ~100 pages. 2024 moved 16.7% -> 22.2% but remains the year most likely to be understated; the 2024-vs-2025 gap should still be read as largely a coverage artifact.
+- **Ownership evidence is thinner on the appended block than on rows 1-135.** Nine of the 20 new indie rows are REP=unclear, and one row (137) is IP-class UNCLEAR because the owning entity behind 모모레이 could not be established. Where the trade source named a company (제이샤, Project624, 스튜디오버튼, 스마일아트, 케이비젼, 아이코닉스, HNF) the call is firm; where it named only an artist handle it is softer.
+- **Two marginal formats were admitted and flagged** - row 150's photo-booth frame templates and row 145's in-game hero. A stricter reading would drop both, which would move the indie share to 33.1%.
+- **One row is geographically partial.** Row 144 (아크메드라비 x 빤쮸토끼) launched its collection in ADLV's overseas stores; the in-scope Korea element is the Seoul 에이랜드 pop-up. It is counted on that pop-up, and flagged.
+- **Named holes left open rather than filled by inference:** 케이비젼 x 슈야 동대구역 카페 (2025-09), 서울관광재단 x 아티스트 3인 (2025-09), 잉가 x 모모레이 (2025-08) all surfaced with headline-level dates and are in-scope Korea candidates that a future pass should date. GU x 에스더버니 (2025-07-17) is dated and real but out of market scope.
