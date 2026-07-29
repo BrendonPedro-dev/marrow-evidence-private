@@ -5,9 +5,9 @@ Scope is co-branding only - a brand pairing with a character/illustration/toy IP
 F&B-led but not F&B-only: retail, convenience, telco, banking, mall, cinema and loyalty campaigns count when a character IP fronts a consumer campaign.
 Excluded: plain licensed merchandise at retail, KOL/celebrity endorsements, and brand-x-brand tie-ins with no character IP.
 
-**Status at 2026-07-29 (third tranche, IN PROGRESS): 47 curl-verified rows (20x 2024, 18x 2025, 9x 2026YTD; 43 PORTFOLIO / 4 INDEPENDENT / 0 UNCLEAR).**
+**Status at 2026-07-29 (COMPLETE): 47 curl-verified rows (20x 2024, 18x 2025, 9x 2026YTD; 43 PORTFOLIO / 4 INDEPENDENT / 0 UNCLEAR).**
 This is **below the ~80-row floor**, and tranche 3 is the tranche that turned that shortfall into a measured result rather than an open question - see "The coverage ceiling, measured" in the Method.
-The verdict is deliberately deferred one more tranche so that it can be written against the finished table and the ceiling evidence together.
+**The verdict is written at `findings/census/vietnam/_VERDICT.md`**, on the documented coverage ceiling that the target permits in place of the floor. It carries all five sections, and its two load-bearing numbers are the 8.5% independent share and the **1-in-47 independent-CHARACTER share**, which are different claims and are kept apart there.
 Tranche 2 added 13 rows and re-worked the whole candidate pool through a new accented-title scoring pass (see Method).
 It also found the market's **first domestic independent character IP row** (row 7, Thỏ Bảy Màu), which the tranche-1 artist-side net had missed.
 Tranche 3 opened a second and third portal wave (**+1,086,383 URLs**, taking the corpus to **2,607,744**), which yielded **10 further rows**, a **second domestic-owned character IP** (Wolfoo x Bibica, row 29) and a **third independent artist row** (Sapporo x Khim Đặng, row 38) - and, more importantly, a hard measurement of how small the Vietnamese character-IP press vocabulary actually is.
@@ -273,7 +273,9 @@ A further false friend belongs on the record here: `meo-moc` does not find Mèo 
 
 ## What remains
 
-The verdict at `_VERDICT.md` is **not yet written** and will not be until the table is finished, per the pattern of the eight earlier markets.
+The verdict at `_VERDICT.md` is **written** as of tranche 4, against the finished table and the measured coverage ceiling together.
+It is built on the counts in this file: 47 rows, 43/4/0, 20/18/9 by year, 4 distinct REP=yes creators, 32 single-source rows, 6 translation-flagged rows, and 94 of 97 cited URLs re-verified at HTTP 200 at verdict build time (the three failures are the same three `dantri.com.vn` links).
+Its mechanism call is that Vietnam exhibits **neither** the TH/MY erasure pattern **nor** the KR segregation pattern, but a third one: credit norms and distribution channels are in place ahead of the independent IP supply.
 
 Tranche 2 closed the three items tranche 1 left open.
 The artist-side net was repaired (token-boundary matching plus accented-title rescoring), the full candidate pool was re-adjudicated through that repaired net rather than only its top slice, and the domestic-indie question now has an evidenced answer rather than an open flag.
@@ -284,10 +286,10 @@ Tranche 3 closed items 1 and 3 of the four the tranche-2 note left, and converte
 The tranche-2 note said reaching ~80 rows "has to come from new sources". Tranche 3 tested that directly: it added **18 portals and 1,086,383 URLs**, a 72% increase on the corpus, including every Vietnamese lifestyle, fashion and marketing title with a reachable sitemap.
 That returned **10 rows**, not 43.
 The measured yield is stable at roughly **one row per 110,000 Vietnamese article URLs** across tranches 2 and 3, and the character-IP vocabulary measurement above shows why: Vietnamese consumer press in this window writes about five character properties with any regularity, and 23 properties that anchor multiple rows in the earlier markets appear **zero times in 2.6 million URLs**.
-**This is a coverage ceiling in the market, not in the instrument.** The remaining reachable sources would have to be roughly ten times the size of the entire swept corpus to produce 33 more rows, and no such Vietnamese source exists.
+**This is a coverage ceiling in the market, not in the instrument.** At the measured rate, 33 more rows would need roughly **3.6 million further Vietnamese article URLs** - about 1.4 times the entire swept corpus again - and there is no remaining set of reachable Vietnamese publishers of that size. (An earlier draft of this paragraph said "ten times"; the arithmetic is 1.4x and the corrected figure is what the verdict uses.)
 
-Outstanding work for the final tranche, in priority order:
-1. **Write `_VERDICT.md` with the documented coverage ceiling**, which the target explicitly permits in place of the ~80-row floor, and which the three-wave evidence above now supports at measurement grade rather than as an impression. All five sections, per-year splits, REP=yes distinct creator count, mechanism identification, coverage-confidence.
+Outstanding work, in priority order:
+1. ~~**Write `_VERDICT.md` with the documented coverage ceiling**~~ - **done in tranche 4.** All five sections, per-year splits, the 4 distinct REP=yes creators, the mechanism identification and the coverage-confidence statement are at `findings/census/vietnam/_VERDICT.md`.
 2. Work the residual mid-band of the wave-2/3 accented-title shortlist (scores 11-12, 429 entries after dedupe) for any last rows. Expected yield is low - the band is dominated by the `dân chơi` / `quy tụ` false friends and by film-release coverage - but it has not been read end to end.
 3. Re-fetch the `dantri.com.vn` and `tuoitre.vn` chunks that degraded during the tranche-2 walk, at low concurrency. Still open; both titles answered normally during tranche 3's verification fetches.
 4. `brandsvietnam.com` and `advertisingvietnam.com` remain 403 after a second attempt with different headers, and remain the largest named hole. A US-indexed web search confirms they are crawlable by others, which means the block is client-specific rather than a robots policy - so this is a tooling limit to state plainly in the verdict, not a claim that the content does not exist.
