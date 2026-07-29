@@ -1,5 +1,10 @@
 # Co-branding census - three-market comparison (Taiwan / Japan / Korea)
 
+> **SUPERSEDED (2026-07-29) by [`FIVE_MARKET_COMPARISON.md`](FIVE_MARKET_COMPARISON.md).**
+> This page is built on pre-re-sweep numbers (Taiwan 27.1% / Japan 30.5% / Korea 24.8%) and covers three markets.
+> The artist-side keyword re-sweep of 2026-07-29 moved every one of those figures upward and added Malaysia and Thailand: the current numbers are Japan 34.9% / Korea 34.0% / Taiwan 27.5% / Malaysia 25.0% / Thailand 20.5%.
+> Kept in place unedited for the audit trail. Do not quote figures from this page.
+
 As of 2026-07-24.
 This consolidates the three per-market co-branding censuses onto a single page.
 All three were built on the **identical definition**: the same ownership test (who owns the IP, not who runs the brand), the same pinned edge cases (estate/deceased-creator, fine-artist, government-owned bodies, platform/webtoon ownership), and the same REPRESENTABLE sub-tag on every independent row.
