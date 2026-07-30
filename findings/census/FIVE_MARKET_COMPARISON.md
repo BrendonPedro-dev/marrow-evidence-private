@@ -1,5 +1,15 @@
 # Co-branding census - five-market comparison (Taiwan / Japan / Korea / Malaysia / Thailand)
 
+> **SUPERSEDED (2026-07-30) by [`TEN_MARKET_COMPARISON.md`](TEN_MARKET_COMPARISON.md)** (presentation version: [`ten-market-comparison.html`](ten-market-comparison.html)).
+>
+> The ten-market document adds Singapore, Hong Kong, the Philippines, Vietnam and Indonesia, taking the series from 649 rows to **1,054**, from 190 independent rows to **234**, and from 103 addressable rows to **130**.
+> **Every five-market figure in this document is carried forward unchanged**, so this is a supersession of scope rather than a correction of numbers, with two exceptions that are recorded rather than silently fixed:
+>
+> 1. **The "continuous 1.7x band" framing in section 1 no longer holds for the series.** Across ten markets the band is 8.5% to 34.9%, a 4.1x range, and the five markets here are its upper half. The ten-market document tests a two-tier reading of that range and rejects it, and reports what survives instead.
+> 2. **The Japan REP=unclear figure in section 5 ("10 of 51 indie rows") pairs a pre-re-sweep count with a post-re-sweep denominator.** `japan/campaigns.md` gives **16 of 51**, which is the 10 in the verdict's section 5 plus the 6 added by its addendum (rows 132, 135, 137, 138, 139, 142). The ten-market document uses 16.
+>
+> Kept in place unedited for the audit trail. Quote the ten-market document for any cross-market figure.
+
 As of 2026-07-29, post artist-side re-sweep.
 
 **This document supersedes `census-comparison.md`** (the three-market Taiwan/Japan/Korea comparison, built 2026-07-24 on pre-re-sweep numbers).
