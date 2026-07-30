@@ -1,0 +1,32 @@
+# Vietnam - IP scale bands (independent rows)
+
+Enrichment pass over `vietnam/campaigns.md`. One row here per INDEPENDENT census row.
+The census table is the index and is not edited by this pass.
+
+**Band vocabulary (exactly these codes):** `lt_10k` / `10k_50k` / `50k_200k` / `200k_1m` / `gt_1m` / `unknown`.
+These match the /start intake's `follower_band` codes character-for-character.
+
+**Band definition:** the IP's PRIMARY channel following at the time of the campaign.
+Where a character has its own channel distinct from the creator's personal account, the character's channel governs.
+Where the IP is an artwork with no channel of its own, the band reads from the creator's largest evidenced channel and the Notes say so.
+
+**Evidence basis codes:**
+- `at-campaign` - a countable figure stated at or near the campaign window.
+- `current-proxy` - only a CURRENT count was findable; the band it implies is recorded with the retrieval date and is NOT at-campaign truth.
+- `unknown` - no countable public evidence exists. Notes record what was checked.
+
+**Coverage:** 4 independent rows, all REP=yes. 1 at-campaign, 2 current-proxy, 1 unknown.
+
+| Row # | IP | Creator | REP | Band | Evidence basis | Primary channel | Source URL + date | Notes |
+|---|---|---|---|---|---|---|---|---|
+| 7 | Thỏ Bảy Màu | Huỳnh Thái Ngọc | yes | `gt_1m` | at-campaign | Facebook page "Thỏ bảy màu" (the character's own page, not the creator's personal account) | https://www.buzzmetrics.com/insight/suc-manh-cua-community-trong-influencer-marketing-tu-case-study-lien-quan-mobile-x-tho-7-mau - published 2024-10-10 ("Ngày đăng: 10/10/2024"), states the character's fanpage reached "4,3 triệu người trên Facebook" | Strongest evidence in this market: the source is a case study **of this exact campaign** (Liên Quân Mobile x Thỏ Bảy Màu), published five weeks after the 2024-08-19..2024-09-08 event chain and five days after the skin went on sale. Independent cross-check at the same period: https://phanmemmkt.vn/nhung-fanpage-lon-nhat-viet-nam ranks the page 9th largest in Vietnam at "3.3M likes, 4.4M followers". Both figures land in `gt_1m`, so the band does not turn on which is used. Creator's personal account not used - the character page is the licensed channel |
+| 15 | "Trăm sông về biển lớn" | Bùi Công Khánh | yes | `lt_10k` | current-proxy | Instagram @buicongkhanhartist (1,858 followers) - the only countable channel found for this artist | https://www.instagram.com/api/v1/users/web_profile_info/?username=buicongkhanhartist - retrieved 2026-07-30, `edge_followed_by.count` = 1858 | Artwork IP with no channel of its own, so the band reads the creator's channel. Identity confirmed: the account's `external_url` is http://www.buicongkhanh.com/, which is the Hoi An conceptual artist's own exhibition site (curl-verified, lists the 2024-25 shows). No at-campaign figure exists - Wayback holds no snapshot of the Instagram profile (`cdx` on `instagram.com/buicongkhanhartist` returns empty), and none of the 2024-12 VIB press states a following. A 2026-07 count against a 2024-12 campaign is a proxy and is flagged as one. Gallery-track fine artist rather than a social-first creator, so the small band is consistent with the practice |
+| 38 | "The Heritage of Craftsmanship" / "Khơi Vạn Tốt Lành" | Khim Đặng (Dang Khim) | yes | `lt_10k` | current-proxy | Behance @khiimkhiim (1,026 followers) - largest **countable** channel; see Notes for the uncounted Facebook page | https://www.behance.net/khiimkhiim - retrieved 2026-07-30, embedded `"stats":{"views":43132,"appreciations":3297,"followers":1026,...}` | Artwork IP with no channel of its own. Identity confirmed on the Behance profile itself ("Dang Khim", "Illustration Artist, Art Fabrication", Ho Chi Minh City) and independently by https://vietcetera.com/vn/khim-dang-loi-the-lon-nhat-cua-nghe-si-viet-nam-la-can-tinh-viet, which names this exact Behance URL for the artist. **Primary-channel caveat:** that same interview names Facebook `facebook.com/khiimdang` and Instagram `@dangkhiim`. Facebook login-walls curl and has no Wayback snapshot for this slug; `@dangkhiim` does not resolve through the Instagram profile API. The similarly-named `@khiimdang` resolves at 0 followers with an empty bio and is not treated as the artist's active account. So Behance is the largest *evidenced* following, not provably the largest following - if the Facebook page is materially bigger this band understates. Recorded as-is rather than guessed |
+| 39 | "Bạch Mã Hồng Mai" / Ngựa chín hồng mao | Vương Linh | yes | `unknown` | unknown | none identified | n/a | No countable public evidence of any following. Checked: the campaign press (https://vtv.vn/hoa-si-vuong-linh-mang-hinh-anh-co-tich-len-san-pham-ung-dung-duong-dai-100260112115731479.htm, 2026-01-12, curl-verified; the census source article on afamily; the Ngôi sao/VnExpress, Thanh Niên, VietnamNet and cafef profiles) - none states a follower figure. No artist or character channel is named in any of that coverage. The Singulart seller profile (https://www.singulart.com/en/artist/vuong-linh-19263) is a sales listing, not a following. Instagram handle probes (`vuonglinh.art`, `vuonglinhart`, `vuonglinhpainter`, `linhvuongart`, `vuonglinh_art`, `hoasivuonglinh`) returned no matching artist account. Gallery/exhibition-track oil painter (G39 group) with no evidenced social channel - the honest answer is unknown, not a band inferred from press prominence |
+
+## Method notes for this market
+
+- **Instagram counts are curl-verifiable** via `https://www.instagram.com/api/v1/users/web_profile_info/?username=<handle>` with the header `X-IG-App-ID: 936619743392459`. The plain profile HTML is login-walled and returns no count, which is what makes the direct page useless for this purpose.
+- **Behance counts are curl-verifiable** from the profile HTML's embedded `"stats":{...,"followers":N,...}` blob.
+- **Facebook page counts are not curl-verifiable.** The page HTML is login-walled and the Wayback snapshots that exist for these slugs are 302 redirects rather than captured pages. For Facebook-primary IPs the workable route is press that states the figure - which is exactly how row 7 was banded.
+- **Vietnam's independent set is 3-of-4 fine artists**, and fine artists in this market do not run large character channels. That is a real finding about the market, not a gap in the sweep: the one webcomic-character row is `gt_1m` and the artwork rows are all `lt_10k` or unknown.
