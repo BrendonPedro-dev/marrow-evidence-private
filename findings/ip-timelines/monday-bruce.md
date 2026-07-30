@@ -99,3 +99,67 @@ This is the **PUBLIC sequence, inferred from campaign announcements** - not the 
 Monday Bruce's observable playbook was **designer-toy-first, experiential-and-licensing-led, and fast**: created in 2021 and launched as a **blind box in Dec 2022**, the IP built its audience through the collectible-toy product itself and a recurring **pop-up-exhibition circuit** (run domestically with 哈玩具 HOBBY TOY), rather than through a pre-built free social/sticker following the way Capoo and LAIMO did.
 From 2025 it escalated by **going cross-border via pop-up stores (Hong Kong AIRSIDE, Japan Marui) and B2B licensing expos** (Shanghai CLE, Tokyo Licensing Japan) - a licensing-led expansion - and its highest-tier moment to date is an **experiential landmark venue, the Taipei 101 89F observatory special exhibition (2026-04)**, explicitly promoted by 101's chairman as showcasing Taiwan original IP, which is exactly the census's "experiential/venue campaigns skew indie" pattern.
 For PBC's market-building story, Bruce is the **counter-model to the fame-first indies**: a young, company-owned (原石創意 STONE CREATIVE, self-licensed) collectible IP that reached a national landmark in ~3.3 years through toys, pop-ups and licensing-expo B2B - and that has **not yet touched the mass-retail convenience/drink/finance channels** where Capoo and LAIMO broke into volume, marking the obvious next-stage headroom.
+
+---
+
+## Scale anchors (2026-07 retrofit)
+
+Band vocabulary: `lt_10k` / `10k_50k` / `50k_200k` / `200k_1m` / `gt_1m` / `unknown`.
+Primary single channel only; never cross-platform totals.
+Appended per the comp-pool retrofit; the deal-sequence rows above are untouched.
+
+**Primary channel:** Instagram `@monday_bruce` - the official site (mondaybruce.com, curl-extracted 2026-07-30) links exactly two social channels, `instagram.com/monday_bruce` and `facebook.com/themondaybruce`, and Facebook follower counts are a CLOSED platform (no count in the page HTML under any tested UA, consistent with the enrichment pass).
+The census banding pass already banded this IP on the IG channel (`findings/census/taiwan-v2/ip_scale_bands.md` row 115).
+
+**The dated-figure ladder: ONE point.**
+
+| Date | Figure (IG @monday_bruce) | Evidence |
+|---|---|---|
+| 2026-07-30 | 24K | Live profile `og:description` ("24K Followers, 10 Following, 316 Posts"), re-verified this run; identical to census row 115 |
+
+**What was checked and came back empty (recorded so the unknowns are honest):**
+Wayback CDX for `instagram.com/monday_bruce` (exact and prefix) holds only 301/302 redirect stubs from 2025-10 and 2026-01 - no content snapshot, so no historical IG figure exists in the archive.
+Wayback CDX for `facebook.com/themondaybruce` holds only two 302 stubs (2026-01).
+The live Facebook page renders no follower count under the Googlebot UA (counts closed, publish-time epochs only).
+The key press articles (GNN 287508 FANFANS cafe, GNN 302899 and udn 9419978 on the Taipei 101 show) quote no follower figure, and a Google News RSS sweep on 「星期一的布魯斯 粉絲」 surfaced no dated count in any headline - Taiwanese press does not quote counts at this account's size.
+No dated press floor exists anywhere in the record found.
+
+| Event (deal #) | Event date | Band at event | Evidence class | Basis |
+|---|---|---|---|---|
+| Blind-box debut MBR-A01 (#1) | 2022-12 | `unknown` | - | No figure within years of the date; not inferred. |
+| Blind-box S2 (#2) + S3-S7 circuit | 2023-2024 | `unknown` | - | Same; the 2023-2024 window is also the sequence's stated coverage gap. |
+| FANFANS cafe, first co-brand (#3) | 2025-06-19 | `unknown` | - | First consumer co-brand, 13 months before the only figure; a band here would be pure inference. |
+| HK AIRSIDE pop-up (#4) | 2025-08 .. 09 | `unknown` | - | Same. |
+| Japan Marui pop-up (#5) | 2025-08-27 .. 09-02 | `unknown` | - | Same. |
+| Domestic pop-ups + expos (#6-#9, #11) | 2025-10 .. 2026-04 | `unknown` | - | Same; not attempted individually - none is a bigger comp moment than #12. |
+| S8 launch (#10) | 2026-01 | `unknown` | - | Same. |
+| **Taipei 101 observatory exhibition (#12)** | 2026-04-02 .. 08-31 | **`10k_50k`** | **at-campaign** | Count read 2026-07-30, INSIDE the live exhibition window (census row 115's construction). Census flag carries over: exhibition publicity may have grown the account since April, so this is an upper-ish estimate of the opening-day figure - the band would only move if the account had been under 10K in April. |
+| Fubees Huashan pop-up (#13) | 2026-05-01 .. 08-31 | `10k_50k` | at-campaign | Concurrent with #12; the same read falls inside this window too. |
+| Licensing Japan (#14) | 2026-06-17 .. 06-19 | `10k_50k` if stable | current-proxy (weak) | Read 41 days after the fair closed; no in-window or bracketing evidence, so this is the weak proxy class, stated as such. |
+| DBS / LUX blind boxes (undated) | undated | `unknown` | - | No event date, so no at-date band is attachable at all. |
+
+**Anchor coverage: 3 of 12+ sequence rows banded (2 at-campaign, 1 weak current-proxy), all pre-2026 events honest unknowns.**
+This is the thinnest anchor set in the pool, and the reason is itself the finding: no Wayback profile snapshots, no press floors, and a closed Facebook page leave a young small-account IP with no recoverable social history.
+
+**The comp-relevant fact this section adds:** at its institutional peak - the Taipei 101 landmark exhibition - Monday Bruce's primary social channel stood at **24K followers (`10k_50k`)**.
+That is two bands below Bichi Mao's lowest dated point and orders of magnitude below the Capoo/LAIMO fame base, measured *at the same tier of deal*.
+The escalation read's claim that "the escalation currency was collectible desirability + experiential venues, not social reach" is therefore not just an absence-of-evidence argument - the one hard number in the record shows the social channel was never the engine.
+A comp against this arc must key on the toy/venue ladder, because band transitions are unobservable here and social scale demonstrably did not gate the climb.
+
+---
+
+## Engine determination
+
+**Call: DESIGNER-TOY / GOODS-FIRST** (the engine the original timeline research defines against fame-first: the product and its circuit build the audience, rather than a pre-built free social audience pulling brands in).
+
+Observable evidence for the call:
+
+- **The IP was born as a product.** The first commercial artifact is the TOYS ALLIANCE blind box MBR-A01 (2022-12, curl-verified) - not a sticker set, webcomic, or viral post. The character predates it by only ~1 year.
+- **No fame base existed at any observable point.** The single hard figure in the record - 24K IG followers *during the Taipei 101 exhibition itself* (2026-07) - is below even the `50k_200k` tier at the arc's institutional peak. A fame-first arc shows six-figure-plus reach *before* the first brand deal; this arc never shows it even after the biggest deal.
+- **The escalation ran on the goods-first circuit's signature formats:** serialised blind-box cadence (S1-S8), designer-toy fairs (TTF), B2B licensing expos (Shanghai CLE, Giftionery, Tokyo Licensing Japan), operator-run mall pop-ups (哈玩具 HOBBY TOY), and internationalisation by pop-up store (HK AIRSIDE, Japan Marui) - the same vocabulary as the LuLu the Piggy arc, and the formats the Bichi Mao determination lists as absent from a fame-first record.
+- **Its brand collabs are toys.** The DBS and LUX co-brands are co-branded *blind boxes* (MBR-DBS01, MBR-LM01) - the collab vehicle is the collectible itself, where a fame-first IP's collab vehicle is its image on someone else's product.
+
+Confidence note: **high** - this is the pool's cleanest single-engine arc.
+The ordering is unambiguous (product first, audience never large), the format vocabulary is entirely goods-side, and the one scale figure actively refutes a fame explanation.
+The honesty limit: the 2023-2024 coverage gap means the *shape* of the early circuit is under-documented, and with no historical follower data the audience curve is unobservable everywhere except one point - the engine call rests on format evidence, which is abundant, not on scale evidence, which is a single number.
+For comp use: **a goods-first / designer-toy prospect comps to this arc; a fame-first prospect does not.**
