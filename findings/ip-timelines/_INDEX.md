@@ -17,6 +17,10 @@ Source of targets: `findings/census/taiwan-v2/_VERDICT.md` (and the JP/KR census
 | Bichi Mao (MY) | Creator couple Olive Yong & Wee; merch vendor of record "Niko Studios" (TOKYOPOP store) | [bichi-mao.md](bichi-mao.md) | Fame-first, goods-monetised, late-laddering: an Instagram webcomic past 200K by 2021-04 monetised five years through books/merch/Patreon with no dated brand deal, then ran the whole ladder in ~25 months (SODA apparel 2024-06 → Secret Recipe 2025-08 → KTM train livery + transit card for VM2026 → Pizza Hut + Watsons beauty 2026) - every dated brand event inside one `200k_1m` band, 0.5% under the gt_1m edge at 2026-07. |
 | 罐頭豬 LuLu the Piggy (regional / HK) | Designer Cici; owned by her brand Cici's Story; produced & globally licensed by TOYZEROPLUS (HK) since 2019 | [lulu-the-piggy.md](lulu-the-piggy.md) | Designer-toy-first, licensing-house-scaled, escalates by GEOGRAPHY: a 2019 HK/China blind-box phenomenon that broke into brand work via HK mall installations (T.O.P. 2020), then internationalised on its 2024 5th anniversary (HK mall + Thailand + HK 7-Eleven) and entered Taiwan TOP-DOWN via a flagship 新光三越 dept-store pop-up (Dec 2024) - then localised through a first-ever Capoo IP-x-IP (Nov 2025) + 麥味登 QSR / 7-11 TW (2026). Enters at the tier a domestic indie spends years climbing to; no drink/bank/transit rung verified. |
 
+## Pool summary
+
+[COMP_POOL_STATUS.md](COMP_POOL_STATUS.md) - the comp-pool consolidation (2026-07): per-IP engine calls, anchor coverage by evidence class, proposed era labels, and comp-readiness judgments (Capoo/LAIMO/Bichi Mao ready, LuLu partially ready, Monday Bruce thin), plus the cross-pool findings the retrofit established.
+
 ## Targets still to reconstruct (from the census)
 
 - Any further high-escalation indies the JP/KR census runs flag as Taiwan entrants.
