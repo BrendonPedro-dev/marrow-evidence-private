@@ -102,3 +102,75 @@ This is the **PUBLIC sequence, inferred from campaign announcements** - not the 
 Capoo's observable playbook was **fame-first, institution-early**: it built a huge free-audience on LINE stickers/Webtoon (2014-17), and that reach - not a ladder of small local deals - is what pulled in institutional partners (a charity EasyCard, then a bank card) as the *earliest* visible collaborations, well before any drink or QSR tie-up.
 From a 2020 build-out into physical retail (pop-up cafés, an Eslite/Mitsui store) and gaming, it converted audience into repeatable convenience-store access (7-ELEVEN from 2022), then broke the prestige ceiling in 2025 with a national-post 咖波郵局 and a 7,100-store 7-ELEVEN × 故宮 full-store 集點 wave - after which listed-corporate and institutional premiums (華南金控, CTBC) and IP-x-IP collabs (Pokemon, LuLu the Piggy) clustered rapidly in 2026.
 The defining feature for PBC's market-building story: **the whole climb was run in-house through the creator's own captive studio (Carter Island) with no agency or conglomerate** - proof an indie can reach the top institutional tier self-licensed, which is also exactly why Capoo is not itself an addressable PBC client (census REP=no).
+
+---
+
+## Scale anchors (2026-07 retrofit)
+
+Band vocabulary: `lt_10k` / `10k_50k` / `50k_200k` / `200k_1m` / `gt_1m` / `unknown`.
+Primary single channel per anchor; never cross-platform totals.
+Appended per the comp-pool retrofit; the deal-sequence rows above are untouched.
+
+**Channels.** The census banding pass banded Capoo on Instagram `@bugcat_capoo` (2M live, `findings/census/taiwan-v2/ip_scale_bands.md` row 1) because Facebook counts are not live-verifiable under any crawler UA.
+This retrofit found that the expectation of a press-floor-only ladder for this Facebook-primary IP was WRONG: Wayback content snapshots of `facebook.com/capoocat` (the official page - og:description reads "BugCat-Capoo. 817,215 likes ... 像貓又像蟲的小怪物", matching the census's 貓貓蟲-咖波 page) carry exact dated page-like counts in their og:description from 2015 through 2021.
+Facebook was demonstrably the larger channel through that whole era (817K FB in 2019-06 vs 170K IG in 2018-03), so the historical anchors below band the Facebook page; the 2022+ anchors band Instagram, where the bracketing evidence lives after Facebook's og:description dropped counts.
+Each row states its channel.
+
+**The dated-figure ladders (all points curl-verified this run):**
+
+| Date | Facebook `capoocat` (page likes, Wayback og:description) | Instagram `@bugcat_capoo` |
+|---|---|---|
+| 2015-03-29 | 161,801 | - |
+| 2018-03-04 | - | 170,214 exact (`edge_followed_by`) |
+| 2019-06-01 | 817,215 | - |
+| 2019-10-26 | 887,743 | - |
+| 2020-02-13 | 918,731 | - |
+| 2020-11-01 | 1,057,510 | - |
+| 2021-05-04 | 1,138,812 | - |
+| 2021-08-18 | 1,220,687 | - |
+| 2022-10-01 | - | "1M" (og:description; IG keeps K-precision to 999K - the Bichi Mao ladder's live 995K read proves it - so "1M" means >= 1,000,000) |
+| 2026-07-30 | - | 2M live (re-verified this run; identical to census row 1) |
+
+**The ladders' headline: the pool's best-dated band transition.**
+The Facebook page crossed `200k_1m` into `gt_1m` between 2020-02-13 (918,731) and 2020-11-01 (1,057,510) - an 8.6-month window that contains the entire 2020 physical build-out cluster (KRTC train, Eslite cafe).
+The Instagram channel shows the same climb at coarser resolution (`50k_200k` at 2018-03, `gt_1m` by 2022-10, `gt_1m` still at 2M live).
+
+**What was checked and came back empty:** the 2014-11-19 FB snapshot pre-dates the count-bearing og:description format (no figure); every FB snapshot from 2022-11-09 onward is count-free (Facebook dropped counts from the meta tags); the IG snapshot of 2025-05-14 is a content capture but yields no count under any extraction tried; no dated press floor for the 2016-2017 gap was found (a Google News RSS sweep on 咖波+粉絲+萬 reaches back only to 2021, and the CNA 10th-anniversary interview and 數位時代 profile quote "百萬粉絲" only from 2021 onward).
+
+| Event (deal #) | Event date | Band at event | Evidence class | Basis (channel stated) |
+|---|---|---|---|---|
+| EasyCard x 喜憨兒 card (#1) | 2017-02-22 | `unknown` | bracket-straddle | FB sits between 161,801 (2015-03, `50k_200k`) and 817,215 (2019-06, `200k_1m`) - ends in different bands, cannot decide. IG's first point (170,214, 2018-03, a year later) caps the IG channel at `50k_200k`-or-below at this date but cannot pin the band. |
+| O-Bank 漫畫家系列卡 (#2) | 2019-05-15 | `200k_1m` | current-proxy (short-gap) | FB 817,215 read 2019-06-01, 17 days after the event; leaving the band would need a sub-200K or above-1M figure 17 days earlier, refuted by the October trajectory (887,743). |
+| Syntrend 快閃店 (#3) | 2019-08-02 .. 08-27 | `200k_1m` | **bracket** | FB 817,215 (2019-06-01) + 887,743 (2019-10-26), both `200k_1m` - drift-proof. |
+| KRTC 咖波號 train (#4) | 2020-07-17 .. 09-16 | `unknown` | bracket-straddle (narrow) | The event sits inside the observed crossing window: FB 918,731 (2020-02-13) .. 1,057,510 (2020-11-01). The true figure is bounded within ~0.92M-1.06M - within 8% of the 1M boundary either side - but the vocabulary has no band for "at the boundary". The tightest straddle in the pool. |
+| Eslite x Mitsui cafe (#5) | 2020-09-05 .. ~2021-03 | `unknown` | bracket-straddle (narrow) | Opened inside the same crossing window; the page demonstrably crossed 1M DURING this campaign (1,057,510 read 2020-11-01, mid-window). |
+| RO 仙境傳說 collab (#6) | 2020-11-10 .. 12-08 | `gt_1m` | **bracket** | FB 1,057,510 (2020-11-01, 9 days before open) + 1,138,812 (2021-05-04), both `gt_1m` - drift-proof. Capoo's first verified deal as a >1M-channel IP. |
+| 繼光香香雞 (#7) | 2022-06-30 / 07-28 | `gt_1m` | current-proxy (weak, two-channel) | Last FB point 1,220,687 sits 10.4 months prior (an 18% decline would be needed to exit the band); IG read "1M" 2022-10-01, 2-3 months after, on a channel that only ever grew (170K to 2M). Both channels say `gt_1m` within months of the event; no in-window figure, so the weak class is recorded. |
+| 7-ELEVEN Xinyi 主題門市 (#8) | 2022-12-06 | `gt_1m` | **bracket** | IG "1M" (2022-10-01) + 2M live (2026-07-30), both `gt_1m` - drift-proof. |
+| All 2024-2026 rows (#9-#20: Go Go Muffin, 清心福全, Pokemon LINE, Sushiro, 中華郵政, 7-11 x 故宮, CTBC 溜冰場, Pokemon collab, Pew Pew Slime, 華南金, 7-11 90-SKU wave, LuLu IP-x-IP) | 2024-01 .. 2026-06 | `gt_1m` | **bracket** | Same IG bracket ("1M" 2022-10-01 + 2M live), drift-proof for every event in the window. This upgrades the eight Capoo census rows' `current-proxy` basis (with proxy gaps up to 30 months) to a bracketed at-event band; the census file itself is untouched per the re-sweep discipline. |
+| LINE sticker chart ranks (2017, 2020 context rows) | - | not attempted | - | Performance context, not deals; no anchor needed for comps. |
+
+**Anchor coverage: 17 of 20 numbered sequence rows banded (15 bracket, 1 short-gap current-proxy, 1 weak two-channel proxy), 3 honest unknowns - of which 2 are narrow straddles bounded within ~8% of the 1M boundary.**
+
+**The comp-relevant facts this section adds:**
+At its first institutional deal (2017-02 EasyCard) Capoo's measurable channels were far below the millions it is known for now - IG was at-or-below ~170K and FB somewhere between 161K and 817K - so the escalation read's claim that sticker-chart fame, not follower scale, was the early currency now has numeric support: the deals outran the follower curve at the institutional entry.
+The `gt_1m` crossing (2020-02 .. 2020-11, Facebook) coincides with the physical build-out cluster, not with any single deal, and every deal from RO (2020-11) onward - including the entire 2024-2026 prestige cluster (故宮 wave, Pokemon, 中華郵政, 華南金) - ran on a `gt_1m` channel.
+A comp against this arc therefore splits it into a sub-200K institutional entry chapter (2017-2019, where the currency was LINE-sticker distribution), a `200k_1m` retail build chapter (2019-2020), and a `gt_1m` prestige chapter (2020-11 onward).
+
+---
+
+## Engine determination
+
+**Call: FAME-FIRST** (the engine as the original timeline research defines it against designer-toy/goods-first: a pre-built free audience pulls brands in, rather than a product circuit building the audience).
+
+Observable evidence for the call:
+
+- **The audience predates every deal.** The record opens with free content at platform scale - Bahamut blog (2014), a LINE sticker set that "一炮而紅" (2014-10), a LINE Webtoon contest win and serial (2015-2020), top-10 LINE sticker chart placements (2017, 2020) - and the Facebook page already read 161,801 likes (2015-03, curl-verified Wayback) two years before the first verified brand deal (2017-02).
+- **The deal vehicle is the image, not a collectible.** The early sequence is card-face licensing (EasyCard 2017, O-Bank 2019), a wrapped train, themed stores and 集點 waves - Capoo's likeness on other parties' products and spaces. There is no blind-box line, no toy-show debut, no designer-toy fair circuit anywhere in the 20-row record; merch waves (2025-26 7-11 SKUs) arrive only after the `gt_1m` crossing, as an output of fame rather than its source.
+- **The social curve ran ahead of the deal ladder at every measured point.** 161K FB before any deal; 817K-918K FB during the 2019-2020 retail build; the 1M crossing before the prestige tier (故宮, Pokemon, 中華郵政 all follow it). In a goods-first arc the deals run ahead of the social curve (LuLu at 100K holding a 7-Eleven line); here the curve leads.
+- **The variant trait: self-licensed throughout.** The whole climb ran through the creator's captive studio (Carter Island) with no agency - where LAIMO's fame-first arc was agency-scaled (華研 2015-2023), Capoo's is the same engine with the licensing machine kept in-house.
+
+Confidence note: **high.**
+The ordering (audience first, image-licensing vehicle, curve ahead of deals) is unambiguous and now numerically evidenced at four dated points.
+The honesty limit: the currency of the 2014-2017 institutional entry was LINE sticker DISTRIBUTION (chart ranks), which no follower vocabulary measures - the Facebook ladder is the measurable shadow of that fame, not the fame itself, and the first deal's own band is an honest straddle-unknown.
+For comp use: **a fame-first prospect comps to this arc - specifically one whose audience is platform-native (stickers/comics) and who intends to stay self-licensed; a goods-first prospect does not.**
