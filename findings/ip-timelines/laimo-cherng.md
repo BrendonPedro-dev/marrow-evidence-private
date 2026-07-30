@@ -118,3 +118,74 @@ This is the **PUBLIC sequence, inferred from campaign announcements** - not the 
 LAIMO's observable playbook was **fame-first, major-brand-immediately, then agency-scaled**: viral Facebook illustration (from 2011-12) and a first-wave paid-LINE-sticker launch (2013) built a huge free audience, and that reach - not a ladder of small local deals - pulled a listed appliance maker (大同), a top convenience chain (7-ELEVEN), a cosmetics brand (HEME) and a municipal zoo into its EARLIEST verifiable collaborations, all in 2014.
 In 2015 the licensing turned professional under a listed entertainment agency (華研國際音樂), which held the contract through the IP's densest growth decade and produced the 2021-2022 wave of QSR, convenience full-store, drink-chain, e-commerce, luxury-sticker and apparel deals, before the tier-topping CeraVe/L'Oréal beauty collab in 2025 and a Japan place-branding tie-up.
 The defining feature for PBC's market-building story, and the correction to the census: **unlike Capoo, LAIMO's climb was NOT self-licensed for most of its life** - it was agency-represented by 華研 from 2015 to end-2023 and only moved to in-house studio licensing (承三工作室) from 2024, so its "representable/open" status is a recent, post-agency condition, not an original one.
+
+---
+
+## Scale anchors (2026-07 retrofit)
+
+Band vocabulary: `lt_10k` / `10k_50k` / `50k_200k` / `200k_1m` / `gt_1m` / `unknown`.
+Primary single channel only; never cross-platform totals.
+Appended per the comp-pool retrofit; the deal-sequence rows above are untouched.
+
+**Primary channel:** Instagram `@cherngyang` - the census banding pass's channel call (`findings/census/taiwan-v2/ip_scale_bands.md` row 92: the creator's handle is where LAIMO is published, so it is the character channel; `@cherng_` and `@cherngtw` are unrelated).
+The Facebook page (`facebook.com/cherngs.y`, the fame driver of the 2012-2014 era) stays CLOSED on every axis: live counts render under no tested UA, and its only two Wayback content snapshots (2016-01-14, 2020-11-27) are count-free shells.
+The expectation that this Facebook-primary IP would get a press-floor-only ladder was wrong in the opposite way from Capoo: the press yielded no usable numeric floor, but the Instagram account's Wayback record turned out to reach back to 2013 with EXACT counts.
+
+**The dated-figure ladder (all points curl-verified this run):**
+
+| Date | Figure (IG @cherngyang) | Evidence |
+|---|---|---|
+| 2013-04-27 | 635 exact | Wayback snapshot, profile JSON `"full_name":"cherngyang","counts":{"media":178,"followed_by":635}` |
+| 2014-09-23 | 217,666 exact | Wayback snapshot, profile JSON `"counts":{"media":931,"followed_by":217666}` |
+| 2016-03-04 | 371,370 exact | Wayback snapshot, `"followed_by":{"count":371370}` |
+| 2018-09-22 | 405,143 exact | Wayback snapshot, `edge_followed_by` + og:description "405.1k Followers" |
+| 2026-07-30 | 941K | Live profile og:description, re-verified this run; identical to census row 92 |
+
+**The ladder's headline: the pool's only pre-fame data point, and then a single band for twelve years.**
+The account read 635 followers (`lt_10k`) in 2013-04 and 217,666 (`200k_1m`) seventeen months later - the fame explosion of 2013-2014 is directly observable in the ladder, and it CONTAINS the first-wave LINE sticker launch (2013-12) and the entire first deal cluster (2014-01 zoo, 2014-02 大同).
+From 2014-09 onward every measured point (217,666 / 371,370 / 405,143 / 941K) sits inside `200k_1m`: the whole verified brand sequence from late 2014 through 2026 - GUCCI, CeraVe, the 全家 full-store waves, Japan - ran inside ONE band on the primary channel, which never observably reached `gt_1m` (941K live is 5.9% under the floor).
+
+**What was checked and came back empty:** the Facebook page as above (closed live, count-free in Wayback); no dated numeric press floor exists in the record found - the dailyview profile (2015-08, curl-verified) says LAIMO "擁有百萬粉絲", a qualitative million-fans claim about the Facebook era that sits exactly on a band boundary and names no channel-dated figure, so it is context, not an anchor; the hk01 Cherng profile (2024-01) is qualitative too ("每次獲十萬like", census row 92's note).
+
+| Event (deal #) | Event date | Band at event | Evidence class | Basis |
+|---|---|---|---|---|
+| LINE stickers 首波 (milestone row) | 2013-12-25 | `unknown` | bracket-straddle | Inside the 635 (2013-04, `lt_10k`) .. 217,666 (2014-09, `200k_1m`) window - ends three bands apart, cannot decide. The launch sits inside the observed explosion. |
+| Taipei Zoo PSA (#1) | 2014-01-05 | `unknown` | bracket-straddle | Same straddle. |
+| 大同 Tatung 潮家電 (#2, FIRST MAJOR) | 2014-02-25 | `unknown` | bracket-straddle | Same straddle - the first major brand deal falls inside the explosion window: the IG account had read 635 followers ten months earlier and would read 217,666 seven months later. |
+| 7-ELEVEN 迴紋夾 premium (#3) | 2014 (late / 跨年) | `200k_1m` | **bracket** | 217,666 (2014-09-23) + 371,370 (2016-03-04), both `200k_1m`; the stated "去年底跨年時期" window falls entirely inside the bracket, so the date fuzz cannot move the band. |
+| HEME cosmetics (#4) | 2014-2015 | `unknown` | date-fuzz | The "去年與HEME聯手" window (from the 2015-08 article) cannot be placed on either side of the 2014-09-23 ladder point; if the launch fell before it, the event sits in the straddle. Not banded. |
+| Mayday 歪腰 MV (#5) | 2015 | `200k_1m` | **bracket** | Inside the 2014-09 .. 2016-03 bracket, both ends `200k_1m` - drift-proof; the year-level date fuzz stays in-bracket. |
+| 爽啾貘 exhibition (#6) | 2015-06-19 .. 09-13 | `200k_1m` | **bracket** | Same bracket. |
+| CTBC 酷玩卡 (#7) | 2015-06-23 | `200k_1m` | **bracket** | Same bracket. |
+| Eslite 五週年展 (#8) | 2017-06-23 .. 07-16 | `200k_1m` | **bracket** | 371,370 (2016-03-04) + 405,143 (2018-09-22), both `200k_1m` - drift-proof. |
+| 夢時代 爽啾貘 show (#9) | 2017-12-14 .. 2018-01-28 | `200k_1m` | **bracket** | Same bracket. |
+| The 2021-2022 block (#10-#18: 7-11 cup, momo, MOS x2, GUCCI, PAZZO, 全家 full-store, 茶湯會, PONY) | 2021-10 .. 2022-08 | `200k_1m` | **bracket** | 405,143 (2018-09-22) + 941K live (2026-07-30), both `200k_1m` - drift-proof for every event in the window. The GUCCI luxury collab (#13) and the first 全家 full-store wave (#16) both band here. |
+| 富士吉田 Japan (#19) | 2023-11 .. 2024-02 | `200k_1m` | **bracket** | Same bracket. |
+| CeraVe / L'Oreal (#20) | 2025-01 | `200k_1m` | **bracket** | Same bracket. This RETIRES census row 92's watch item (a): the census worried the 941K read sat 18 months after the campaign near the `gt_1m` edge - with 405,143 before and 941K after, both in-band, the at-campaign band is drift-proof regardless of the in-between path. |
+| 全家 repeat (#21) | 2025-04-23 | `200k_1m` | **bracket** | Same bracket. |
+| Uni-Lions (undated row) | undated | `unknown` | - | No event date, so no at-date band is attachable. |
+
+**Anchor coverage: 18 of 22 listed rows banded - every single one by drift-proof bracketing, the pool's best-anchored arc - with 4 honest unknowns (3 explosion-window straddles, 1 date-fuzz) plus the undated row.**
+
+**The comp-relevant facts this section adds:**
+LAIMO's first major brand deal (大同, 2014-02) happened DURING the fame explosion, not after it - the primary channel went from 635 to 217,666 followers across the deal's own window, so "what scale buys a first major deal" has no stable answer on this arc; the currency was the virality itself plus first-wave LINE sticker placement.
+After the explosion, the entire twelve-year brand ladder - luxury stickers, full-store convenience waves, international place-branding, a global beauty conglomerate - ran inside one `200k_1m` band, like Bichi Mao's arc one tier down: comps against fame-first arcs must key on deal-ladder rung, not band transitions, because the band plateaus while the ladder keeps climbing.
+And the contrast with Capoo is now numeric: Capoo's prestige tier arrived after a `gt_1m` crossing; LAIMO reached its own prestige peak (CeraVe) without ever observably leaving `200k_1m` - agency-scaled licensing substituted for the extra order of magnitude of audience.
+
+---
+
+## Engine determination
+
+**Call: FAME-FIRST** (the engine as the original timeline research defines it against designer-toy/goods-first), **agency-scaled variant - the same engine as Capoo run through a listed entertainment company's licensing machine for its densest decade, not a third engine.**
+
+Observable evidence for the call:
+
+- **The audience predates every deal.** Viral Facebook illustration from 2011-12, a first-wave paid LINE sticker launch (2013-12), and an observed primary-channel explosion (635 to 217,666 followers, 2013-04 to 2014-09) all come BEFORE or DURING the first deal cluster (2014-01 zoo, 2014-02 大同, late-2014 7-11) - and the press of the era describes the reach qualitatively as "百萬粉絲" (2015-08).
+- **The deal vehicle is the image, not a collectible.** The sequence is the tapir's likeness on other parties' products: home appliances, a bank card, cosmetics, an MV, convenience premiums, luxury stickers, skincare. There is no blind-box line, no toy-show debut, no designer-toy circuit anywhere in the 21-row record; exhibitions here are illustration shows (誠品, 松山文創), not product drops.
+- **Deals arrived at fame speed, not circuit speed.** First verified deal to first major brand: the same season (early 2014), roughly 20 months after formal debut - the fame-first signature Capoo also shows (deals outrunning any goods ladder), and the opposite of Monday Bruce's product-first ordering.
+- **The distinguishing variant trait: the licensing machine was rented, not built.** Where Capoo self-licensed through a captive studio, LAIMO's densest growth decade (2015-2023) ran through 華研國際音樂's licensing department, returning in-house (承三工作室) only from 2024 - the same engine-vs-machine split the goods-first pair shows (Monday Bruce creator-run vs LuLu licensing-house-run), mirrored on the fame-first side.
+
+Confidence note: **high.**
+The ordering is unambiguous and uniquely well-evidenced: this is the only arc in the pool where the PRE-fame state is directly measured (635 followers) - the explosion, the deals it pulled, and the twelve-year single-band plateau that followed are all in the ladder.
+The honesty limit: the early fame lived on Facebook, which is unmeasurable on every axis tried (closed live, count-free in Wayback, no numeric press floor), so the Instagram ladder is the measurable shadow of the fame rather than its primary site; and the first-major-deal moment itself sits in an honest straddle-unknown.
+For comp use: **a fame-first prospect comps to this arc - specifically one open to agency representation (the 2015-2023 華研 chapter is the arc's growth core); a goods-first prospect does not, and a prospect committed to self-licensing comps to Capoo's variant instead.**

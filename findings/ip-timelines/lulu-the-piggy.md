@@ -114,3 +114,66 @@ For PBC's market-building story, LuLu is the **"big regional IP enters Taiwan to
 The Taiwan census tables carry two dating imprecisions on LuLu that this curl-verified timeline corrects (noted here rather than silently propagated):
 - **麥味登 x LuLu is 2026, not 2025.** `findings/census/campaigns.md` (row 5) and `findings/census/taiwan-v2/campaigns.md` (row 5) date it "2025 (summer)"; the campaign actually runs **2026/05/11-07/11** (ETtoday travel.ettoday.net/article/3162442.htm; supertaste pub 2026-05-08; the census's own cited cava.tw/265108 is a "今夏"/summer-2026 roundup dated 2026-05-24). "2025" appears to be a transcription error.
 - **The LuLu x Capoo IP-x-IP line debuted 2025-11 (TTF), not 2026-06.** The census notes the joint line "from 2026-06, sold at 咖波小浪漫快閃店". Its first-ever public appearance/first sale was at **TTF, 2025/11/13-16** (travel.udn 9139489; gnn 295474); the 2026-06 pop-up is a later continuation, not the debut.
+
+---
+
+## Scale anchors (2026-07 retrofit)
+
+Band vocabulary: `lt_10k` / `10k_50k` / `50k_200k` / `200k_1m` / `gt_1m` / `unknown`.
+Primary single channel only; never cross-platform totals.
+Appended per the comp-pool retrofit; the deal-sequence rows above are untouched.
+
+**Primary channel:** Instagram `@luluthepiggy_official` - the character's own global account, the channel choice the census banding pass already recorded with a full anti-drift argument (`findings/census/hongkong/ip_scale_bands.md` row 78: the label account `@toyzeroplus` reads 75K and the regional `@luluthepiggy_hk` reads 8,182 - three accounts, three bands, the character account governs).
+
+**The dated-figure ladder (both points curl-verified this run):**
+
+| Date | Figure (IG @luluthepiggy_official) | Evidence |
+|---|---|---|
+| 2023-04-27 | 100K ("100K Followers, 3 Following, 364 Posts") | Wayback content snapshot of the profile, meta description (web.archive.org/web/20230427080316/instagram.com/luluthepiggy_official) - the CDX index's only content snapshot (all others are 3xx stubs) |
+| 2026-07-30 | 266K ("266K Followers, 10 Following, 957 Posts") | Live profile `og:description`, re-verified this run; identical to census rows (TW row 5, HK rows 78-92) |
+
+**The ladder's headline: this is the pool's first OBSERVABLE BAND TRANSITION.**
+2023-04 reads `50k_200k`; 2026-07 reads `200k_1m` - the crossing happened somewhere in the window that contains the entire 2024 5th-anniversary internationalisation wave and the Taiwan entry.
+The two points sit in different bands, so events between them CANNOT bracket - a bracket only decides a band when both ends agree.
+
+**What was checked and came back empty:** Wayback holds no content snapshot of `@luluthepiggy_hk` (none at all) or `@toyzeroplus` (429/3xx stubs only); the T.O.P. 2020 press (marketing-interactive) and the 2022 7-Eleven HK press (hk01) quote no follower figure; no dated press floor was found for any event.
+
+| Event (deal #) | Event date | Band at event | Evidence class | Basis |
+|---|---|---|---|---|
+| Blind-box debut, Shanghai Toy Show (origin) | 2019 | `unknown` | - | Four years before the first figure; the account's 2019 existence is itself unverified. |
+| T.O.P. mall installation (#1) | 2020-02 | `unknown` | - | Three years before the first figure; not inferred. |
+| **7-Eleven HK first line (#2)** | 2022-08 | `unknown` | - | Nearest figure is 100K eight months LATER; a 2022-08 count below 50K cannot be excluded, so no band - but see the comp note below, because this unknown is itself informative. |
+| MOSTown 5th-anniv event (#3) | 2024-06-29 .. 08-25 | `unknown` | bracket-straddle | Inside the 100K (2023-04) .. 266K (2026-07) window whose ends sit in DIFFERENT bands; the true value is somewhere in `50k_200k`-or-`200k_1m` and the vocabulary has no such value. Recorded honestly as unknown. |
+| Siam Discovery Thailand entry (#4) | 2024-07 .. 08-31 | `unknown` | bracket-straddle | Same straddle. |
+| 7-Eleven HK second wave (#5) | 2024-09-25 | `unknown` | bracket-straddle | Same straddle. |
+| **新光三越 Taiwan entry (#6)** | 2024-12-14 .. 2025-01-19 | `unknown` | bracket-straddle | Same straddle - the arc's marquee market-entry moment falls exactly in the unresolvable window. |
+| Capoo IP-x-IP @ TTF (#7) | 2025-11-13 .. 11-16 | `unknown` | bracket-straddle | Same straddle, though only ~8.5 months before the 266K read. |
+| **麥味登 QSR (#8)** | 2026-05-11 .. 07-11 | **`200k_1m`** | current-proxy (short-gap) | 266K read 19 days after the campaign closed. NOTE: the census TW row 5 called this a "~13-month proxy gap" off the erroneous "2025 (summer)" date this file corrects - with the true 2026 dates the gap collapses to 19 days, nearly at-campaign. Leaving `200k_1m` would need a sub-200K count in May followed by a 33%+ jump in ten weeks; no evidence suggests it. |
+| 7-11 TW ePoint campaign (#9) | ~2026-05 | `200k_1m` | current-proxy (short-gap) | Same basis; the event date itself is approximate (flagged in the row). |
+| MONOPOLY / Xpower collabs (undated) | undated | `unknown` | - | No event date, so no at-date band is attachable. |
+
+**Anchor coverage: 3 of 11+ sequence rows banded (2 short-gap current-proxy, plus the dated two-point ladder itself), 8 honest unknowns - of which 5 are bracket-straddles, a failure class the single-band arcs (Bichi Mao) never produce.**
+
+**The comp-relevant facts this section adds:**
+LuLu held an **institutional convenience-chain deal (7-Eleven HK, 2022-08) while its global IG was at-or-below ~100K** - the account read only 100K eight months after that campaign.
+A fame-first IP reaches that channel tier on millions of followers (Capoo/LAIMO); LuLu reached it on five figures-to-low-six of social reach, because the currency was blind-box sell-through and a licensing house's retail relationships, not audience size.
+Social scale UNDERSTATES goods-first IP heft - the same lesson as Monday Bruce's 24K-at-Taipei-101, at one band higher.
+And the one band transition the pool can see (`50k_200k` → `200k_1m`, somewhere 2023-2026) coincides with the geographic expansion phase, not with any single deal - so a comp keyed on "what band was LuLu in when it entered Taiwan" has no answer, and comps against this arc should key on the geographic/channel ladder instead.
+
+---
+
+## Engine determination
+
+**Call: DESIGNER-TOY / GOODS-FIRST** (the engine as the original timeline research defines it against fame-first), **licensing-house-scaled variant - the same engine as Monday Bruce run at company scale, not a third engine.**
+
+Observable evidence for the call:
+
+- **The product is the origin.** The IP exists because a licensing house (Toyzeroplus) co-created a blind-box series with a handcraft artist in 2019, debuting at a TOY SHOW - not because an audience gathered around free content. There is no webcomic, sticker set, or viral-post origin anywhere in the record.
+- **Scale evidence actively refutes a fame reading.** At 2023-04 - four years in, after the T.O.P. mall takeover and the first 7-Eleven HK institutional line - the character's global IG stood at 100K, a `50k_200k` account. The deals ran YEARS ahead of the social curve; in a fame-first arc the social curve runs years ahead of the deals.
+- **The escalation vocabulary is entirely goods-side:** serialised blind-box lines, toy-show debuts, mall installations and pop-up stores as the market-entry vehicle, convenience-store merch lines, and IP-x-IP collabs whose vehicle is the collectible itself (the Capoo line is co-branded figures/plush; MONOPOLY is a licensed collectible board game).
+- **The distinguishing variant trait:** where Monday Bruce is a creator-company running the goods-first circuit domestically, LuLu is the same circuit run by a **licensing-distribution house** with the reach to escalate GEOGRAPHICALLY (HK → Thailand → Taiwan, each entered top-down via a flagship venue). The engine is the same; the throttle is corporate.
+
+Confidence note: **high.**
+The ordering (product first, deals ahead of social scale, format vocabulary all goods-side) is unambiguous, and the 2023 Wayback point provides scale evidence the Monday Bruce call lacks.
+The honesty limit: the 2019-2023 HK/mainland core-market record is thin here (stated in Coverage gaps), so the early circuit's shape rests on a few big verified moments rather than a dense sequence, and mainland-China channels (Weibo/小红书), which may dwarf the IG account, were not measured - the IG-primary channel choice is the census's anti-drift convention, not a claim that IG is where LuLu's audience actually lives.
+For comp use: **a goods-first / designer-toy prospect comps to this arc - specifically one with (or seeking) a licensing-house partner; a fame-first prospect does not, and neither does a lone self-licensed creator expecting to replicate the geographic escalation without the corporate engine.**
