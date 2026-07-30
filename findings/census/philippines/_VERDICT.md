@@ -188,3 +188,6 @@ It supports the claim that the Philippine indie share of evidenced brand-x-chara
 It supports the claim that **Philippine press names local creators** and that the retrieval problem is on the brand side, not the coverage side.
 It does **not** support any claim about campaign outcomes, sales, footfall or performance - none is made anywhere in this file or the table.
 It does **not** support a claim that the addressable Filipino creator pool is 14; that is the floor a press-only, `spot.ph`-less, social-media-less instrument could reach.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.

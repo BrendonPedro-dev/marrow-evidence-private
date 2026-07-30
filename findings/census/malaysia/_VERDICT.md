@@ -329,3 +329,6 @@ The ordering of corrections is now explainable end to end: the size of the artis
 What survives is narrower and still worth saying: Malaysia's indie campaigns are *smaller in format* - festive packets and capsule tees rather than nationwide drink series and pop-up circuits - and its creator layer is far broader than the original pass could see.
 
 **What is still not claimed anywhere in this census:** no outcome, no sell-through, no royalty, no performance figure, for any row, including the known-entity rows.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.

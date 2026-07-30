@@ -205,3 +205,6 @@ The portfolio side of this market is well measured and further sweeping would mo
 The independent side is measured only in the channel that press happens to index, that channel was discovered in the final tranche, and it immediately produced five of the census's thirteen independent rows.
 **Read 12.7% as a floor with a soft ceiling near 20%, read the addressable count of eight as a floor, and treat the INFIA call as the load-bearing uncertainty that it is.**
 An honestly thinner reading of this market would have been to stop at 61 rows and report 13.1% as settled; the reason to prefer this one is not that it is bigger but that it names the channel it is measuring.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.

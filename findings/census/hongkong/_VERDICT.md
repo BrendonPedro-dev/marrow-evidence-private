@@ -212,3 +212,6 @@ It is listed rather than quietly kept, because a rule that only ever excludes ma
 **The honest read.** The 83.9 / 14.0 split is trustworthy as a description of *Hong Kong's consumer-facing licensed-character economy*: the densest mall-led character market measured in this series, running at extreme licensor concentration, with Chiikawa alone fronting one campaign in eight.
 It is a weaker description of *Hong Kong's creator economy*, and this verdict says so with a number rather than a hedge: the same market, in the same window, in the same publications, returns a 2.6% indie share to a brand-side query and a 68.8% indie share to an artist-side one.
 The direction of any correction is one-way - upward - and the two rejections in class H, six named HK creators between them, are where the next of it will come from.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.

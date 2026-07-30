@@ -192,3 +192,6 @@ The dual-portfolio-wall finding (foreign licensors + domestic platform owners) i
 - **Two marginal formats were admitted and flagged** - row 150's photo-booth frame templates and row 145's in-game hero. A stricter reading would drop both, which would move the indie share to 33.1%.
 - **One row is geographically partial.** Row 144 (아크메드라비 x 빤쮸토끼) launched its collection in ADLV's overseas stores; the in-scope Korea element is the Seoul 에이랜드 pop-up. It is counted on that pop-up, and flagged.
 - **Named holes left open rather than filled by inference:** 케이비젼 x 슈야 동대구역 카페 (2025-09), 서울관광재단 x 아티스트 3인 (2025-09), 잉가 x 모모레이 (2025-08) all surfaced with headline-level dates and are in-scope Korea candidates that a future pass should date. GU x 에스더버니 (2025-07-17) is dated and real but out of market scope.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.

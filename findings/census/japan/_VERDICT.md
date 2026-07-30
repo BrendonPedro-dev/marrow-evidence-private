@@ -138,3 +138,6 @@ Japan sits between them and the reason is legible: ja trade press *does* name th
 - **Aggregator dependence increased.** 9 of the 15 new rows rest on collabo-cafe, a single aggregator (each flagged in Notes). Four rest on brand-official pages (Pixio, CyberAgent, Superbag) and are the strongest of the block.
 - **One date is partly inferred.** Row 137's precise 2025-08-22..09-30 window comes from the campaign LP's title as indexed; the LP itself returns 403 and the curl-verified source states only 2025年8月～9月. The year tag (2025) is safe either way.
 - **One marginal format was admitted and flagged** - row 142's free promotional shopper bags. It is a brand-x-illustration-IP product but not a consumer campaign; a stricter reading would drop it, which would move the indie share to 34.5%.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.

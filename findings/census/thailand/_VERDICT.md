@@ -210,3 +210,6 @@ This is not an inconsistency - it is the ownership test applied per IP, as the d
 | The per-year indie trend (35.7% -> 10.3% -> 18.8%) | **Do not report** | Almost certainly a sampling artefact of when Thai trade press profiled creators by name. Stated in Section 1. |
 
 **A true smaller number beats a padded one.** Two rows were removed during this build rather than carried: a KFC "Baby Sanders" blind box (KFC's own mascot, excluded by rule) and a numbering placeholder that was not a distinct campaign. The count went from a claimed 85 to a verified 83. Every exclusion made in pass 2 is itemised in the rejected list at the foot of `campaigns.md` so the boundary of this census is auditable rather than asserted.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.

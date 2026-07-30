@@ -305,3 +305,6 @@ It does **not** support any claim about campaign outcomes, sales, footfall or pe
 It does **not** support a claim that the addressable Vietnamese creator pool is four. That is the floor a press-only instrument reached with both trade titles blocked and all social channels unswept, and section 2 names three creator-owned Vietnamese character properties with no brand campaign attached that a social-media sweep would start from.
 
 It does **not** support a claim that Vietnamese chain coffee and Vietnamese cinema run no character campaigns. Both formats have identified, named instrument gaps, and both are recorded as gaps rather than as findings.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.

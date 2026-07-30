@@ -222,3 +222,6 @@ The 2024 slice should not be quoted on its own.
 **The honest read.** The 91.4 / 8.6 split is trustworthy as a description of *Singapore's consumer-facing licensed-character economy*: dense, venue-led, high-frequency, and running almost entirely on imported portfolio IP.
 It is a weaker description of *Singapore's creator economy*, because one of the two veins that would document creator-side licensing (the marketing trade press) is unreachable and the other (design and artist press) is unswept.
 The direction of any correction is one-way - upward on the indie share - and the ceiling on it is bounded by the fact that ten artist-side keywords across five portals over 31 months surfaced exactly one brand x local-illustrator campaign.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.

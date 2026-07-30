@@ -165,3 +165,6 @@ The transferable lesson for the remaining legs (JP / KR / MY) is that **the size
 - **Dateless indie candidates remain excluded and are listed** in campaigns.md ("Dateless / unresolved candidates"). Two are real indie x brand collabs (BONNY&READ x Kurt Wu; 寶島眼鏡/K-DESIGN x 爽爽貓) that would raise the indie share if they could be dated. The 27.5% is therefore still a floor, consistent with §5.
 - **One unresolved ownership hole:** SEMO'S / Second Morning (松菸, 2026-04-02..05-05) is dated but unclassified - no class call was guessed. It is logged as a hole rather than counted either way.
 - **Single-source rows added:** 131 and 132 rest on one source each and are flagged as such in Notes.
+
+---
+ACCEPTED by Brendon 2026-07-30 - verdict reviewed, import cleared.
