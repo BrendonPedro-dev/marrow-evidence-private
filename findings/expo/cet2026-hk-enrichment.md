@@ -13,8 +13,9 @@ How many of the 32 are representable, and how many are label-captive.
 Hong Kong is the art-toy label capital and the census's own HK task pinned captive-by-channel as the expected default for this market.
 This run tests that default per row rather than assuming it: the Toyzeroplus logic is applied as a test with a possible negative answer, not as a prior.
 
-No count is stated until every row is adjudicated.
-The register below is the working record; the counts section stays empty by design while rows remain open.
+No count was stated until every row was adjudicated.
+The register below is the record; the counts section was held empty by design until the last row carried a call, and is now written.
+All 32 rows carry a class, a REP call and a reason.
 
 ## Method
 
@@ -63,16 +64,16 @@ Rows marked `open` have not been adjudicated yet and carry no call; they are not
 | 2 | Din Dong & Uncle Fish | INDEPENDENT | yes | solo-illustrator brand (ASSUMED); self-run channels; no label or agency surfaced in either pass | `10k_50k` | current-proxy |
 | 3 | Creature Collectors Club | INDEPENDENT | yes | creator-run character brand (ASSUMED); no label or agency surfaced in either pass | `10k_50k` | current-proxy |
 | 4 | hohohola x magickira | unresolved | unclear | neither party resolved to a publisher page; candidate handles are false friends | `unknown` | unknown |
-| 5 | Pure Studio | open | open | not yet adjudicated | open | open |
-| 6 | Nine Four Sixty X Dino Valley | open | open | not yet adjudicated | open | open |
+| 5 | Pure Studio | INDEPENDENT | yes | founder-owned studio, CONFIRMED on its own site and an incubator page; carries its own named brand properties; no label, agency or management surfaced | `10k_50k` | current-proxy |
+| 6 | Nine Four Sixty X Dino Valley | unresolved | unclear | neither co-listed party resolved to a publisher page; every candidate handle is a false friend | `unknown` | unknown |
 | 7 | Nalok.Lok | INDEPENDENT | yes | named illustrator working under her own name; no label or agency surfaced | `10k_50k` | current-proxy |
 | 8 | 大爪作 BIGCLAWX | INDEPENDENT | yes | founder-owned art-toy brand, CONFIRMED in a bylined interview; no label or agency surfaced | `lt_10k` | current-proxy |
 | 9 | YoYo! Yogurt!! Studio | INDEPENDENT | yes | creator-run studio brand (ASSUMED); no label or agency surfaced | `lt_10k` | current-proxy |
 | 10 | EMO NEKO W.O.O.F. CLUB | INDEPENDENT | yes | creator-run character set under one studio identity (ASSUMED); no label or agency surfaced | `10k_50k` | current-proxy |
 | 11 | Ouch!! Don't Cry!! | unresolved | unclear | strongest candidate identity is not confirmed; the candidate's own line-up does not carry this name | `unknown` | unknown |
 | 12 | 021 Consultancy x SHIBAINC | INDEPENDENT | unclear | creator-owned and self-licensing, CONFIRMED; but a consultancy is co-listed on the exhibitor row itself and its scope is not resolvable | `10k_50k` | current-proxy |
-| 13 | 無盡創意設計工作室 | open | open | not yet adjudicated | open | open |
-| 14 | FIGTION | open | open | not yet adjudicated | open | open |
+| 13 | 無盡創意設計工作室 | unresolved | unclear | the sheet's own link resolves to a toy-design studio, but nothing independently ties that studio to this exhibitor name | `unknown` | unknown |
+| 14 | FIGTION | unresolved | unclear | no channel or press resolved; the artist-side pass on the named collaborators did not corroborate the sheet's note | `unknown` | unknown |
 | 16 | CHEAP CENTURY | INDEPENDENT | yes | named illustrator, own characters, own storefront, brand campaigns run in his own name; no agent named in press | `50k_200k` | current-proxy |
 | 17 | Shadoowww | INDEPENDENT | unclear | one channel resolved and nothing else; too thin to call either way | `unknown` | unknown |
 | 18 | club babo | INDEPENDENT | yes | creator team with its own character and self-run channels, CONFIRMED in a bylined profile; no agency surfaced | `10k_50k` | current-proxy |
@@ -175,9 +176,66 @@ The reason is identity, not attachment: there is nothing evidenced to classify.
 
 **What would resolve it.** The exhibitor's own CET2026 directory entry, or an HK press or market listing naming either party with a live channel.
 
-### 5-6, 13-14
+### 5. Pure Studio
 
-Open. Not yet adjudicated in this run, and deliberately carrying no call.
+**The only row in the final batch that resolved, and the best-documented row in the register on ownership.**
+
+**Identity (CONFIRMED).** Pure Studio, a Hong Kong studio founded in 2018, own site at `purestudio.hk`.
+The Hong Kong Design Centre's Design Incubation Programme carries its own page for the company naming two founders, Au-Yeung Chun Hay and Tse Ka Yee, and the same 2018 founding date.
+The studio's own site links out to `instagram.com/purehay/` and `facebook.com/AuYeungChunHay/` as its channels, and the Facebook page's own title is `Purehay - 禧之插畫世界`, which ties the studio, the founder and the channel together first-party.
+
+**A generic name that was checked before it was accepted.** `@purestudio` (4 followers, no display name), `@pure_studio` (2 followers, no display name) and `@purestudio.hk` (empty display name, no count served) are all dead or unrelated; the accepted channel came from the studio's own site rather than from a handle guess.
+
+**Class: INDEPENDENT.** Founder-owned: two named individual founders on the incubator page and no corporate, platform, estate or franchise owner anywhere in either pass.
+
+Recorded rather than concluded: this is substantially a service studio.
+Its own site describes "Illustration Art, movie picture, advertisement, pre-production for animation and games and brand development", which means a large part of its output is client work made to order.
+That raises MIXED as an alternative reading, and it is rejected here for a stated reason: the attendee's own properties are the ones it carries, and its site lists two under Brand Development - `Eternal Palace` and `Big Bun Spiritual Card`.
+Client pre-production work is not IP this attendee carries, so it does not make the row MIXED.
+Whether any client work was assigned away is exactly the chain-of-title question this run refuses, and it is not answered.
+
+**REP: yes.** Creator-owned, at least one confirmed self-run channel, own named brand properties, and no label, agency or management attachment surfaced in either pass.
+
+One adjacent signal was found and checked rather than ignored: the studio sits on the Hong Kong Design Centre's Design Incubation Programme roster.
+An incubation programme is a public support scheme, not a label, an agency or a management company, and it is treated exactly as row 7's book-fair promotion programme was - checked, named, and not treated as an attachment.
+This is stated so that the `yes` is not read as "nothing was found", when in fact something was found and assessed.
+
+**Band: `10k_50k`, current-proxy.** Instagram `@purehay`, display name `PureHay Art 🇭🇰`, 11K followers, retrieved 2026-07-31.
+Anti-drift: no separate studio-branded channel exists, so the founder's artist channel is the studio's evidenced channel and there is no character-versus-creator split to resolve.
+Cross-check: the linked Facebook page carries 6,235 likes, which is a smaller number on a different metric and does not move the band; the Instagram count governs and the Facebook figure is recorded, not averaged.
+The two named brand properties have no separate channel evidenced.
+
+**Control signals.** Solo creator: no - two named co-founders, CONFIRMED on the incubator page, so this row is a founder pair rather than a solo creator. Label or agency attached: none surfaced; an incubation programme was found and is not one. Already under management: none surfaced. Prior assignment visible in press: none surfaced, and the studio's client-service line is recorded above as a reason to expect the question rather than as an answer to it. All four remain ASSUMED and none is concluded.
+
+**Evidence.**
+- https://www.purestudio.hk/ - the studio's own site: founding year, service description, and the Brand Development entries. Retrieved 2026-07-31.
+- https://hkdesignincubation.org/?category=2&company=376&route=incubation_inner - Hong Kong Design Centre incubation page: company name, both founders, 2018. Retrieved 2026-07-31.
+- https://www.instagram.com/purehay/ - retrieved 2026-07-31.
+- https://www.facebook.com/AuYeungChunHay/ - page title `Purehay - 禧之插畫世界`, like count. Retrieved 2026-07-31.
+
+### 6. Nine Four Sixty X Dino Valley
+
+**Unresolved, and left unresolved.**
+Neither co-listed party resolved to a publisher page in either pass.
+
+**What was checked.**
+EN and zh-HK web search on both names, together and separately, returned nothing for either: the `Nine Four Sixty` queries surfaced only unrelated Hong Kong leather workshops, and the `Dino Valley` queries surfaced only unrelated dinosaur-themed products.
+Google News zh-HK (percent-encoded) returned no matching headline for either name.
+Handle probes were run across both spellings and returned false friends or nothing: Instagram `@ninefoursixty`, `@nine_four_sixty`, `@ninefoursixty.hk`, `@ninefoursixty_`, `@ninefoursixtyhk`, `@nine460`, `@9460leather`, `@leather946`, `@nfsxdinovalley` (none exist), `@946_0` (10 followers, no posts, unrelated), `@nfs946` (1 follower, no posts, no display name), `@n946` (John Grijalva, unrelated), `@dinovalley` (Deena Gregory, 36 followers, unrelated), `@dino_valley` ("The Land of spam", 2 followers, unrelated), `@dinovalley.hk` and `@dinovalley.tw` (do not exist); Facebook `/ninefoursixty` and `/NineFourSixty` served nothing.
+
+**Class: unresolved. REP: unclear. Band: `unknown`.**
+The reason is identity, not attachment: there is nothing evidenced to classify.
+
+**One hypothesis was tested and is recorded because it would matter, not because it holds.**
+The exhibitor string is a co-listing (`X`), the same shape as row 12, so the second party is the natural place to look for an attachment signal.
+The Phase 0 sheet's Taiwan section carries #277 `恐龍山丘文化創意有限公司 (Dino Valley Creative)`, typed Agency, and a Taiwan entity of that name does exist: `dinovalley.com.tw`, a Facebook page `恐龍山丘 | Taichung`, and Instagram `@dinovalley2021` (0 followers, 54 posts).
+If the `Dino Valley` on this Hong Kong row were that entity, the row would be a creator co-listed with an agency and would sit in the same unresolved-scope position as row 12.
+It is not carried, for three reasons: the sheet describes this row as a leather craft brand and nothing connects a leather craft brand to the Taiwan entity; the Taiwan entity's own site could not be read (its TLS certificate has expired) so its business was never confirmed first-party; and the first party, `Nine Four Sixty`, never resolved at all, so there is no creator side to attach anything to.
+Recorded as a checked-and-rejected hypothesis so that it is not silently lost, and so that no later reader re-derives it as a finding.
+
+**Control signals.** None assessable.
+
+**What would resolve it.** The exhibitor's own CET2026 directory entry once the organiser publishes the exhibitor list, or a Hong Kong press or market listing naming either party with a live channel.
 
 ### 7. Nalok.Lok
 
@@ -322,6 +380,60 @@ Anti-drift: the account is the character brand's own, not a personal creator acc
 - 新假期, 2023-08-07, OK便利店 x 柴犬工房 十週年產品 (campaign coverage, HK publisher).
 - U Food, 2023-12-29, OK便利店 x 柴犬工房 精品 (campaign coverage, HK publisher).
 - https://www.instagram.com/shibainc/ - retrieved 2026-07-31.
+
+### 13. 無盡創意設計工作室
+
+**Unresolved, and left unresolved - the row where the sheet's own link resolved and still did not settle the identity.**
+
+**What was checked.**
+This is the one open row whose Notes column carried a live link rather than a handle: `facebook.com/share/18yLz9fE91`.
+Followed with a crawler user agent, it redirects to a real Hong Kong Facebook page - `N9thstudio | Hong Kong`, 6 likes, self-description `N°9THSTUDIO`.
+That page's brand resolves further: Instagram `@n9thstudio`, display name `N°9TH STUDIO`, 3,833 followers, 243 posts, bio `Toy Design | 3D Artist`, and a matching Threads profile under the same handle.
+The sheet's other seeds were probed too: Instagram `@kailamchan` is a 2-follower personal account with no connection to a studio, and Google News zh-HK returned nothing for either `無盡創意設計工作室` or `N9THSTUDIO`.
+Web search on the exhibitor name and on the studio name each returned nothing on-target.
+
+**Why the candidate is not accepted.**
+The method's rule is that a channel is accepted only when the display name or bio independently matches the exhibitor, and nothing here does.
+Neither the Facebook page name, the Instagram display name nor the bio carries `無盡創意設計工作室`, and none names Kailam Chan.
+The candidate's own two channels also disagree about where it is: the Facebook page is titled Hong Kong, while the Instagram bio lists Tokyo, Taipei and Kaohsiung and states an affiliation with a differently-named studio.
+
+Two readings survive and neither can be discharged from the evidence available.
+Either `無盡創意設計工作室` is the registered Chinese company name behind the `N°9TH STUDIO` trading name, which is an ordinary Hong Kong arrangement and would make the link correct; or the sheet's link is simply attached to the wrong row, which has already happened twice in this run on other fields.
+The run's own rule about the Notes column - query seed only, never carried as a finding - decides it: the link points somewhere, but nothing independent confirms it points here.
+
+**Class: unresolved. REP: unclear. Band: `unknown`.**
+The reason is identity, not attachment.
+The candidate's follower count is deliberately not carried into the band; adopting it would import the whole unverified identification through the back door.
+
+**A conditional signal, recorded and not carried.** If the candidate ever is confirmed as this exhibitor, its own Instagram bio states an affiliation with another named studio, and that affiliation's scope would then have to be resolved before any REP call - which would put the row in row 12's position rather than in a clean `yes`. This is conditional on an identification that has not been made, and it is not counted as an attachment signal anywhere in this file.
+
+**Control signals.** None assessable.
+
+**What would resolve it.** A first-party page carrying both names together - the studio's own site or shop, a Hong Kong Companies Registry entry, or the exhibitor's own CET2026 directory entry.
+
+### 14. FIGTION
+
+**Unresolved, and left unresolved.**
+
+**What was checked.**
+Instagram `@figtion` resolves but to `maria | fig🎵`, an unrelated individual; `@figtion_` is a private LEGO-collector account whose bio reads `#afol #legominifigurecollector #toystoryfan`, with no Hong Kong or brand connection; `@figtion.official` (9 followers, 0 posts) and `@figtion.studio` (6 followers, 12 posts) are both too empty to identify and neither carries anything tying it to this exhibitor; `@figtionhk`, `@figtion.hk`, `@figtion.hk_`, `@thefigtion`, `@figtionstudio`, `@figtion.toy` and `@figtiontoys` do not exist.
+Facebook `/figtion`, `/figtionhk` and `/figtion.hk` served nothing.
+Google News zh-HK on `FIGTION 香港` (percent-encoded) returned only unrelated noise on similarly-spelled titles.
+EN and zh-HK web search on the brand plus NFC, Web3, collectibles and 潮玩 returned general market coverage and nothing on this name.
+
+**The artist-side pass is what makes this a real negative rather than a thin one.**
+The sheet's note claims collaborations with two named parties, so those were run artist-side, which this run treats as the mandatory pass.
+`Deepsico Club` resolved to a genuine creator account - Instagram `@deepsicoclub`, 388 followers, a bio describing six aquatic characters, posts running October to November 2022 - and that account's own profile names no producer, no platform and no collaborator, FIGTION included.
+`Blossom Man` did not resolve: `@blossomman` is an unrelated personal account.
+So the one route that could have identified this exhibitor from the creator side was open, was taken, and returned nothing.
+
+**Class: unresolved. REP: unclear. Band: `unknown`.**
+The reason is identity, not attachment.
+Nothing here is evidence that the sheet's note is wrong; it is evidence that the note is unverified, and an unverified note is not carried.
+
+**Control signals.** None assessable.
+
+**What would resolve it.** The exhibitor's own site or storefront, its own CET2026 directory entry, or either named collaborator's own channel naming it.
 
 ### 16. CHEAP CENTURY
 
@@ -778,19 +890,19 @@ No separate per-character channel was found, so the studio account is the read.
 Recorded here because they change how the finished register should be read, and because leaving them implicit would make the eventual counts misleading.
 
 **1. `unclear` is carrying two entirely different situations, and they must not be summed.**
-By this point in the run the `unclear` calls split cleanly:
+At the close of the run the `unclear` calls split cleanly:
 - *No property to represent.* Rows 1, 24, 25, 26, 27 and 28 are identified, creator-owned, self-channelled businesses that make craft or design goods rather than character IP. Nothing is unresolved about them; the finding is that there is no character IP evidenced on the row.
-- *Identity or scope unresolved.* Rows 4, 11 and 17 could not be identified well enough to call, and row 12 has a real attachment signal whose scope is not resolvable.
-Both return `unclear` under the stated rule and the rule is not being changed mid-run, but a count that adds them together would report a measurement failure and a substantive finding as the same thing.
-When the counts section is written it has to separate them.
+- *Identity or scope unresolved.* Rows 4, 6, 11, 13, 14 and 17 could not be identified well enough to call, and row 12 has a real attachment signal whose scope is not resolvable.
+Both return `unclear` under the stated rule and the rule was not changed mid-run, but a count that adds them together would report a measurement failure and a substantive finding as the same thing.
+The counts section separates them, and any later use of this file must keep them separate.
 
 **2. Row 22's `no` is structural, not captive, and the two branches must be kept apart when the counts are written.**
 ARDUREY returns REP=`no` because the attendee is itself a licensing agency, which is the rule's second branch.
 That is a different fact from the rule's first branch - exclusive label or agency channelling - and the two must be tallied separately rather than added, or the count will say something the evidence does not.
 No branch tally is stated here; the point is that the counts section cannot be written as a single `no` column.
 
-**3. Every label-or-retailer channel tested so far has come back running alongside a self-run channel, not replacing it.**
-Three tests now: TOYZEROPLUS on row 11's candidate, 誠品 on row 24, and Tiny 微影 on row 29 (the last unresolved).
+**3. Every label-or-retailer channel tested in the whole run came back running alongside a self-run channel, not replacing it.**
+Three tests in total: TOYZEROPLUS on row 11's candidate, 誠品 on row 24, and Tiny 微影 on row 29 (the last unresolved).
 In each case the creator's own direct channel was live or evidenced at the same time.
 That is the non-exclusive branch of the pinned edge case each time.
 No conclusion about exclusivity is drawn from this - exclusivity is refused ground and a concurrent direct channel is not proof of a non-exclusive arrangement - but the pattern of what the sweep can see is worth recording as it accumulates.
@@ -801,33 +913,115 @@ The Hong Kong rows carry Hong Kong-specific first-party handles and the evidence
 One independent corroboration that the duplication may be real exhibiting rather than a transcription error: paper diamond's own Threads bio on 2026-07-31 advertised a Taiwan Creative Expo booth.
 Phase 0 is not re-run and its disposition is not revised; this is flagged so that any later cross-market count knows the eight names are the same organisations and must not be counted twice.
 
+**5. The six unresolved rows are not a random sample of the list, and the counts must not be read as if they were.**
+Every row that failed to resolve failed the same way: no channel, no press, and every plausible handle a false friend.
+The four rows left to the final batch were exactly the four whose Notes column carried no handle, and three of them (6, 13, 14) stayed unresolved while the one that carried usable text (5) resolved completely and became the best-documented ownership row in the register.
+That is a property of the seed data rather than of the exhibitors: presence of a handle in the sheet, not size or type of business, is what predicted whether a row could be adjudicated.
+It matters for the counts because the sweep's blind spot is systematic - a creator whose public footprint is thin is both harder to identify and likelier to be channelled through someone else - so the unresolved rows lean, if anything, away from the run's headline result rather than neutrally.
+
+**6. A second possible agency co-listing was found and could not be closed.**
+Row 6 is a co-listed exhibitor string (`Nine Four Sixty X Dino Valley`) and the sheet's Taiwan section separately carries a `Dino Valley Creative` typed as an Agency.
+If those are the same party, the register would hold two rows where an agency sits on the creator's own exhibitor line rather than one.
+It is recorded in row 6 as a checked-and-rejected hypothesis: neither party resolved first-party, so the connection is unverified and is not carried into any count.
+Noted here so that a later reader who spots the same coincidence finds it already examined rather than re-deriving it as new.
+
 ## Counts
 
-Deliberately empty.
-No representable-vs-captive number is stated while rows remain open, because a partial count of an unfinished adjudication would be read as an outcome.
-The counts section is written once all 32 rows carry a call.
+All 32 rows now carry a class, a REP call and a reason, so the register is tallied here.
+
+**What this section is, and what it is not.**
+This is a tally of the 32 rows in this register and nothing else.
+It is not a rate, not a share, not a proportion of the Hong Kong market, and not a base for extrapolation to anything - not to the rest of the CET2026 list, not to Hong Kong, not to the census.
+No percentage is computed anywhere in this file, deliberately.
+This file is internal only.
+
+**REP, the run's question.**
+
+| REP | Rows | Count |
+|---|---|---|
+| `yes` | 2, 3, 5, 7, 8, 9, 10, 16, 18, 19, 20, 21, 23, 29, 30, 31, 32, 33 | 18 |
+| `no` | 22 | 1 |
+| `unclear` | 1, 4, 6, 11, 12, 13, 14, 17, 24, 25, 26, 27, 28 | 13 |
+
+**The single `no` must be read on the correct branch.**
+Row 22 (ARDUREY LIMITED) is the rule's second branch - the attendee is itself an artist licensing agency, so it is the representation layer rather than something to represent.
+On the rule's first branch, exclusive label or agency channelling, the count across all 32 rows is zero.
+
+**`unclear` splits into two unrelated things and is never reported as one number.**
+
+| Kind of `unclear` | Rows | Count |
+|---|---|---|
+| No character IP evidenced on the row - identified, creator-owned craft, design, fashion, fragrance or paper-art businesses with no property of the kind this run adjudicates | 1, 24, 25, 26, 27, 28 | 6 |
+| Identity not resolvable to the evidence standard | 4, 6, 11, 13, 14, 17 | 6 |
+| Identity resolved, but a real attachment signal whose scope could not be resolved | 12 | 1 |
+
+The first kind is a finding about what this exhibitor list contains.
+The second is a measurement failure of this sweep.
+The third is the only row in the register where an attachment signal was found on an identified creator and could not be closed.
+Adding them would report all three as the same thing.
+
+**Class.**
+
+| Class | Rows | Count |
+|---|---|---|
+| INDEPENDENT | all rows except those below | 26 |
+| PORTFOLIO | 22 | 1 |
+| MIXED | none | 0 |
+| unresolved | 4, 6, 11, 13, 14 | 5 |
+
+**Band**, `current-proxy` on every banded row, July 2026 counts.
+
+| Band | Rows | Count |
+|---|---|---|
+| `lt_10k` | 1, 8, 9, 23, 26, 28, 31 | 7 |
+| `10k_50k` | 2, 3, 5, 7, 10, 12, 18, 19, 20, 21, 24, 25, 27, 29 | 14 |
+| `50k_200k` | 16, 30, 33 | 3 |
+| `200k_1m` | 32 | 1 |
+| `gt_1m` | none | 0 |
+| `unknown` | 4, 6, 11, 13, 14, 17, 22 | 7 |
+
+Row 7's band sits on a rounded "10K" and straddles the `lt_10k` / `10k_50k` edge; it is counted at `10k_50k` with the boundary flagged in the row and not resolved.
+
+**The label-captive default did not reproduce, and that is the run's answer to its own question.**
+Hong Kong is the art-toy label capital and captive-by-channel was the expected default for this market, pinned in advance so it would be tested rather than assumed.
+Across all 32 rows, the number that returned exclusive label or agency channelling is zero.
+Three label-or-retailer tests were run explicitly - TOYZEROPLUS, 誠品, Tiny 微影 - and each came back with the creator's own direct channel live at the same time.
+
+That result is bounded, and the bounds are part of the finding rather than a caveat on it:
+
+- Exclusivity is refused ground in this run. A concurrent direct channel is not proof of a non-exclusive arrangement, and none is claimed. What the zero states is that no exclusive channelling was *evidenced*, not that none exists.
+- Six rows could not be identified at all. Captive arrangements are exactly the kind that leave a thin public trail, so the unresolved rows are not neutral with respect to this question and cannot be assumed to distribute like the resolved ones.
+- The frame is an expo exhibitor list. Exhibiting under one's own name at a licensing expo is itself a selection: a creator whose IP is exclusively label-channelled has less reason to take a booth in their own name, and the label would take it instead. The population may therefore be pre-filtered toward the answer this run found. This is the strongest single reason not to read the zero as a statement about Hong Kong.
+- Control signals are ASSUMED throughout by construction. On most `yes` rows the reason is "no attachment surfaced in either pass", and this population is channel-visible and press-invisible, so an attachment could exist without leaving a trace either pass could see.
+
+Within those bounds the finding stands: on this list, in this frame, the expected captive default is not what the evidence shows.
 
 ## Refusals applied
 
 - No rights_owner, chain of title, territory, exclusivity or deal terms is concluded anywhere above.
   Where exclusivity was the natural next question (rows 11 and 12), the file says so and stops.
-- No outcome numbers, and none implied.
-  The counts section stays empty until the adjudication is complete.
+- The counts section was held empty until every row carried a call, so no partial number could be read as an outcome.
+  What it now contains is a tally of this 32-row register and is labelled as such: no rate, no share, no proportion, no extrapolation, and no percentage computed anywhere in this file.
+  The bounds on the run's headline result are stated in the same section as the result, not below it.
 - No HK indie share is stated, computed or hinted at.
   This file is internal only and the HK share is not quotable on its own in any case.
 - No brand images fetched.
 - No levels or ladder vocabulary.
 - Pinned edge cases applied: the Toyzeroplus test was run explicitly on row 11's candidate and returned non-exclusive, which is recorded as a negative result rather than suppressed; the 咖波 precedent (agency-managed but creator-owned is still independent) is what keeps row 12 INDEPENDENT despite the consultancy co-listing; self-presentation is not ownership, which is why rows 3, 9 and 10 carry ASSUMED class calls rather than confirmed ones.
-- Unresolved rows (4, 11) are left unresolved with the reason and the resolving evidence named.
+- Unresolved rows (4, 6, 11, 13, 14) are left unresolved with the reason and the resolving evidence named, and none is filled in.
+  Row 13 is the sharpest case: the sheet's own link resolved to a real, named, 3,833-follower toy-design studio, and it is still recorded as unresolved because nothing independently ties that studio to the exhibitor name. The candidate's follower count is deliberately not carried into the band, since adopting it would import the unverified identification through the band column.
+- Row 5's `yes` names what was found and assessed rather than resting on absence: an incubation-programme listing was surfaced, checked, and judged not to be a label, agency or management attachment, on the same reasoning as row 7's promotion programme.
+  Its client-service business line is recorded as a reason to expect the assignment question, not as an answer to it; whether any client work was assigned away is chain-of-title and is refused.
+- Row 6's agency hypothesis is written down as checked-and-rejected rather than dropped, so that a plausible-looking coincidence in the source sheet cannot later be re-derived as a finding.
 - The exhibitor sheet's Notes column was used only as a query seed; where it was contradicted (rows 1, 3) or unconfirmed (rows 10, 11, 26, 29, 30, 31) that is recorded and the note is not carried.
   The Notes column's handles did verify on rows 24, 25, 29, 30, 31, 32 and 33, which is recorded as a property of the seeds, not as evidence: each was still confirmed against the display name on the platform's own page before being accepted.
 - Row 22's REP=`no` is the rule's agency branch, not the captive branch, and the file says so in the row and again in the observations so that it cannot be read as a captivity finding.
 - Where a row is a design-goods or craft business with no character IP evidenced (rows 1, 24, 25, 26, 27, 28), the file records exactly that and returns `unclear`; it does not invent a property, and it does not treat the absence as an attachment.
 - Row 28's follower count was deliberately not taken from the larger same-name account, because that account is a different person; the higher number is rejected in the row rather than quietly dropped.
 
-## Method notes for the remaining rows
+## Method notes
 
-Recorded so the rest of the pass runs the same way.
+Recorded during the pass so that a repeat of it runs the same way.
 
 1. **Handle probing beats search for this population.** These are small HK creator brands with thin press. Fetching `instagram.com/<handle>` and `threads.com/@<handle>` with a Googlebot user agent returns the follower count and often the bio in `og:description`, which resolves both identity and band in one call. Threads is a newly useful channel here: its profile `og:description` carries "N Followers - M Threads - <bio>", though it serves an empty description on a substantial share of attempts and needs a retry.
 2. **False friends are the main hazard.** Eight of the sixteen rows adjudicated so far had at least one plausible handle that turned out to be an unrelated or empty account, several with single-digit follower counts. A handle is only accepted when the display name or bio independently matches the exhibitor.
@@ -837,4 +1031,9 @@ Recorded so the rest of the pass runs the same way.
 6. **Facebook is the third channel and it is the most informative one per call.** Fetching `facebook.com/<handle>` with a Googlebot user agent returns `og:title` (the page's own title, often bilingual, which resolves identity) and `og:description` carrying the like count, the page's self-description and sometimes its own storefront URL. That is how rows 27, 30 and 31 got a first-party self-description and row 30 got its store link. Page likes are not followers and are used as a band proxy only where nothing else resolved (row 23) and flagged as such; where both exist they agreed on the band on every row tested (27, 30, 31).
 7. **Google News with a Chinese query string must be percent-encoded or it returns HTTP 400.** Passing traditional-Chinese characters raw in the `q` parameter produced `Error 400 (Bad Request)` on every attempt and looks exactly like an empty result set. Encode the query first; several rows initially read as press-invisible purely because of this.
 8. **The highest-value false friend is a same-name account that is bigger, not smaller.** The decoys in the first batch were all tiny and obvious. Row 28's decoy had 28K followers under the exactly-correct display name and would have placed the row a band too high; what exposed it was the same handle on Threads carrying a different bio. Cross-platform bio comparison is the check that catches this class, and count size is not evidence of being the right account.
-9. **A whole cluster of this list is design-goods businesses with no character IP.** Rows 1, 24, 25, 26, 27 and 28 are craft, fashion, fragrance or paper-art brands. They are not unresolved and they are not captive; they simply have no property of the kind this run is adjudicating. Expect more of these in the remaining rows and record them as what they are rather than forcing a call.
+9. **A whole cluster of this list is design-goods businesses with no character IP.** Rows 1, 24, 25, 26, 27 and 28 are craft, fashion, fragrance or paper-art brands. They are not unresolved and they are not captive; they simply have no property of the kind this run is adjudicating. Recorded as what they are rather than forced into a call.
+10. **On a generic brand name, work from the entity's own site outward instead of guessing handles.** Row 5 is the case: `@purestudio`, `@pure_studio` and `@purestudio.hk` are all dead or unrelated, and the real channel (`@purehay`) shares no string with the exhibitor name at all. It was reachable only because the studio's own site links to it. Handle probing is the cheap first move on a distinctive name and is close to worthless on a generic one - switch to a site-first route as soon as the name is a common word.
+11. **The public-support register is a usable identity source and is not an attachment.** The Hong Kong Design Centre's incubation directory carried a company page for row 5 with both founders and the founding year - a publisher page, first-party to the programme, on a row where press returned nothing. Incubation and promotion programmes have now appeared twice (rows 5 and 7); both were checked as possible attachments and neither is a label, agency or management company. Check them, name them, and do not let them move the REP call.
+12. **A link in the sheet's Notes column resolving is not the same as the row resolving.** Row 13's Facebook share link followed cleanly to a real, named, active studio, and the row is still unresolved because the destination's own name never matches the exhibitor's. A resolving link is the most convincing-looking kind of false friend in this dataset precisely because it came from the source sheet rather than from a guess, and the same acceptance rule has to be applied to it: the display name or bio must independently match.
+13. **When a note claims a collaboration, run the named collaborator artist-side.** Row 14's note named two partners. One resolved to a genuine creator account whose own profile named no producer or collaborator; the other was a false friend. That converts the row from "nothing found" into "the one route that could have identified it was open, was taken, and returned nothing", which is a materially different record to leave behind.
+14. **Expired TLS on a target's own site is a hard stop, not a soft one.** Row 6's hypothesis could not be tested because the candidate entity's own site could not be fetched at all. Worth recording as a distinct failure mode from "no site" and from "blocked", because it is the one that looks like a dead brand and is not.
