@@ -1,11 +1,17 @@
 # Counterparty diligence: vostok inc (株式会社vostok), vostok.co.jp
 
-Desk research pass, compiled 2026-08-01.
-Sources are publisher pages, the company's own site, and public registry/WHOIS records.
+Desk research, compiled 2026-08-01, second pass.
+Sources are publisher pages, the company's own site, the Japanese national corporate register, WHOIS records, and web archives.
 No non-public information was used and none is contained here.
 
-**Status of this pass:** Questions 1 and 2 are answered.
+**Status of this pass:** Questions 1 and 2 are answered, now from the corporate register itself rather than by inference.
 Questions 3, 4 and 5 are answered to the limit of what the public record currently supports, with the specific open items listed at the end.
+
+**What changed since the first pass.**
+The corporate register entry was retrieved directly from the National Tax Agency, which supplies the corporate number, the registered head office, and the full change history.
+That closed three things at once: it confirms the company, it shows the registered head office is not the address on the website, and it identifies the prior corporate vehicle behind the 17kg claim.
+That vehicle, 株式会社Bordi, was the subject of a bankruptcy commencement decision in July 2023 and its register record was closed on 2024-10-02.
+Those items are set out in sections 1 and 2.
 
 ## Confidence key
 
@@ -21,16 +27,20 @@ Where something looks like a pattern, it is written as a signal.
 ## Summary
 
 The company is real, very new, and very small.
-The founder is a genuinely documented figure with a verifiable track record, and the headline claim made in the approach checks out against contemporaneous press.
+The founder is a genuinely documented figure, and the headline claim made in the approach checks out against contemporaneous press.
 The gap is not credibility of the person.
-The gap is that nothing in the public record connects this company, or this founder, to character IP licensing in any capacity, and the company publishes no service offering at all against which a proposal could be checked.
+
+Three things are worth carrying forward.
+Nothing in the public record connects this company, or this founder, to character IP licensing in any capacity.
+The company publishes no service offering at all, so there is nothing public against which a proposal can be checked.
+And the company behind the 17kg track record went through bankruptcy proceedings in 2023 and was closed off the register in 2024, which is not something the growth figures on their own would tell you.
 
 | # | Question | Short answer |
 |---|---|---|
-| 1 | Corporate reality | Real registered Japanese corporation, incorporated 2025-01-14, ~18 months old, ~11-16 staff, ¥113m stated capital, Shibuya address. Registry entry not independently retrieved. Okamoto unresolved. |
-| 2 | The 17kg claim | **Confirmed.** He founded and ran it. The specific "400k in ~18 months" figure traces to a March 2019 interview. It is a 2017-2019 achievement in apparel D2C. |
+| 1 | Corporate reality | **Confirmed from the register.** Corporate number 8021001084238, number assigned 2025-01-16, about 18 months old. Registered head office is in Fujisawa, Kanagawa, not the Shibuya address on the site, and has never changed. Capital, officers and headcount remain self-reported only. Okamoto unresolved. |
+| 2 | The 17kg claim | **Confirmed as to the 2017-2019 numbers and his role.** He founded and ran it. The "400k in ~18 months" figure traces to a March 2019 interview. **The operating company, 株式会社Bordi, then entered bankruptcy proceedings in July 2023 and its register record was closed 2024-10-02.** |
 | 3 | Character IP licensing work | **None found, by the company or by its people, ever.** Absence is consistent across their own site, their own selected press, and independent search. |
-| 4 | What vostok sells | **Unresolved by their own choice.** The site states a one-line business description and publishes no services, no case studies, no clients, no products. Nothing public to match a proposal against. |
+| 4 | What vostok sells | **Unresolved by their own choice.** The site states a one-line business description and publishes no services, no case studies, no clients, no products. The only archived earlier version of the site says the same. |
 | 5 | Conflict surface | No evidence found of licensing or IP-matching tooling of their own. Also no evidence against it. The founder's documented pattern is building and operating his own consumer brands. |
 
 ---
@@ -39,11 +49,60 @@ The gap is that nothing in the public record connects this company, or this foun
 
 ### Confirmed
 
-**The company exists as a registered Japanese corporation.**
+**The company is in the national corporate register, and the register entry has been retrieved.**
+
+Source: National Tax Agency Corporate Number Publication Site, the official government register of Japanese corporations, retrieved directly 2026-08-01.
+The page itself states its data is current as of 令和8年8月1日1時25分 (2026-08-01 01:25 JST).
+URL: `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8021001084238`.
+
+| Register field | Value |
+|---|---|
+| 法人番号 (corporate number) | 8021001084238 |
+| 商号又は名称 (name) | 株式会社ｖｏｓｔｏｋ |
+| フリガナ (reading) | ボストーク |
+| 本店又は主たる事務所の所在地 (registered head office) | 神奈川県藤沢市高倉２２９８番地３１ (Takakura 2298-31, Fujisawa, Kanagawa, 〒252-0802) |
+| 法人番号指定年月日 (number assigned) | 令和7年1月16日 (2025-01-16) |
+| 最終更新年月日 (last updated) | 令和7年1月16日 (2025-01-16) |
+| 変更履歴 (change history) | One entry only: No.1, 新規 (new), 2025-01-16 |
+| 状態 (status) | No adverse status flag. Active. |
+
+Four things follow directly from that record.
+
+**It is the only one.**
+A register-wide search returns exactly one 株式会社vostok among roughly five million Japanese corporations.
+The same search separately returns nine unrelated entities reading ヴォストーク or VOSTOK, none of which is this company, which is how the same-name confusions noted below were ruled out.
+
+**The founding date checks out.**
+The site states incorporation 2025-01-14.
+The corporate number was assigned 2025-01-16, two days later, which is the normal lag between registration at the Legal Affairs Bureau and number assignment by the tax agency.
+Company age as of 2026-08-01: about eighteen and a half months.
+
+**The registered head office is not the address on the website, and has never moved.**
+The register shows the head office as an address in Fujisawa, Kanagawa, roughly 50km from Shibuya, carrying no building, floor or suite designation.
+The website shows a Shibuya address (4F, MAGNET by SHIBUYA109, 1-23-10 Jinnan).
+The change history contains a single entry, the original registration, so the head office has not been changed at any point in the company's life.
+
+Stated fairly, because this is easy to over-read.
+The site labels the Shibuya address "Access", not head office or 本店, so the site does not misstate anything.
+Operating from premises other than the registered head office is entirely lawful and very common in Japan, because moving a registered head office requires a resolution and a registration tax and firms often do not bother.
+What the register does establish is that the company's only registered address is a Kanagawa address with no suite designation, and that this has been true continuously for eighteen months.
+
+**The register does not publish capital or officers, so those remain unverified.**
+The National Tax Agency publishes only the 基本3情報, meaning corporate number, name, and address.
+Stated capital, the representative director as registered, and the full officer list are held in the commercial register at the Legal Affairs Bureau and are only obtainable through the paid 登記情報提供サービス or a paid credit report.
+This is why the ¥113m capital figure and the board remain unconfirmed, and it is a structural limit rather than a search failure.
+
+**The domain record corroborates the registration.**
 The domain vostok.co.jp is held by "vostok, Inc.", organization type recorded as `corporation`, in the JPRS registry.
-Registered date and connected date are both 2025-01-28.
-A `.co.jp` domain can only be held by a company registered in Japan and JPRS verifies this at registration, so the record is corroboration that a registration exists, independent of the company's own claims.
+Registered date and connected date are both 2025-01-28, fourteen days after the stated incorporation, with the domain currently connected through 2027-01-31 and the record last updated 2026-07-03.
+A `.co.jp` domain can only be held by a company registered in Japan and JPRS verifies this at registration.
 Source: JPRS WHOIS, `https://whois.jprs.jp/en/?type=DOM&key=vostok.co.jp`.
+
+**The domain is a re-registration of a lapsed one, not a fresh name.**
+Web archive captures of vostok.co.jp from 2006 to 2013 show a completely unrelated business at that domain: an antique furniture retailer and cafe trading as ヴォストーク, based at 東京都八王子市千人町1-2-7 in Hachioji, western Tokyo.
+The JPRS registered date of 2025-01-28 resets only when a domain is deleted and registered anew, so the domain lapsed at some point after 2013 and was picked up by this company.
+This is unremarkable in itself and there is no connection between the two businesses.
+It is recorded for one practical reason: any age, backlink or archive signal attached to vostok.co.jp before 2025 belongs to the furniture retailer, not to this company.
 
 **Self-reported company facts, from their own site** (`https://vostok.co.jp/`, retrieved 2026-08-01):
 
@@ -57,18 +116,19 @@ Source: JPRS WHOIS, `https://whois.jprs.jp/en/?type=DOM&key=vostok.co.jp`.
 | Address | 4F, MAGNET by SHIBUYA109, 1-23-10 Jinnan, Shibuya-ku, Tokyo 150-0041 |
 | Named officer | Kenji Tsukahara (塚原健司), Founder & CEO |
 
-**The two dates agree.**
-Claimed incorporation 2025-01-14, domain registered 2025-01-28, fourteen days later.
-That is the normal sequence for a genuinely new company and there is no inconsistency there.
+Note that the address in this table is the one the site publishes under the heading "Access".
+It is not the registered head office, which is the Kanagawa address above.
 
-**Company age: about 18 and a half months** as of 2026-08-01.
+**The headcount discrepancy resolves as growth, not as an error.**
+The live page says 約16名 while the JSON-LD structured data in the same page's `<head>` says `"numberOfEmployees": { "value": 11 }`.
+The only archived capture of the current site, 2026-04-14, shows 約11名 in the visible copy, matching the structured data at that date.
+So the visible figure was revised upward from 11 to 16 between April and August 2026 and the structured-data block was left behind.
+Read as: roughly 11 people in April 2026, roughly 16 claimed in August 2026, all self-reported and none of it independently verifiable, since the register does not publish headcount.
 
-**The site contradicts itself on headcount.**
-The visible page says 約16名.
-The JSON-LD structured data embedded in the same page's `<head>` says `"numberOfEmployees": { "value": 11 }`.
-Both were served on the same retrieval.
-Signal only: most likely a stale structured-data block that was not updated alongside the visible copy, which would put the company somewhere in the 11-16 range and growing.
-It is not evidence of misrepresentation, but the true headcount is not established by their own site.
+**The site is being actively worked on.**
+Comparing the 2026-04-14 capture with the live page, three things were added in that window: the founder's Instagram and X links, the "Access" block carrying the Shibuya address, and the revised headcount.
+The Shibuya address is therefore a recent addition to the company's public surface.
+Signal only, and the ordinary explanation is a young company moving into an office and updating its site.
 
 **Domain control sits with Tsukahara personally.**
 Both the administrative and the technical contact for vostok.co.jp resolve to `Tsukahara, Kenji`, organization `vostok, Inc.`, JPNIC handles KT80515JP and KT80516JP, last updated 2025-01-28.
@@ -78,19 +138,20 @@ Signal: normal for a founder-run company of this age, and it corroborates that T
 
 **Who Tsukahara is.**
 Born 1992-03-02.
-Documented career, from the sources in section 2 and a Japanese Wikipedia entry: self-taught programmer at Hosei University, founded WhiteLabel Co., Ltd. and sold the company/business after about 18 months, founded Bordi Co., Ltd. in June 2017 which was later renamed 株式会社イチナナキログラム (17kg Inc.), and more recently produces the brand goodnight5tore.
+Documented career, from the sources in section 2 and a Japanese Wikipedia entry: self-taught programmer at Hosei University, founded WhiteLabel Co., Ltd. and sold the company or business after about 18 months, founded 株式会社Bordi in June 2017 which ran 17kg and was renamed 株式会社イチナナキログラム in 2018, and later produced the brand goodnight5tore.
+The full corporate history of that company, including its closure, is in section 2.
 He is a real, independently documented operator with named companies and dated press going back to at least 2019.
-This is the strongest thing in the file.
 
 ### Assumed
 
-- The ¥113m stated capital is a **funding-shaped number**, not a bootstrapping-shaped one. Round bootstrapped incorporations in Japan cluster at ¥1m, ¥5m, ¥10m. ¥113,000,000 is the shape left behind by one or more priced rounds. Assumed, because no funding announcement was found to confirm it (see below).
+- The ¥113m stated capital is a **funding-shaped number**, not a bootstrapping-shaped one. Round bootstrapped incorporations in Japan cluster at ¥1m, ¥5m, ¥10m. ¥113,000,000 is the shape left behind by one or more priced rounds. Assumed, because no funding announcement was found to confirm it and the register does not publish capital.
+- **The Fujisawa registered address is most likely the founder's own address.** Two things point that way. It carries no building, floor or suite designation, unlike every other address the company publishes. And it is the identical address at which his previous company was first registered in 2017 before that company moved to Tokyo, which is set out in section 2. Incorporating at a personal address and later taking an office is the ordinary pattern for a Japanese startup. Assumed, because the register does not say whose address it is.
 - The Shibuya address is a real commercial building (MAGNET by SHIBUYA109, at the Shibuya scramble crossing). Whether the 4th floor tenancy is a private office, a serviced office, or a shared/coworking floor is **not established**.
 
 ### Unresolved
 
-- **The corporate registry entry itself was not retrieved.** The Japanese National Tax Agency corporate number site (houjin-bangou.nta.go.jp) is JavaScript-driven with no reachable GET search endpoint, its Web-API requires an issued application ID, and the third-party mirrors that normally index it were unavailable on this pass: gBizINFO keyword search returned HTTP 500, houjin.info returned 403, SalesNow DB returned 403 at the CDN, and Money Forward 法人ナビ has been discontinued since 2022-08-01. Searches surfaced only unrelated same-name entities (株式会社VOSTOK NINE, an advertising planning firm in Shinagawa; 株式会社ヴォストーク, a video production firm in Shinagawa; VOSTOK EUROPE, a watch brand distributed by 株式会社ANDOROS). **Corporate number, registered officers beyond Tsukahara, and registered capital are therefore unconfirmed from the register.**
-- **Daisuke Okamoto is unresolved.** No public record was found linking anyone of that name to vostok inc, to Tsukahara, or to 17kg. Searches returned only unrelated individuals. Note that the name appears on a shared mailbox (`v-system@`) rather than a personal one, which is itself a signal worth registering: at a company of 11-16 people, outbound business development conducted from a shared system account under one name and signed by another is a shape, not a norm.
+- **Registered capital and the officer list.** Not obtainable without a paid pull, for the structural reason given above. The tax agency register publishes name, number and address only. The ¥113m figure and the identity of any director other than Tsukahara are therefore self-reported and unverified.
+- **Daisuke Okamoto is unresolved.** No public record was found linking anyone of that name to vostok inc, to Tsukahara, or to the 17kg group of companies. Searches returned only unrelated individuals. Note that the name appears on a shared mailbox (`v-system@`) rather than a personal one, which is itself a signal worth registering: at a company of this size, outbound business development conducted from a shared system account under one name and signed by another is a shape, not a norm.
 - **No funding announcement was found.** A PR TIMES search for 株式会社vostok returned 33 results, **none of which are this company** (all are VOSTOK NINE, VOSTOK EUROPE / ANDOROS, or unrelated). For a Shibuya entertainment-sector startup with ¥113m of capital, zero PR TIMES presence in 18 months is unusual. It is not evidence of a problem, but it does mean the capital figure, the investor set, and the board are all unverified.
 
 ---
@@ -137,12 +198,68 @@ Stated as scope, not as criticism.
 - **It is an apparel D2C track record, not a licensing one.** Six own-brand fashion labels, own inventory, own store, own audience.
 - **It is 2017-2019 work**, roughly seven to nine years old, on an Instagram whose organic reach mechanics have changed substantially since.
 - **It was his own company.** The demonstrated skill is building an owned brand and its audience. It is not evidence of executing on behalf of a third-party principal, to a brief, against someone else's assets.
-- **It is not vostok's track record.** 17kg is 株式会社イチナナキログラム, founded June 2017. vostok inc was founded 2025-01-14. Presenting 17kg in a vostok approach is presenting the founder's history, which is legitimate and normal, but the operating entity being proposed has no track record of its own in the public record.
+- **It is not vostok's track record.** The 17kg operating company and vostok inc are separate legal entities, the first incorporated June 2017 and the second January 2025. Presenting 17kg in a vostok approach is presenting the founder's history, which is legitimate and normal, but the operating entity being proposed has no track record of its own in the public record.
+
+### What happened to the company afterwards
+
+This is the most material addition of this pass, and it was not visible until the register entry was pulled.
+
+**The 17kg operating company is closed.**
+It is corporate number 6021001062328, and its full register history, retrieved directly from the National Tax Agency on 2026-08-01, is as follows.
+
+| Date | Register event |
+|---|---|
+| 2017-06-12 | Incorporated as 株式会社Bordi, registered at 神奈川県藤沢市高倉２２９８番地の３１ |
+| 2017-11-16 | Head office moved to 東京都港区南青山５丁目４番３５号たつむら青山マンション１３０３ |
+| 2018-11-29 | Renamed 株式会社イチナナキログラム |
+| 2020-06-26 | Head office moved within the same building, to room 1006 |
+| 2022-12-26 | Renamed back to 株式会社Bordi, and moved within the same building, to room 804 |
+| 2023-06-01 | Head office moved to 東京都港区赤坂４丁目８番１９号赤坂フロントタウン３階 |
+| 2024-10-02 | 登記記録の閉鎖等（清算の結了等）, meaning the register record was closed on completion of winding up |
+
+Source: `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6021001062328`.
+The record carries the status flag 登記記録の閉鎖等 with 事由発生年月日 令和6年10月2日.
+
+**This is also what confirms the identity of vostok inc.**
+株式会社Bordi's address at incorporation in June 2017, 神奈川県藤沢市高倉２２９８番地の３１, is the same address as vostok inc's registered head office today.
+Both corporate numbers also carry the same registry-office prefix, consistent with both having been first registered in the Kanagawa jurisdiction.
+That is an independent, register-level link between the two companies, and it is why the Fujisawa entry can be relied on as the right 株式会社vostok rather than a coincidence of name.
+
+**Bankruptcy proceedings, July 2023.**
+Two independent outlets reported in July 2023 that 株式会社Bordi was subject to a 破産手続開始決定, a bankruptcy commencement decision.
+
+- 東京経済ニュース (Tokyo Keizai, a trade credit and insolvency reporting service), 倒産情報 listing dated 2023-07-10: "(株)Bordi", 東京都港区, 婦人服企画販売, 破産手続開始決定. `https://www.tokyo-keizai.com/archives/71487`.
+- Suan, a startup news site, 2023-07-12, reporting the same and citing 官報, the Official Gazette, as its source. `https://suan.tokyo/0kg/`.
+
+The register is consistent with this: a company whose bankruptcy proceedings run to completion has its register record closed under the same 登記記録の閉鎖等（清算の結了等）heading, which is what happened on 2024-10-02.
+
+**Confirmed:** that a bankruptcy commencement decision was reported in July 2023 by two independent outlets, one citing the Official Gazette, and that the register record was closed on 2024-10-02.
+**Not retrieved:** the court, the decision date, the appointed trustee, and the liabilities figure. Those sit behind paid insolvency services (東京経済 ASNA, 帝国データバンク, 東京商工リサーチ) and were not purchased.
+
+**The sequence.**
+Bankruptcy decision reported July 2023.
+Register record closed 2024-10-02.
+vostok inc incorporated 2025-01-14, about three and a half months later, at the same address the earlier company started from.
+
+**How to weigh this, stated carefully.**
+A founder whose previous company failed is an ordinary and often positive thing, and a bankruptcy in D2C apparel in 2023 is unremarkable in a sector that saw many.
+Nothing here bears on his honesty, and no adverse inference about the individual is drawn.
+Two observations, as signals only.
+First, the achievement being cited belongs to a company that subsequently failed, and the approach as described presents the growth figures without the outcome, so anyone reading only the approach would not know.
+Second, the ¥113m capital figure now sits in a specific context: a founder who wound up one venture and capitalised the next within months, with no public funding announcement to explain the source.
+That is a question to ask, not a conclusion to draw.
+
+**A related item, reported but not confirmed.**
+The Suan piece states that goodnight5tore was transferred to another company on 2023-06-28, describing it as a business transfer ahead of the bankruptcy.
+That is a single non-primary source and it is recorded here as reported, not confirmed.
+Consistent with it, goodnight5tore.com does not currently resolve.
 
 ### Unresolved
 
-- Whether Tsukahara still holds or operates 17kg / 株式会社イチナナキログラム, and what the current state of that company is. Not established on this pass.
+- The court, date, trustee and liabilities in the 株式会社Bordi bankruptcy. Behind paid services.
+- Where the 17kg brand and its Instagram account sit now, and who owns them. 17kg.jp still resolves, but the ownership question was not pursued on this pass.
 - Current follower counts for any of the brands. The most recent figure retrieved is 557,000 from February 2021.
+- Whether Tsukahara's earlier company, described in interviews as WhiteLabel, corresponds to any of the ten same-named entities in the register. None could be matched to him on the available evidence.
 
 ---
 
@@ -193,6 +310,13 @@ There is no contact form and no email address published anywhere on the site.
 The site does not have a `/company` or `/about` route; both return 404.
 The structured data lists `"sameAs": []`, an empty set, meaning no corporate social or directory profiles are declared.
 
+**The site has never published a service offering.**
+The web archive holds exactly one capture of the current site, 2026-04-14.
+It has the same structure as the live page and the same one-line business description, with no services, no case studies, no clients and no products.
+So the current emptiness is not a recent simplification of a fuller earlier site.
+Boundary: one capture is thin evidence, and there is no coverage of the site between its launch in early 2025 and April 2026.
+Earlier archive captures of this domain, from 2006 to 2013, belong to the unrelated furniture retailer described in section 1 and say nothing about this company.
+
 ### Assumed
 
 **The shape most consistent with the evidence is an own-product entertainment studio, not a services agency.**
@@ -239,7 +363,7 @@ Two things are worth registering as signals rather than conclusions:
 
 - Vostok's client base, entirely. None is published.
 - Whether any product is in development. Nothing is announced.
-- Cap table and investors, which would show whether any backer sits adjacent to licensing, IP, or rights management. Not retrievable without the registry entry or a funding announcement, neither of which was found.
+- Cap table and investors, which would show whether any backer sits adjacent to licensing, IP, or rights management. The tax agency register does not carry shareholders, and no funding announcement exists, so this needs a paid commercial-register pull or a credit report.
 
 ---
 
@@ -249,6 +373,13 @@ Primary, all retrieved 2026-08-01.
 
 | Source | URL |
 |---|---|
+| **NTA Corporate Number Publication Site, 株式会社vostok** (official register) | `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8021001084238` |
+| **NTA Corporate Number Publication Site, 株式会社Bordi** (official register, full change history) | `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=6021001062328` |
+| 東京経済ニュース 倒産情報, (株)Bordi, 2023-07-10 | `https://www.tokyo-keizai.com/archives/71487` |
+| Suan, Bordi bankruptcy report citing 官報, 2023-07-12 | `https://suan.tokyo/0kg/` |
+| 全国法人リスト, NTA register mirror, used for name search | `https://houjin.jp/c/8021001084238` |
+| Internet Archive, vostok.co.jp capture 2026-04-14 | `https://web.archive.org/web/20260414021607/https://vostok.co.jp/` |
+| Internet Archive, vostok.co.jp captures 2006-2013 (prior unrelated owner) | `https://web.archive.org/web/20071202060851/http://www.vostok.co.jp/toiawase.html` |
 | vostok inc corporate site (single page) | `https://vostok.co.jp/` |
 | JPRS WHOIS, domain record | `https://whois.jprs.jp/en/?type=DOM&key=vostok.co.jp` |
 | JPRS WHOIS, contact records KT80515JP / KT80516JP | `https://whois.jprs.jp/en/?type=CONTACT&key=KT80515JP` |
@@ -267,12 +398,28 @@ The Wikipedia reference list points to a Forbes JAPAN piece on entrepreneurs' bo
 
 ---
 
+## Closed since the first pass
+
+- Corporate register entry retrieved: corporate number, registered head office, and full change history, from the National Tax Agency directly.
+- Status of the 17kg operating company established: bankruptcy commencement decision reported July 2023, register record closed 2024-10-02.
+- Identity of vostok inc confirmed by an independent register-level link, the shared Fujisawa address.
+- Archived versions of vostok.co.jp checked. The only capture of the current site shows no service offering either.
+- Why capital and officers cannot be obtained free established as a structural limit, not a search failure.
+
 ## Open items for the next pass
 
-1. Retrieve the actual corporate register entry: corporate number, registered address, registered capital, and the full officer list. Requires either an NTA Web-API application ID, the NTA bulk 基本3情報 download for Tokyo (prefecture 13), or a paid registry pull (登記情報提供サービス / Teikoku Databank / Tokyo Shoko Research).
-2. Resolve Daisuke Okamoto, or establish positively that he has no public footprint.
-3. Establish the current status of 株式会社イチナナキログラム and whether Tsukahara still holds it.
-4. Confirm or drop the ¥113m capital figure and identify any investors.
+1. **Registered capital and the officer list.** Requires a paid pull: 登記情報提供サービス (cheapest, a few hundred yen per certificate), or a credit report from 帝国データバンク or 東京商工リサーチ, either of which would also give revenue, banks and trading partners. This is the single highest-value remaining item and it is a purchase decision, not a research problem.
+2. **Resolve Daisuke Okamoto**, or establish positively that he has no public footprint.
+3. **The 株式会社Bordi bankruptcy specifics**: court, decision date, trustee and liabilities. Available from 東京経済 ASNA at ¥1,100 for the record, or from the 官報 archive for July 2023.
+4. **Identify any investors in vostok inc** and the source of the ¥113m capital. No funding announcement exists, so this likely requires the registry pull at item 1 or a direct question.
 5. Determine whether MAGNET by SHIBUYA109 4F is a private tenancy or a shared/serviced floor.
 6. Retrieve the Forbes JAPAN item and confirm what kind of appearance it is.
-7. Check archived snapshots of vostok.co.jp for any earlier version that stated a service offering, since the current page may be a recent simplification.
+7. Establish who now owns the 17kg brand and its Instagram account, and whether goodnight5tore was in fact transferred in June 2023 as reported.
+
+## Method notes, for whoever picks this up
+
+Recorded because two routes that look closed are not.
+
+- **The National Tax Agency register is reachable by GET**, despite the site presenting as a JavaScript application. The pattern is `https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=<13-digit corporate number>`, and it returns the full server-rendered record including the complete change history. No API key is needed. What it will not do is search by name; `kensaku.html` returns 404 on GET.
+- **To get from a name to a corporate number**, use the mirror at `houjin.jp/search?keyword=<name>`, which indexes the full register and answers partial matches. Then verify the number against the National Tax Agency directly, because the mirrors carry stale per-record snapshots. The mirror's copy of the vostok record was last refreshed 2025-01-17 and would not have shown any later change. gBizINFO, houjin.info and SalesNow DB were all unavailable on both passes.
+- **Latin-alphabet Japanese company names collide badly.** Register searches surfaced 株式会社VOSTOK NINE, 一般社団法人VOSTOK NINE, 株式会社ヴォストーク (three distinct companies), ヴォストーク合同会社, 有限会社ヴォストーク・アジン, 一般社団法人VOSTOK and 株式会社ヴォストーク・リミテッド, none of them this company. Disambiguate on corporate number and address, never on name.
