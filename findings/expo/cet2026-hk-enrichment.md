@@ -79,18 +79,18 @@ Rows marked `open` have not been adjudicated yet and carry no call; they are not
 | 19 | Genie Li | INDEPENDENT | yes | illustrator working under her own name with her own character; no label or agency surfaced | `10k_50k` | current-proxy |
 | 20 | Venus Philosophy | INDEPENDENT | yes | creator-run brand under one artist identity; no label or agency surfaced | `10k_50k` | current-proxy |
 | 21 | TOBALLKIDRAWING | INDEPENDENT | yes | named illustrator with her own character, CONFIRMED in a bylined interview; no label or agency surfaced | `10k_50k` | current-proxy |
-| 22 | ARDUREY LIMITED | open | open | not yet adjudicated | open | open |
-| 23 | cheeky cheeky | open | open | not yet adjudicated | open | open |
-| 24 | HEREAFTER STUDIO | open | open | not yet adjudicated | open | open |
-| 25 | HANDMADESHIP | open | open | not yet adjudicated | open | open |
-| 26 | Scentory | open | open | not yet adjudicated | open | open |
-| 27 | Bethel | open | open | not yet adjudicated | open | open |
-| 28 | paper diamond® | open | open | not yet adjudicated | open | open |
-| 29 | DDED | open | open | not yet adjudicated | open | open |
-| 30 | Tse Sai Pei | open | open | not yet adjudicated | open | open |
-| 31 | Overloaddance | open | open | not yet adjudicated | open | open |
-| 32 | Mr n Mrs Moon | open | open | not yet adjudicated | open | open |
-| 33 | Lewa Lee | open | open | not yet adjudicated | open | open |
+| 22 | ARDUREY LIMITED | PORTFOLIO | no | the attendee is itself an artist licensing agency, CONFIRMED on its own site; it is the representation layer, not a creator | `unknown` | unknown |
+| 23 | cheeky cheeky | INDEPENDENT | yes | named designer's own character (厚面子) running mall and pop-up campaigns in its own name; no agent named in the coverage | `lt_10k` | current-proxy |
+| 24 | HEREAFTER STUDIO | INDEPENDENT | unclear | design-goods brand; no character IP evidenced, so nothing identified to represent | `10k_50k` | current-proxy |
+| 25 | HANDMADESHIP | INDEPENDENT | unclear | design-goods brand; no character IP evidenced, so nothing identified to represent | `10k_50k` | current-proxy |
+| 26 | Scentory | INDEPENDENT | unclear | fragrance brand; no character IP evidenced, so nothing identified to represent | `lt_10k` | current-proxy |
+| 27 | Bethel | INDEPENDENT | unclear | handbag brand, own-design origin CONFIRMED first-party; no character IP evidenced | `10k_50k` | current-proxy |
+| 28 | paper diamond® | INDEPENDENT | unclear | founder-run paper-art and jewellery brand, CONFIRMED; no character IP evidenced | `lt_10k` | current-proxy |
+| 29 | DDED | INDEPENDENT | yes | creator-run character and art-toy brand with its own channels; no label, agency or management surfaced in either pass | `10k_50k` | current-proxy |
+| 30 | Tse Sai Pei | INDEPENDENT | yes | illustrator working under their own name with their own storefront; no label or agency surfaced | `50k_200k` | current-proxy |
+| 31 | Overloaddance | INDEPENDENT | yes | creator-run toy, comic and illustration studio; no label or agency surfaced | `lt_10k` | current-proxy |
+| 32 | Mr n Mrs Moon | INDEPENDENT | yes | creator-pair character brand with its own store and brand tie-ins run in its own name; no agent named | `200k_1m` | current-proxy |
+| 33 | Lewa Lee | INDEPENDENT | yes | named creator (阿華), called an independent studio in HK press, with a direct brand collaboration and no agent named | `50k_200k` | current-proxy |
 
 ## Per-row detail
 
@@ -175,7 +175,7 @@ The reason is identity, not attachment: there is nothing evidenced to classify.
 
 **What would resolve it.** The exhibitor's own CET2026 directory entry, or an HK press or market listing naming either party with a live channel.
 
-### 5-6, 13-14, 22-33
+### 5-6, 13-14
 
 Open. Not yet adjudicated in this run, and deliberately carrying no call.
 
@@ -454,6 +454,353 @@ No separate 肥教主 channel was found, so the artist account is the read.
 - XINMEDIA 欣傳媒, 2023-04-28, same pop-up, independent second publisher.
 - https://www.instagram.com/toballkidrawing/ and https://www.threads.com/@toballkidrawing - retrieved 2026-07-31.
 
+### 22. ARDUREY LIMITED
+
+**The one row on this list that is the representation layer rather than a creator.**
+
+**Identity (CONFIRMED).** ARDUREY's own site describes the company verbatim as "a one-stop shop global artist licensing agency that represents emerging artists and illustrators. We connect brands with talents, curating and managing some of the most recognizable creative crossover projects."
+The HKTDC supplier directory carries an Ardurey Limited entry, and the company's own site gives a San Po Kong, Kowloon address.
+The exhibitor sheet's own annotation on this row ("agency") is consistent with what the site says, which is the one place in this run where the sheet and the evidence agree; the finding still rests on the site, not the sheet.
+
+**Class: PORTFOLIO.** The entity is a corporate agency presenting a roster of third-party artists.
+This is a call about ARDUREY, not about its roster: the roster artists are separately creator-owned and nothing here says ARDUREY owns their IP.
+No rights_owner or chain-of-title conclusion is drawn, and none is available from what was read.
+
+**REP: no.** This is the second branch of the stated rule, applied for the first time in this run: the attendee is itself a licensing agency rather than a creator, so there is no creator-side IP on this row to represent.
+That is a structural `no`, not a captivity finding, and it must not be counted as one.
+
+**Roster checked against the other 31 rows, and it does not intersect.**
+The artists named on ARDUREY's own site are MATSUI, INAPSQUARE, SHINICHIRO INUI, YEYE and Tomason.
+None of them is any of the other 31 Hong Kong attendees.
+This was the most direct attachment test available in this run - an actual HK representation agency exhibiting in the same hall as 31 creators - and it returned no overlap on the artists the agency itself lists.
+The absence is only as complete as the roster page, which may not be exhaustive; that limit is stated rather than assumed away.
+
+**Band: `unknown`.** An agency's own following is not an IP's channel following, and no IP channel belongs to this row.
+Recording an agency's follower count as a band would be a category error, so it is left `unknown` rather than filled in.
+
+**Control signals.** Solo creator: no, a company. Label or agency attached: the row *is* the agency. Already under management: not applicable. Prior assignment visible in press: none surfaced.
+
+**Evidence.**
+- https://www.ardurey.com/ - retrieved 2026-07-31, self-description and roster.
+- https://sourcing.hktdc.com/en/Supplier-Store-Directory/Ardurey-Limited/1S00O1D72 - HKTDC's own supplier directory entry.
+
+### 23. cheeky cheeky
+
+**The best-evidenced self-licensing row in this batch.**
+
+**Identity (CONFIRMED).** The Facebook page cheekycheeky.hk is titled "Cheeky cheeky 厚面子" and its own description reads 設計師 (designer), tying the exhibitor to the character 厚面子.
+No Instagram account resolved: @cheekycheeky is an empty account under an unrelated display name (0 followers, 0 posts), and @cheekycheeky.hk, @cheekycheekyhk, @cheeky_cheeky_hk and @cheekycheekyhongkong do not exist.
+Threads has no account on either handle.
+This row is Facebook-primary, which is unusual in this population.
+
+**Class: INDEPENDENT (ASSUMED).** A designer's own character brand; no corporate, platform or franchise owner surfaced.
+The sheet names the designer as Pok Li; that is a query seed only and no publisher page reached confirmed the name, so it is not carried.
+
+**REP: yes, and the campaign trail is the reason.**
+The brand-side pass found 厚面子 running named campaigns as itself: MOKO 新世紀廣場 x Cheeky Cheeky 「厚面的愛抱抱節」 (Yahoo 活動街), a 星島頭條 reader giveaway of MOKO x Cheeky Cheeky red packets and calendar cards, a Marketoo x Cheeky Cheeky Easter pop-up at 中環街市 (Time Out Hong Kong), a 白紙市集 x Cheeky Cheeky x The GenZ Fest Christmas market (nmplus.hk), and a 明報 家家有禮 item on 厚面子 appearing as 財神 at Chinese New Year.
+Five publishers, four separate commercial deployments, and no intermediary named in any of them.
+A mall, a market operator and a retail pop-up organiser are counterparties, not representatives.
+
+**Band: `lt_10k`, current-proxy, weaker basis than the rest of this batch.**
+Facebook page likes, 1,381, retrieved 2026-07-31.
+Page likes are not follower counts and Facebook is the only channel that resolved, so this band rests on a proxy of a proxy; it is recorded at `lt_10k` because the figure is an order of magnitude clear of the boundary, not because the measure is good.
+Note the mismatch this row carries: the campaign trail is the strongest in the batch while the channel is the smallest, which is a reminder that band and licensing activity are separate readings.
+
+**Control signals.** Solo creator: ASSUMED (the page describes a designer, singular). Label or agency attached: none surfaced across five publishers. Already under management: none surfaced. Prior assignment visible in press: none surfaced; the campaigns name the character and the brand directly.
+
+**Evidence.**
+- https://www.facebook.com/cheekycheeky.hk - retrieved 2026-07-31, page title, self-description and like count.
+- Yahoo 活動街, "新年好去處｜旺角MOKO新世紀廣場x Cheeky Cheeky「厚面的愛抱抱節」5大打卡位陪你迎新年".
+- 星島頭條, "會員獎賞｜《星島頭條》APP送MOKO x Cheeky Cheeky利是封及火柴盒造型年曆卡30套".
+- Time Out Hong Kong, "香港的Marketoo x Cheeky Cheeky 中環街市復活節 Pop-up Store".
+- 明報 Our Lifestyle, 2023-01-10, 家家有禮："喜迎新春 厚面子化身財神".
+- nmplus.hk, "白紙市集x Cheeky Cheeky厚面子x The GenZ Fest - 聖誕厚MK總動員".
+
+### 24. HEREAFTER STUDIO
+
+**Identity (CONFIRMED at channel level).** Instagram and Threads @hereafter.studioo both carry the display name ✥ 後來的 ✥ 𝐇𝐞𝐫𝐞𝐚𝐟𝐭𝐞𝐫 𝐒𝐭𝐮𝐝𝐢𝐨, and the Facebook page is titled 後來的 Hereafter Studio.
+誠品 (eslite) carries a 後來的 / Hereafter Studio cooperation-brand page on its own 迷誠品 site, in both its HK and TW editions, and the brand runs its own storefront at hereafter-studio.com.
+The sheet's Threads handle was correct and is the one confirmed lead in this batch that came from the Notes column.
+
+**Rejected candidate.** Instagram @hereafter.studio (one `o`) is a different, near-empty account (390 followers, 3 posts) under a different display name and is not this brand.
+
+**Class: INDEPENDENT (ASSUMED).** A Hong Kong design studio running its own retail and its own channels; no corporate, platform or franchise owner surfaced.
+No founder name was confirmed from any publisher page.
+
+**REP: unclear, and the reason is the same as row 1: there is no character IP evidenced to represent.**
+What the evidence shows is a design-goods brand - phone cases and lifestyle goods carrying Hong Kong themes - sold through its own store, a workshop unit in Lai Chi Kok and a 誠品 counter in Tsim Sha Tsui.
+Nothing found identifies a character or a licensable property.
+This is not an attachment finding: no label, agency or management surfaced either.
+
+**The 誠品 relationship was tested and it is retail, not representation.**
+誠品's cooperation-brand page is a stocking listing on a bookstore chain's own site while the brand's direct storefront runs concurrently, which is the same non-exclusive shape the Toyzeroplus test returned on row 11's candidate.
+
+**Band: `10k_50k`, current-proxy.** Instagram @hereafter.studioo, 26K followers, retrieved 2026-07-31.
+Anti-drift: the account is the studio's own and no separate product-line channel exists, so no split arises.
+Threads @hereafter.studioo served no count on three attempts.
+
+**Control signals.** Solo creator: not assessable, the identity is a studio. Label or agency attached: none surfaced. Already under management: none surfaced. Prior assignment visible in press: no press found; Google News zh-HK returned only unrelated 誠品 store coverage.
+
+**Evidence.**
+- https://www.instagram.com/hereafter.studioo/ and https://www.threads.com/@hereafter.studioo - retrieved 2026-07-31.
+- https://www.facebook.com/hereafter.studioo - retrieved 2026-07-31, page title.
+- https://meet.eslite.com/hk/tc/cooperationbrand/202106170001 - 誠品's own cooperation-brand page.
+- https://hereafter-studio.com/ - the brand's own storefront.
+
+### 25. HANDMADESHIP
+
+**Identity (CONFIRMED at channel level).** Instagram and Threads @handmadeship both carry the display name HANDMADESHIP®, and the Facebook page handmadeshipship is titled Handmadeship.
+Both handles in the sheet's Notes column were correct.
+
+**Class: INDEPENDENT (ASSUMED).** A Hong Kong handmade-goods brand; no corporate, platform or franchise owner surfaced and no founder name was confirmed from a publisher page.
+
+**REP: unclear, on the row-1 ground.** The evidenced business is handmade goods built on Hong Kong nostalgia objects, sold through its own channels and a Central Market shop.
+No character IP was evidenced, so nothing is identified to represent.
+No label, agency or management surfaced either, so this is an absence-of-property finding, not an attachment finding.
+
+**Press checked and not relied on.** Google News zh-HK returned an etnet 經濟通 piece on Hong Kong handmade brands drawing on local culture and a 明報 piece on training and licensing support for Hong Kong IP; neither was confirmed to name this brand, so both are recorded as checked rather than cited.
+
+**Band: `10k_50k`, current-proxy.** Instagram @handmadeship, 14K followers, retrieved 2026-07-31.
+Threads @handmadeship served no count on three attempts.
+
+**Control signals.** Solo creator: not assessable. Label or agency attached: none surfaced. Already under management: none surfaced. Prior assignment visible in press: no confirmed press.
+
+**Evidence.**
+- https://www.instagram.com/handmadeship/ and https://www.threads.com/@handmadeship - retrieved 2026-07-31.
+- https://www.facebook.com/handmadeshipship/ - retrieved 2026-07-31, page title.
+
+### 26. Scentory
+
+**Identity (CONFIRMED at channel level).** Instagram @scentoryhk and the Facebook page scentoryhk both carry the display name 香言 Scentory.
+
+**Class: INDEPENDENT (ASSUMED).** A Hong Kong fragrance brand; no corporate, platform or franchise owner surfaced.
+The sheet names a founder (Vanessa Choi); that is a query seed only, no publisher page reached confirmed it, and it is not carried.
+
+**REP: unclear, on the row-1 ground.** A fragrance brand with no character IP evidenced has nothing identified to represent.
+Google News zh-HK returned nothing for this brand on the queries run, so the row rests entirely on its own channels.
+No label, agency or management surfaced.
+
+**Band: `lt_10k`, current-proxy.** Instagram @scentoryhk, 3,034 followers, retrieved 2026-07-31.
+Threads @scentoryhk served no count on three attempts.
+
+**Control signals.** Solo creator: not assessable. Label or agency attached: none surfaced. Already under management: none surfaced. Prior assignment visible in press: no press found.
+
+**Evidence.**
+- https://www.instagram.com/scentoryhk/ - retrieved 2026-07-31.
+- https://www.facebook.com/scentoryhk - retrieved 2026-07-31, page title.
+
+### 27. Bethel
+
+**Identity (CONFIRMED).** The Facebook page bethelofficial.hk is titled Bethel and its own description reads 香港品牌Bethel，原創設計始於2013年 ("Hong Kong brand Bethel, original design since 2013"), which is a first-party statement of origin rather than an inference.
+Instagram @bethelofficial.hk carries the same display name.
+
+**Class: INDEPENDENT (ASSUMED).** The own-design origin is confirmed first-party; the ownership structure behind it is not stated anywhere reached, so the class call stays ASSUMED.
+No corporate, platform or franchise owner surfaced.
+
+**REP: unclear, on the row-1 ground.** The evidenced business is handbags and accessories.
+No character IP was evidenced, so nothing is identified to represent.
+No label, agency or management surfaced.
+
+**Band: `10k_50k`, current-proxy.** Instagram @bethelofficial.hk, 13K followers, retrieved 2026-07-31.
+Cross-check: the Facebook page reads 12,358 likes, the same order, which is unusual in this population and is recorded because it makes the band unusually safe.
+
+**Control signals.** Solo creator: not assessable, a brand identity. Label or agency attached: none surfaced. Already under management: none surfaced. Prior assignment visible in press: none surfaced; Google News zh-HK returned only a 誠品 clearance-sale listing.
+
+**Evidence.**
+- https://www.instagram.com/bethelofficial.hk/ - retrieved 2026-07-31.
+- https://www.facebook.com/bethelofficial.hk - retrieved 2026-07-31, page title, self-description and like count.
+
+### 28. paper diamond®
+
+**Identity (CONFIRMED).** paper diamond's own site states the brand was founded by Candice Hui, a Central Saint Martins graduate, and created during the L'Art de la Séduction exhibition in Paris in 2011, with the brand notion quoted verbatim as "'Redefine Ordinary' is our notion behind the brand - Even an ordinary material like paper can shine if value is added to it through good design and craftsmanship."
+The Hong Kong tie is confirmed twice over: the site records the brand as a 2020 winner of the Hong Kong Smart Design Award (香港智營設計獎), and the brand's own Facebook page is titled "Paper Diamond | Hong Kong Hong Kong".
+The site links its own Instagram as @paper_diamond.
+
+**Rejected candidate, and it is a trap worth recording.** Instagram @paperdiamond (28K, display name "Paper Diamond") is not this brand: the same handle on Threads carries the bio "Musician / Artist / Developer / Friend", which is the American electronic musician of that name.
+Reading the band off @paperdiamond would have put this row a full band too high on an unrelated person's audience.
+@paper_diamond_ is a separate empty decoy (0 followers, 0 posts).
+
+**Class: INDEPENDENT (CONFIRMED at founder level).** Founder-established, founder-made; the site states Candice Hui finishes each product by hand.
+No corporate, platform or franchise owner appears on the site, and no agency, distributor or licensing partner is named on it.
+
+**REP: unclear, on the row-1 ground.** The evidenced property is paper art and jewellery - a craft practice and a product line, not a character IP.
+Nothing found identifies a licensable character, so there is nothing identified to represent.
+No label, agency or management surfaced.
+
+**Band: `lt_10k`, current-proxy.** Instagram @paper_diamond, 3,483 followers, retrieved 2026-07-31, display name "Paper Art & Jewellery".
+Threads @paper_diamond reads 593 and is the smaller channel.
+
+**Cross-market note, recorded and not acted on.** The Threads bio read 8月活動📌 臺灣文博會K2-019 on 2026-07-31, which is this brand exhibiting at the Taiwan Creative Expo.
+That is consistent with the sheet listing the same brand name under both Hong Kong and Taiwan; see the observation at the end of this file.
+It is not used to adjudicate this row.
+
+**Control signals.** Solo creator: ASSUMED, strongly (the site describes the founder finishing each product herself). Label or agency attached: none surfaced, and the site's silence on any distributor is a point against it. Already under management: none surfaced. Prior assignment visible in press: none surfaced.
+
+**Evidence.**
+- https://paperdiamond.uk/pages/about and https://paperdiamond.uk/ - the brand's own site, founder, founding statement, award, linked Instagram.
+- https://www.facebook.com/paperdiamonduk/ - retrieved 2026-07-31, page title carrying the Hong Kong location.
+- https://www.instagram.com/paper_diamond/ and https://www.threads.com/@paper_diamond - retrieved 2026-07-31.
+
+### 29. DDED
+
+**Identity (CONFIRMED at channel level).** Instagram @ddedhk, display name DDED, and Threads @ddedhk with the Cantonese bio 愛角的創作人 ("a creator who loves characters"), plus a Facebook page at the same handle.
+The self-description is a character creator's, in the brand's own words.
+
+**Class: INDEPENDENT (ASSUMED).** Creator-run brand; no corporate, platform or franchise owner surfaced.
+A widely repeated account attributes the brand's founding to an advertising creative and links it to a later "GodToys" line, matching the sheet's note, but the only sources carrying it are wikis and search snippets, which this method does not accept, so the founding story is not carried.
+
+**REP: yes, with two weaknesses stated.**
+Neither pass surfaced a label, an agency, a management company or a prior assignment on any publisher page.
+The two things that could change this call, both recorded rather than resolved:
+1. The brand's own Shopline storefront at ddedhk.shoplineapp.com resolves to a `/closed` page as of 2026-07-31, so the direct commercial channel is evidenced but not currently open.
+2. Tiny 微影, the Hong Kong diecast and toy brand run by Orient Toy, appears to carry a DDED category on its own site; the category URL redirected to Tiny's corporate default page when fetched, so the relationship is checked and unresolved, not evidenced.
+Neither weakness points at captivity: a creator licensing a line to a toy manufacturer is licensing out, which is the opposite direction from being represented, and it is treated the same way row 8's exhibition listings and row 21's curated pop-up were treated.
+
+**Band: `10k_50k`, current-proxy.** Instagram @ddedhk, 39K followers, retrieved 2026-07-31.
+Anti-drift: Threads @ddedhk reads 17.1K, also `10k_50k`, so the two channels agree on the band and Instagram governs as the larger.
+No separate per-character channel was found.
+
+**Control signals.** Solo creator: not assessable from a publisher page. Label or agency attached: none surfaced. Already under management: none surfaced. Prior assignment visible in press: none surfaced; Google News zh-HK returned nothing on the queries run.
+
+**Evidence.**
+- https://www.instagram.com/ddedhk/ and https://www.threads.com/@ddedhk - retrieved 2026-07-31, display name, bio, counts.
+- https://www.facebook.com/ddedhk/ - retrieved 2026-07-31.
+- https://ddedhk.shoplineapp.com/products - retrieved 2026-07-31, resolves to `/closed`.
+
+### 30. Tse Sai Pei
+
+**Identity (CONFIRMED at channel level).** Instagram @tsesaipei, display name 謝曝皮, and the Facebook page tsesaipei, titled 謝曝皮 Tse Sai Pei, whose own description links the storefront www.tsesaipei.com/shop.
+The store URL resolves.
+
+**Class: INDEPENDENT (ASSUMED).** An illustrator working under their own name with their own shop; no corporate, platform or franchise owner surfaced.
+
+**REP: yes.** Neither pass surfaced a label, an agency, a management company or a prior assignment.
+The self-run commercial channel is confirmed from the artist's own Facebook description and the store resolves, which is the strongest form of the `yes` leg available in this run.
+Google News zh-HK returned one item on this name that is a different subject entirely (a 自由時報 report on an illustrator's June Fourth artwork) and it is not relied on; the sheet's note about a physical store opening in 2025 is a query seed only and is not carried.
+
+**Band: `50k_200k`, current-proxy.** Instagram @tsesaipei, 118K followers, retrieved 2026-07-31.
+Cross-check: the Facebook page reads 163,377 likes, which also sits in `50k_200k`, so the band holds on both channels; Instagram governs as the stated primary.
+
+**Control signals.** Solo creator: ASSUMED (a personal name carried on both channels). Label or agency attached: none surfaced. Already under management: none surfaced. Prior assignment visible in press: none surfaced.
+
+**Evidence.**
+- https://www.instagram.com/tsesaipei/ - retrieved 2026-07-31.
+- https://www.facebook.com/tsesaipei - retrieved 2026-07-31, page title, own-store link and like count.
+- https://www.tsesaipei.com/shop - retrieved 2026-07-31, resolves.
+
+### 31. Overloaddance
+
+**Identity (CONFIRMED at channel level).** Instagram and Threads @overloaddance_studio, display name Overloaddance, and the Facebook page overloaddance.studio, whose own description reads "Toy / Comic / Illustration".
+That three-word self-description is the whole of what a publisher page says about this practice.
+
+**Rejected candidate.** Instagram @overloaddance is an unrelated account (1 follower, 0 posts, display name "Alexandria,sahara") and is not this studio; @overloaddance.studio does not exist on Instagram even though it is the Facebook handle, which is a reminder that the handle does not carry across platforms.
+
+**Class: INDEPENDENT (ASSUMED).** A creator-run studio; no corporate, platform or franchise owner surfaced.
+
+**REP: yes, and it is the thinnest `yes` in this batch.**
+Neither pass surfaced a label, an agency, a management company or a prior assignment, and the studio runs its own channels across three platforms.
+But no press was confirmed - Google News zh-HK returned nothing on the queries run - and no storefront was reached, so this rests on channel evidence alone, at the same strength as rows 3, 9, 19 and 20 rather than rows 8, 16 or 23.
+The sheet's note (sofubi toys, active since 2009) matches the Facebook self-description in kind but the date is not confirmed and is not carried.
+
+**Band: `lt_10k`, current-proxy.** Instagram @overloaddance_studio, 5,486 followers, retrieved 2026-07-31.
+Anti-drift: Threads @overloaddance_studio reads 1.1K and the Facebook page 4,722 likes; all three sit in `lt_10k`, so the band is safe on every channel.
+
+**Control signals.** Solo creator: ASSUMED, weakly (a studio name). Label or agency attached: none surfaced. Already under management: none surfaced. Prior assignment visible in press: no press found.
+
+**Evidence.**
+- https://www.instagram.com/overloaddance_studio/ and https://www.threads.com/@overloaddance_studio - retrieved 2026-07-31.
+- https://www.facebook.com/overloaddance.studio - retrieved 2026-07-31, page title, self-description and like count.
+
+### 32. Mr n Mrs Moon
+
+**The largest channel in the run so far.**
+
+**Identity (CONFIRMED).** Instagram and Threads @mr_n_mrs_moon and the Facebook page MrandMrsMoon all carry the display name Mr n Mrs Moon, and the brand runs its own storefront at mrnmrsmoon.com, which resolves and carries its own product collections, wallpapers and an animated sticker range for WhatsApp, Signal, Telegram and Line.
+The brand's own site describes the work as the everyday life of a married couple.
+
+**Rejected candidate.** Instagram @mrnmrsmoon (no underscores) is an unrelated personal account (255 followers, display name "Gemintang Bintang").
+
+**Class: INDEPENDENT (ASSUMED).** A creator-pair character brand running its own store; no corporate, platform or franchise owner surfaced.
+The creators' names were not confirmed from any publisher page and are not stated here.
+
+**REP: yes, and the brand-side pass is what carries it.**
+U Food covered a 天仁茗茶 x Mr n Mrs Moon Christmas theme, and the character appears in mall campaign coverage in HK press.
+Both are the brand dealing with counterparties under its own name, with no agent, licensing agency or management company named in any of the coverage reached.
+Neither pass surfaced a label or a management attachment.
+A separate retailer listing of a Mr n Mrs Moon x MASKEEPER item was seen and is not cited: it sits on a marketplace-style storefront, which this method does not accept as evidence.
+
+**Band: `200k_1m`, current-proxy.** Instagram @mr_n_mrs_moon, 230K followers, retrieved 2026-07-31.
+Anti-drift: the account is the character brand's own, so the character channel is already the read and no creator-versus-character split arises.
+The count sits just over the `50k_200k` boundary, so the band is recorded with the boundary noted; it is not near enough to the edge to be in doubt at the rounding this source serves.
+
+**Control signals.** Solo creator: no, a pair, ASSUMED from the brand's own premise rather than concluded. Label or agency attached: none surfaced. Already under management: none surfaced. Prior assignment visible in press: none surfaced; the campaign coverage names the brand directly.
+
+**Evidence.**
+- https://www.instagram.com/mr_n_mrs_moon/ and https://www.threads.com/@mr_n_mrs_moon - retrieved 2026-07-31.
+- https://www.facebook.com/MrandMrsMoon/ - retrieved 2026-07-31.
+- https://www.mrnmrsmoon.com/en - the brand's own storefront, retrieved 2026-07-31.
+- U Food, "天仁茗茶 x Mr n Mrs Moon 聖誕限定主題" - HK publisher, campaign coverage.
+
+### 33. Lewa Lee
+
+**The most press-visible row in the run.**
+
+**Identity (CONFIRMED).** The exhibitor trades as LeeeeeeToy.
+Instagram and Threads @leeeeeetoy both carry the display name LeeeeeeToy, and the creator is named 阿華 in a 橙新聞 interview filed from the Shenzhen Cultural Fair, "直擊深圳文博會｜LeeeeeeToy阿華：在複雜的成人世界裡，用一隻軟膠玩具留住純粹".
+The sheet's Threads handle was correct.
+
+**Class: INDEPENDENT (CONFIRMED).** 香港01 filed its coverage under the heading 獨立品牌LeeeeeeToy工作室 - an independent brand studio, in a publisher's own words rather than the brand's.
+明報周刊 (Ming Pao Weekly) covered the studio in a piece on reviving Hong Kong's toy-making standing, framing it as an artist-run art-toy practice.
+No corporate, platform or franchise owner appears in any of the coverage reached.
+
+**REP: yes.** Neither pass surfaced a label, an agency, a management company or a prior assignment across five publishers.
+The brand-side pass instead found the studio doing its own deals: MING'S covered a YMDH x LEEEEEETOY MADONNA EARTH BAG collaboration with the Hong Kong fashion label, with no intermediary named.
+Third-party channels found are all of the exhibition or gallery kind and are treated as such, not as representation: a Taipei solo show at 伊日後樂園 BACK_Y covered by 玩具人 TOY PEOPLE and by 500times (udn), and the Shenzhen Cultural Fair Hong Kong pavilion, which is a trade-fair pavilion rather than a representative.
+
+**Band: `50k_200k`, current-proxy.** Instagram @leeeeeetoy, 53K followers, retrieved 2026-07-31.
+Anti-drift: Threads @leeeeeetoy reads 7.0K (`lt_10k`) on the same identity; Instagram is the larger evidenced channel and governs, and the alternative is recorded.
+The count sits just above the `10k_50k` boundary, so the band is recorded with the boundary noted.
+No separate per-character channel was found, so the studio account is the read.
+
+**Control signals.** Solo creator: ASSUMED, strongly (a bylined interview with one named creator about his own studio). Label or agency attached: none surfaced across five publishers. Already under management: none surfaced. Prior assignment visible in press: none surfaced; the fashion collaboration names the studio directly.
+
+**Evidence.**
+- 橙新聞, "直擊深圳文博會｜LeeeeeeToy阿華：在複雜的成人世界裡，用一隻軟膠玩具留住純粹".
+- 香港01, "【周日Cult遊】獨立品牌LeeeeeeToy工作室 跨界創作人改裝展暖場".
+- 明報周刊 Ming Pao Weekly, "復興港產玩具地位 藝術玩具Leeeeee Toy：香港人可以想出許多古靈精怪的創新設計".
+- MING'S, "本地時裝品牌 YMDH 聯同 LEEEEEETOY 攜手打造 MADONNA EARTH BAG 聯乘系列", https://www.mings.hk/ymdh-leeeeeetoy-本地品牌-382806/
+- 玩具人 TOY PEOPLE, "LeeeeeeToy台北個展【The Game of Lifeeeeee 無呢頭多功能遊戲人生機】at伊日後樂園BACK_Y 現場報導".
+- 500times (udn), "讓創作玩心大開，回歸赤子之心：香港藝術家LeeeeeeToy《地球國》伊日後樂園展出".
+- https://www.instagram.com/leeeeeetoy/ and https://www.threads.com/@leeeeeetoy - retrieved 2026-07-31.
+
+## Observations carried, not concluded
+
+Recorded here because they change how the finished register should be read, and because leaving them implicit would make the eventual counts misleading.
+
+**1. `unclear` is carrying two entirely different situations, and they must not be summed.**
+By this point in the run the `unclear` calls split cleanly:
+- *No property to represent.* Rows 1, 24, 25, 26, 27 and 28 are identified, creator-owned, self-channelled businesses that make craft or design goods rather than character IP. Nothing is unresolved about them; the finding is that there is no character IP evidenced on the row.
+- *Identity or scope unresolved.* Rows 4, 11 and 17 could not be identified well enough to call, and row 12 has a real attachment signal whose scope is not resolvable.
+Both return `unclear` under the stated rule and the rule is not being changed mid-run, but a count that adds them together would report a measurement failure and a substantive finding as the same thing.
+When the counts section is written it has to separate them.
+
+**2. Row 22's `no` is structural, not captive, and the two branches must be kept apart when the counts are written.**
+ARDUREY returns REP=`no` because the attendee is itself a licensing agency, which is the rule's second branch.
+That is a different fact from the rule's first branch - exclusive label or agency channelling - and the two must be tallied separately rather than added, or the count will say something the evidence does not.
+No branch tally is stated here; the point is that the counts section cannot be written as a single `no` column.
+
+**3. Every label-or-retailer channel tested so far has come back running alongside a self-run channel, not replacing it.**
+Three tests now: TOYZEROPLUS on row 11's candidate, 誠品 on row 24, and Tiny 微影 on row 29 (the last unresolved).
+In each case the creator's own direct channel was live or evidenced at the same time.
+That is the non-exclusive branch of the pinned edge case each time.
+No conclusion about exclusivity is drawn from this - exclusivity is refused ground and a concurrent direct channel is not proof of a non-exclusive arrangement - but the pattern of what the sweep can see is worth recording as it accumulates.
+
+**4. A sheet artefact, recorded for Phase 0 rather than acted on here.**
+Eight of the names on this Hong Kong list also appear in the sheet's Taiwan section: ARDUREY LIMITED (#309, typed Agency), HEREAFTER STUDIO (#348), HANDMADESHIP (#349), Scentory (#350), paper diamond® (#388), DDED (#425), Tse Sai Pei (#436) and Overloaddance (#437), all typed Brand and all carrying "N/A detail" notes.
+The Hong Kong rows carry Hong Kong-specific first-party handles and the evidence above confirms Hong Kong entities, so the Hong Kong rows are the substantive ones.
+One independent corroboration that the duplication may be real exhibiting rather than a transcription error: paper diamond's own Threads bio on 2026-07-31 advertised a Taiwan Creative Expo booth.
+Phase 0 is not re-run and its disposition is not revised; this is flagged so that any later cross-market count knows the eight names are the same organisations and must not be counted twice.
+
 ## Counts
 
 Deliberately empty.
@@ -472,7 +819,11 @@ The counts section is written once all 32 rows carry a call.
 - No levels or ladder vocabulary.
 - Pinned edge cases applied: the Toyzeroplus test was run explicitly on row 11's candidate and returned non-exclusive, which is recorded as a negative result rather than suppressed; the 咖波 precedent (agency-managed but creator-owned is still independent) is what keeps row 12 INDEPENDENT despite the consultancy co-listing; self-presentation is not ownership, which is why rows 3, 9 and 10 carry ASSUMED class calls rather than confirmed ones.
 - Unresolved rows (4, 11) are left unresolved with the reason and the resolving evidence named.
-- The exhibitor sheet's Notes column was used only as a query seed; where it was contradicted (rows 1, 3) or unconfirmed (rows 10, 11) that is recorded and the note is not carried.
+- The exhibitor sheet's Notes column was used only as a query seed; where it was contradicted (rows 1, 3) or unconfirmed (rows 10, 11, 26, 29, 30, 31) that is recorded and the note is not carried.
+  The Notes column's handles did verify on rows 24, 25, 29, 30, 31, 32 and 33, which is recorded as a property of the seeds, not as evidence: each was still confirmed against the display name on the platform's own page before being accepted.
+- Row 22's REP=`no` is the rule's agency branch, not the captive branch, and the file says so in the row and again in the observations so that it cannot be read as a captivity finding.
+- Where a row is a design-goods or craft business with no character IP evidenced (rows 1, 24, 25, 26, 27, 28), the file records exactly that and returns `unclear`; it does not invent a property, and it does not treat the absence as an attachment.
+- Row 28's follower count was deliberately not taken from the larger same-name account, because that account is a different person; the higher number is rejected in the row rather than quietly dropped.
 
 ## Method notes for the remaining rows
 
@@ -481,5 +832,9 @@ Recorded so the rest of the pass runs the same way.
 1. **Handle probing beats search for this population.** These are small HK creator brands with thin press. Fetching `instagram.com/<handle>` and `threads.com/@<handle>` with a Googlebot user agent returns the follower count and often the bio in `og:description`, which resolves both identity and band in one call. Threads is a newly useful channel here: its profile `og:description` carries "N Followers - M Threads - <bio>", though it serves an empty description on a substantial share of attempts and needs a retry.
 2. **False friends are the main hazard.** Eight of the sixteen rows adjudicated so far had at least one plausible handle that turned out to be an unrelated or empty account, several with single-digit follower counts. A handle is only accepted when the display name or bio independently matches the exhibitor.
 3. **Google News RSS with `hl=zh-HK&gl=HK` is the press index**, as in the HK census. It found usable press for five of the sixteen and nothing for the rest, which is itself informative about this population's press depth: most of these creators are channel-visible and press-invisible.
-5. **The character-vs-creator anti-drift split is rare in this population and the platform split is common.** Almost none of these creators run a separate character account, so the HK bands pass's hardest case barely arises here. What does arise on nearly every row is Instagram-versus-Threads: the same identity typically reads two to three times larger on Instagram, so the larger evidenced channel governs and the alternative is recorded, exactly as the census rule requires.
 4. **Web search resolves the article better than the aggregator redirect.** Searching the exact headline returns the publisher URL directly, which sidesteps the blocked Google News resolver.
+5. **The character-vs-creator anti-drift split is rare in this population and the platform split is common.** Almost none of these creators run a separate character account, so the HK bands pass's hardest case barely arises here. What does arise on nearly every row is Instagram-versus-Threads: the same identity typically reads two to three times larger on Instagram, so the larger evidenced channel governs and the alternative is recorded, exactly as the census rule requires.
+6. **Facebook is the third channel and it is the most informative one per call.** Fetching `facebook.com/<handle>` with a Googlebot user agent returns `og:title` (the page's own title, often bilingual, which resolves identity) and `og:description` carrying the like count, the page's self-description and sometimes its own storefront URL. That is how rows 27, 30 and 31 got a first-party self-description and row 30 got its store link. Page likes are not followers and are used as a band proxy only where nothing else resolved (row 23) and flagged as such; where both exist they agreed on the band on every row tested (27, 30, 31).
+7. **Google News with a Chinese query string must be percent-encoded or it returns HTTP 400.** Passing traditional-Chinese characters raw in the `q` parameter produced `Error 400 (Bad Request)` on every attempt and looks exactly like an empty result set. Encode the query first; several rows initially read as press-invisible purely because of this.
+8. **The highest-value false friend is a same-name account that is bigger, not smaller.** The decoys in the first batch were all tiny and obvious. Row 28's decoy had 28K followers under the exactly-correct display name and would have placed the row a band too high; what exposed it was the same handle on Threads carrying a different bio. Cross-platform bio comparison is the check that catches this class, and count size is not evidence of being the right account.
+9. **A whole cluster of this list is design-goods businesses with no character IP.** Rows 1, 24, 25, 26, 27 and 28 are craft, fashion, fragrance or paper-art brands. They are not unresolved and they are not captive; they simply have no property of the kind this run is adjudicating. Expect more of these in the remaining rows and record them as what they are rather than forcing a call.
