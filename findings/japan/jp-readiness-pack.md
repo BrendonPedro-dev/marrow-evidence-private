@@ -9,9 +9,9 @@ Build status at 2026-08-01:
 
 | Section | Status |
 |---|---|
-| 1. Japan opportunity map | BUILT (this pass) |
-| 2. Candidate IP shortlist | NOT YET BUILT |
-| 3. JP partner landscape | BUILT (this pass) - census-evidenced core; category extension still owed |
+| 1. Japan opportunity map | BUILT (pass 1) |
+| 2. Candidate IP shortlist | BUILT (pass 2) |
+| 3. JP partner landscape | BUILT (pass 1) - census-evidenced core; category extension still owed |
 | 4. What a pilot would actually require | NOT YET BUILT |
 
 **Refused content, applied throughout and not negotiable inside this file.**
@@ -239,11 +239,203 @@ Commercial terms: discussion only, never on paper.
 
 ## 2. CANDIDATE IP SHORTLIST - INTERNAL
 
-**STATUS: NOT YET BUILT.**
-Owed content: per-IP Japan signals for the PBC-side IPs, with existing JP audience traces, style-adjacent JP successes from the census cited by row number, and band fit against section 1.6.
-Signals and ASSUMED readings only, never a verdict.
-Bichi Mao appears only as a candidate and only with its internal rights flag stated.
-SHUYA is never described as exclusive.
+**This section records signals, not verdicts.**
+Nothing below concludes that any IP is available for Japan, suitable for Japan, or should be taken to Japan.
+No territory, rights or exclusivity conclusion is drawn for any IP in this section.
+No outcome projection of any kind appears.
+Commercial terms: discussion only, never on paper.
+
+### 2.1 The roster and the honest state of its evidence
+
+CONFIRMED (`map-targets.md`, and the IP descriptions in `tasks/brand-briefs.md`): the PBC-side roster is four names - Bichi Mao 彼奇貓, Cheesy Duck 確幸鴨, Jolly Gee Studio, SHUYA 舒雅.
+They are listed below in that same order, which is the order they appear in `map-targets.md`.
+**That ordering carries no preference, no ranking and no priority.**
+
+The evidence base is uneven across the four, and the unevenness is itself a finding:
+
+| IP | Census row anywhere in the ten-market series | IP timeline in this repo | Band established | Japan-specific trace found this pass |
+|---|---|---|---|---|
+| Bichi Mao 彼奇貓 | Yes - Malaysia rows 5, 9, 10, 100 (all REP=yes) | Yes, `findings/ip-timelines/bichi-mao.md` | `200k_1m` | None found |
+| Cheesy Duck 確幸鴨 | None | None | Unresolved | One, weak (LINE ja storefront) |
+| Jolly Gee Studio | None | None | `10k_50k` | None found |
+| SHUYA 舒雅 / 슈야 | Yes - Korea row 93 (REP=yes) | None | `200k_1m` | Yes, but it attaches to the recorded agent rather than to the IP itself |
+
+CONFIRMED: a whole-repo grep of `findings/census/` returns **zero rows** for Cheesy Duck and **zero rows** for Jolly Gee Studio in any of the ten markets.
+That is a coverage fact about the census, not a fact about those IPs.
+
+### 2.2 Bichi Mao 彼奇貓
+
+**Internal rights flag, stated as the task requires.**
+CONFIRMED (`tasks/brand-briefs.md` line 22-23, repeated verbatim in the map-v2 research brief): the repo records Bichi Mao as "Malaysian cat character, healing/warm style, **Taiwan licensing via PBC**".
+PBC's own recorded mandate for this IP is therefore a Taiwan one.
+CONFIRMED (Total Licensing, article posted 2025-09-11, curl-verified 2026-08-01): Visional Pop announced "a strategic partnership with Kuala Lumpur-based Niko Studio, the creative powerhouse behind the hit animated character Bichi Mao", under which "the companies will introduce Bichi Mao to audiences across **North America**, marking the character's first major international expansion".
+The release quotes Benjamin Grubbs, Director of Visional Pop, and Wee Lim, Co-founder of Niko Studio.
+CONFIRMED (same release): Japan is not mentioned anywhere in it.
+
+**No conclusion is drawn here about who holds what for Japan.**
+The two facts above are recorded because a second party already holds a defined international scope for this IP, which makes "what is the position for Japan" a question for the IP holder rather than something to be reasoned out internally.
+It is carried into section 4 as exactly that question.
+
+**Japan audience traces: NONE FOUND.**
+Queries run 2026-08-01: `Bichi Mao 日本 コラボ 彼奇貓 キャラクター`; `"Bichi Mao" 日本 東京 ポップアップ グッズ 猫 イラストレーター`.
+Nothing Japanese-language, no Japanese retail listing, no Japanese event appearance surfaced.
+The international surfaces that did surface are US and Taiwan-facing: the TOKYOPOP official merchandise store, the Visional Pop shop, Ana Tomy, Tapas and WEBTOON (as "Mao Daily"), plus the 2026 Taiwan IP Expo pairing already recorded in the IP timeline.
+UNRESOLVED: whether any Japanese-language surface exists that these queries missed.
+
+**Band fit.**
+CONFIRMED (Instagram `@bichi.mao`, Googlebot fetch 2026-08-01, `og:description` = "995K Followers, 8 Following, 1,139 Posts"): band `200k_1m`, unchanged from `findings/census/malaysia/ip_scale_bands.md`.
+Against section 1.6: `200k_1m` is the Japanese census's largest independent band at 22 rows, of which 9 are REP=yes.
+The upper-edge caveat already recorded in the Malaysia banding pass travels with this figure - 995K sits fractionally under the `gt_1m` floor, and **no `gt_1m` row in the Japan census is REP=yes**.
+
+**Style-adjacent Japanese successes, cited by census row.**
+CONFIRMED: the cat is the densest single motif among Japan's addressable rows.
+Row 6 (Lawson x ヒグチユウコ, Uchi Cafe packaging and confectionery, REP=yes), row 42 (Morinaga カレ・ド・ショコラ, three cat illustrations by the same artist, REP=yes), row 84 (FamilyMart x Coony, an independent **cat illustrator**, ねこの日 fair sweets, REP=yes, band `10k_50k`), row 16 (Kiddy Land x 仕事猫, REP=yes).
+CONFIRMED: cat IP also appears repeatedly on the non-addressable side - rows 11, 22 and 85 (mofusand, REP=no), row 79 (きゃたぴランド, REP=unclear), row 135 (しかるねこ, REP=unclear).
+ASSUMED: Japanese brands demonstrably build campaigns around cat illustration and do so with creators at both ends of the band range, so the motif is not the constraint.
+
+UNRESOLVED and worth stating plainly: **no REP=yes Japan row is a webcomic-strip property.**
+All 26 are illustrators, illustrator rosters, or character brands.
+Bichi Mao's engine, per its own timeline, is a webcomic.
+The census does not evidence a Japanese brand contracting a webcomic-format property from an independent holder, and it does not evidence the opposite either.
+
+### 2.3 Cheesy Duck 確幸鴨
+
+**Identity and holder.**
+CONFIRMED (x10studio.net official site, curl-verified 2026-08-01): X10 Studio Co., Ltd., a Bangkok studio that describes itself as "a studio that brings together a community of diverse illustrators".
+CONFIRMED (Don1Don Taiwan retailer brand page for X10 Studio & Cheesy Duck, curl-verified 2026-08-01): Cheesy Duck 確幸鴨 is "由泰國插畫家 Stop Boonlue 創作的原創明星角色", the page attributes the character to "Unstop", and it records development into short animation, designer toys and limited licensed goods.
+CONFIRMED (same page): the licensing contact address given is 25/5 Soi Lert Panya, Thanon Phyathai, Rajthewi, Bangkok.
+
+**Japan traces: one, and it is weak.**
+CONFIRMED: LINE STORE serves a "Cheesy Duck 2" sticker pack on its **Japanese-language storefront** - `https://store.line.me/stickershop/product/22473877/ja` returns HTTP 200 with `<title>Cheesy Duck 2 - LINE スタンプ | LINE STORE</title>`, description "Cheesy Duck is Funny and Happy", copyright line `©Unstop`, publisher shown as "10mm. Studio".
+ASSUMED: the `©Unstop` line ties this pack to the same creator the Taiwan retailer page names, since that page independently attributes the character to "Unstop".
+UNRESOLVED, and this must not be glossed: whether "10mm. Studio" is X10 Studio's own LINE Creators Market account, and whether the pack is purchasable in the Japan region - the page served non-Japanese region pricing to this connection, so region availability was not established.
+No Japanese-language coverage, retail listing or event appearance surfaced under `X10 Studio Thailand "Cheesy Duck" licensing Japan character Bangkok IP`.
+
+**A route signal that is real and is not about this IP specifically.**
+CONFIRMED (Content Tokyo official 海外企業特集 page, curl-verified 2026-08-01): Licensing Japan runs dedicated International Pavilions for **South Korea, Taiwan and Thailand**, with the Thailand pavilion described as 「独自の世界観でアジア人気を拡大する、タイ発キャラクター・クリエイターIPが集結」, plus a separate general International Exhibitors area.
+CONFIRMED (`tasks/input/cet2026-orgs.md` row 507): at Creative Expo Taiwan 2026, Cheesy Duck/Stop appears under the 泰國館 Thai Pavilion, which that file records as a Thailand Trade and Economic Office / Ministry of Commerce trade-promotion pavilion.
+ASSUMED: this IP holder already uses government trade-pavilion routes into a foreign market, and Japan operates the same kind of route.
+FAILED FETCH, logged rather than worked around: the Content Tokyo pavilion exhibitor directory (`directory.html?query=pickupThailand`) is JavaScript-rendered and returns no exhibitor names to curl, so **no claim is made about who actually exhibited in the Thailand pavilion**.
+FAILED FETCH: the HKTDC Hong Kong Licensing Show exhibitor page for X10 Studio Co., Ltd. returns HTTP 403 to curl, so its trade-show presence there is a search-surface lead only and is not recorded as confirmed.
+
+**Band fit: UNRESOLVED.**
+No audience channel for the character itself could be located.
+CONFIRMED: the studio's own Instagram `@x10studio.live` reads 61 followers (Googlebot fetch, 2026-08-01) and is plainly not the IP's audience channel; `@cheesyduck` reads 14 followers and is unrelated.
+CONFIRMED (`findings/census/thailand` method note, carried in `tasks/cobranding-census-thailand.md`): Thailand's independent character economy is LINE-sticker-native, and LINE publishes no follower figure.
+So this IP cannot be placed against section 1.6 at all, and no band is asserted.
+
+**Style-adjacent Japanese successes: an honest null.**
+CONFIRMED: a keyword grep of all 146 census rows for duck and bird motifs (`duck` / `あひる` / `アヒル` / `ダック` / `鴨`) returns nothing usable - the only hits are Bird Studio (the Toriyama estate, row 49) and Suicaのペンギン (row 61, a JR East corporate mascot), neither of which is a motif comparable.
+The nearest structural adjacency is row 90 (Bandai ガシャポン x 遊ハち, an SNS-born illustrator, 8 designs of which 7 were fan-voted, REP=yes), because that is the census's clearest case of a Japanese manufacturer building a product around a social-native character.
+
+### 2.4 Jolly Gee Studio
+
+**Identity and holder.**
+CONFIRMED (`tasks/brand-briefs.md` line 25-26): "Korean retro-kitsch character family (JOLLY/LYGEE/LYLEE); stationery, lifestyle goods, cafe collabs."
+CONFIRMED (`tasks/input/cet2026-orgs.md` row 105): JOLLYGEE STUDIO, Korea, classed IP, with a known contact recorded (Hyunji Song) and an ongoing relationship since 6/24; Threads `@jollygeestudio`; "character brand, stationery/lifestyle/apparel licensing".
+CONFIRMED (Instagram `@jollygeestudio`, Googlebot fetch 2026-08-01): account name reads 「졸리지 스튜디오 ㅣ 서일페 B40」, where the suffix is a Seoul Illustration Fair booth number.
+ASSUMED: the studio works the Korean illustration-fair circuit, which is the Korean analogue of the Japanese illustrator pop-up circuit that section 1.7(a) identifies.
+
+**Japan traces: NONE FOUND.**
+Queries run 2026-08-01: `"Jolly Gee" character LYGEE LYLEE Korea studio licensing`; `"졸리지" OR "JOLLY GEE" 스튜디오 캐릭터 일본 라이선싱 팝업`.
+No Japanese-language coverage, no Japanese retail listing, no Japanese event appearance.
+CONFIRMED: zero rows in the Korea census, so the repo carries no evidence of a brand campaign for this IP in its own home market either.
+
+**Band fit, and this is the one place where the census says something specific.**
+CONFIRMED (Instagram `@jollygeestudio`, 2026-08-01, `og:description` = "26K Followers, 509 Following, 372 Posts"): band `10k_50k`.
+Against section 1.6: `10k_50k` and below is where three Japanese REP=yes rows sit - row 78 (Kokuyo Campus 50th-anniversary capsule with 一乗ひかる, Instagram 47K), row 84 (FamilyMart ねこの日 fair with Coony, Instagram 29K) and row 80 (mt / カモ井加工紙 masking tape with 松林誠, Instagram 6,905).
+ASSUMED: Coony at 29K is within roughly 3,000 of this IP's count, and that pairing was a national convenience chain running a four-design confectionery fair.
+So on the census's own evidence, an audience of this size has not by itself prevented a Japanese national-brand campaign.
+The census does not evidence what the actual gate is, and section 1.6's UNRESOLVED on that point stands.
+
+**Style- and category-adjacent Japanese successes, cited by census row.**
+CONFIRMED: stationery is the smallest brand category in the Japan census (2 rows) and **both rows are REP=yes** - row 78 (Kokuyo) and row 80 (mt / カモ井加工紙).
+CONFIRMED: the roster format for stationery exists and is nationwide - row 19 (クリエイターmeetsロフト 2025, Loft nationwide plus net store, 18 individual illustrators, REP=yes).
+CONFIRMED: cafe-format adjacency is the weak spot. Collab cafe / dessert venue returns 9 rows, 3 independent and **zero REP=yes** (section 1.4), so the "cafe collabs" strand of this IP's stated profile is the strand the Japanese census evidences least.
+CONFIRMED: a retro / レトロ / 昭和 keyword grep across all 146 rows returns **zero** hits, so retro-kitsch as a style has no census comparable in Japan at all - an honest null, not a negative signal.
+
+### 2.5 SHUYA 舒雅 / 슈야
+
+**SHUYA is not described as exclusive anywhere in this document, and the rights position below is recorded as unresolved.**
+
+**Identity, holder and census position.**
+CONFIRMED (`findings/census/korea/campaigns.md` row 93): 슈야 (Shuya), created by 성지민 (Sung Ji-min) of 크림퍼프스튜디오 (Cream Puff Studio), IP class INDEPENDENT, **REPRESENTABLE=yes**, campaign dated 2025-03-17 with 모나미 (Monami) - a 153 ballpoint five-pen set plus a Shuya figure pen holder and rice-cake-shaped memo paper.
+CONFIRMED (same row, class evidence): "케이비젼 is licensing agent, artist retains authorship".
+CONFIRMED (same row, Notes): "KBvision-managed, **exclusivity unclear** (cf. Esther Bunny)".
+UNRESOLVED, and carried into section 4 as a question for the IP holder: whether the KVISION arrangement is exclusive, and which territories it covers.
+Nothing in this pack asserts either way.
+
+CONFIRMED (KVISION's own site, `k-vision.com` brand page, curl-verified 2026-08-01): 슈야(SHUYA) is listed in the portfolio of (주)케이비젼 / KVISION Inc., described as 「카카오톡 이모티콘으로 등장, 특유의 말랑말랑하고 러블리한 이미지로 사랑 받고 있는 캐릭터」 - a character that emerged as a KakaoTalk emoticon.
+CONFIRMED (same page): the same portfolio also carries Esther Bunny, 모모레이 MOMOREI, 정서불안 김햄찌, PETIT FACTORY, 흔한남매, Studio Dalgona, SWIMMER, usouso-chan, Hatsune Miku and Poppy Playtime, and the page's own category filter offers KOREA / USA / JAPAN / ETC.
+CONFIRMED (`k-vision.com` business page, same fetch): 「(주)케이비젼은 한국과 미국, 일본, 홍콩 등에서 유망한 캐릭터나 브랜드를 발굴하여 사업권을 획득」 - the company states that it acquires business rights to characters in Korea, the US, Japan and Hong Kong.
+CONFIRMED (site footer): (주)케이비젼, 대표자 김현경, 사업자등록번호 119-86-28927, Yeongdeungpo-gu, Seoul; published contact master@k-vision.com.
+
+**The Japan signal, and it attaches to the agent rather than to the IP.**
+This is the strongest Japan-specific evidence found for any of the four IPs, and its shape needs stating precisely: **it is evidence about the agent recorded against this IP, not evidence about this IP.**
+
+CONFIRMED (Japan census row 2): Seven-Eleven Japan ran an Esther Bunny エスターバニー campaign 2026-03-03..03-04 - eight sweets and snacks with seals, plus binders - and the row's class evidence reads "licenser KVISION INC (Korea), JP rights via Diamond Group".
+Source is the brand's own release at sej.co.jp.
+CONFIRMED (Japan census row 116): Marion Crepes マリオンクレープ ran a MOMOREI campaign 2025-11-17..11-30 at Sunshine City ALTA Ikebukuro, and the row reads "IP rights KVISION INC; JP license held by 株式会社LINDA".
+CONFIRMED (Content Tokyo official historic-winners list, curl-verified 2026-08-01): **日本キャラクター大賞2025 ニューフェイス賞 = Esther Bunny（エスターバニー）（K VISION Inc.）**, alongside a grand prix to ちいかわ and Character Licence awards to Sanrio and MINECRAFT.
+CONFIRMED (same page): the award is organised by 一般社団法人キャラクターブランド・ライセンス協会 (CBLA), 後援 経済産業省, 共催 RX Japan, 特別協力 香港貿易発展局 / Asian Licensing Association, and it is presented at Licensing Japan.
+
+ASSUMED reading: a Korean creator-owned IP whose licensing agent is KVISION won the Japanese licensing industry's own New Face award for 2025 and reached a Japanese national convenience chain the following March, and a second KVISION IP reached a Japanese chain in 2025.
+ASSUMED: KVISION does not appear to run Japan itself - in both census rows a separately named **Japanese** licensor sits in the middle (Diamond Group in row 2, 株式会社LINDA in row 116).
+
+**The counter-reading, which matters more internally than the signal does.**
+CONFIRMED (Japan census rows 2 and 116, REPRESENTABLE column): row 2 is REP=**unclear** with the note "JP rights locked to Diamond Group/KVISION", and row 116 is REP=**no** with the note "JP rights locked to LINDA".
+CONFIRMED (`findings/census/japan/_VERDICT.md`): MOMOREI is named in the verdict's list of rows that are "indie by ownership but already closed off".
+So the same mechanism that carries a Korean independent IP into Seven-Eleven Japan is the mechanism the census scores as closing that IP off.
+ASSUMED, and this is the operative internal point: the Japan-entry route visible in the evidence and the addressability the census measures pull in opposite directions, and PBC should walk into any Japan conversation already knowing that rather than discovering it in the room.
+
+FAILED VERIFICATION, logged: a GU (Fast Retailing) Japanese product page for グラフィックT エスターバニー surfaced in search at `gu-global.com/jp/ja/products/E356980-000/00` and returns HTTP 200, but the page is JavaScript-rendered and no on-page text could be extracted, so **GU x Esther Bunny is recorded as an unverified lead, not as a confirmed campaign.**
+The Korea census separately notes "GU x 에스더버니 (2025-07-17) is dated and real but out of market scope", which is corroborating but is a note rather than a fetched primary source.
+
+**Band fit.**
+CONFIRMED (Instagram `@shuya_official`, Googlebot fetch 2026-08-01, `og:description` = "417K Followers, 1,042 Following, 898 Posts - 슈야 / SHUYA"): band `200k_1m`, matching `findings/census/korea/ip_scale_bands.md` row 93.
+Against section 1.6: 22 Japanese independent rows sit in `200k_1m` and 9 of them are REP=yes.
+
+**Style-adjacent Japanese successes, cited by census row.**
+CONFIRMED: the dessert-styled character has two addressable Japanese comparables and both are unusually on point.
+Row 118 (PEACH JOHN x KUNIKA, a **sweets artist**, seven-item lingerie and roomwear capsule, REP=yes) - and this is one of only two REP=yes rows in the whole Japan census where the census places the creator outside Japan.
+Row 136 (マリモクラフト / キャラコレ x mikko illustrations, Shibuya Sakura Stage pop-up, REP=yes) - whose characters are literally dessert-named (ムース / キャミー / ラテ / スフレ), and whose census note records that this is "the same creator as Taiwan row 132 but a separate JP-market campaign", i.e. a creator running distinct campaigns in two markets.
+CONFIRMED: row 42 (Morinaga カレ・ド・ショコラ, REP=yes) is the confectionery-packaging comparable, and row 45 (Dr. Ci:Labo x SHOGO SEKINE, REP=yes) is the cosmetics-coffret one.
+CONFIRMED (stationery adjacency to this IP's one evidenced campaign, a pen set): rows 78 and 80, both REP=yes.
+
+### 2.6 What the four IPs share, read across the census
+
+These are readings, all ASSUMED, and none of them is a recommendation.
+
+**(a) The Japan census evidences two routes for a non-Japanese independent IP, and they are very different objects.**
+Route one is the appointed Japanese sub-licensor: rows 2 and 116, both KVISION-origin, both with a named Japanese licensor in the middle, both REP-downgraded for exactly that reason.
+Route two is the trade show: section 1.7(c) records Licensing Japan's 800-plus properties and names BUGCAT CAPOO, a Taiwanese creator-owned indie, among the exhibiting properties, and section 2.3 adds that the show runs national pavilions for Korea, Taiwan and Thailand.
+UNRESOLVED: whether route two has ever converted into a Japanese brand campaign for a foreign independent IP.
+The census cannot answer that, because it records campaigns and not how they were sourced.
+
+**(b) The direct route exists but is thin, and nothing explains it.**
+CONFIRMED: exactly two of the 26 REP=yes rows involve a creator the census places outside Japan - row 39 (Calbee x foxco, London-based) and row 118 (PEACH JOHN x KUNIKA, London-based).
+Both are individual artists rather than character brands, and both are Europe-based rather than Asia-based.
+UNRESOLVED: how either was sourced, what documentation either provided, and whether an Asian character brand is the same object to a Japanese brand as a European individual illustrator is.
+This is the single largest evidence gap for every IP in this section and it is not reasoned around anywhere in this pack.
+
+**(c) Band is not what separates these four.**
+CONFIRMED: of the three IPs where a band could be established, 995K and 417K both fall in `200k_1m` (22 Japanese independent rows, 9 REP=yes) and 26K falls in `10k_50k` (5 rows, 2 REP=yes, plus the `lt_10k` row below it).
+Every one of those bands contains at least one Japanese REP=yes row.
+Section 1.6's conclusion holds across the roster too: audience size is not the discriminating variable here, and the census does not evidence what is.
+
+**(d) The census's own coverage is the limiting factor on two of the four.**
+Cheesy Duck and Jolly Gee Studio have no row in any of the ten market censuses, and neither has an IP timeline in this repo.
+Everything said about them above rests on holder-side primary sources plus repo notes, not on evidenced campaign behaviour.
+That is a gap in what PBC knows, and it is not a signal about the IPs.
+
+### 2.7 What section 2 does not settle
+
+- UNRESOLVED for all four: the Japan rights position. No territory, rights or exclusivity conclusion is drawn for any of them, and every one of these becomes a question to the IP holder in section 4.
+- UNRESOLVED for all four: whether any Japanese brand would treat a non-Japanese character brand the way the census shows it treating a Japanese illustrator. Only rows 39 and 118 touch this and neither explains itself.
+- UNRESOLVED for Cheesy Duck: band, region availability of the LINE pack, and whether the "10mm. Studio" publisher account belongs to the IP holder.
+- UNRESOLVED for Jolly Gee Studio: any evidenced brand campaign at all, in Korea or anywhere.
+- Not attempted here: any read on which IP should go first, or whether any should. That is not a research output and it is not in this file.
+- Commercial terms: discussion only, never on paper.
 
 ---
 
@@ -358,6 +550,27 @@ All fetched 2026-08-01 unless stated.
 - `https://prtimes.co.jp/` - PR TIMES corporate site, 国内シェアNo.1 and 月間1万本を超えるプレスリリース.
 - `https://www.content-tokyo.jp/hub/ja-jp/about/ce.html` - attempted for クリエイターEXPO, returned HTTP 404. Logged as a failed fetch, not worked around.
 
+Added in pass 2, for section 2.
+
+- `https://www.content-tokyo.jp/hub/ja-jp/visit/character.html` - Content Tokyo official, 日本キャラクター大賞 page including the full historic winners list. Source for 日本キャラクター大賞2025 ニューフェイス賞 = Esther Bunny（エスターバニー）（K VISION Inc.）, and for the award's organiser/backer list (CBLA, 経済産業省, RX Japan, 香港貿易発展局 / Asian Licensing Association).
+- `https://www.content-tokyo.jp/hub/ja-jp/visit/feature/pavilion.html` - Content Tokyo official 海外企業特集. Source for the South Korea, Taiwan and Thailand International Pavilions and the general International Exhibitors area.
+- `http://k-vision.com/default/brand/sub1.php?top=3&sub=1` - KVISION Inc. official brand portfolio. Source for 슈야(SHUYA) being in the portfolio, for the sibling properties listed alongside it, and for the KOREA / USA / JAPAN / ETC category filter.
+- `http://k-vision.com/default/business/sub1.php?top=2&sub=1` - KVISION Inc. official business page. Source for the stated Korea / US / Japan / Hong Kong rights-acquisition scope and the company registration details.
+- `https://www.totallicensing.com/visional-pop-partners-with-malaysias-niko-studio-to-launch-animated-sensation-bichi-mao-in-north-america/` - Total Licensing, posted 2025-09-11. Source for the Visional Pop x Niko Studio North America partnership and both quoted statements.
+- `https://store.line.me/stickershop/product/22473877/ja` - LINE STORE Japanese-language storefront, "Cheesy Duck 2", ©Unstop, publisher "10mm. Studio".
+- `https://www.x10studio.net/` - X10 Studio official site. Source for the studio self-description and its official social handles.
+- `https://www.don1donshop.com/pages/x10-studio-cheesy-duck-泰國創意工作室` - Don1Don Taiwan retailer brand page. Source for the Stop Boonlue attribution, the "Unstop" credit and the Bangkok licensing address.
+- Instagram profile fetches, all 2026-08-01 via a crawler UA: `@bichi.mao` (995K), `@shuya_official` (417K), `@jollygeestudio` (26K), `@x10studio.live` (61), `@cheesyduck` (14).
+
+Failed or unverifiable in pass 2, logged rather than worked around.
+
+- `https://www.gu-global.com/jp/ja/products/E356980-000/00` - HTTP 200 but JavaScript-rendered with no extractable text. GU x Esther Bunny stays an unverified lead.
+- `https://www.hktdc.com/event/hklicensingshow/en/exhibitor/1S0060P9K` - HTTP 403 to curl. X10 Studio's Hong Kong Licensing Show presence stays a search-surface lead.
+- `https://www.content-tokyo.jp/tokyo/ja-jp/search/2026con0407/directory.html?locale=ja-JP&query=pickupThailand` - HTTP 200 but the exhibitor directory is JavaScript-rendered and returns no names. No claim is made about pavilion exhibitors.
+- `https://www.k-vision.com/` over HTTPS does not resolve; the site is reachable over HTTP only, which is why the KVISION citations above are `http://`.
+- `https://www.licenseglobal.com/...` - HTTP 403. Total Licensing used instead for the same announcement.
+
 ## Change log - INTERNAL
 
 - 2026-08-01, pass 1: file created. Sections 1 and 3 built off the 146-row Japan census plus three new primary fetches. Sections 2 and 4 marked NOT YET BUILT. Section 3.5 category extension marked OWED.
+- 2026-08-01, pass 2: section 2 built. All four PBC-side IPs given a per-IP entry with holder identity, Japan traces (found or NONE FOUND with the queries stated), band fit against section 1.6 and style-adjacent census rows cited by number. Bichi Mao's internal rights flag stated; SHUYA's KVISION arrangement recorded with exclusivity explicitly UNRESOLVED and never asserted. Nine new primary sources fetched, five failed fetches logged. Section 4 remains NOT YET BUILT; section 3.5 remains OWED.
