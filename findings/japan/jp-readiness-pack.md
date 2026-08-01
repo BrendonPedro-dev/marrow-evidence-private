@@ -11,8 +11,8 @@ Build status at 2026-08-01:
 |---|---|
 | 1. Japan opportunity map | BUILT (pass 1) |
 | 2. Candidate IP shortlist | BUILT (pass 2) |
-| 3. JP partner landscape | BUILT (pass 1) - census-evidenced core; category extension still owed |
-| 4. What a pilot would actually require | NOT YET BUILT |
+| 3. JP partner landscape | BUILT (pass 1, category extension added pass 3) |
+| 4. What a pilot would actually require | BUILT (pass 3) |
 
 **Refused content, applied throughout and not negotiable inside this file.**
 No commercial conditions, fee structures, commission figures or budget ranges appear anywhere in this document.
@@ -453,8 +453,8 @@ Every name below is a Japanese brand, retailer, venue operator or manufacturer t
 Names are ordered by whether the census evidences them doing a deal with an addressable independent (REPRESENTABLE=yes), then with an independent of any kind, then portfolio-only.
 That ordering is a research-relevance ordering, not a ranking of anything else.
 
-**The list proper is the 25 numbered names in 3.2.**
-Sections 3.3 and 3.4 are supplementary context on the same census base and are deliberately left unnumbered so they are not read as part of the target list.
+**The list proper is 30 numbered names: 25 census-evidenced names in 3.2, then 5 category-extension names in 3.5.**
+Sections 3.3, 3.4 and the supplementary tables in 3.5 are additional context and are deliberately left unnumbered so they are not read as part of the list.
 
 ### 3.2 Names the census evidences doing a deal with an addressable independent creator
 
@@ -517,11 +517,56 @@ Listed for completeness of the internal picture, with the honest note that the c
 | ニトリ Nitori / Francfranc | Home & interior | 108, 109 | Game and toy IP only; the whole home category returns zero independent rows |
 | Mister Donut / Krispy Kreme / Mos Burger / KFC Japan | QSR | 30, 114, 35, 36, 37, 38 | All portfolio in this window, all recurring annual formats |
 
-### 3.5 Category extension - OWED
+### 3.5 Category extension beyond the census rows
 
-Not built this pass.
-The task calls for extension beyond census rows by category, and every extension name must carry its own primary-source evidence of character-collaboration activity.
-That work is deliberately left rather than filled with unverified names.
+**How these names were found, and the standard they had to meet.**
+The census window closed 2026-07-29 and the census is a sample, so extension had to come from outside it.
+The route used is the one section 1.7(b) identifies as the highest-yield index for Japanese campaign announcements: PR TIMES.
+CONFIRMED: the PR TIMES keyword search endpoint is fetchable to curl and returns dated release listings, which is how these names were surfaced (queries run 2026-08-01: `イラストレーター コラボ 雑貨`, `イラストレーター コラボ 文房具`, `イラストレーター コラボ アパレル`, `イラストレーター コラボ パッケージ 菓子`, `イラストレーター コラボ コスメ`, `クリエイターコラボ キャラクター 商品化`).
+Every name below then had its own release page fetched and verified individually; a search listing alone was not accepted as evidence.
+No name appears here on the strength of a search snippet, and no name is included that also appears in 3.2, 3.3 or 3.4.
+
+**Numbered extension names, 26 to 30.**
+These five are numbered because each one is a Japanese company running a collaboration with a named individual illustrator, in a category the census under-covers, on a primary release PBC has fetched.
+
+| # | Name | Category | Evidence |
+|---|---|---|---|
+| 26 | 株式会社玄光社 Genkosha / ill-T | Apparel, magazine-run programme | PR TIMES 2026-07-16, `p/000000279.000053200.html`. The editorial team of the quarterly 『イラストレーション』 (founded 1979) launched **ill-T**, an apparel brand whose stated purpose is 「イラストレーターとコラボレーションしたアパレルを展開する」. 1st release is 2 made-to-order T-shirt designs with painter and illustrator イケガミヨリユキ, manufactured with 久米繊維工業, with an original logo drawn for the collaboration. **A newly created standing illustrator programme, which is the same structural object as census rows 19, 77 and 123** |
+| 27 | 株式会社オーセント Ascent / FAVORRIC | Home textiles and lifestyle goods | PR TIMES 2026-05-14, `p/000000087.000101904.html`. FAVORRIC operates a **"New Artist" participation model**: illustrator Aki Ishibashi joined with 3 works turned into multi-cloths, art blankets, cushion covers and canvas totes, on sale from 2026-05-14 via the brand's own site and Rakuten. Home and interior returns **zero** independent rows in the census (section 1.4), so this is a direct extension into a category the census records as closed |
+| 28 | 株式会社SISI | Cosmetics and skincare | PR TIMES 2026-06-16, `p/000000047.000064428.html`. 5th-anniversary limited-design packaging for its cleansing product with illustrator **SHOGO SEKINE**, on sale 2026-07-17 through its own store, EC platforms and national stockists. **This is the same illustrator as census row 45 (Dr. Ci:Labo), running a separate campaign with a second cosmetics brand**, which is direct evidence that a census REP=yes creator is not single-brand |
+| 29 | 株式会社フラワーリング FLOWERING | Variety goods and accessories | PR TIMES 2026-07-27, `p/000000042.000148952.html`. **3rd instalment** of a collaboration with illustrator matsui (the 「matsui DOGS」 dog-motif series), 6 items (key pouch, pass case, glasses case, drawstring pouch, mini bag pouch, pouch), sold through the company's own store and 全国の雑貨店 progressively |
+| 30 | 株式会社パルグループホールディングス PAL GROUP / BIRTHDAY BAR | Accessories and variety retail | PR TIMES 2026-06-01, `p/000001150.000011430.html`. Repeat collaboration (「あのコラボが再び」) with illustrator COFFEE BOY. **The same listed group already appears in the census at row 110 as 3COINS (PAL)**, so this extends a known group into a second retail brand |
+
+**Supplementary extension names, unnumbered, same evidence standard.**
+
+| Name | Category | Evidence |
+|---|---|---|
+| 株式会社TSIホールディングス / Jack Bunny!! | Golf apparel | PR TIMES 2026-06-05, `p/000001433.000009786.html`. Collaboration items with illustrator 三平悠太 on sale from 2026-06-05. **Sportswear does not appear as a category in the census at all** |
+| 株式会社サン・スマイル / MASCODE | Cosmetics | PR TIMES 2026-05-22, `p/000000476.000012773.html`. Limited-run liquid eyeliner in a design by SNS illustrator yasuna |
+| 株式会社サントラージュ / anna sui nyc | Fashion and accessories | PR TIMES 2026-05-07, `p/000000031.000057249.html`. Launch of 「GIRLS AT PLAY」, a project whose stated form is collaboration with women creators, 1st instalment published |
+| セレクチュアー株式会社 / アンジェ angers web shop | Lifestyle e-retail | PR TIMES 2026-07-07, `p/000000241.000103370.html`. 26th-anniversary limited items with illustrator fukucoco |
+| 株式会社ダイブ Dive | Staffing service brand | PR TIMES 2026-06-15, `p/000000300.000034289.html`. Limited collaboration T-shirt designed by illustrator Chocomoo, used as a giveaway to its own workers. **A non-retail, non-product category the census does not cover** |
+| 株式会社グレイ・パーカー・サービス Grey Parker Service | Goods maker (Kiramekko accessory plush) | PR TIMES 2026-07-02, `p/000000059.000168561.html`. A goods maker whose product line is built entirely on licensed character collaborations. Honest note: the evidenced pairings are portfolio-side (mofusand, Sanrio characters, Ultraman), so this is a licensee name and not an addressable-independent data point |
+
+**Licensee-side names evidenced by Licensing Japan's own exhibitor reporting.**
+CONFIRMED (`content-tokyo.jp/hub/ja-jp/exhibit/lj.html`, curl-verified 2026-08-01): the show's exhibitor page publishes named 成果事例 from past exhibitors, in the exhibitors' own words.
+These are companies stating on the record that they exhibit to find licensing counterparties, which is a different and useful kind of evidence from a campaign row.
+
+| Name | Category | Evidence |
+|---|---|---|
+| （株）カミオジャパン Kamio Japan | Character stationery and goods maker | Stated on the Licensing Japan exhibitor page: 「今すぐやりたい」という質の高い来場者が多く驚いた, 3 days of 商談 of which 7割 were new counterparties, and 10件以上の商品化・タイアップ expected to be agreed. Apparel, 雑貨, retail and event counterparties named |
+| （株）壽屋 Kotobukiya | Figure and goods maker | Same page: 商談 with goods, confectionery and daily-goods makers, and the statement that it exhibits **every year** because licensing deals take time to convert |
+| （株）日比谷花壇 Hibiya Kadan | Flowers and gifts | Same page: reports 商談 with apparel and toy counterparties. **Flowers and gifting is a category with no census row at all** |
+| チエリコチカ（株） | IP and goods | Same page: reports connections built across apparel, 雑貨, food and entertainment, with 商談 specifically described as IPコラボやキャラクターライセンス |
+
+The exhibitor page also publishes an outcome count per company. Those are the exhibitors' own claimed results and are reproduced here only as their stated words.
+No figure from the show's 料金プラン appears anywhere in this file: **commercial terms: discussion only, never on paper.**
+
+**Caveats specific to 3.5, and they are heavier than for 3.2.**
+- CONFIRMED: every name in 3.5 rests on **one** fetched release or one exhibitor page. The census rows in 3.2 carry the census's own verification rules; these do not.
+- CONFIRMED: all the PR TIMES releases above are dated 2026-05-07 to 2026-07-27, which is at or after the end of the census window. They are not comparable to census rows and are not counted into any census figure anywhere in this pack.
+- UNRESOLVED for all of them: the representability question the census asks. None of these names has been assessed for whether the creator side was addressable, and no REP judgement is made or implied here.
+- Unchanged from 3.6: presence on this list evidences a collaboration and nothing else.
 
 ### 3.6 Standing caveats on this list
 
@@ -534,10 +579,233 @@ That work is deliberately left rather than filled with unverified names.
 
 ## 4. WHAT A PILOT WOULD ACTUALLY REQUIRE - INTERNAL
 
-**STATUS: NOT YET BUILT.**
-Owed content: a checklist of materials, translated assets and decision points PBC would need ready, plus open rights questions per IP phrased as questions to put to the IP holder.
-Committing to nothing.
-Commercial terms: discussion only, never on paper.
+**This section commits PBC to nothing.**
+It does not recommend a pilot, does not say a pilot should happen, and does not name any counterparty as a target.
+It answers one question only: if a Japan conversation happened, what would PBC need to already have in hand.
+"Pilot" below means the smallest single campaign the census evidences as a real object in Japan, and nothing more.
+
+No commercial conditions appear in this section: **commercial terms: discussion only, never on paper.**
+No territory, rights or exclusivity conclusion is drawn for any IP.
+No outcome projection appears, and no question below is answered on the IP holder's behalf.
+
+### 4.1 What the census says a Japanese campaign actually consists of
+
+This is the requirement floor, derived from the 26 addressable rows rather than assumed.
+
+**(a) A Japanese campaign is a multi-design set, not a single image.**
+CONFIRMED (census Format column, the 26 REP=yes rows): 10 of the 26 state an explicit design or item count, and the counts are 3, 4, 5, 7, 8, 8, 12, 13, 17, 19.
+The median of those ten is 8.
+
+| Census row | Brand | Stated design or item count |
+|---|---|---|
+| 39 | Calbee | 3 package designs |
+| 84 | FamilyMart | 4 designs |
+| 80 | mt / カモ井加工紙 | 5 tape designs |
+| 118 | PEACH JOHN | 7 items |
+| 50 | AEON | 8 items |
+| 90 | Bandai ガシャポン | 8 designs, 全8種 |
+| 77 | graniph | 12 designs |
+| 78 | Kokuyo | 13 items |
+| 21 | graniph | 17 items |
+| 141 | ピグパーティ Pigg Party | 19 items |
+
+ASSUMED: the smallest evidenced addressable campaign in Japan still needed three finished designs, and the ordinary case needed roughly eight.
+Any IP without that much finished, reusable, on-model artwork is not able to supply what the census shows Japanese brands buying.
+
+**(b) The recurring product formats are the ones section 1.5 lists, and they are physical.**
+CONFIRMED (section 1.5, REP=yes column): acrylic goods 6, apparel capsule 5, giveaway with purchase 5, capsule toy 4, sticker or seal 4, packaging or on-pack design 4, stationery 3, pop-up store 3.
+ASSUMED: acrylic goods and on-pack print are the two formats that most directly constrain the asset pack, because both need line-accurate, print-resolution, background-free artwork rather than social-post artwork.
+
+**(c) The announcement is in Japanese and it is almost never published by the IP side.**
+CONFIRMED (source-URL audit of the 26 REP=yes rows): every cited source is a Japanese-language page - 19 on `.jp` domains and 7 on `.com` domains that are Japanese-language properties.
+CONFIRMED (same audit): 8 of the 26 are on `prtimes.jp` and 2 on `digitalpr.jp`, and exactly one row is sourced to an IP-side domain (row 50, `dozle.jp`, and that IP is a Japanese creator-owned company).
+ASSUMED, and it changes what PBC has to prepare: the publisher of a Japanese campaign announcement is the Japanese brand, not the IP holder.
+So the translated asset PBC would need is not a press release of its own.
+It is the source material a Japanese brand's own communications team writes from.
+
+**(d) A meaningful share of the addressable rows are repeat instalments of a standing brand programme.**
+CONFIRMED (census): row 21 is graniph's 5th collaboration with that artist, row 123 is CASETiFY's 3rd collection with that artist under the CASETiFY ARTiSTS programme, row 140 is Pixio's 2nd instalment, row 141 is Pigg Party's 3rd instalment.
+CONFIRMED: rows 19 (クリエイターmeetsロフト 2025, 18 illustrators), 52 (Don Quijote オリジナルキャラクターフェス, 3 named creators) and 77 (graniph, 12 illustrators) are open-roster formats rather than one-IP deals.
+UNRESOLVED, and it was tested this pass rather than assumed: whether any of these standing programmes has a public submission route.
+`casetify.com/artists` returns HTTP 200 but carries no extractable application or submission link, and `graniph.com/pages/creators` redirects to the store home page.
+Both are logged as failed rather than reasoned around.
+
+**(e) The name gets a Japanese-script rendering.**
+CONFIRMED (census IP field): 61 of 146 rows carry a Japanese-script rendering alongside a Latin-alphabet name, including 12 of the 26 REP=yes rows.
+CONFIRMED (brand-official sources specifically): row 2 renders Esther Bunny as エスターバニー on the Seven-Eleven Japan release, and row 84 renders Coony as クーニー on the FamilyMart release.
+ASSUMED: a Latin-alphabet character name entering Japan acquires a katakana rendering, and who decides that rendering is a question for the IP holder rather than something PBC settles.
+
+**(f) The copyright line is a campaign-visible artefact.**
+CONFIRMED (census Class evidence column): 38 of 146 rows record an explicit © attribution string, for example `©Chiharu Sakazaki/JR東日本/DENTSU` on row 61 and `© saikitamm © Anova` on the row for that creator.
+CONFIRMED (section 2.3): the Cheesy Duck LINE storefront page carries `©Unstop`.
+ASSUMED: the exact © string a Japanese licensee must print is a document PBC would need from the IP holder, not something to be reconstructed.
+
+### 4.2 Materials checklist - what PBC would need ready
+
+The first four items are not PBC's invention.
+CONFIRMED (`cbla.jp/admission.html`, curl-verified 2026-08-01): the 一般社団法人キャラクター・ブランド・ライセンス協会, which is the body that runs 日本キャラクター大賞 and is cited in section 2.5, states its required documents as 1. 入会申込書, 2. 会社案内書（個人の方は、経歴書）, 3. 保有・管理する「プロパティ」案内書, with item 3 marked as applying to ライセンサー・ライセンシングエージェント企業様、個人クリエイター様.
+That is a Japanese industry body stating in its own words that a licensor or agent is expected to hold a company profile and a property guide for the properties it owns or manages.
+ASSUMED: those two documents are the baseline PBC should assume any Japanese counterparty expects to receive, whatever the counterparty is.
+
+| # | What PBC would need ready | Why, and on what evidence | Language |
+|---|---|---|---|
+| 1 | A property guide per IP (プロパティ案内書) | CBLA's own stated required document for a licensor or agent | Japanese and English |
+| 2 | A holder profile per IP (会社案内書, or 経歴書 for an individual creator) | Same source. Note the census's addressable rows are overwhelmingly individual artists, so the 経歴書 form is the common case | Japanese and English |
+| 3 | A written statement from each IP holder of who holds what for Japan | Not held for any of the four. Section 2 records this as UNRESOLVED for all four and section 4.5 turns it into questions | Source language, plus a working translation |
+| 4 | An asset pack: on-model line art, expression or turnaround sheet, vector originals, print-resolution files, background-free versions | 4.1(b): acrylic goods and on-pack print are the two densest addressable formats and both are print objects | n/a |
+| 5 | Enough finished designs to build a set of roughly eight | 4.1(a): the evidenced range is 3 to 19, median 8 | n/a |
+| 6 | A decided, consistent Japanese-script rendering of the character and holder name | 4.1(e), rows 2 and 84 | Japanese |
+| 7 | The exact © string as it must be printed | 4.1(f), 38 census rows plus the Cheesy Duck LINE page | As supplied |
+| 8 | Usage and NG rules: what may not be done to the character | Not evidenced by the census, which records campaigns and not approval rules. ASSUMED as necessary, flagged as unconfirmed | Japanese |
+| 9 | A prior-campaign evidence pack per IP, each entry with its own fetched source | Section 2 shows this is uneven: Bichi Mao has four Malaysia census rows and a repo timeline, SHUYA has one Korea census row, Cheesy Duck and Jolly Gee Studio have none | English, plus a Japanese summary |
+| 10 | A one-page Japanese property sheet per IP | 4.1(c): the counterparty writes the announcement, so what PBC supplies is source material | Japanese |
+| 11 | A named person able to hold the conversation and respond in Japanese | UNRESOLVED whether PBC has this. Not a research question and not answered here | Japanese |
+| 12 | A Japanese trademark and registration status check per IP name | Not run and not recorded in this pack. See 4.6 | n/a |
+
+State of the four IPs against the items above, read straight off section 2 and not re-derived:
+
+| Item | Bichi Mao | Cheesy Duck | Jolly Gee Studio | SHUYA |
+|---|---|---|---|---|
+| 1. Property guide | Not held by PBC | Not held by PBC | Not held by PBC | Not held by PBC |
+| 2. Holder profile | Partial - Niko Studio identified via Total Licensing | Partial - X10 Studio Co., Ltd. and creator Stop Boonlue identified from holder-side sources | Partial - contact recorded in `cet2026-orgs.md` row 105 | Partial - 크림퍼프스튜디오 / 성지민 identified from Korea census row 93 |
+| 3. Japan rights statement | UNRESOLVED | UNRESOLVED | UNRESOLVED | UNRESOLVED |
+| 4-5. Asset pack and design depth | Unknown to PBC | Unknown to PBC | Unknown to PBC | Unknown to PBC |
+| 6. Japanese-script name | Does not exist so far as this pass found | Does not exist so far as this pass found | Does not exist so far as this pass found | Does not exist so far as this pass found |
+| 7. © string | Unknown to PBC | `©Unstop` seen on the LINE page, not confirmed as the licensing string | Unknown to PBC | Unknown to PBC |
+| 9. Prior-campaign evidence | Strongest of the four - Malaysia rows 5, 9, 10, 100 | None in any census | None in any census | Korea row 93 |
+| 11. Japanese-capable contact | UNRESOLVED | UNRESOLVED | UNRESOLVED | UNRESOLVED |
+
+The honest summary of that table: **PBC currently holds none of the twelve items outright for any of the four IPs.**
+That is a statement about PBC's preparation, not about the IPs.
+
+### 4.3 Translated assets - what specifically needs Japanese
+
+CONFIRMED (4.1(c)): the Japanese brand publishes the announcement, so the translation burden sits on inbound material rather than outbound publicity.
+
+Needs Japanese:
+- The one-page property sheet, item 10.
+- The character and holder name rendering, item 6.
+- The usage and NG rules, item 8, because the people applying them are the licensee's product and design staff.
+- The © string, item 7, exactly as printed and not paraphrased.
+- Any prior-campaign summary, item 9, at least in short form.
+
+Does not need Japanese, on this evidence:
+- A press release from PBC or the IP holder. One of 26 addressable rows was published IP-side, and that IP was itself a Japanese company.
+
+UNRESOLVED, tested this pass: whether a non-Japanese entity can register to publish on PR TIMES at all.
+CONFIRMED (`prtimes.jp/main/html/kiyaku`, 企業規約 第1条 登録審査, curl-verified 2026-08-01): registration as a ご利用企業 is screened, PR TIMES may decline without disclosing a reason, and where an applicant's website is absent or insufficient the platform states it will require documents such as a 商業登記簿, 開業届, 資格証明書 or identity document.
+CONFIRMED (same terms): the eligibility text refers to 企業や団体、または個人事業主 and states no Japan-registration requirement either way.
+So the question is genuinely open, and 4.1(c) suggests it is close to moot for a pilot, because the counterparty publishes.
+
+### 4.4 Decision points
+
+Each of these is a decision PBC would have to take.
+**None of them is taken in this document, and listing one is not a recommendation to take it.**
+
+**D1. Whether to put the Japan rights question to each IP holder at all.**
+What must be true first: nothing. This is a question, not a proposal, and section 4.5 writes it out.
+What it does not decide: anything about territory, rights or exclusivity, none of which this pack concludes.
+
+**D2. Which of the three evidenced routes to study.**
+CONFIRMED (section 2.6): the census evidences exactly three routes for a non-Japanese IP into a Japanese campaign.
+Route A, an appointed Japanese sub-licensor, evidenced by rows 2 and 116, and scored by the census as the thing that closes an IP off.
+Route B, the trade show, evidenced by Licensing Japan and by BUGCAT CAPOO exhibiting there.
+Route C, direct, evidenced by exactly two rows, 39 and 118, both London-based individual artists, neither explaining how it was sourced.
+ASSUMED: these are not alternatives that can be evaluated on the current evidence, because route C has a sample of two and no mechanism recorded.
+
+**D3. Whether PBC attends or exhibits at Licensing Japan, and in which capacity.**
+This is the only decision point in this section with an externally fixed date.
+CONFIRMED (`content-tokyo.jp/hub/ja-jp/exhibit/lj.html`, curl-verified 2026-08-01): the next edition is stated as 2027-06-23 to 06-25 at Tokyo Big Sight East Hall, the show describes itself as 日本最大 of its kind, and it states that the exhibitor side is companies and individuals handling キャラクター / ブランド、アート / エンターテインメント / スポーツ、タレント / ライセンス関連サービス.
+CONFIRMED (same page): the stated exhibiting process is four steps - request the materials, decide booth position and size, apply and contract, then prepare for the show.
+CONFIRMED (same page): the visitor side is stated as メーカー・卸の商品開発・企画, 小売の商品企画・店舗販促, メディア関連企業, 広告・PR関連, which is the buyer population section 1.2's categories are drawn from.
+The materials pack the show offers includes a 料金プラン. **Commercial terms: discussion only, never on paper**, and no figure from that pack is recorded here or anywhere in this file.
+CONFIRMED (`content-tokyo.jp/hub/ja-jp/exhibit/cr.html`, same fetch): the co-located クリエイターEXPO is explicitly an individual-creator exhibition, listing デザイナー, 写真家, イラストレーター, 絵本作家 as its exhibitor types, which is a different object from Licensing Japan and would be a different decision.
+
+**D4. Whether PBC joins CBLA, and in which membership form.**
+CONFIRMED (`cbla.jp/admission.html`): two membership forms exist, 正会員 for companies, bodies and individuals including a ライセンシングエージェント category, and 賛助会員 for individual creators only.
+CONFIRMED (same page): the stated 正会員 benefits include voting rights at the general meeting, participation in the 分科会 working groups, and discounts on association events including exhibition participation.
+CONFIRMED (`cbla.jp`, top page): the association's own stated activity areas include 海外進出サポート / ジャパンパビリオン事業, 日本キャラクター大賞主催, coordination with government bodies, seminars and member networking.
+An annual membership fee is published on that page. **Commercial terms: discussion only, never on paper**, and the figure is deliberately not recorded here.
+ASSUMED, and it cuts against the obvious reading: CBLA's stated overseas function is ジャパンパビリオン事業, which is Japanese IP going outward, so it should not be assumed to be an inbound route for a non-Japanese IP.
+
+**D5. Which format and category PBC studies first.**
+What the evidence supports: section 1.5 shows packaging is the most addressable-dense format, and section 1.2 shows category volume and category openness run opposite to each other.
+What it does not support: any read on receptiveness. Section 3.6 states that presence on the partner list evidences a collaboration and nothing else.
+
+**D6. Who fronts the conversation, in which language, from which entity.**
+UNRESOLVED. Nothing in the repo settles it and it is not a research question.
+
+**D7. The stop gate: what PBC would need to see to decide not to proceed.**
+ASSUMED and stated deliberately, because a readiness document that only describes going forward is not a readiness document.
+The candidates the evidence itself suggests: an IP holder unable to state the Japan position in writing (item 3), an asset pack that cannot supply roughly eight print-quality designs (item 5, 4.1(a)), or a rights position that already sits with a Japanese party in the way rows 2 and 116 record.
+
+### 4.5 Open rights questions per IP, phrased as questions for the IP holder
+
+**These are questions, not positions.**
+PBC does not answer any of them in this document, does not assume an answer, and does not draw a territory, rights or exclusivity conclusion from any of them.
+Every one of them is a question because section 2 recorded it as UNRESOLVED, not because PBC suspects anything.
+
+**Common to all four, asked of each holder separately.**
+1. What is the position for Japan, and who holds it today?
+2. Who would a Japanese licensee sign with, and in what entity name?
+3. Is there anyone else who has been given any scope anywhere, and does it touch Japan?
+4. Has any Japanese party already approached you, and what happened?
+5. Is there a style guide or asset pack, what does it contain, and in what language?
+6. How many finished, on-model, print-quality designs exist today?
+7. Who approves a design, in what language, and what turnaround do you work to?
+8. What is the exact © string that must be printed?
+9. Is the character name registered anywhere in Japan, and by whom?
+
+**Bichi Mao 彼奇貓.**
+Asked with the internal rights flag on the table: the repo records PBC's own mandate for this IP as "Taiwan licensing via PBC" (`tasks/brand-briefs.md`), and this pack draws no conclusion beyond restating that line.
+10. The Total Licensing release of 2025-09-11 records a Visional Pop partnership with Niko Studio covering North America. Does that arrangement touch Japan in any way, directly or by option?
+11. Who between Niko Studio and any other party would a Japanese counterparty be contracting with?
+12. The character's engine is a webcomic published on third-party platforms including Tapas and WEBTOON. What sits with those platforms and what sits with the holder?
+13. Is there an existing Japanese-language name for the character, and who decided it?
+14. Section 2.2 found no Japanese-language trace at all. Is that correct from your side, or is there Japanese activity PBC has not found?
+
+**Cheesy Duck 確幸鴨.**
+15. Is the contracting party X10 Studio Co., Ltd. or the creator Stop Boonlue personally?
+16. Is the LINE Creators Market publisher account "10mm. Studio" yours?
+17. Is the "Cheesy Duck 2" pack available for purchase in the Japan region, and who controls that setting?
+18. Which other characters in the X10 Studio roster travel with Cheesy Duck, and which are separately held?
+19. Does any Japanese party already hold anything for this character?
+20. The CET2026 appearance was under the 泰國館 Thai Pavilion, which `cet2026-orgs.md` records as a Thai government trade-promotion pavilion. Does participation in that kind of pavilion carry any obligation that would matter here?
+21. Is `©Unstop` the string a licensee prints, or is there a different licensing string?
+
+**Jolly Gee Studio.**
+22. Are JOLLY, LYGEE and LYLEE one property or three, and are they licensed together?
+23. Is there an agent or agency arrangement in Korea or anywhere else?
+24. Section 2.4 found no brand campaign for this IP in any census, including Korea. Is that correct from your side?
+25. Does the Seoul Illustration Fair activity, or any retailer or booth arrangement attached to it, commit anything?
+26. How many finished designs exist across the three characters, and are they consistent enough to build a set from?
+27. Who is the contracting entity, the studio or the individual?
+
+**SHUYA 舒雅 / 슈야.**
+**SHUYA is not described as exclusive anywhere in this document, and none of the questions below assumes it is or is not.**
+28. Korea census row 93 records 케이비젼 (KVISION) as licensing agent with the artist retaining authorship, and the row's own note reads "exclusivity unclear". What is the actual scope of that arrangement?
+29. Does it cover Japan, and if so on what basis?
+30. KVISION's own business page states that the company acquires business rights to characters in Korea, the US, Japan and Hong Kong. What does that statement mean for this property specifically?
+31. Japan census rows 2 and 116 show two sibling KVISION properties entering Japan through separately appointed Japanese licensors, Diamond Group and 株式会社LINDA. Would the same arrangement apply here, and is that decided or open?
+32. The character originated as a KakaoTalk emoticon. Who holds the original emoticon assets and are they usable for merchandise?
+33. Who would a Japanese counterparty contract with, and who approves designs?
+
+### 4.6 What PBC cannot answer from research and must not guess at
+
+- UNRESOLVED: the contracting path for every brand in section 3. The census records campaigns, not process. Restated from 1.8 because it is a readiness gap, not just a research gap.
+- UNRESOLVED: lead time from first contact to a campaign on shelf. The census records no date earlier than the campaign announcement for any row, so there is no basis in this repo for any statement about how long anything takes.
+- UNRESOLVED: what a Japanese brand requires of a non-Japanese IP specifically. Rows 39 and 118 are the only two data points and neither explains itself.
+- UNRESOLVED: whether the standing creator programmes have a public submission route. Tested and failed this pass, see 4.1(d).
+- UNRESOLVED: Japanese trademark and registration status for all four IP names. FAILED FETCH, logged rather than worked around: J-PlatPat (`j-platpat.inpit.go.jp`) is a JavaScript application and returns only "Loading..." to curl. This check has to be run in a browser session, and this pack deliberately records no rights position in its place.
+- Not attempted: any read on which IP or which route should go first. That is not a research output and it is not in this file.
+
+### 4.7 What section 4 does not settle
+
+- It does not say a pilot should happen, for any IP, in any category, with any counterparty.
+- It records no commercial condition of any kind. Commercial terms: discussion only, never on paper.
+- It draws no territory, rights or exclusivity conclusion, and it answers none of the 33 questions in 4.5.
+- It projects no outcome, no audience figure and no revenue.
+- The materials list in 4.2 is what the evidence supports plus two items marked ASSUMED. It is not a standard, and no Japanese counterparty has told PBC any of it.
 
 ---
 
@@ -570,7 +838,42 @@ Failed or unverifiable in pass 2, logged rather than worked around.
 - `https://www.k-vision.com/` over HTTPS does not resolve; the site is reachable over HTTP only, which is why the KVISION citations above are `http://`.
 - `https://www.licenseglobal.com/...` - HTTP 403. Total Licensing used instead for the same announcement.
 
+Added in pass 3, for section 4.
+
+- `https://www.content-tokyo.jp/hub/ja-jp/exhibit/lj.html` - Content Tokyo official ライセンシングジャパン exhibitor page. Source for the 2027-06-23..06-25 dates and East Hall venue, the 日本最大 self-description, the exhibitor and visitor type lists, the 800プロパティ以上 figure and the four-step exhibiting process. Its downloadable materials pack is described as containing a 料金プラン; no figure from it is recorded.
+- `https://www.content-tokyo.jp/hub/ja-jp/exhibit/cr.html` - Content Tokyo official クリエイターEXPO exhibitor page. Source for that show being an individual-creator exhibition and for its exhibitor type list.
+- `https://www.cbla.jp/` - CBLA official top page. Source for the association's stated activity areas including 海外進出サポート / ジャパンパビリオン事業 and 日本キャラクター大賞主催.
+- `https://www.cbla.jp/admission.html` - CBLA official 入会案内. Source for the 正会員 / 賛助会員 membership forms, the 正会員 category list including ライセンシングエージェント, the stated benefits, and the three required documents (入会申込書, 会社案内書 or 経歴書, 保有・管理する「プロパティ」案内書). An annual fee is published on that page and is deliberately not recorded in this file.
+- `https://prtimes.jp/main/html/kiyaku` - PR TIMES official terms. Source for 企業規約 第1条 登録審査, the screened-registration process, the documents PR TIMES may require of an applicant, and the fact that the eligibility text states no Japan-registration requirement either way.
+- `https://cbla-creator.jp/` - CBLA creator members guide, fetched for context. It states explicitly that the association does not involve itself in matching site visitors with member creators, which is why it is not used as a route claim anywhere above.
+
+Added in pass 3, for section 3.5. All fetched 2026-08-01, each release page fetched individually rather than read off a search listing.
+
+- `https://prtimes.jp/main/action.php?run=html&page=searchkey&search_word=...` - the PR TIMES keyword search endpoint, confirmed fetchable to curl and returning dated release listings. Six category queries run, listed in 3.5.
+- `https://prtimes.jp/main/html/rd/p/000000279.000053200.html` - 株式会社玄光社, ill-T launch with イケガミヨリユキ and 久米繊維工業, 2026-07-16.
+- `https://prtimes.jp/main/html/rd/p/000000087.000101904.html` - 株式会社オーセント, FAVORRIC New Artist Aki Ishibashi, 2026-05-14.
+- `https://prtimes.jp/main/html/rd/p/000000047.000064428.html` - 株式会社SISI, アイムユアヒーロー 5th anniversary with SHOGO SEKINE, 2026-06-16.
+- `https://prtimes.jp/main/html/rd/p/000000042.000148952.html` - 株式会社フラワーリング, matsui collaboration 3rd instalment, 6 items, 2026-07-27.
+- `https://prtimes.jp/main/html/rd/p/000001150.000011430.html` - 株式会社パルグループホールディングス, BIRTHDAY BAR x COFFEE BOY repeat collaboration, 2026-06-01.
+- `https://prtimes.jp/main/html/rd/p/000001433.000009786.html` - 株式会社TSIホールディングス, Jack Bunny!! x 三平悠太, 2026-06-05.
+- `https://prtimes.jp/main/html/rd/p/000000476.000012773.html` - 株式会社サン・スマイル, MASCODE x yasuna, 2026-05-22.
+- `https://prtimes.jp/main/html/rd/p/000000031.000057249.html` - 株式会社サントラージュ, anna sui nyc GIRLS AT PLAY, 2026-05-07.
+- `https://prtimes.jp/main/html/rd/p/000000241.000103370.html` - セレクチュアー株式会社, angers web shop x fukucoco, 2026-07-07.
+- `https://prtimes.jp/main/html/rd/p/000000300.000034289.html` - 株式会社ダイブ, Chocomoo collaboration T-shirt, 2026-06-15.
+- `https://prtimes.jp/main/html/rd/p/000000059.000168561.html` - 株式会社グレイ・パーカー・サービス, Kiramekko x mofusand x Sanrio Characters, 2026-07-02.
+
+Every one of these release pages also carries retail prices. **No price from any of them is recorded in this file: commercial terms: discussion only, never on paper.**
+
+Failed or negative in pass 3, logged rather than worked around.
+
+- `https://www.j-platpat.inpit.go.jp/` - the JPO trademark and patent platform is a JavaScript application and returns only "Loading..." to curl. No trademark status is recorded for any IP name, and section 4.6 states this as an open check rather than substituting a guess.
+- `https://www.casetify.com/artists` - HTTP 200 but no application or submission route is extractable from the page. The CASETiFY ARTiSTS programme behind census row 123 is therefore not evidenced as having a public entry route.
+- `https://www.graniph.com/pages/creators` - HTTP 200 but redirects to the graniph store home page with no creator submission content.
+- `https://www.loft.co.jp/lp/creatormeetsloft/` - HTTP 404. The クリエイターmeetsロフト entry route behind census row 19 could not be established.
+
 ## Change log - INTERNAL
 
 - 2026-08-01, pass 1: file created. Sections 1 and 3 built off the 146-row Japan census plus three new primary fetches. Sections 2 and 4 marked NOT YET BUILT. Section 3.5 category extension marked OWED.
+- 2026-08-01, pass 3: section 4 built. The requirement floor derived from the 26 addressable census rows (design-set depth, physical formats, Japanese-language announcement published brand-side, standing programmes, katakana name rendering, © string), a twelve-item materials checklist anchored on CBLA's own stated required documents plus a per-IP state table, the translated-asset split, seven decision points including the one externally dated point (Licensing Japan 2027-06-23..06-25), 33 open rights questions phrased for the IP holder, and the list of what research cannot answer. Six new primary sources fetched, four failed or negative fetches logged.
+- 2026-08-01, pass 3: section 3.5 category extension built, closing the last owed item. The PR TIMES keyword-search endpoint established as fetchable and used as the extension index across six category queries, with each of eleven release pages fetched and verified individually. The numbered target list taken from 25 to 30 with five extension names, six further names added unnumbered, and four licensee-side names added from Licensing Japan's own published exhibitor accounts. All four sections of this pack are now built and nothing in it is marked owed.
 - 2026-08-01, pass 2: section 2 built. All four PBC-side IPs given a per-IP entry with holder identity, Japan traces (found or NONE FOUND with the queries stated), band fit against section 1.6 and style-adjacent census rows cited by number. Bichi Mao's internal rights flag stated; SHUYA's KVISION arrangement recorded with exclusivity explicitly UNRESOLVED and never asserted. Nine new primary sources fetched, five failed fetches logged. Section 4 remains NOT YET BUILT; section 3.5 remains OWED.
