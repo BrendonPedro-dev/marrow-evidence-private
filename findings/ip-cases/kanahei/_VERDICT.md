@@ -2,15 +2,15 @@
 
 Companion to `KANAHEI_GROWTH.md`.
 Build date: 2026-08-05.
-Build 4 of an in-progress study.
+Build 5 of an in-progress study.
 
 ## Status of the study as a whole
 
 INCOMPLETE.
-Five of the eleven required parts are built (origin, Japan, Taiwan, Hong Kong, Korea).
+Six of the eleven required parts are built (origin, Japan, Taiwan, Hong Kong, Korea, Thailand).
 The stop condition (six priority markets each sourced or honestly absent, collab table complete, synthesis written) is NOT met.
-Two priority markets remain unbuilt: Thailand, China.
-Four of the six priority markets are now done, and the synthesis is partial rather than withheld.
+One priority market remains unbuilt: China (mainland), which the task marks outside census scope but still requires.
+Five of the six priority markets are now done, and the synthesis is partial rather than withheld.
 
 ## Confidence by section
 
@@ -37,10 +37,14 @@ Four of the six priority markets are now done, and the synthesis is partial rath
 | Korea - growth shape | **established** for 2018, **thin** for 2019-2026 | Three 2018 formats are each fetched from a dated release (emoticons, jigsaw line, pop-up store). After that, one activation in 2024 and one in 2026, with five intervening years producing nothing in the index used. |
 | Korea - scale signals | **thin**, the thinnest of any built market | No attendance, sales, production or ranking figure exists in any Korean source read. The only Korea-specific number is an undocumented platform field (`interestCount` 342 on the Kakao creator profile, read 2026-08-05), which Kakao does not define publicly. |
 | Korea - what didn't happen | **partial** | The search method is written out and the format absences are sharp because Taiwan and Hong Kong supply positive counterparts for each. The 2019-2023 gap is argued rather than proven: the index used did return items on both sides of it, but a Naver-side search was not reachable with the tools used. |
-| Thailand | **not built** | Two leads: one unread PR TIMES release that may be incidental, and one Korean-outlet mention of Thailand in a 2018 licensing-footprint summary, which is a pointer only. |
+| Thailand - entry | **established** as a latest-by date for the licensing layer, **not established** at all for the platform layer | Two independent fetched sources put the artist at Thailand Toy Expo 2019 (Zipevent's dated listing, a day magazine's interview nine days later naming the activity). The LINE storefront presence is confirmed live but carries no date field anywhere, so it cannot be placed in the sequence. |
+| Thailand - mechanism | **partial** for 2026, **thin** for 2019 | 2026 is strong: the exhibitor's own release names 株式会社ミキサー as the cooperating party and the Thai-side exhibition page confirms the booth, so both ends are first-party. 2019 rests on a company name appearing inside an event title in one Thai magazine, with that company's own site carrying zero trace of the property - the file states this limit and asserts no licence. |
+| Thailand - growth shape | **established** as a two-point record, and the two points are all there is | Both activations were fetched from their own sources. Between and around them the sweep in section 6.5 returned no retail, F&B, transport, mall or exhibition activity in any year. |
+| Thailand - scale signals | **thin** | One machine-readable number (64 sticker products on sale in the Thai LINE storefront, read 2026-08-05), which is an availability count set by the platform, not by a Thai counterparty, and which carries three stated caveats. No attendance, sales, production or ranking figure exists. The one qualitative signal is the creator's own self-report. |
+| Thailand - what didn't happen | **partial, and weaker than Korea's** | The search method is written out in full and the format absences are sharp against four positive counterpart markets. But nine of fifteen Thai portals were unreachable (404/403/401/406/429), Khaosod English is behind Cloudflare with no Wayback copy, and Thai Google News RSS returned one relevant item across nine queries. The absence is real in the reachable index and the index is demonstrably narrow. |
 | China (mainland) | **not built** | One lead: a Shanghai sibling entity of the Taiwan agent, brand scope unstated. |
-| Collab table | **partial** | 53 rows (17 Japan, 14 Taiwan, 17 Hong Kong, 5 Korea), every one fetched from its own source and its date and counterparty read off that source. |
-| Cross-market synthesis | **partial** | Nine source-constrained observations. The sequence and mechanism questions are now answerable across four markets and are answered with their limits attached, but two priority markets are still missing, so nothing in section 9 is offered as the finished pattern. |
+| Collab table | **partial** | 55 rows (17 Japan, 14 Taiwan, 17 Hong Kong, 5 Korea, 2 Thailand), every one fetched from its own source and its date and counterparty read off that source. |
+| Cross-market synthesis | **partial** | Twelve source-constrained observations. The sequence and mechanism questions are now answerable across five markets and are answered with their limits attached, but China is still missing, so nothing in section 9 is offered as the finished pattern. |
 
 ## What is safe to carry out of this build
 
@@ -61,6 +65,10 @@ Four of the six priority markets are now done, and the synthesis is partial rath
 15. Korea is the only built market whose entry platform was not LINE. It entered on KakaoTalk emoticons issued by a Korean company, and Kakao's own item API returns `"state":"NOT_SALE"` for all four products as of 2026-08-05, so that entry channel is currently closed.
 16. Korea's 2018 sequence is the tidiest single-year launch in the study - emoticons, then a merchandise line into five bookstore chains, then a first pop-up store, in five months through one company - and Korea also has the thinnest sustained record of any built market. A fast, well-organised launch is not by itself a signal of a durable market.
 17. A licensee's own roster is usable as a negative signal in two markets now. TXCOM's current IP page omits Kanahei (Japan), and Danal Entertainment's year-by-year character history names the property only in its 2018 row and in no later year (Korea). Both are evidence about what a company currently advertises, not proof that a contract ended.
+18. Thailand is the fourth distinct mechanism shape and the first with **no resident intermediary named at all**. The only rights-side party on any Thai activation is the Japanese licensing window, 株式会社ミキサー, named in an exhibitor's own release as the cooperating party for a 2026 convention exhibit. Across five markets the mechanism is now: rights holder direct (Japan), licensing agency (Taiwan, Hong Kong), general content company (Korea), Japanese window plus Japanese exhibitor with no local party (Thailand).
+19. Platform reach and licensing depth come apart. Thailand's LINE storefront carries 64 Kanahei-matching sticker products on sale (third of six storefronts queried the same day, just behind Hong Kong's 68), against two dated activations in the whole Thai record and no named local intermediary. A large platform catalogue in a market does not imply a licensing operation in that market.
+20. Thailand's two dated touchpoints are **appearances, not products** - an artist meet-and-greet with live drawing (2019) and a shared convention booth with a merchandise corner (2026). Every other built market entered through something purchasable. This is a description of one IP's record, not a claim about the Thai market.
+21. The one Thai business-press appearance of her name in the whole sweep frames her as a **case study for Thai creators** on how to sell stickers in Japan (THE STANDARD, 2023-03-31), not as a brand with Thai activity. Where a market's press treats a foreign creator as instruction rather than as inventory, that is itself a reading of the market position.
 
 ## What must NOT be carried out of this build
 
@@ -77,13 +85,18 @@ Four of the six priority markets are now done, and the synthesis is partial rath
 - Danal Entertainment's 글로벌 캐릭터 사업 권리 claim as evidence of a worldwide grant. It is a licensee statement in Korean trade press, made in the same period that San-Byte Creative is named as licensor on a Hong Kong event and TXCOM holds the Japanese master licence.
 - The absence of Korean activity in 2019-2023 as proof that nothing happened. It is an absence in the index that was reachable, stated as such.
 - The 2018 Korean releases' descriptions of other markets (Hong Kong, Taiwan, Thailand, the United States) and of global brand partners (SoftBank, Honda, Amazon, Unilever) as verified pairings. They are a Korean outlet relaying a licensee's pitch and no row rests on them.
-- Any cross-market pattern claim presented as settled. There are four markets in this build, one of them home, and two priority markets are missing.
+- Any claim that Sweet Summer Co., Ltd. held, holds or ever held a Kanahei licence. What is established is that the 2019 event title as printed by a day magazine ends "by Sweet Summer" and that a Bangkok character-and-stationery company of that name exists. The company's own site carries no Kanahei content of any kind across four search terms, its REST index and a 3,000-URL Wayback CDX sweep.
+- Anything from the Khaosod English Thailand Toy Expo article, including the attractive claim that Bangkok 2019 was her first fan-signing event anywhere. The page 403s behind Cloudflare to both browser and Googlebot user-agents and has no Wayback copy, so only search-engine snippets exist. No claim in this file rests on it.
+- The LINE storefront counts as popularity, downloads, sales or market size. They are counts of products a storefront will sell in that country, matched on a Latin string, on one reading date, mixing her own sets with licensor-authored sets she drew and with unrelated name collisions. The Korean figure in particular is a floor, not a comparison-grade number.
+- Thailand's absence of retail evidence as evidence of absence at Korea's strength. Nine of fifteen Thai portals were unreachable and Thai Google News RSS returned one relevant item across nine queries. The Korean gap was argued against an index that demonstrably reached both sides of it; the Thai one was not.
+- The 2026 AFA Thailand release as evidence that the operating model changed from resident intermediaries to a Japanese window. It is one activation in one market, one year after the Mixer handover, and section 9 records it as an observation to test, not a finding.
+- Any cross-market pattern claim presented as settled. There are five markets in this build, one of them home, and one priority market is missing.
 - The 369-release PR TIMES count as a deal count. It is a press-release mention count.
 
 ## Next build should do, in order
 
-1. China (mainland). The Shanghai sibling entity `上海玛齐品牌管理有限公司` is the standing lead, and the Hong Kong build has shown that the group's agent name is what appears on licensed-event rights lines, which is the string to search mainland event and product pages for.
-2. Thailand, where only weak leads exist and an honest recorded absence is an acceptable outcome under the task's own terms. The PR TIMES release is still unread, and the Korean 2018 mention of 태국 gives a period to search Thai-side sources against.
+1. China (mainland). The last unbuilt priority market, and the only thing standing between this study and its stop condition. The Shanghai sibling entity `上海玛齐品牌管理有限公司` is the standing lead, and the Hong Kong build has shown that the group's agent name is what appears on licensed-event rights lines, which is the string to search mainland event and product pages for. Weibo, Xiaohongshu and mainland mall/retailer newsrooms are the likely veins; an honest recorded absence is an acceptable outcome under the task's own terms.
+2. After China, write the finished cross-market synthesis and the PBC-relevant read as a separate, clearly-labelled interpretation section, which the task requires and which does not yet exist in any form.
 3. Try to corroborate the Hong Kong rights line on a second Hong Kong activation, so the mechanism grade can move off a single document. The 2019 置富Malls programme and the 2024 Plaza Hollywood programme are the two most likely to have had their own microsite with a footer.
 4. Fix the PR TIMES paging problem so the 2016-2023 Japan gap can be closed, since that stretch is where any overseas expansion would have been announced from the Japan side.
 
@@ -95,3 +108,6 @@ Four of the six priority markets are now done, and the synthesis is partial rath
 - The Korea sweep that worked, and it is different from Hong Kong's: Google News RSS with `hl=ko&gl=KR` as the index, then a bounded id-range sweep of the outlet's own `articleView.html?idxno=` sequence to recover the URL. Korean news sites running the common Korean CMS ignore `sc_word` over GET (four outlets tested), so on-site search is not available, and Wayback holds nothing useful for these outlets. Calibrate the sweep by probing a handful of ids for `article:published_time`, interpolate to the target date, then fetch only `<title>` across a few hundred ids in parallel. Two articles that no search engine returned were recovered this way.
 - Korean corporate sites carry English-language year-by-year business histories that name licensed properties by year. Danal Entertainment's Character page is what dated its Piske & Usagi involvement and what shows the property dropping out after 2018.
 - Kakao's emoticon shop is client-rendered and its public pages carry no useful metadata, but the undocumented endpoint `e.kakao.com/api/items/<slug>` returns creator name, IP name, creator id, price, discount and sale state as JSON. It carries no date field, so it establishes what is on sale and under whose name, never when something launched.
+- LINE STORE is client-rendered but has a working JSON search endpoint that accepts a country switch: `store.line.me/api/search/sticker?query=<q>&offset=0&limit=40&country=<CC>&lang=<ll>`. It returns `totalCount`, per-item `authorName`, `priceString` in local currency and `onSale`, which makes it the one cross-market, same-day, machine-readable availability comparator in this study. It has no date, download or ranking field, and it matches the query against title and author only - so a Latin query undercounts storefronts that localise titles, and localisation itself is testable by running the same query in the local script.
+- The Thai route is unlike the Hong Kong and Korea routes and mostly does not work. Google News RSS with `hl=th&gl=TH` returned one relevant item across nine query strings, and Thai national press largely has no reachable WordPress REST route (four 404s, three 403s, one 401, one 406). What did work: `adaymagazine.com` and `thestandard.co` answer `/wp-json/wp/v2/posts?search=`, and Thai magazine article pages carry a clean `article:published_time`. For Thailand, go to the event listing platforms (Zipevent) and to the Japanese exhibitor's own PR TIMES release rather than to Thai news.
+- A Japanese press release about an overseas event is a mechanism source, not just a calendar entry. The AFA Thailand release's single clause 「株式会社ミキサー協力のもと」 is the only document in five markets that names a Japanese rights-side company on an overseas activation. Read the connective phrases (協力, 監修, 提供) in PR TIMES bodies, not just the headline and the dates.

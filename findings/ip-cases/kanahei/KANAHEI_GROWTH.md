@@ -19,11 +19,11 @@ Reading date for all web fetches in this build: 2026-08-05.
 | Taiwan | BUILT |
 | Hong Kong | BUILT |
 | Korea | BUILT |
-| Thailand | NOT YET BUILT |
+| Thailand | BUILT (thin by evidence, not by effort - see 6.5) |
 | China (mainland, outside-census-scope) | NOT YET BUILT |
 | Other markets | NOT YET BUILT |
-| Collab table | PARTIAL (Japan, Taiwan, Hong Kong and Korea rows) |
-| Cross-market synthesis | PARTIAL (nine source-constrained observations; sequence question answerable for four markets) |
+| Collab table | PARTIAL (Japan, Taiwan, Hong Kong, Korea and Thailand rows) |
+| Cross-market synthesis | PARTIAL (twelve source-constrained observations; sequence question answerable for five markets) |
 
 ---
 
@@ -542,15 +542,155 @@ The search run for Korea was: Google News RSS (`hl=ko&gl=KR`) on 카나헤이, �
 
 ## 6. THAILAND
 
-NOT YET BUILT.
+Thailand is the thinnest of the five markets built, and it is thin in a specific way: the platform presence is large and continuously on sale, and the licensing record behind it is two dated events seven years apart.
+Both parts are stated below with their evidence and their limits.
 
-Lead in hand, unverified: a 2026-05-15 PR TIMES release by 株式会社リアルアキバ・コミュニケーションズ concerning Anime Festival Asia Thailand appears in the `カナヘイ` keyword result set.
-Source: [PR TIMES, 2026-05-15](https://prtimes.jp/main/html/rd/p/000000947.000060459.html) - NOT YET READ. It may mention her only incidentally, and must be read before any Thailand claim is made.
+### 6.1 ENTRY
 
-Second lead, new in this build and weaker: a Korean trade release of 2018-10-01 describes the property as licensed in 일본을 비롯해 홍콩, 대만, 태국, 미국 ("Japan, plus Hong Kong, Taiwan, Thailand and the United States").
-Source: [전자신문, 2018-10-01](https://www.etnews.com/20181001000112).
-That is a Korean outlet relaying a Korean licensee's characterisation, so it is a pointer to look for Thai-side and US-side evidence dated on or before 2018, and nothing more.
-It is not evidence that any Thai licence existed and no Thailand row rests on it.
+**Two answers, because the platform layer and the licensing layer entered separately and only one of them can be dated.**
+
+**Platform layer, undated but currently large.**
+LINE's own storefront serves a Thailand catalogue, and a query for `kanahei` against the store's search endpoint with `country=TH` returns **64 sticker products, all `onSale`, priced in THB (31, 65 and 75 THB tiers)**.
+Source: `https://store.line.me/api/search/sticker?query=kanahei&offset=0&limit=40&country=TH&lang=en`, read 2026-08-05.
+The endpoint returns no release or first-availability date, so this establishes **present availability in the Thai storefront and nothing about when it began**.
+It is recorded as an undated standing presence, not as an entry date.
+
+**Licensing layer, earliest dated activity: the artist's own appearance at Thailand Toy Expo 2019.**
+The event ran **2019-05-02 to 2019-05-05 at CentralWorld, Bangkok**, and its listing page states her presence in those words:
+
+> ศิลปินชื่อดังชาวญี่ปุ่นเจ้าของผลงาน Kanahei (คาแรคเตอร์ลูกเจี๊ยบ PISKE และกระต่ายUSAGI) มาเยือนประเทศไทยเป็นครั้งแรก
+
+Translation: "The famous Japanese artist behind Kanahei (the chick character PISKE and the rabbit USAGI) visits Thailand for the first time."
+Source: [Zipevent, THAILAND TOY EXPO 2019](https://www.zipeventapp.com/e/thailand-toy-expo-2019), read 2026-08-05.
+(The listing's own description calls Piske a chick; the artist corrects this in the interview below, and the correction is hers, not this file's.)
+
+The activity itself is named in a Thai magazine interview published nine days after the show:
+
+> เพราะนี่เป็นครั้งแรกที่เธอมาพบปะแฟนคลับชาวไทยในกิจกรรม 'Meet & Greet : Kanahei Autograph Signing Event by Sweet Summer'
+
+Translation: "because this is the first time she has met Thai fans, at the activity 'Meet & Greet: Kanahei Autograph Signing Event by Sweet Summer'."
+Source: [a day magazine, 2019-05-13](https://adaymagazine.com/q-and-a-with-kanahei-illustrator/), `article:published_time` 2019-05-13T19:06:46, read 2026-08-05.
+
+So Thailand's dated entry is **an artist appearance, not a product, a retailer or an agent announcement** - a different entry format from every other market in this study.
+Japan entered through a platform result and a master licence, Taiwan and Hong Kong through retail, Korea through a messenger sticker line issued by a resident company.
+
+**What this date is and is not.**
+It is the earliest *dated* Thai commercial activity found after the search described in section 6.5.
+It is not a first-ever claim: the Thai LINE storefront presence is undated and may well predate it, and a 2018 Korean release names 태국 (Thailand) in a list of markets where the property was said to be licensed ([전자신문, 2018-10-01](https://www.etnews.com/20181001000112)).
+That Korean line is a licensee's characterisation relayed by press, it is barred by the Marugame rule from being a finding, and **no Thai-side source dated on or before 2018 surfaced to corroborate it**.
+
+### 6.2 MECHANISM
+
+**Thailand has two documented carriers, seven years apart, and neither is a licensing agency.**
+No Thai licensing agent, distributor or master licensee was found named anywhere (section 6.5).
+
+**2019: a Thai party named only in the event title.**
+The activity was titled "…**by Sweet Summer**".
+Source: [a day magazine, 2019-05-13](https://adaymagazine.com/q-and-a-with-kanahei-illustrator/).
+
+There is a Bangkok company of that name whose own site describes it as follows:
+
+> We are stationery creater founded in 2011. […] Of course, it wouldn't feel complete for a girls without any cute characters! Every Sweet Summer's characters on every product is carefully designed to bring out the smiles […]
+
+Source: [sweet-summer.com/about-us](https://sweet-summer.com/about-us/), read 2026-08-05.
+Its Licensing page prints the legal entity and address: **Sweet Summer Co., Ltd., 33 Unit B55, Pradipat 17, Pradipat Rd., Samsen Nai, Phayathai, Bangkok 10400**, with the line 日本語okです ("Japanese is OK").
+Source: [sweet-summer.com/licensing](https://sweet-summer.com/licensing/), read 2026-08-05.
+Its own posts show it running its own characters (Majory, Little Amiko, Hoshio & Kamomo, Kuro & Friends) as LINE themes and stickers, exhibiting at the Hong Kong International Licensing Show in 2018 and 2019, and at Creative Expo Taiwan in 2018 and 2019.
+Source: [sweet-summer.com WordPress REST post index](https://sweet-summer.com/wp-json/wp/v2/posts?after=2019-01-01T00:00:00&before=2020-01-01T00:00:00&per_page=100), read 2026-08-05.
+
+**The identification is stated with its limit, because the limit is large.**
+`sweet-summer.com` carries **no Kanahei content of any kind**: WordPress search for `kanahei`, `piske`, `usagi` and `คานาเฮ` each returns ไม่พบข้อมูล ("no data found"), the REST post search returns `[]`, and the company's own 2019 post list contains nothing in May 2019.
+A Wayback CDX sweep of 3,000 captured `sweet-summer.com` URLs returned no path containing `kanahei`, `piske` or `usagi`.
+So what is established is: **the event title as printed by a named Thai magazine contains the words "by Sweet Summer", and a Thai character-and-stationery company of that name exists in Bangkok with a licensing contact page.**
+It is **not** established that Sweet Summer Co., Ltd. held any licence to this property, and that is not asserted anywhere in this file.
+
+**2026: a Japanese exhibitor operating with the Japanese rights window, with no Thai party named.**
+The release for AFA Thailand 2026 states the mechanism in one clause:
+
+> 株式会社ミキサー協力のもと、国内外で愛される「いたずらぐまのグルーミー（GLOOMY）」と「カナヘイの小動物」の2大キャラクターIPが特別展示として登場し、物販コーナーも併設することで幅広い層が楽しめる内容を展開します。
+
+Translation: "With the cooperation of Mixer Inc., the two major character IPs GLOOMY and Kanahei's Small Animals, loved in Japan and abroad, will appear as a special exhibition, with a merchandise corner alongside it, in a programme a wide range of visitors can enjoy."
+Source: [PR TIMES, 2026-05-15, 株式会社リアルアキバ・コミュニケーションズ](https://prtimes.jp/main/html/rd/p/000000947.000060459.html), release timestamp 2026年5月15日 19時00分.
+
+**株式会社ミキサー (Mixer Inc.) is the same company established in section 2.2 as the worldwide licensing window from 2025-04-01.**
+This is **the first overseas activation in this entire study where a Japanese rights-side company is named on the activation itself**.
+In Taiwan and Hong Kong the named licensor is San-Byte Creative; in Korea the resident claimant is Danal Entertainment; here the named cooperating party is the Japanese window, and the exhibitor is a Japanese company - 株式会社REAL AKIBA, of the REAL AKIBA GROUP to which ISARIBI株式会社 (Chiyoda-ku, Tokyo; representative 田川浩巳) belongs, per the same release.
+The Thai-side listing confirms the booth without adding a Thai counterparty: the property appears under **Real Akiba Group, Booth E17**, in the text "Meet Gloomy Bear, a unique character blending undeniable cuteness with a raw, wild side, and Kanahei's Small Animals, the heartwarming,".
+Source: [animefestival.asia AFA Thailand 2026 Exhibition page](https://animefestival.asia/afath26/exhibition/), read 2026-08-05.
+
+**What the mechanism section cannot say.**
+No source read states who, if anyone, holds a Thai territory licence, at any date.
+San-Byte Creative does not appear in any Thai-language or Thailand-scoped source read here.
+TXCOM does not appear in any Thai source read here.
+
+### 6.3 GROWTH SHAPE
+
+Thailand's shape is **a standing platform presence with two isolated event-format touchpoints and no retail programme between them**.
+
+**2019 - artist appearance, three formats in one show.**
+Meet-and-greet, autograph signing, and a live drawing performance, at Thailand Toy Expo 2019, CentralWorld.
+The live-drawing element is confirmed by the artist herself in the interview: นี่เป็นการวาดไลฟ์โชว์ครั้งแรกที่เมืองไทยด้วย ("this was also my first live-drawing show, and it was in Thailand").
+Source: [a day magazine, 2019-05-13](https://adaymagazine.com/q-and-a-with-kanahei-illustrator/).
+
+**2026 - convention special exhibition plus merchandise corner.**
+AFA Thailand 2026, 2026-05-30 to 2026-05-31, Bangkok, under Real Akiba Group, booth E17, with 物販コーナー (merchandise corner) attached.
+Sources: [PR TIMES, 2026-05-15](https://prtimes.jp/main/html/rd/p/000000947.000060459.html); [animefestival.asia](https://animefestival.asia/afath26/exhibition/).
+This is a **shared booth appearance alongside another IP**, not a dedicated pop-up, and the release presents it as one element of a Japanese exhibitor's booth programme.
+
+**Between them: nothing found.**
+No Thai retail campaign, mall programme, convenience-chain points campaign, cafe, transport tie-up or ticketed exhibition surfaced for any year (section 6.5).
+That is the opposite curve from Taiwan and Hong Kong, where the events sit *inside* a continuous retail run, and closest in shape to Korea - except that Korea's two isolated activations are both **licensed product lines** (Nexon, Daiso) while Thailand's two are both **appearances**.
+
+### 6.4 SCALE SIGNALS
+
+**The only quantified Thai signal is storefront availability, and it is an availability count, not a sales or download figure.**
+
+- **64 Kanahei-matching sticker products on sale in the Thailand LINE storefront**, all `onSale`, at 31 / 65 / 75 THB.
+Source: `store.line.me/api/search/sticker?query=kanahei&country=TH`, read 2026-08-05.
+Same query, same day, other storefronts: **JP 118, TW 94, HK 68, TH 64, US 62, KR 16.**
+Three caveats travel with these numbers and none may be dropped.
+  1. They are **counts of products the storefront will sell you**, not downloads, revenue or ranking. LINE publishes no per-title figures.
+  2. The query is the Latin string `kanahei`, matched against title and author fields. A storefront whose titles are localised into a non-Latin script will be **undercounted**, so the KR figure in particular is a floor and not a comparison-grade number.
+  3. The set is not purely her own: it includes licensor-authored sets drawn by her (`ONE PIECE Kanahei Style` by TOEI ANIMATION, `Marvel Stickers by Kanahei` and `Star Wars Stickers by Kanahei` by The Walt Disney Company (Japan), `Pokémon Yurutto` by The Pokémon Company, `Chimimo by Kanahei` by TV TOKYO COMMUNICATIONS) and a handful of unrelated creators whose names collide (`kanahey`, `Kanahei Zhu`, `ugateict`'s Kanahebi sets).
+
+- **No Thai-localised sticker set exists in that catalogue.**
+The Thai storefront carries `Piske & Usagi 5 by Kanahei -TW ver.` and `Piske&Usagi.3(English)`, but no Thai-version set.
+A Thai-script query (`คานาเฮ`) against the same endpoint returns 15 items, every one of them English-titled.
+Read 2026-08-05.
+This is a real asymmetry: Taiwan got a localised edition, Thailand did not, despite Thailand being one of LINE's large markets.
+
+- **One qualitative, self-reported signal, and it is about Thailand specifically.**
+Asked how it feels that her characters are on phones worldwide, the artist answered:
+
+> ที่ผ่านมามีคนบอกตลอดว่าใช้สติกเกอร์ไลน์ของเรา […] ที่ผ่านมาไม่เคยเชื่อเลย จนกระทั่งที่มาอีเวนต์แจกลายเซ็นที่กรุงเทพฯ นี่แหละค่ะ นี่เป็นครั้งแรกจริงๆ ที่รู้สึกว่ามีคนใช้สติกเกอร์ของเรา
+
+Translation: "People have always told me they use my LINE stickers […] I never believed it, until this autograph event in Bangkok. This is really the first time I have felt that people actually use my stickers."
+Source: [a day magazine, 2019-05-13](https://adaymagazine.com/q-and-a-with-kanahei-illustrator/).
+This is the creator's own statement about her perception, translated from a named publication.
+It is **not** a claim that Thailand is her largest audience and is not used as one.
+
+**No attendance figure exists for either Thai event**, no sales figure, no production quantity and no ranking.
+Thailand therefore has less quantitative evidence than Taiwan or Hong Kong, and its one number is of a weaker kind than Hong Kong's counterparty footprint, because storefront availability is set by the platform, not by a Thai counterparty.
+
+### 6.5 WHAT DIDN'T HAPPEN (Thailand)
+
+Stated as absence of evidence after a described search, never as a claim that anything was refused.
+The search run for Thailand was: Google News RSS (`hl=th&gl=TH`) on คานาเฮ, คานาเฮย์, คานาเฮอิ, Kanahei, พีสึเกะ, ปิสุเกะ, อุซางิ พีสึเกะ, Piske Usagi ไทย and คานาเฮ สติกเกอร์; a WordPress REST `search` sweep across fifteen Thai portals on `kanahei`, `piske`, `คานาเฮ` and `อุซางิ`; Thai- and English-language web search on pop-up, exhibition, licensing-agent, distributor and mall phrasings; the LINE STORE search API against six country storefronts; the PR TIMES `カナヘイ` keyword index; the AFA Thailand official exhibition listing; a full read of `sweet-summer.com` including its REST index and a 3,000-URL Wayback CDX sweep of the domain; and the charabizasia character-business blog's own REST index (15 Kanahei posts, none Thailand-related).
+
+- **No Thai retail collaboration of any kind surfaced.** No convenience chain, no mall programme, no department store, no variety store, no bookstore chain. Every other built market has at least one.
+- **No Thai cafe or F&B collaboration surfaced.** Japan, Hong Kong and Taiwan all have them.
+- **No Thai transport-operator collaboration surfaced.** Hong Kong and Taiwan both have one.
+- **No ticketed exhibition or dedicated pop-up store surfaced.** Taiwan has four exhibitions, Korea has a pop-up, Hong Kong has repeated mall installations.
+- **No Thai licensing agent, distributor or master licensee is named in any source read.** This is the sharpest contrast in the study: Taiwan, Hong Kong and Korea each produced a named resident intermediary within the first market-specific document read, and Thailand produced none across the whole sweep.
+- **No Thai-language official channel, micro site or brand account surfaced.** No Thai equivalent of the Taiwanese or Hong Kong pages was found, official or otherwise.
+- **No Thai-localised LINE sticker set exists** (section 6.4), where Taiwan has one.
+- **The one Thai business-press appearance of the name in the whole sweep is about the Japanese market, not the Thai one.** In a 2023 piece advising Thai creators how to sell stickers in Japan, a LINE representative named Ryuya cites her among Japanese creators who have sustained popularity: "Ryuya ยังได้ยกตัวอย่างครีเอเตอร์ในญี่ปุ่นที่ยังรักษาความโด่งดังได้จนถึงปัจจุบันได้แก่ agano, kanahei และ kiki" ("Ryuya also gave examples of creators in Japan who have maintained their fame to this day: agano, kanahei and kiki"). Source: [THE STANDARD, 2023-03-31](https://thestandard.co/line-stickers-tips/). She appears in Thai business press as a **case study for Thai creators**, not as a brand with Thai activity.
+- **The 2018 Korean release's 태국 claim is not corroborated.** Nothing dated on or before 2018 surfaced on the Thai side.
+
+**The absence is bounded by a genuinely weak index, and that bound must travel with it.**
+Thai national press is largely unreachable by the methods used: `thairath.co.th`, `sanook.com`, `mgronline.com` and `positioningmag.com` return 404 on `/wp-json/wp/v2/posts` (no WordPress REST); `matichon.co.th`, `prachachat.net` and `brandbuffet.in.th` return 403 to the same request; `themomentum.co` returns 401 and `workpointtoday.com` returns 406; `khaosodenglish.com` sits behind Cloudflare and returns 403 to both a browser and a Googlebot user-agent, with no Wayback copy of the relevant article.
+Google News RSS in Thai returned essentially one relevant item across nine query strings.
+So Thailand's absence of retail evidence is **weaker evidence of absence than Korea's**, where the index demonstrably reached both ends of the gap.
 
 ## 7. CHINA (mainland) - OUTSIDE CENSUS SCOPE
 
@@ -567,8 +707,8 @@ Same caveat as Hong Kong: this establishes a corporate-group presence, not a Kan
 
 Every row is verified from its own source.
 No row here is recalled.
-PARTIAL: Japan, Taiwan, Hong Kong and Korea rows.
-53 rows at this build: 17 Japan, 14 Taiwan, 17 Hong Kong, 5 Korea.
+PARTIAL: Japan, Taiwan, Hong Kong, Korea and Thailand rows.
+55 rows at this build: 17 Japan, 14 Taiwan, 17 Hong Kong, 5 Korea, 2 Thailand.
 
 | Market | Year | Brand / counterparty | Format | Source |
 |---|---|---|---|---|
@@ -625,6 +765,8 @@ PARTIAL: Japan, Taiwan, Hong Kong and Korea rows.
 | Korea | 2018 | 신세계 스타필드 코엑스 (Starfield COEX), operator 다날엔터테인먼트 | First Korean pop-up store, one month to 2018-10-31, 8 SKU types, online through 텐바이텐 / 천삼백케이 / 카카오쇼핑하기 | [전자신문 2018-10-01](https://www.etnews.com/20181001000112) |
 | Korea | 2024 | 넥슨 (Nexon), 메이플스토리M | In-game collaboration update announced 2024-05-31: PvP event and crane event to 2024-06-13, 14-day attendance event to 2024-06-27, event coin and coin shop | [라이센스뉴스 2024-05-31](https://www.lcnews.co.kr/news/articleView.html?idxno=76526) |
 | Korea | 2026 | 다이소 (Daiso Korea) | Stationery line announced on Daiso's Instagram 2026-05-11: acrylic stands and clips, memo pads, masking tape, pen case, pens, letter set, sheet stickers, 1,000-1,500 KRW | [금강일보 2026-05-13](https://www.ggilbo.com/news/articleView.html?idxno=1157277) |
+| Thailand | 2019 | Thailand Toy Expo 2019, CentralWorld Bangkok; activity titled "…by Sweet Summer" | Artist appearance: meet-and-greet, autograph signing and live drawing, 2019-05-02 to 2019-05-05 | [Zipevent listing](https://www.zipeventapp.com/e/thailand-toy-expo-2019); [a day magazine 2019-05-13](https://adaymagazine.com/q-and-a-with-kanahei-illustrator/) |
+| Thailand | 2026 | 株式会社REAL AKIBA (REAL AKIBA GROUP), 株式会社ミキサー協力 (with Mixer Inc.'s cooperation), at Anime Festival Asia Thailand 2026, Bangkok | Special character exhibition plus merchandise corner, booth E17, 2026-05-30 to 2026-05-31 | [PR TIMES 2026-05-15](https://prtimes.jp/main/html/rd/p/000000947.000060459.html); [animefestival.asia exhibition page](https://animefestival.asia/afath26/exhibition/) |
 
 Table rule for later builds: a row enters only after its own source has been fetched and its date and counterparty read from that source.
 Titles seen in a search-results list are leads, not rows.
@@ -634,10 +776,10 @@ Titles seen in a search-results list are leads, not rows.
 ## 9. CROSS-MARKET SYNTHESIS
 
 PARTIAL.
-Japan, Taiwan, Hong Kong and Korea are built.
-Thailand and China are not, so nothing below is offered as the finished sequence.
+Japan, Taiwan, Hong Kong, Korea and Thailand are built.
+China is not, so nothing below is offered as the finished sequence.
 
-Nine observations are safe to record because each rests on a quoted primary source, and together they constrain what the synthesis can later say.
+Twelve observations are safe to record because each rests on a quoted primary source, and together they constrain what the synthesis can later say.
 
 1. The licensor's stated overseas method at the outset was **trade-show exhibition into a Japan Pavilion**, not appointment of a named territory agent.
 Source: [PR TIMES, 2014-11-06](https://prtimes.jp/main/html/rd/p/000000304.000002734.html).
@@ -669,13 +811,15 @@ MTR Corporation commemorative ticket set, from late May 2018 ([UHK 港生活, 20
 The formats then diverged sharply: THSR ran a multi-year programme across merchandise waves, food and drink lines and a station store, while the MTR appearance is a single commemorative-ticket drop placed by its own covering outlet in the same series as Sanrio, Kumamon and Doraemon tickets.
 Same counterparty category, very different depth.
 
-7. **The mechanism differs by market in a way that is now visible in three distinct shapes, not two.**
+7. **The mechanism differs by market in a way that is now visible in four distinct shapes.**
 Japan: the rights holder itself issues campaign releases under a master licence (section 2.2).
 Taiwan and Hong Kong: a character-licensing agency, 三貝多 / San-Byte Creative, sits between the rights holder and the counterparties, and is the only named licensor on the one Hong Kong document that prints one (sections 3.2 and 4.2).
 Korea: a **general content company, not a character-licensing house**, states in press that it holds the character business rights and recruits licensees itself (section 5.2).
 Danal Entertainment's own business lines are music distribution, original content and platform services.
 Source: [danalenter.co.kr](https://www.danalenter.co.kr/business/character), read 2026-08-05.
-That is three different intermediary types across four markets, which is the strongest evidence so far against a single reusable overseas mechanism.
+Thailand: **no resident intermediary is named at all**, and the only rights-side party named on a Thai activation is the Japanese licensing window itself, 株式会社ミキサー, cooperating with a Japanese exhibitor (section 6.2).
+Source: [PR TIMES, 2026-05-15](https://prtimes.jp/main/html/rd/p/000000947.000060459.html).
+That is four different intermediary shapes across five markets, which is the strongest evidence in this study against a single reusable overseas mechanism.
 
 8. **Korea is the only built market where the platform that carried the IP in was not LINE.**
 Japan's audience engine is LINE stickers (section 2.1).
@@ -690,6 +834,23 @@ Korea moved fastest inside its first year of documented activity: emoticons, a m
 It then produced no found activation for five years, and the two later ones (Nexon 2024, Daiso 2026) are single-counterparty drops with no named intermediary.
 Taiwan and Hong Kong opened earlier and ran continuously through those same five years.
 On this evidence the market with the tidiest entry sequence is the one with the thinnest sustained record, which is a caution against reading a fast, well-organised launch as the signal of a durable market.
+
+10. **Platform reach and licensing depth come apart, and Thailand is the case that shows it.**
+The Thailand LINE storefront carries 64 Kanahei-matching sticker products on sale, third of the six storefronts queried on the same day and only just behind Hong Kong (JP 118, TW 94, HK 68, TH 64, US 62, KR 16).
+Source: `store.line.me/api/search/sticker?query=kanahei&country=<cc>`, read 2026-08-05, with the three caveats in section 6.4 attached.
+Against that, Thailand produced **two dated activations in the whole record and no named resident intermediary**, where Hong Kong produced 17 activations and Taiwan 14 with a named agent in both.
+A large, continuously-on-sale platform catalogue in a market is therefore **not** a predictor of a licensing operation in that market, at least in this case.
+
+11. **The only market in this study whose activations are appearances rather than products is Thailand.**
+Japan, Taiwan, Hong Kong and Korea each entered through a thing you can buy - a licensed product, a retail campaign or a sticker line.
+Thailand's two dated touchpoints are an artist meet-and-greet with live drawing (2019) and a shared convention booth with a merchandise corner (2026).
+Sources: [a day magazine, 2019-05-13](https://adaymagazine.com/q-and-a-with-kanahei-illustrator/); [PR TIMES, 2026-05-15](https://prtimes.jp/main/html/rd/p/000000947.000060459.html).
+This is not offered as a claim about the Thai market; it is a description of what the record for this one IP contains after the search in section 6.5.
+
+12. **The rights-side company visible on overseas activations changed in 2025, and the first evidence of that is a Thai event.**
+Every earlier overseas activation with a named rights party names a resident intermediary (San-Byte in Taiwan and Hong Kong, Danal in Korea) and none names TXCOM or Mixer.
+The 2026 AFA Thailand release names 株式会社ミキサー directly as the cooperating party, one year after Mixer took the worldwide licensing window on 2025-04-01 ([at Press, 2025-04-01](https://www.atpress.ne.jp/news/0705633)).
+Two data points do not make a change in operating model, and this is recorded as an observation to test against China and against any later Taiwan or Hong Kong activation dated after 2025-04-01 - not as a finding that the model changed.
 
 ---
 
@@ -706,9 +867,13 @@ Recorded so no later reader re-derives these as findings.
 - **webb-site.com as the Hong Kong company-registry route.** Tried and unavailable. The site states its main server was shut down on 2025-10-31 and the company-data pages no longer render. Incorporation date and directors of `三貝多(香港)有限公司` are therefore not established here, and no claim in section 4 depends on them.
 - **Resolving Google News RSS article links.** Not attempted beyond confirming it is unnecessary: the RSS feed already yields publication, date and headline, and the working route to the actual article URL is a Wayback CDX sweep of the outlet domain filtered on the property's name-strings. That sweep is what recovered the 2016-2019 `hk.ulifestyle.com.hk` URLs, which no search engine returned.
 - **Korean news-site search endpoints over GET.** Tried and rejected across four outlets. `articleList.html?sc_area=A&sc_word=...` on ggilbo.com, lcnews.co.kr, enewstoday.co.kr and it.chosun.com all return the site's latest-articles list instead of a result set: the keyword parameter is stripped or ignored in front of the CMS, while `sc_sdate`/`sc_edate` do partially apply. Site-scoped `site:` queries through search engines also failed to surface either target article. The route that worked was: Google News RSS (`hl=ko&gl=KR`) as the index for headline, date and publication, then a bounded id-range sweep of the outlet's own `articleView.html?idxno=` sequence, calibrated by probing a few ids for `article:published_time` and interpolating. That recovered both the 금강일보 Daiso article (idxno 1157277) and the 라이센스뉴스 Nexon article (idxno 76526) that no search returned.
-- **Reading a Korean outlet's description of other markets as evidence for those markets.** The 2018-10-01 전자신문 release describes the property as licensed in 일본을 비롯해 홍콩, 대만, 태국, 미국 ("Japan, plus Hong Kong, Taiwan, Thailand and the United States"), and the 2018-06-11 파이낸셜뉴스 release names 소프트뱅크, 혼다, 아마존, 유니레버 as global collaboration partners. None of those pairings is used as a table row. They are a Korean outlet's summary of a licensee's pitch, exactly the kind of recalled pairing the Marugame rule bars. The Thailand mention is carried into section 6 as a lead to verify from a Thai-side source, not as a finding.
+- **Reading a Korean outlet's description of other markets as evidence for those markets.** The 2018-10-01 전자신문 release describes the property as licensed in 일본을 비롯해 홍콩, 대만, 태국, 미국 ("Japan, plus Hong Kong, Taiwan, Thailand and the United States"), and the 2018-06-11 파이낸셜뉴스 release names 소프트뱅크, 혼다, 아마존, 유니레버 as global collaboration partners. None of those pairings is used as a table row. They are a Korean outlet's summary of a licensee's pitch, exactly the kind of recalled pairing the Marugame rule bars. The Thailand mention was carried into section 6 as a lead and **was tested and not corroborated**: no Thai-side source dated on or before 2018 surfaced in the sweep described in section 6.5.
 - **`kanahei.co.kr` as the Korean micro site.** The June 2018 release states licensees would be recruited through 국내 마이크로 사이트 ("domestic micro site") without printing a URL. `kanahei.co.kr`, `www.kanahei.co.kr` and `piske-usagi.co.kr` all returned no response over curl on 2026-08-05 (`000`). No Korean micro site is cited anywhere in this file.
 - **Kakao's emoticon shop pages as a dating source.** The public `e.kakao.com/t/<slug>` pages are client-rendered and carry only generic shop metadata, no release date and no author line, and the Wayback Machine holds no capture of any of the four Piske & Usagi paths (empty CDX). The undocumented JSON endpoint `e.kakao.com/api/items/<slug>` does render creator name, IP name, price and sale state, but carries no date field either. Korea's sticker-line start date therefore remains unestablished.
+- **Khaosod English's Thailand Toy Expo article as a source.** Not used. [khaosodenglish.com/featured/2019/05/10/piske-and-usagi-charm-on-kanaheis-first-visit-to-thailand/](https://www.khaosodenglish.com/featured/2019/05/10/piske-and-usagi-charm-on-kanaheis-first-visit-to-thailand/) returns HTTP 403 behind a Cloudflare interstitial to both a normal browser user-agent and a Googlebot user-agent, and `archive.org/wayback/available` returns an empty `archived_snapshots` object for it. Search-engine snippets of it carry attractive specifics - that this was her first fan-signing event *anywhere*, that fans flew in from Taiwan, that she drew Piske and Usagi doing muay thai - and **none of those is used anywhere in this file**, because no fetched copy of the page exists. The Thailand section rests on the Zipevent listing and the a day magazine interview, both of which were fetched in full.
+- **Assuming a Thai character company that hosted an event holds the licence.** Explicitly rejected as an inference. The event title printed by a day magazine ends "by Sweet Summer", and Sweet Summer Co., Ltd. is a real Bangkok character-and-stationery company with a licensing contact page. But its own site carries **zero** Kanahei content - WordPress search on `kanahei`, `piske`, `usagi` and `คานาเฮ` each returns ไม่พบข้อมูล, the REST post search returns `[]`, its 2019 post list has no May entry, and a 3,000-URL Wayback CDX sweep of the domain returns no matching path. The company is named in this file only as the string that appears in the event title, with that limit stated.
+- **Thai national-press WordPress REST as a search route.** Mostly unavailable, and the pattern is worth recording because it differs from the Philippines and Indonesia. Of fifteen Thai portals tried on 2026-08-05: `thairath.co.th`, `sanook.com`, `mgronline.com`, `positioningmag.com` returned 404 on `/wp-json/wp/v2/posts` (no REST route); `matichon.co.th`, `prachachat.net` and `brandbuffet.in.th` returned 403; `themomentum.co` returned 401; `workpointtoday.com` returned 406; `marketeeronline.co` answered once then 429'd. Only `adaymagazine.com`, `thestandard.co`, `thumbsup.in.th`, `bltbangkok.com` and `dailynews.co.th` answered cleanly, and only the first two returned anything relevant. Any Thai absence claim has to carry this bound.
+- **The Thai LINE storefront count as a market-size or popularity figure.** Rejected as a reading, kept as an availability count. `store.line.me/api/search/sticker` returns products the storefront will sell in that country, matched on a Latin title/author string; it has no download, revenue or ranking field, it undercounts storefronts that localise titles into non-Latin scripts, and the matched set mixes her own sets with licensor-authored sets she drew and with unrelated creators whose names collide. Section 6.4 states all three caveats inline and no cross-market ranking is drawn from the six-country figures beyond the ordering itself.
 - **7-ELEVEN Taiwan's live campaign URLs as evidence for past campaigns.** The event paths `/event/17KanaheiSummer/`, `/event/20Kanahei/` and `/event/21kanahei/` all still return HTTP 200 today, but the bodies are 532-byte stubs containing only the string `7-ELEVEN`. A live 200 here means nothing. The campaign content and its printed date ranges survive only in the Internet Archive, which is what the rows in section 8 cite.
 
 ---
@@ -734,6 +899,11 @@ Recorded so no later reader re-derives these as findings.
 17. Why do all four Korean KakaoTalk products read `NOT_SALE` today, and when did they come off sale? Kakao states no reason and carries no date.
 18. Who licensed the 2024 Nexon collaboration and the 2026 Daiso line? Neither release names an intermediary, so it is unknown whether Danal, San-Byte, Mixer or a party not yet seen carried them.
 19. Is the 2019-2023 Korean gap real or an artefact of which Korean outlets Google News indexes? The index used returned both 2018 and 2024 items, which argues the gap is real, but a Naver-side search (not reachable by the tools used here) would test it properly.
+20. Who is "Sweet Summer" in the 2019 Thai event title, and in what capacity? A Bangkok company of that name exists and fits, but its own site carries no trace of the property. A Thai company-registry check on Sweet Summer Co., Ltd. (DBD), or the Thailand Toy Expo organiser's own 2019 exhibitor list, would settle it. Neither was reachable here.
+21. When did Kanahei stickers first become purchasable in the Thai LINE storefront? LINE's endpoint carries no release or first-availability date and the store pages are client-rendered. Without that date, Thailand's platform layer cannot be placed in the market sequence at all.
+22. Why is there a Taiwanese-localised sticker edition (`-TW ver.`) and no Thai one, when Thailand is one of LINE's large markets? Absence of a localised edition is documented; the reason is not stated anywhere read.
+23. Does any Thai retail activity exist that the reachable index simply cannot see? The Thai portal sweep was blocked at nine of fifteen domains (see section 10). A Thai-language retail-side route - mall newsroom pages, 7-Eleven Thailand campaign archives, Thai LINE official-account announcements - is the untried vein.
+24. Did the mechanism visible in the 2026 AFA Thailand release - the Japanese licensing window named directly on an overseas activation - replace the resident-intermediary pattern, or sit alongside it? Testable against any Taiwan or Hong Kong activation dated after 2025-04-01, and against the China build.
 
 ---
 
@@ -834,6 +1004,16 @@ Every URL cited above, with what it establishes.
 - [e.kakao.com item API, `piske-usagi`](https://e.kakao.com/api/items/piske-usagi) plus `piske-usagi-2`, `piske-usagi-3`, `big-piske-usagi` - creator name 카나헤이, IP name 피스케 & 우사기, creator id `E8R4LG`, `interestCount` 342, `itemCount` 0, `"state":"NOT_SALE"` on all four. Read 2026-08-05.
 - [e.kakao.com/t/piske-usagi](https://e.kakao.com/t/piske-usagi) and its three sibling shop pages - the public product pages, which render title only. Read 2026-08-05.
 - [x.com/Kanahei_Info_KR](https://x.com/Kanahei_Info_KR) - Korean-language fan information and group-buying account. Read 2026-08-05. Not a licence and not a row.
+
+**Thailand: events, mechanism and platform**
+- [a day magazine, 2019-05-13](https://adaymagazine.com/q-and-a-with-kanahei-illustrator/) - full Thai-language interview conducted around the Bangkok appearance; names the activity as `Meet & Greet : Kanahei Autograph Signing Event by Sweet Summer`; carries her statements that this was her first live-drawing show and the first time she felt people actually used her stickers; `article:published_time` 2019-05-13T19:06:46. Read 2026-08-05.
+- [Zipevent, THAILAND TOY EXPO 2019](https://www.zipeventapp.com/e/thailand-toy-expo-2019) - event dates 2019-05-02 to 2019-05-05, CentralWorld Bangkok, and the Thai-language line stating her first visit to Thailand. Read 2026-08-05.
+- [PR TIMES, 2026-05-15, 株式会社リアルアキバ・コミュニケーションズ](https://prtimes.jp/main/html/rd/p/000000947.000060459.html) - AFA Thailand 2026 exhibit; the 株式会社ミキサー協力のもと clause; special exhibition plus merchandise corner; event dates 2026-05-30 to 2026-05-31, Bangkok; exhibitor 株式会社REAL AKIBA; ISARIBI株式会社 details.
+- [animefestival.asia, AFA Thailand 2026 Exhibition](https://animefestival.asia/afath26/exhibition/) - Thai-side confirmation: the property under Real Akiba Group, booth E17. Read 2026-08-05.
+- [sweet-summer.com/about-us](https://sweet-summer.com/about-us/) and [/licensing](https://sweet-summer.com/licensing/) - Sweet Summer Co., Ltd., Bangkok, founded 2011, stationery and own-character creator; legal address; 日本語okです. Read 2026-08-05.
+- [sweet-summer.com WordPress REST post index](https://sweet-summer.com/wp-json/wp/v2/posts?after=2019-01-01T00:00:00&before=2020-01-01T00:00:00&per_page=100) - the company's own 2019 activity, showing its own characters and its Hong Kong Licensing Show and Creative Expo Taiwan appearances, and containing no Kanahei entry. Read 2026-08-05.
+- [THE STANDARD, 2023-03-31](https://thestandard.co/line-stickers-tips/) - the only Thai business-press appearance of the name found; a LINE representative naming her among Japanese creators sustaining popularity, in advice to Thai creators about the Japanese market.
+- `https://store.line.me/api/search/sticker?query=kanahei&offset=0&limit=40&country=TH&lang=en` - LINE STORE search endpoint; 64 products, all `onSale`, THB pricing; same query against `country=JP|TW|HK|KR|US` for the comparator totals; Thai-script query `คานาเฮ` for the localisation check. Read 2026-08-05. Caveats in section 6.4.
 
 **Rights-side self-description**
 - [kanaheis-small-animals.jp](https://kanaheis-small-animals.jp/) - official site TOP. Read 2026-08-05.
