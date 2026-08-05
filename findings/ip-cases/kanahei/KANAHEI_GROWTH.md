@@ -16,13 +16,13 @@ Reading date for all web fetches in this build: 2026-08-05.
 |---|---|
 | Origin | BUILT |
 | Japan (home) | BUILT |
-| Taiwan | NOT YET BUILT |
+| Taiwan | BUILT |
 | Hong Kong | NOT YET BUILT |
 | Korea | NOT YET BUILT |
 | Thailand | NOT YET BUILT |
 | China (mainland, outside-census-scope) | NOT YET BUILT |
 | Other markets | NOT YET BUILT |
-| Collab table | PARTIAL (Japan rows only) |
+| Collab table | PARTIAL (Japan and Taiwan rows) |
 | Cross-market synthesis | NOT YET BUILT |
 
 ---
@@ -176,20 +176,124 @@ Recorded as absence-of-evidence with the search effort stated, never as rejectio
 
 ## 3. TAIWAN
 
-NOT YET BUILT.
+### 3.1 ENTRY
 
-Lead already in hand and not yet followed: the 2014-11-06 TV Tokyo Holdings release states the overseas plan began with a trade show, not with a territory agent.
-"来年1月の香港国際ライセンシングショーの「ジャパンパビリオン」にTXCOMブースを出展するのを皮切りに海外にも展開する計画です。"
-Translation: "We plan to expand overseas as well, beginning with exhibiting a TXCOM booth at the Japan Pavilion of the Hong Kong International Licensing Show next January."
-Source: [PR TIMES, 2014-11-06](https://prtimes.jp/main/html/rd/p/000000304.000002734.html).
+Two different dates answer "entry", depending on whether the question is about rights or about consumers.
+Both are recorded here rather than collapsed into one.
 
-Second lead: the official WORKS book list includes `カナヘイの小動物 ゆるっと♡カンタン 旅行台湾華語会話` (a Taiwanese-Mandarin travel phrasebook), which is a Japan-published product about Taiwan rather than evidence of Taiwan licensing, and must not be miscounted as the latter.
-Source: [official site WORKS](https://kanaheis-small-animals.jp/works/).
+**Rights side, by 2016-05-07: a Taiwanese licensing agent already lists the property.**
+三貝多股份有限公司 (San-Byte Creative Co., Ltd., Taipei) carried a brand page headed `KANAHEI 的小動物` under 業務範疇 / 授權業務 ("business scope / licensing business") in an Internet Archive capture dated 2016-05-07.
+Source: [Wayback capture 2016-05-07 of sanbytecreative.com brand page `Part=AD000012`](https://web.archive.org/web/20160507113529/http://www.sanbytecreative.com/front/bin/ptdetail.phtml?Part=AD000012&Category=110912).
+That is a latest-by date, not a start date.
+No source read states when the appointment was made, by whom, or on what terms.
+
+**Consumer side, by 2017-06-20: a national convenience chain runs a Kanahei points campaign.**
+7-ELEVEN Taiwan (統一超商) ran a campaign site titled `7-ELEVEN 卡娜赫拉夏日出遊集點送` ("7-ELEVEN Kanahei summer outing points collection"), captured by the Internet Archive on 2017-06-20 with product pages for a two-way shoulder bag, a hooded towel, a large cooler tote and a ceramic bowl-and-chopstick set.
+Source: [Wayback capture 2017-06-20 of 7-11.com.tw/event/17KanaheiSummer/index.html](https://web.archive.org/web/20170620035616/http://www.7-11.com.tw/event/17KanaheiSummer/index.html); [product-notice page](https://web.archive.org/web/20170619215121/http://www.7-11.com.tw/event/17KanaheiSummer/notice.html).
+The archived pages carry no campaign date range, so the capture date is the evidence: the campaign was live on 7-ELEVEN Taiwan's own domain by 2017-06-20.
+
+So the Taiwan order is: agent listing (by 2016-05) → mass-retail campaign (by 2017-06) → exhibition (2017-12).
+Search effort for anything earlier: Wayback CDX sweep of the agent's whole domain back to its first capture (2013-07-21) and of `7-11.com.tw/event/*anahei*`, plus Chinese-language web search on 卡娜赫拉 with 2016 and 授權 terms.
+Nothing earlier than 2016-05-07 surfaced.
+
+### 3.2 MECHANISM
+
+**A named Taiwanese licensing agent, not a Japanese licensor operating directly.**
+三貝多 describes itself as founded in 2012 and as having converted from image-licensing management into a full brand-agency business: "三貝多成立於2012年 ... 將原本圖像授權管理核心，拓展到生活創意層面，轉型為全方位的品牌代理公司，業務範疇包括圖像授權、商品開發、影音代理、海外展覽引荐...等."
+Translation: "San-Byte was founded in 2012 ... expanding its original core of image-licensing management into the lifestyle-creative field, transforming into a full-service brand agency company, with a business scope including image licensing, product development, film/video agency, and introduction of overseas exhibitions."
+Source: [sanbytecreative.com 關於我們](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110907), read 2026-08-05.
+
+`卡娜赫拉的小動物` appears in two places on that company's current site: its 授權業務 (licensing business) roster of sixteen brands, and the brand picker on its 授權合作申請 (licensing cooperation application) form, which is the intake route a would-be Taiwanese licensee uses.
+Sources: [授權業務 list](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110912); [授權合作 application form](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110909), both read 2026-08-05.
+The site does not use the words 總代理 (sole agent) or state a territory, term or exclusivity for this brand, and none is asserted here.
+
+**The same agent also sells at retail itself.**
+三貝多's 店鋪資訊 (store information) page lists exactly one sales channel: `newii 網路商城`.
+Source: [店鋪資訊](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110910), read 2026-08-05.
+newii.com.tw's footer identifies its operator as 三貝多股份有限公司, 統一編號 (Taiwan business ID) 53943211, at the same Taipei address.
+Source: [newii.com.tw](https://www.newii.com.tw/pages/kh-info), read 2026-08-05.
+Its Kanahei catalogue is labelled item by item as either 【日本進口】 ("Japan import") or 【台灣授權】 ("Taiwan licensed").
+That split, printed on the agent's own storefront, is the clearest single artefact in this file of two parallel supply routes running under one agent: import the Japanese-made line, and separately manufacture a locally licensed line.
+
+**Exhibition promoters are separate companies from the agent.**
+The large Taiwanese exhibitions are run by exhibition-promotion firms, with the agent appearing sometimes as co-organiser and sometimes not at all (section 3.3).
+寬宏藝術經紀股份有限公司 (Kham Arts) appears as 主辦單位 on three of them; 三貝多 appears as 協辦單位 on one and as joint 主辦單位 on another.
+This is a different shape from Japan, where the rights holder itself issued the seasonal campaign releases.
+
+**Not established.**
+No source read connects the Taiwan agent to either 株式会社テレビ東京コミュニケーションズ (master licensee 2014) or 株式会社ミキサー (worldwide licensing window from 2025-04-01).
+Whether the Taiwan appointment ran through the Japanese master licensee or directly from the creator is unknown on the public record read here.
+
+### 3.3 GROWTH SHAPE
+
+Four formats, running for roughly a decade, all documented from their own sources.
+
+**Ticketed exhibitions (2017 onward), and Taipei was the first one anywhere.**
+The venue's own listing for `卡娜赫拉的愜意小鎮` at Huashan 1914 Creative Park (西1館 and 西2館, 2017-12-20 to 2018-03-25, adult ticket NT$280) describes it as her 首座大型個展 ("first large-scale solo exhibition") and states 海外首站就選在台北 ("the first overseas stop was chosen as Taipei").
+主辦單位: 飛躍文創股份有限公司、寬宏藝術經紀股份有限公司.
+Source: [huashan1914.com exhibition listing](https://www.huashan1914.com/w/huashan1914/exhibition_18022119193672164).
+Note what that claim means and does not mean: it is the venue's characterisation, and it says the first big exhibition of this IP happened in Taiwan, not in Japan.
+
+Subsequent exhibitions, each from its own listing:
+- `卡娜赫拉的扭扭世界`, Huashan 樹前草地, 2018-12-22 to 2019-02-17. 主辦單位: 品特商業股份有限公司、義皇寶生物科技有限公司. 協辦單位: 三貝多股份有限公司. Source: [huashan1914.com](https://www.huashan1914.com/w/huashan1914/exhibition_18121011095574010).
+- `卡娜赫拉的愜意小鎮 - 台中站`, 台中世界貿易中心一館, 2019-01-31 to 2019-04-07, announced on the agent's own site. Source: [sanbytecreative.com activity page](https://www.sanbytecreative.com/front/bin/ptdetail.phtml?Part=activies94&Rcg=100630), read 2026-08-05.
+- `卡娜赫拉的小動物 荒唐世界博物館`, Huashan 東2C館/東2D館, 2023-06-21 to 2023-09-10, billed as a 20th-anniversary show mixing the characters with Eastern and Western artworks. 主辦單位: 寬宏藝術經紀股份有限公司. Source: [huashan1914.com](https://www.huashan1914.com/w/huashan1914/exhibition_23053014563571664).
+- A Kaohsiung leg at the National Science and Technology Museum, 2023-12-29 to 2024-03-03, with 主辦單位 given as 寬宏藝術經紀股份有限公司、三貝多股份有限公司, appears in a Taiwanese blog write-up. Source: [vocus.cc, 2024-02](https://vocus.cc/article/65c333c5fd897800010b8dbe) - SECONDARY, blog. Kept out of the collab table until a venue-side or organiser-side source is read.
+
+**Convenience-retail points campaigns (2017, 2020, 2021, 2024).**
+7-ELEVEN Taiwan has run at least four Kanahei stamp-collection campaigns, each on its own campaign subdomain.
+Dates and quantities as printed by the retailer:
+- `卡娜赫拉夏日出遊集點送`, live by 2017-06-20 (archive capture date; no range printed).
+- `卡娜赫拉的小動物繽紛一夏集點送`, 2020-06-03 to 2020-07-12, redemption to 2020-07-14. Printed quantities: laundry bags 4 designs, first batch 240,000 units; two-way pouches 4 designs, 120,000 units; fragrance diffusers 2 designs, 60,000 units. Source: [Wayback capture 2020-12-05 of 7-11.com.tw/event/20Kanahei](https://web.archive.org/web/20201205184709/https://www.7-11.com.tw/event/20Kanahei/index.aspx).
+- `卡娜赫拉的小動物世界萌集點送`, 2021-07-28 to 2021-09-05, redemption to 2021-09-07, at 1 point per NT$40 spent for OPEN POINT members, 6 points plus cash per item. Source: [Wayback capture 2021-07-28 of 7-11.com.tw/event/21kanahei](https://web.archive.org/web/20210728051018/https://www.7-11.com.tw/event/21kanahei/index.aspx).
+- `卡娜赫拉精品集點活動`, in-store flash-purchase windows from 2024-10-16 running to 2024-11-04, 2024-11-13, 2024-11-30 and 2024-12-31 by item group, including a 35cm money box, a ceramic teapot-and-glass set, a 1.8L kettle, a multi-function grill plate and 28-inch suitcases. Source: [7-11.com.tw/event/24mickey/kanahei.aspx](https://www.7-11.com.tw/event/24mickey/kanahei.aspx), read 2026-08-05.
+The quantities matter more than the dates.
+A first batch of 240,000 units of one giveaway SKU is a national-scale FMCG production run, not a character-goods order.
+
+**National rail: Taiwan High Speed Rail, 2019 to 2025.**
+This is the deepest documented Taiwanese relationship, and every figure below is from THSR's own newsroom.
+- From 2019-11: first wave of co-branded merchandise, and a painted train running the length of the island. THSR states: "自2019年11月與日本知名插畫「卡娜赫拉的小動物」合作推出聯名商品，首波甫上市兩個月，銷售即達全年業績的40%，熱銷程度遠超預期！其中，以聯名迴力車四輛組最為搶手，上市至今銷售破萬組，其次為絨毛鑰匙圈，創下超過7,000組的銷售佳績。" Translation: "Since November 2019, in collaboration with the well-known Japanese illustration 'Kanahei's Small Animals', we launched co-branded products; the first wave reached 40% of the full-year sales performance within two months of going on sale, far exceeding expectations. The most sought-after was the co-branded four-car pull-back toy set, over 10,000 sets sold to date, followed by the plush keyring at over 7,000 sets." Source: [thsrc.com.tw, 2020-08-10](https://www.thsrc.com.tw/ArticleContent/dccf6923-ab8f-4810-843b-71f7e286f342).
+- 2020-08-10: second wave, nine items, sold on trains, in station convenience stores and vending machines, and additionally through momo, PChome 24h and the Taipei 101 observatory. Same source. The same release states the first painted train's livery was removed after 2020-09-08 for scheduled maintenance.
+- 2020-12-01: first co-branded food and drink line (bottled water, snack noodles, popcorn), sold from train trolleys, in-station 7-ELEVEN stores, vending machines and momo, and redeemable with THSR TGo loyalty points. Source: [thsrc.com.tw, 2020-12-01](https://www.thsrc.com.tw/ArticleContent/fe3786b2-3c13-4905-8cd3-e671e9ac5d71).
+- 2021-12-01 to 2022-01-02: a `禮物列車` ("gift train") co-branded limited-period store at THSR Taoyuan station, with 12 exclusive new items and five lucky-bag types (the painted-train bag limited to 200 sets, the others 500 each). Source: [thsrc.com.tw, 2021-12-01](https://www.thsrc.com.tw/ArticleContent/4ca42c40-4171-4cd9-ae9c-393fc500a3b5).
+- 2025-04-08: THSR announces that the flower-themed co-branded painted train "即將於今年7月初結束運行" ("will end operation in early July this year"), alongside a 12-car painted-train model set at NT$25,000 and new colours of the four-car toy set at NT$450. Source: [thsrc.com.tw, 2025-04-08](https://www.thsrc.com.tw/ArticleContent/ae37fc11-953e-4dd1-9e6c-bf44d7556b18).
+So the rail relationship ran from November 2019 to July 2025 across at least two painted trains, three merchandise waves, a food line and a station pop-up.
+
+**Locally licensed manufacture across ordinary categories.**
+Beyond the agent's own storefront, Taiwanese manufacturers carry the property in their own catalogues, for example 敦景企業 (Dung Jin), which lists `卡娜赫拉的小動物` among thirteen brands under a heading reading 代理品牌 ｜ 肖像授權品牌 and describes its business as 卡通IP商品開發、設計、製造、行銷 ("cartoon IP product development, design, manufacturing, marketing").
+Source: [kodomo.com.tw/brand](https://www.kodomo.com.tw/brand/), read 2026-08-05.
+That page states no dates and no relationship terms for the Kanahei line specifically, so it is cited as evidence that a licensed-manufacture layer exists, not as a dated deal.
+
+### 3.4 SCALE SIGNALS
+
+- Facebook page `卡娜赫拉 P助 & 兔兔 台灣` (facebook.com/kanahei.tw), self-described as "提供卡娜赫拉最新資訊、活動" ("providing the latest Kanahei information and events"): **54,756 likes**, read 2026-08-05 via the page's own og:description. Source: [facebook.com/kanahei.tw](https://www.facebook.com/kanahei.tw/). Caveats: this is a like count, not a follower count, and the two differ; the page does not state who operates it, so it is not established as an official channel of either the creator or the agent.
+- THSR merchandise: first wave hit 40% of full-year sales performance within two months; four-car pull-back toy set over 10,000 sets; plush keyring over 7,000 sets. As stated by THSR, 2020-08-10 (source above). These are the retailer's own figures and are contemporaneous, so no current-proxy caveat applies.
+- 7-ELEVEN Taiwan 2020 campaign production quantities: 240,000 / 120,000 / 60,000 units for three giveaway lines (source above).
+- Exhibition pricing: adult NT$280, student/child NT$250, concession NT$140 for the 2017-18 Huashan show (source above). No attendance figure was found for any Taiwanese exhibition.
+
+### 3.5 WHAT DIDN'T HAPPEN (Taiwan)
+
+Absence-of-evidence with search effort stated, never rejection.
+
+- **No permanent own-brand Kanahei store found in Taiwan.** Japan has a decade-old shop-in-shop at Kiddy Land Osaka Umeda. In Taiwan, the agent's own 店鋪資訊 page lists a single channel and it is an online mall (source above), and the physical formats found are all time-boxed: ticketed exhibitions, points campaigns, a station pop-up. Search effort: agent site section by section, 7-ELEVEN campaign archive, Chinese-language web search for 卡娜赫拉 專賣店 / 快閃店 / 常設.
+- **No Taiwan-specific LINE sticker or ranking data found.** LINE does not publish per-title figures by market and none surfaced for Taiwan.
+- **No Taiwanese source read names the Japanese rights counterparty.** Neither TXCOM nor Mixer appears in any Taiwan-side page read here. This is an absence in the record, not evidence that no such relationship exists.
+- **The `殭屍貓` (Zombie Cat) question is open, not answered.** The agent's 2017-08-08 archived application form lists both `KANAHEI` and `殭屍貓` as separate selectable brands, and the Japanese official site lists ゾンビ猫 as one of Kanahei's characters. Whether these are the same property handled as two brand lines, or two unrelated IPs, is not established by anything read here, so no claim is made either way. Source: [Wayback capture 2017-08-08 of the agent's application form](https://web.archive.org/web/20170808221627/http://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110909).
 
 ## 4. HONG KONG
 
 NOT YET BUILT.
-See the Hong Kong International Licensing Show lead quoted in section 3.
+
+Lead 1, from the Japanese side: the 2014-11-06 TV Tokyo Holdings release states the overseas plan began with a trade show, not with a territory agent.
+"来年1月の香港国際ライセンシングショーの「ジャパンパビリオン」にTXCOMブースを出展するのを皮切りに海外にも展開する計画です。"
+Translation: "We plan to expand overseas as well, beginning with exhibiting a TXCOM booth at the Japan Pavilion of the Hong Kong International Licensing Show next January."
+Source: [PR TIMES, 2014-11-06](https://prtimes.jp/main/html/rd/p/000000304.000002734.html).
+
+Lead 2, from the Taiwan side and new in this build: the Taiwanese agent 三貝多 lists two sibling offices on its contact page, `三貝多(香港)有限公司` at 香港九龍尖沙咀彌敦道132號美麗華廣場A座22樓2214室 and `上海玛齐品牌管理有限公司` in Shanghai.
+Source: [sanbytecreative.com 聯絡我們](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110911), read 2026-08-05.
+This is a corporate-group fact only.
+The page does not say which brands, if any, those offices handle, and nothing here asserts that either office represents Kanahei in its territory.
+It is recorded as the single most direct lead for both the Hong Kong and China sections.
 
 ## 5. KOREA
 
@@ -211,13 +315,17 @@ Source: [PR TIMES, 2026-05-15](https://prtimes.jp/main/html/rd/p/000000947.00006
 NOT YET BUILT.
 Marked outside-census-scope per the task definition.
 
+Lead in hand, new in this build: the Taiwanese agent's contact page lists a Shanghai entity, `上海玛齐品牌管理有限公司` ("Shanghai Maqi Brand Management Co., Ltd."), at 上海市黄浦区北京东路666号科技京城F区(西座)30楼C31室, alongside its Taipei and Hong Kong offices.
+Source: [sanbytecreative.com 聯絡我們](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110911), read 2026-08-05.
+Same caveat as Hong Kong: this establishes a corporate-group presence, not a Kanahei rights position in mainland China.
+
 ---
 
 ## 8. DOCUMENTED COLLABORATION TABLE
 
 Every row is verified from its own source.
 No row here is recalled.
-PARTIAL: Japan rows only in this build.
+PARTIAL: Japan and Taiwan rows in this build.
 
 | Market | Year | Brand / counterparty | Format | Source |
 |---|---|---|---|---|
@@ -238,6 +346,20 @@ PARTIAL: Japan rows only in this build.
 | Japan | 2026 | 株式会社ナカジマコーポレーション (かえるのピクルス / Pickles the Frog) | First collaboration between the two IPs, stated as such | [PR TIMES 2026-04-10](https://prtimes.jp/main/html/rd/p/000000030.000031390.html) |
 | Japan | 2026 | 株式会社オートバックスセブン (Autobacs) | Collaboration campaign | [PR TIMES 2026-06-19](https://prtimes.jp/main/html/rd/p/000000223.000010789.html) |
 | Japan | 2026 | Canva Japan株式会社 | Official template collection on Canva | [PR TIMES 2026-08-03](https://prtimes.jp/main/html/rd/p/000000064.000066101.html) |
+| Taiwan | by 2016 | 三貝多股份有限公司 (San-Byte Creative) | Property listed on the agent's own 授權業務 (licensing business) roster; latest-by date, not a start date | [Wayback 2016-05-07, agent brand page](https://web.archive.org/web/20160507113529/http://www.sanbytecreative.com/front/bin/ptdetail.phtml?Part=AD000012&Category=110912) |
+| Taiwan | by 2017 | 統一超商 7-ELEVEN Taiwan | Points campaign `卡娜赫拉夏日出遊集點送`, live on 7-ELEVEN's own domain by 2017-06-20 | [Wayback 2017-06-20](https://web.archive.org/web/20170620035616/http://www.7-11.com.tw/event/17KanaheiSummer/index.html) |
+| Taiwan | 2017 | 飛躍文創股份有限公司 + 寬宏藝術經紀股份有限公司 | Ticketed exhibition `卡娜赫拉的愜意小鎮`, Huashan 1914 Taipei, 2017-12-20 to 2018-03-25; venue calls it her first large solo exhibition and first overseas stop | [huashan1914.com](https://www.huashan1914.com/w/huashan1914/exhibition_18022119193672164) |
+| Taiwan | 2018 | 品特商業股份有限公司 + 義皇寶生物科技有限公司 (協辦 三貝多) | Ticketed exhibition `卡娜赫拉的扭扭世界`, Huashan 樹前草地, 2018-12-22 to 2019-02-17 | [huashan1914.com](https://www.huashan1914.com/w/huashan1914/exhibition_18121011095574010) |
+| Taiwan | 2019 | 三貝多股份有限公司 | Exhibition `卡娜赫拉的愜意小鎮 - 台中站`, Taichung World Trade Center Hall 1, 2019-01-31 to 2019-04-07 | [sanbytecreative.com](https://www.sanbytecreative.com/front/bin/ptdetail.phtml?Part=activies94&Rcg=100630) |
+| Taiwan | 2019 | 台灣高速鐵路股份有限公司 (THSR) | First co-branded merchandise wave and first painted train, from 2019-11 (stated retrospectively in the 2020 release) | [thsrc.com.tw 2020-08-10](https://www.thsrc.com.tw/ArticleContent/dccf6923-ab8f-4810-843b-71f7e286f342) |
+| Taiwan | 2020 | 統一超商 7-ELEVEN Taiwan | Points campaign `卡娜赫拉的小動物繽紛一夏集點送`, 2020-06-03 to 2020-07-12; first batch 240,000 units on one SKU line | [Wayback 2020-12-05 of 7-11 campaign site](https://web.archive.org/web/20201205184709/https://www.7-11.com.tw/event/20Kanahei/index.aspx) |
+| Taiwan | 2020 | 台灣高速鐵路股份有限公司 (THSR) | Second merchandise wave, 9 items, extended to momo, PChome 24h and Taipei 101 observatory, 2020-08-10 | [thsrc.com.tw 2020-08-10](https://www.thsrc.com.tw/ArticleContent/dccf6923-ab8f-4810-843b-71f7e286f342) |
+| Taiwan | 2020 | 台灣高速鐵路股份有限公司 (THSR) | First co-branded food and drink line (bottled water, snack noodles, popcorn), from 2020-12-01 | [thsrc.com.tw 2020-12-01](https://www.thsrc.com.tw/ArticleContent/fe3786b2-3c13-4905-8cd3-e671e9ac5d71) |
+| Taiwan | 2021 | 統一超商 7-ELEVEN Taiwan | Points campaign `卡娜赫拉的小動物世界萌集點送`, 2021-07-28 to 2021-09-05 | [Wayback 2021-07-28 of 7-11 campaign site](https://web.archive.org/web/20210728051018/https://www.7-11.com.tw/event/21kanahei/index.aspx) |
+| Taiwan | 2021 | 台灣高速鐵路股份有限公司 (THSR) | `禮物列車` co-branded limited-period store at THSR Taoyuan station, 2021-12-01 to 2022-01-02 | [thsrc.com.tw 2021-12-01](https://www.thsrc.com.tw/ArticleContent/4ca42c40-4171-4cd9-ae9c-393fc500a3b5) |
+| Taiwan | 2023 | 寬宏藝術經紀股份有限公司 (Kham Arts) | Ticketed 20th-anniversary exhibition `卡娜赫拉的小動物 荒唐世界博物館`, Huashan 1914, 2023-06-21 to 2023-09-10 | [huashan1914.com](https://www.huashan1914.com/w/huashan1914/exhibition_23053014563571664) |
+| Taiwan | 2024 | 統一超商 7-ELEVEN Taiwan | Points and flash-purchase campaign `卡娜赫拉精品集點活動`, from 2024-10-16, item windows to 2024-12-31 | [7-11.com.tw](https://www.7-11.com.tw/event/24mickey/kanahei.aspx) |
+| Taiwan | 2025 | 台灣高速鐵路股份有限公司 (THSR) | Flower-theme painted train wind-down announced, ending early July 2025; NT$25,000 12-car model set | [thsrc.com.tw 2025-04-08](https://www.thsrc.com.tw/ArticleContent/ae37fc11-953e-4dd1-9e6c-bf44d7556b18) |
 
 Table rule for later builds: a row enters only after its own source has been fetched and its date and counterparty read from that source.
 Titles seen in a search-results list are leads, not rows.
@@ -247,12 +369,21 @@ Titles seen in a search-results list are leads, not rows.
 ## 9. CROSS-MARKET SYNTHESIS
 
 NOT YET BUILT.
-Requires at least Taiwan, Hong Kong and one more overseas market before the sequence question can be answered honestly.
+Requires Hong Kong and at least one more overseas market before the sequence question can be answered honestly.
 
-One observation is already safe to record because it rests on a single quoted primary source, and it constrains what the synthesis can later say:
-the licensor's stated overseas method at the outset was **trade-show exhibition into a Japan Pavilion**, not appointment of a named territory agent.
+Three observations are already safe to record because each rests on a quoted primary source, and together they constrain what the synthesis can later say.
+
+1. The licensor's stated overseas method at the outset was **trade-show exhibition into a Japan Pavilion**, not appointment of a named territory agent.
 Source: [PR TIMES, 2014-11-06](https://prtimes.jp/main/html/rd/p/000000304.000002734.html).
-Whether that plan executed, and what agents took over per territory, is exactly what the market sections must establish.
+Whether that plan executed, and what agents took over per territory, is what the remaining market sections must establish.
+
+2. In Taiwan the mechanism that is actually visible is **a resident licensing agent**, 三貝多, listed with the property by 2016-05-07 and still listing it in 2026, with an application form that is the intake route for Taiwanese licensees.
+That is a different mechanism from the Japanese one, where the rights holder itself issued campaign releases.
+Sources in section 3.2.
+
+3. The **first large-scale exhibition of this IP anywhere happened in Taipei**, not in Japan, according to the venue's own listing (2017-12-20).
+Source: [huashan1914.com](https://www.huashan1914.com/w/huashan1914/exhibition_18022119193672164).
+That single fact is enough to rule out a naive "home market saturates first, then exports" reading, and any synthesis written later must account for it.
 
 ---
 
@@ -262,7 +393,9 @@ Recorded so no later reader re-derives these as findings.
 
 - **"kanahei.com is the licensing site."** Rejected as the working entry point. `https://kanahei.com/` returned no response over curl on 2026-08-05 (`000`); `https://www.kanahei.com/` did resolve, but the site carrying the corporate licensing enquiry desk and the current rights information is `kanaheis-small-animals.jp`, relaunched by Mixer on 2025-04-01. Source: [at Press 2025-04-01](https://www.atpress.ne.jp/news/0705633).
 - **PR TIMES date-range filtering on the keyword search.** Adding `released_since` / `released_until` parameters to the `searchkey` endpoint returned a byte-identical result set to the unfiltered query (257,436 vs 257,434 bytes, same 40 articles). The endpoint ignores them. Older releases must be reached another way (paging parameter, site-scoped search, or company-scoped release lists).
-- **Japanese-language learning/travel books as market evidence.** The WORKS list contains Taiwanese-Mandarin and Korean phrasebooks and English study books. These are Japan-published products with foreign-language subject matter. They are not evidence of Taiwan, Korea or English-market licensing and are excluded from the collab table.
+- **Japanese-language learning/travel books as market evidence.** The WORKS list contains Taiwanese-Mandarin and Korean phrasebooks and English study books. These are Japan-published products with foreign-language subject matter. They are not evidence of Taiwan, Korea or English-market licensing and are excluded from the collab table. The Taiwan section as built does not rest on any of them.
+- **Dating an agency relationship from the agent's licensing-application form.** Tried and rejected as unreliable. On 三貝多's site the 授權合作申請 brand picker and the 授權業務 brand roster disagreed: the 2016-05-07 capture shows KANAHEI already on the 授權業務 page while the application form still listed the older nine-brand set, and the form only caught up by the 2017-08-08 capture. Use the business/brand page as the index and treat the form as lagging. A second trap: the roster used the Latin string `KANAHEI` until at least 2017 and `卡娜赫拉的小動物` later, so a Chinese-only grep returns a false negative for the earlier years.
+- **7-ELEVEN Taiwan's live campaign URLs as evidence for past campaigns.** The event paths `/event/17KanaheiSummer/`, `/event/20Kanahei/` and `/event/21kanahei/` all still return HTTP 200 today, but the bodies are 532-byte stubs containing only the string `7-ELEVEN`. A live 200 here means nothing. The campaign content and its printed date ranges survive only in the Internet Archive, which is what the rows in section 8 cite.
 
 ---
 
@@ -274,6 +407,10 @@ Recorded so no later reader re-derives these as findings.
 4. Social following per platform, per market, with read dates. Not yet gathered. Accounts identified so far: [X @kanahei_animals](https://x.com/kanahei_animals), [Instagram @kanahei_animals](https://www.instagram.com/kanahei_animals/), both named in the [at Press 2025-04-01 release](https://www.atpress.ne.jp/news/0705633).
 5. LINE sticker sales or ranking data beyond the 2014 award. LINE does not publish per-title figures; the annual `あけおめスタンプ` and year-summary releases from LINEヤフー may carry ranked lists worth reading.
 6. Pre-2020 Japan collab rows. The 40-result PR TIMES window reached only back to 2024 plus the 2014/2015 releases found by targeted search. The 2016-2023 stretch is a documented gap in this build, not an absence.
+7. When and through whom was 三貝多 appointed for Taiwan, and does the appointment run through TXCOM, through Mixer since 2025-04-01, or directly from the creator? Nothing read states it. The 2016-05-07 archive capture is only a latest-by bound.
+8. Do 三貝多(香港)有限公司 and 上海玛齐品牌管理有限公司 handle this property in their territories? Their existence is sourced; their brand scope is not. This is the first thing to test in the Hong Kong build.
+9. Who operates the Taiwanese Facebook page facebook.com/kanahei.tw, and is it an official channel? The page states its purpose but not its operator.
+10. Taiwanese exhibition attendance. Four ticketed exhibitions are documented and not one attendance figure surfaced. Promoter-side or venue-side reporting may carry them.
 
 ---
 
@@ -305,6 +442,35 @@ Every URL cited above, with what it establishes.
 - [PR TIMES, 2026-06-19, 株式会社オートバックスセブン](https://prtimes.jp/main/html/rd/p/000000223.000010789.html)
 - [PR TIMES, 2026-08-03, Canva Japan株式会社](https://prtimes.jp/main/html/rd/p/000000064.000066101.html)
 - [official site news, 2025-11-20](https://kanaheis-small-animals.jp/news/20251121/) - Kiddy Land Osaka Umeda 10th anniversary.
+
+**Taiwan: agent and its own retail channel**
+- [sanbytecreative.com 關於我們](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110907) - 三貝多 founded 2012, self-described brand agency, business scope. Read 2026-08-05.
+- [sanbytecreative.com 授權業務](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110912) - current sixteen-brand licensing roster including 卡娜赫拉的小動物. Read 2026-08-05.
+- [sanbytecreative.com 授權合作](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110909) - licensee intake form and its brand picker. Read 2026-08-05.
+- [sanbytecreative.com 店鋪資訊](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110910) - single listed sales channel, newii online mall. Read 2026-08-05.
+- [sanbytecreative.com 聯絡我們](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110911) - Taipei, Hong Kong and Shanghai group entities and addresses. Read 2026-08-05.
+- [sanbytecreative.com activity page `activies94`](https://www.sanbytecreative.com/front/bin/ptdetail.phtml?Part=activies94&Rcg=100630) - Taichung leg of the 愜意小鎮 exhibition, 2019-01-31 to 2019-04-07. Read 2026-08-05.
+- [Wayback 2016-05-07, agent brand page `AD000012`](https://web.archive.org/web/20160507113529/http://www.sanbytecreative.com/front/bin/ptdetail.phtml?Part=AD000012&Category=110912) - `KANAHEI 的小動物` under 授權業務, the earliest Taiwan evidence found.
+- [Wayback 2017-08-08, agent application form](https://web.archive.org/web/20170808221627/http://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110909) - KANAHEI and 殭屍貓 in the brand picker.
+- [newii.com.tw](https://www.newii.com.tw/pages/kh-info) - NEWii mall operated by 三貝多股份有限公司, 統一編號 53943211; catalogue split into 【日本進口】 and 【台灣授權】. Read 2026-08-05.
+- [kodomo.com.tw/brand](https://www.kodomo.com.tw/brand/) - 敦景企業 licensed-manufacture brand list including 卡娜赫拉的小動物. Read 2026-08-05.
+
+**Taiwan: exhibitions**
+- [huashan1914.com, 卡娜赫拉的愜意小鎮](https://www.huashan1914.com/w/huashan1914/exhibition_18022119193672164) - 2017-12-20 to 2018-03-25; organisers; first-solo-exhibition and first-overseas-stop claims; ticket prices.
+- [huashan1914.com, 卡娜赫拉的扭扭世界](https://www.huashan1914.com/w/huashan1914/exhibition_18121011095574010) - 2018-12-22 to 2019-02-17; organisers and co-organiser.
+- [huashan1914.com, 荒唐世界博物館](https://www.huashan1914.com/w/huashan1914/exhibition_23053014563571664) - 2023-06-21 to 2023-09-10; 20th-anniversary framing; organiser.
+- [vocus.cc, 2024-02](https://vocus.cc/article/65c333c5fd897800010b8dbe) - SECONDARY blog, Kaohsiung leg 2023-12-29 to 2024-03-03. Not used for any table row.
+
+**Taiwan: retail and rail**
+- [Wayback 2017-06-20, 7-ELEVEN 卡娜赫拉夏日出遊集點送](https://web.archive.org/web/20170620035616/http://www.7-11.com.tw/event/17KanaheiSummer/index.html) and its [product-notice page](https://web.archive.org/web/20170619215121/http://www.7-11.com.tw/event/17KanaheiSummer/notice.html).
+- [Wayback 2020-12-05, 7-ELEVEN 繽紛一夏集點送](https://web.archive.org/web/20201205184709/https://www.7-11.com.tw/event/20Kanahei/index.aspx) - dates and production quantities.
+- [Wayback 2021-07-28, 7-ELEVEN 世界萌集點送](https://web.archive.org/web/20210728051018/https://www.7-11.com.tw/event/21kanahei/index.aspx) - dates and point mechanics.
+- [7-11.com.tw, 卡娜赫拉精品集點活動](https://www.7-11.com.tw/event/24mickey/kanahei.aspx) - 2024 campaign windows. Read 2026-08-05.
+- [thsrc.com.tw, 2020-08-10](https://www.thsrc.com.tw/ArticleContent/dccf6923-ab8f-4810-843b-71f7e286f342) - 2019-11 start, sales figures, second wave, painted-train removal date.
+- [thsrc.com.tw, 2020-12-01](https://www.thsrc.com.tw/ArticleContent/fe3786b2-3c13-4905-8cd3-e671e9ac5d71) - first co-branded food and drink line.
+- [thsrc.com.tw, 2021-12-01](https://www.thsrc.com.tw/ArticleContent/4ca42c40-4171-4cd9-ae9c-393fc500a3b5) - 禮物列車 station pop-up, 2021-12-01 to 2022-01-02.
+- [thsrc.com.tw, 2025-04-08](https://www.thsrc.com.tw/ArticleContent/ae37fc11-953e-4dd1-9e6c-bf44d7556b18) - painted train ending early July 2025, model pricing.
+- [facebook.com/kanahei.tw](https://www.facebook.com/kanahei.tw/) - Taiwanese fan-information page, 54,756 likes. Read 2026-08-05.
 
 **Rights-side self-description**
 - [kanaheis-small-animals.jp](https://kanaheis-small-animals.jp/) - official site TOP. Read 2026-08-05.
