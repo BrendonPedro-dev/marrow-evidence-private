@@ -20,10 +20,12 @@ Reading date for all web fetches in this build: 2026-08-05.
 | Hong Kong | BUILT |
 | Korea | BUILT |
 | Thailand | BUILT (thin by evidence, not by effort - see 6.5) |
-| China (mainland, outside-census-scope) | NOT YET BUILT |
-| Other markets | NOT YET BUILT |
-| Collab table | PARTIAL (Japan, Taiwan, Hong Kong, Korea and Thailand rows) |
-| Cross-market synthesis | PARTIAL (twelve source-constrained observations; sequence question answerable for five markets) |
+| China (mainland, outside-census-scope) | BUILT as a RECORDED BOUNDED ABSENCE (see 7.5 for how weakly it is bounded) |
+| Other markets | NOT PURSUED. The task's stop condition is the six priority markets and says not to iterate past it chasing minor markets. Leads seen but not built: a United States LINE storefront presence (62 products, same query and day as the others, section 6.4) and a KLab release stating the mobile game went live in 143+ countries and regions with an English build (section 7.2). Neither is a licensing record and neither is claimed as one. |
+| Collab table | COMPLETE for the six priority markets: 56 rows, every verifiable pairing found |
+| Cross-market synthesis | WRITTEN: fifteen source-constrained observations (9.0) plus the sequence (9a), the mechanism pattern (9b) and the PBC-relevant read (9c) |
+
+The stop condition set for this study is met: six priority markets each carry a sourced section or a recorded honest absence, the collaboration table holds every verifiable pairing found, and the synthesis and the PBC read are written.
 
 ---
 
@@ -694,12 +696,113 @@ So Thailand's absence of retail evidence is **weaker evidence of absence than Ko
 
 ## 7. CHINA (mainland) - OUTSIDE CENSUS SCOPE
 
-NOT YET BUILT.
-Marked outside-census-scope per the task definition.
+Marked outside-census-scope per the task definition, and built to the same five question-heads as the other markets.
 
-Lead in hand, new in this build: the Taiwanese agent's contact page lists a Shanghai entity, `上海玛齐品牌管理有限公司` ("Shanghai Maqi Brand Management Co., Ltd."), at 上海市黄浦区北京东路666号科技京城F区(西座)30楼C31室, alongside its Taipei and Hong Kong offices.
+**This section is a recorded bounded absence, not a market section.**
+No mainland activation was fetchable from its own source, so the collaboration table carries zero mainland rows.
+The bound on that absence is weaker than any other market's in this study and section 7.5 states exactly how weak, because the research was conducted from outside mainland China's network and nearly every mainland index refused to answer.
+
+### 7.1 ENTRY
+
+**Not established, in either direction.**
+No dated mainland activation was verified from a mainland first-party source.
+
+What exists instead is a set of index entries that cannot be resolved to a document.
+Google News RSS (`hl=zh-CN&gl=CN&ceid=CN:zh-Hans`), re-run 2026-08-05 across five query strings, returns a Simplified-Chinese corpus for this IP that is composed almost entirely of Weibo reposts carried under the publication name 手机新浪网, plus Taiwanese and Hong Kong outlets.
+Three of those entries describe mainland pairings:
+
+- 「🌸@名创优品✖ 卡娜赫拉的小动物…P助与粉红兔兔的可爱新品，今天开售啦」 ("MINISO x Kanahei's Small Animals … the cute new Piske and Usagi products go on sale today"), 手机新浪网, index date 2024-09-10.
+- 「卡娜赫拉的小动物和上好佳联名啦…发售日期： 9月9日起…发售渠道： oishi上好佳旗舰店…内含零食7包」 ("Kanahei's Small Animals and Oishi have a collaboration … on sale from 9 September … through the Oishi flagship store … containing 7 snack packs"), 手机新浪网, index date 2025-09-12.
+- 「@卡娜赫拉的小动物官方微博 x 上海交通卡联动第一弹上线啦~【最爱贴贴】款…【悠然假期】」 ("Kanahei's Small Animals official Weibo x Shanghai Transport Card, first wave of the collaboration is live … the 'Love Sticking Together' design … the 'Leisurely Holiday' design"), 手机新浪网, index date 2025-09-16.
+
+Source for all three: Google News RSS, queries `卡娜赫拉 名创优品`, `卡娜赫拉 上好佳`, `卡娜赫拉 交通卡`, read 2026-08-05.
+
+**None of the three is used as a row and none is stated as a fact.**
+The link on each item is the opaque `CBMi…` form, which base64-decodes to a protobuf-framed identifier rather than a URL, and the resolver that would turn it into one is blocked.
+Weibo itself is closed by every route tried: `m.weibo.cn/api/container/getIndex` returns `{"ok":-100}` with an SSO redirect, `weibo.com/ajax/profile/info` returns HTTP 403, a Googlebot user-agent gets a 302, and Wayback CDX is empty for both profile paths.
+So the primary document behind each index entry is unreachable, and the Marugame rule bars promoting a headline into a pairing.
+
+One of the three was tested against a first-party mainland source and did **not** corroborate.
+See section 7.5.
+
+### 7.2 MECHANISM
+
+**Unobservable.**
+This is the fifth distinct mechanism state in the study, and it is a different kind of state from the other four: not a shape that was found, but a shape that could not be looked at.
+
+No mainland intermediary is named in anything readable here.
+The standing lead is corporate-group presence only: the Taiwanese agent's own contact page lists a Shanghai entity, `上海玛齐品牌管理有限公司` ("Shanghai Maqi Brand Management Co., Ltd."), at 上海市黄浦区北京东路666号科技京城F区(西座)30楼C31室, alongside its Taipei and Hong Kong offices.
 Source: [sanbytecreative.com 聯絡我們](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110911), read 2026-08-05.
-Same caveat as Hong Kong: this establishes a corporate-group presence, not a Kanahei rights position in mainland China.
+Nothing read connects that entity to this property.
+`qcc.com` and `aiqicha.baidu.com`, the two free company-registry routes, were both unreachable from here, so the entity's scope is not established either.
+The same bar applies as in Hong Kong: this is a corporate-group fact, not a Kanahei rights position.
+
+**The one Simplified-Chinese corporate document found about this IP points away from the mainland at every channel.**
+KLab China 可来软件开发（上海）有限公司 published a release dated 2023-08-24 announcing that the mobile game 《卡娜赫拉的小动物 P助与粉红兔兔的小旅行》 was adding English and **Traditional** Chinese and going live in over 143 countries and regions.
+It routes players to a Facebook page (`facebook.com/KanaheiRyokoutc`) and a Twitter account, links the Japanese App Store entry and Google Play, and prints the copyright string `© kanahei / TXCOM ©KLabGames`.
+Its own summary of the overseas footprint reads 「其系列不仅在日本国内拥有相当高的人气，更在中国台湾等地与多个品牌推出联名合作」 ("the series is not only very popular within Japan, it has also launched brand collaborations and run events in places such as Taiwan, China").
+Source: [klab.com/cn/press/release/2023/0824](https://www.klab.com/cn/press/release/2023/0824/klabklab2023824143_pp_p_p_plinesnsp_p.html), read 2026-08-05, HTTP 200.
+A Simplified-Chinese release, published by a Shanghai-registered subsidiary, that offers Traditional Chinese rather than Simplified as the Chinese-language build, sends users to two platforms unavailable in the mainland, and cites Taiwan as the collaboration record, is not evidence of a mainland programme.
+It is the closest thing to a mainland-facing rights document this study found, and every channel in it leads outward.
+
+### 7.3 GROWTH SHAPE
+
+**No documented growth shape.**
+Zero rows in the collaboration table.
+
+The one shape statement that can be made is negative and is sourced from the Japanese side.
+See 7.5.
+
+### 7.4 SCALE SIGNALS
+
+**None obtainable.**
+No mainland follower figure was readable, because Weibo is closed by every route listed in 7.1.
+This is the only market in the study where the audience question could not be attempted at all: Japan, Taiwan, Hong Kong, Korea and Thailand each yielded at least one number, however weak.
+
+An account named 卡娜赫拉的小动物官方微博 ("Kanahei's Small Animals official Weibo") appears repeatedly as the referenced handle inside the Weibo reposts that Google News indexes, most recently on 2026-07-03 and 2026-06-11.
+Source: Google News RSS, query `P助 粉红兔兔`, read 2026-08-05.
+That an account of that name is referenced is all that is established.
+Its follower count, its operator, and whether it is official in any rights sense are all unread, and no claim here rests on it.
+
+### 7.5 WHAT DIDN'T HAPPEN (China, mainland)
+
+Two negatives are worth more than the rest of this section, because both come from a first-party source rather than from a failed search.
+
+**1. The rights holder's own news archive is machine-readable, and it does not announce mainland activity.**
+`kanaheis-small-animals.jp/wp-json/wp/v2/news?per_page=100&page=1..4` returns **350 posts spanning 2017-02-03 to 2026-08-03** (read 2026-08-05).
+Scanned across thirteen mainland-related terms (中国, 中國, 上海, 北京, 広州, 深圳, 大陸, 微博, Weibo, 微信, WeChat, 天猫, 淘宝), the archive returns exactly **two** hits, and neither is an activity:
+
+- 2023-06-21, on the Taipei exhibition post: 「（中国語名：『卡娜赫拉的小動物 荒唐世界博物館』）が世界に先駆けて台湾で開催されます」 ("(Chinese-language name: …) will be held in Taiwan ahead of the rest of the world"). The term 中国 appears only inside the compound 中国語名, "Chinese-language name". [Source](https://kanaheis-small-animals.jp/news/621-2/).
+- 2025-08-11, inside a Tokyo venue's accepted-payments list: 「QR決済（PayPay／楽天ペイ／au PAY／メルペイ／d払い／Alipay／WeChat Pay）」. [Source](https://kanaheis-small-animals.jp/news/rabcollabo202508/).
+
+The control is what makes this meaningful: the same archive names Taiwan in **seven** posts, including two 2026 posts about a Traditional-Chinese app release and a Taipei hotel collaboration.
+The rights holder announces Taiwanese activity repeatedly on its own channel and mainland activity never.
+Two readings survive that evidence and this file does not choose between them: either there is no mainland programme to announce, or a mainland programme is announced only on a mainland channel that this study could not read.
+
+**2. The one mainland lead that could be tested against a first-party source failed the test.**
+The Shanghai Transport Card storefront is client-rendered but has a readable product API, `m.sctcd.com/m/product/query/<id>`.
+A threaded sweep of ids 1-1400 on 2026-08-05 returned **1,369 product records**, of which **107** sit in the `IP类` (IP category) bucket alongside 50 more in 文创.
+Not one product name contains 卡娜赫拉, P助, 粉红兔兔 or Kanahei.
+The same catalogue does carry named foreign character IP, including 「KAKAO来上海 交通联合纪念卡」 and 「KAKAO新年狮子 / KAKAO新年桃子 交通联合软胶卡」 (Kakao Friends), 航海王 (One Piece), 迪士尼花木兰 and 唐老鸭 (Disney), and 多特蒙德 (Borussia Dortmund).
+So the storefront does license foreign character properties onto transit cards, and this property is absent from its catalogue as read.
+That is **not** proof the 2025 collaboration did not happen: a delisted or elsewhere-sold card would produce the same result.
+It is a first-party negative on a specific lead, and it is the only mainland lead in this section that got one.
+
+**3. Format absences.**
+No mainland exhibition, cafe, pop-up, retail campaign, transport collaboration or permanent store was verified from any source.
+Every positive format that Taiwan and Hong Kong carry is unevidenced here.
+
+**The bound on all of the above, stated plainly.**
+This absence is bounded far more weakly than Korea's or Thailand's, and the reason is tooling, not evidence.
+Every one of these returned no usable result on 2026-08-05: `bing.com` (71KB page, zero result blocks), `baidu.com/s` (1,488-byte page, zero result blocks), `sogou.com` (anti-bot stub), `so.com`, `quark.sm.cn`, DuckDuckGo `html/` and `lite/` (HTTP 202 challenges), `search.sina.com.cn` (443-byte stub), `search.sohu.com` (JS shell, both documented API paths 404), `so.news.163.com` (no connection), `so.thepaper.cn` and `thepaper.cn` (no connection / 403), `jiemian.com` (no connection), `smzdm.com` (HTTP 202 challenge), `api.bilibili.com` search (HTTP 412), `ctoy.com.cn` site search (403), `qcc.com` (no connection), `aiqicha.baidu.com` (302).
+`r.inews.qq.com/searchMore` answers with JSON but returns no article list.
+`winshang.com`, `licensing.org.cn`, `miniso.cn`, `oishi.com.cn`, `msweekly.com` and `sptcc.com` are reachable but serve no server-rendered search.
+`kanahei.cn` and `kanahei.com.cn` do not resolve.
+
+**A single reachable index is not a substitute for a market sweep.**
+Where Korea's gap was argued against an index that demonstrably reached both sides of it, and Thailand's against nine blocked portals out of fifteen, mainland China's absence rests on one index that returns platform reposts rather than newsroom articles - and when the "outlet" is a platform rather than a newsroom, there is no domain to sweep with Wayback CDX, which is the technique that recovered Hong Kong's entire 2016-2019 run.
+The honest statement is that **this study could not observe the mainland Chinese market**, and that what it did observe from the Japanese and Taiwanese sides is consistent with there being no announced mainland programme.
+Nothing here should be read as a claim that the property was rejected in, withdrawn from, or absent from mainland China.
 
 ---
 
@@ -707,14 +810,17 @@ Same caveat as Hong Kong: this establishes a corporate-group presence, not a Kan
 
 Every row is verified from its own source.
 No row here is recalled.
-PARTIAL: Japan, Taiwan, Hong Kong, Korea and Thailand rows.
-55 rows at this build: 17 Japan, 14 Taiwan, 17 Hong Kong, 5 Korea, 2 Thailand.
+COMPLETE for the six priority markets, in the sense that it holds every verifiable pairing this study found.
+56 rows: 18 Japan, 14 Taiwan, 17 Hong Kong, 5 Korea, 2 Thailand, **0 mainland China**.
+The mainland zero is a recorded bounded absence, not a finding of no activity - see section 7.5 for exactly how weakly it is bounded.
+Known gaps inside the built markets are stated rather than papered over: the Japan run has a documented 2016-2023 thin stretch caused by the PR TIMES 40-result cap (section 10), so the Japan count is a floor, not a census.
 
 | Market | Year | Brand / counterparty | Format | Source |
 |---|---|---|---|---|
 | Japan | 2014 | 株式会社テレビ東京コミュニケーションズ (TXCOM) | Master licensee exclusive contract (merchandising, advertising, audiovisual) | [PR TIMES 2014-11-06](https://prtimes.jp/main/html/rd/p/000000304.000002734.html) |
 | Japan | 2015 | 株式会社キデイランド (Kiddy Land), Osaka Umeda | Official shop-in-shop `カナヘイのおみせ`, opened 2015-09-19 | [PR TIMES 2015-09-10](https://prtimes.jp/main/html/rd/p/000000091.000001117.html) |
 | Japan | 2015 | LINE (sticker) x Kiddy Land (Kansai-dialect supervision) | LINE sticker `カナヘイのピスケ&うさぎ ゆるっと関西弁`, released 2015-09-10 | [PR TIMES 2015-09-10](https://prtimes.jp/main/html/rd/p/000000091.000001117.html) |
+| Japan | 2024 | 銀座三越 (Ginza Mitsukoshi) | Exhibition `カナヘイの小動物 世界トンデモ博物館`, 2024-03-27 to 2024-04-15, announced by the rights holder as 日本初上陸 (first landing in Japan) of the show held in Taiwan in 2023 | [kanaheis-small-animals.jp news 2024-02-29](https://kanaheis-small-animals.jp/news/_327/) |
 | Japan | 2024 | 株式会社髙島屋 (Takashimaya), Osaka | Department-store pop-up `ゆるっとストア ポップアップ` | [PR TIMES 2024-10-25](https://prtimes.jp/main/html/rd/p/000000863.000069859.html) |
 | Japan | 2024 | テレビ東京グループ | Winter season fair `黄昏ブルーアワー`, from 2024-12-21 | [PR TIMES 2024-12-10](https://prtimes.jp/main/html/rd/p/000001919.000002734.html) |
 | Japan | 2024 | LINEヤフー株式会社 | `LINE シェフ` in-app collaboration campaign | [PR TIMES 2024-12-10](https://prtimes.jp/main/html/rd/p/000000890.000129774.html) |
@@ -775,11 +881,17 @@ Titles seen in a search-results list are leads, not rows.
 
 ## 9. CROSS-MARKET SYNTHESIS
 
-PARTIAL.
-Japan, Taiwan, Hong Kong, Korea and Thailand are built.
-China is not, so nothing below is offered as the finished sequence.
+All six priority markets are built: five as sourced market sections, mainland China as a recorded bounded absence (section 7).
 
-Twelve observations are safe to record because each rests on a quoted primary source, and together they constrain what the synthesis can later say.
+This section has two parts and they are deliberately kept apart.
+**9.0 is the observation set**: fifteen statements, each resting on a quoted primary source, which constrain what any reading can say.
+**9a, 9b and 9c are the reading**: the sequence, the mechanism pattern, and the PBC-relevant interpretation.
+9c in particular is interpretation and is labelled as such throughout.
+Nothing in 9a-9c introduces a fact that is not already sourced in sections 1-8.
+
+### 9.0 The observation set
+
+Fifteen observations are safe to record because each rests on a quoted primary source, and together they constrain what the reading below can say.
 
 1. The licensor's stated overseas method at the outset was **trade-show exhibition into a Japan Pavilion**, not appointment of a named territory agent.
 Source: [PR TIMES, 2014-11-06](https://prtimes.jp/main/html/rd/p/000000304.000002734.html).
@@ -851,6 +963,155 @@ This is not offered as a claim about the Thai market; it is a description of wha
 Every earlier overseas activation with a named rights party names a resident intermediary (San-Byte in Taiwan and Hong Kong, Danal in Korea) and none names TXCOM or Mixer.
 The 2026 AFA Thailand release names 株式会社ミキサー directly as the cooperating party, one year after Mixer took the worldwide licensing window on 2025-04-01 ([at Press, 2025-04-01](https://www.atpress.ne.jp/news/0705633)).
 Two data points do not make a change in operating model, and this is recorded as an observation to test against China and against any later Taiwan or Hong Kong activation dated after 2025-04-01 - not as a finding that the model changed.
+The China build could not test it, because no mainland activation was fetchable at all (section 7).
+
+13. **The rights holder's own channel announces Taiwan repeatedly and mainland China never.**
+Its news archive holds 350 posts from 2017-02-03 to 2026-08-03.
+Seven name Taiwan, including two 2026 posts.
+Thirteen mainland-related search terms return two hits, one of which is the phrase 中国語名 ("Chinese-language name") on a Taipei exhibition post and the other a Tokyo venue's payment-methods list.
+Source: [kanaheis-small-animals.jp WP REST news index](https://kanaheis-small-animals.jp/wp-json/wp/v2/news?per_page=100&page=1), read 2026-08-05.
+This is the strongest evidence in the study about mainland China and it is evidence about what is announced, not about what exists.
+Section 7.5 states both surviving readings.
+
+14. **The marquee format ran Taiwan first and Japan second, and the rights holder says so in its own words.**
+The 20th-anniversary exhibition 「カナヘイの小動物 世界トンデモ博物館」 opened at Huashan 1914 in Taipei on 2023-06-21, described on the rights holder's own site as 「世界に先駆けて台湾で開催されます」 ("will be held in Taiwan ahead of the rest of the world").
+The same show opened at Ginza Mitsukoshi on 2024-03-27, announced by the same channel as 「日本初上陸」 ("first landing in Japan") of 「カナヘイのデビュー20周年を記念して台湾で2023年に開催された」 the show held in Taiwan in 2023.
+Sources: [2023-06-21 post](https://kanaheis-small-animals.jp/news/621-2/); [2024-02-29 post](https://kanaheis-small-animals.jp/news/_327/).
+This upgrades observation 3 from a venue's claim to a first-party statement by the rights side, and it makes the Taiwan-before-Japan ordering of the exhibition format a nine-month, dated fact rather than an inference.
+
+15. **Mainland China is a fifth mechanism state, and it is a different kind of state from the other four.**
+Japan, Taiwan and Hong Kong, Korea, and Thailand each yielded a shape that could be described from documents.
+Mainland China yielded no readable document about the property from any mainland first party.
+It is recorded as **unobservable from the position this study was conducted from**, with the failed-index list written out in section 7.5, rather than as an absence of activity.
+
+---
+
+## 9a. THE SEQUENCE
+
+**What the dated record supports.**
+
+The defensible ordering is coarse, and it is coarse for a reason: almost every overseas date in this study is a latest-by bound (an archive capture, a season-3 label, an event listing) rather than a start date, and the file has refused throughout to convert bounds into start dates.
+Within that limit, the sequence is:
+
+1. **Japan, 2003 to 2014: eleven years of commercial illustration with no licensing layer.** Debut 2003, mobile content and then LINE stickers, creator-direct throughout. Section 1 and 2.1.
+2. **Japan, 2014-11-06: the licensing layer appears in a single step.** TXCOM takes a master licensee exclusive contract and opens licensee recruitment the same day. Section 2.2.
+3. **Overseas, stated intent 2014-11-06 and first documented activity 2016-03.** The plan named in the 2014 release is a trade-show booth in the Japan Pavilion at the January 2015 Hong Kong International Licensing Show. Whether it executed is unknown (open question 1). The first documented overseas consumer activity is Hong Kong, LCX Ocean Terminal, 2016-03-01 to 03-31, and it is import retail: goods 由日本直接空運到港, air-freighted from Japan. Section 4.1.
+4. **Hong Kong and Taiwan open inside the same roughly fifteen-month window, 2016-03 to 2017-06.** The order between them is **not** established and this file does not claim one. Hong Kong's earliest consumer date (2016-03-01) precedes Taiwan's earliest consumer date (2017-06-20), but Taiwan's rights-side bound (the agent's own brand page, archived 2016-05-07) sits between them, and both Taiwan dates are archive capture bounds. Observation 4.
+5. **Korea, by 2018-06-11 at the latest**, on KakaoTalk, through a Korean company, in a launch sequence compressed into five months. Section 5.
+6. **Thailand, by 2019-05-02 at the latest** on the licensing side, as an artist appearance rather than a product. The platform side (LINE storefront availability) is undatable and therefore cannot be placed in this sequence at all - open question 21. Section 6.
+7. **Mainland China: unplaceable.** Not late, not absent, not early. Section 7.
+
+**What the evidence says about why that order, and what it does not.**
+
+Two candidate explanations are testable against what is in this file, and they give opposite verdicts.
+
+*Platform footprint as the driver* is **partly supported and clearly insufficient.**
+Supporting it: the audience arrived before the merchandise in the two earliest overseas markets. Hong Kong's own covering outlet treats LINE stickers as the reason its readers already knew the characters, and the entry format was imported Japanese stock rather than locally manufactured goods (section 4.1). That is a fan-base-first, not retail-first, opening.
+Against it: Korea, a market where LINE is not the dominant messenger, entered on KakaoTalk instead - so the platform did not carry her in, a *local* platform did (observation 8). And Thailand, where the LINE storefront carries 64 Kanahei-matching products, the third-largest of six storefronts queried the same day, produced two activations and no resident intermediary in the entire record (observation 10). Platform footprint and licensing depth come apart hard enough that footprint cannot be the ordering variable.
+
+*Agent territory as the driver* is **supported for the two Chinese-language markets and unsupported everywhere else.**
+Supporting it: one Taiwanese agency, San-Byte Creative, is on the Taiwan rights record from 2016 and is the named licensor on the one Hong Kong document that prints a rights line at all (observation 5). Those two markets are also the two with continuous, roughly annual activity from 2016 to 2025.
+Against it: no agent is named in Korea's record (a general content company is), none at all in Thailand's, and none anywhere for the mainland.
+
+The honest reading of the sequence is therefore **neither** a platform rollout **nor** an agent rollout.
+It is: the audience arrived first and arrived by platform; where a resident intermediary then existed to convert that audience, the market became continuous; where one did not, the market stayed episodic regardless of how much audience the platform data suggests is there.
+That statement is a description of six cases, not a mechanism proven to cause anything.
+
+**One ordering fact that any account has to survive, and most would not predict.**
+The marquee format went **outward first**.
+The first large-scale solo exhibition of this IP anywhere was in Taipei from 2017-12-20, per the venue's own listing calling it 首座大型個展 with 海外首站就選在台北 (observation 3).
+The 20th-anniversary exhibition opened in Taipei on 2023-06-21 「世界に先駆けて」, ahead of the rest of the world, and reached Japan nine months later at Ginza Mitsukoshi on 2024-03-27 as 「日本初上陸」 - both phrases published by the rights holder itself (observation 14).
+A model in which the home market saturates and then exports its formats is contradicted twice, six years apart, by first-party statements.
+
+---
+
+## 9b. THE MECHANISM PATTERN
+
+**The finding is that there is no single mechanism.**
+Five markets produced five different answers to "who carried her in", and the differences are not degrees of the same arrangement - they are different types of counterparty occupying the same structural slot.
+
+| Market | Who occupies the intermediary slot | Named on | Documented depth |
+|---|---|---|---|
+| Japan | The rights holder itself, under a master licence, issuing campaign releases directly | Its own PR TIMES releases, 2014-11-06 onward | 18 rows, 2014-2026 |
+| Taiwan | A resident character-licensing agency, 三貝多 / San-Byte Creative | Its own licensing-business roster and licensee intake form | 14 rows, 2016-2025, continuous |
+| Hong Kong | The **same** Taiwanese agency name, with no territory qualifier | One event microsite footer, in one year | 17 rows, 2016-2025, continuous |
+| Korea | A general content company, 다날엔터테인먼트 / Danal Entertainment - music distribution, original content, platform services | Its own words in Korean trade press, 2018 | 5 rows; 3 in 2018, then 2019-2023 empty |
+| Thailand | **Nobody resident.** The only rights-side party named is the Japanese licensing window, 株式会社ミキサー, cooperating with a Japanese exhibitor | A Japanese PR TIMES release, 2026 | 2 rows, both appearances |
+| China (mainland) | Unobservable | Nothing readable | 0 rows |
+
+Sources for every cell are in sections 2.2, 3.2, 4.2, 5.2, 6.2 and 7.2.
+
+**Three patterns hold across that table.**
+
+*First: the intermediary type predicts continuity better than the market does.*
+The two markets with a named character-licensing agency in the slot (Taiwan, Hong Kong) are the two with continuous roughly-annual activity across a decade.
+The market with a general content company in the slot ran three formats in five months and then produced nothing findable for five years.
+The market with nobody in the slot produced two appearances in seven years.
+This is six cases and one IP, so it is a pattern in this record, not a law - but it is the single most consistent thing in the study.
+
+*Second: the rights-side company is nearly invisible overseas, and that is itself the finding.*
+Across 38 overseas activations in five markets, the Japanese rights holder is named on exactly two: the copyright string `© kanahei / TXCOM` in a Hong Kong event footer and in a KLab China release, and 株式会社ミキサー as 協力 on the 2026 Thai convention exhibit.
+Everywhere else the overseas document names the mall, the retailer, the rail operator or the resident intermediary, and is silent on the chain of title.
+Nothing read in five markets states who appointed whom, on what territory, for what term (open questions 7, 12, 16, 18).
+A study of the public record can establish **that** an intermediary occupies the slot and **never** how it got there.
+
+*Third: the audience layer and the merchandise layer were structurally separate from the beginning, and stayed that way.*
+In 2015 the same Kiddy Land campaign printed `© kanahei / TXCOM` on merchandise and `©kanahei` alone on the LINE sticker (section 2.2).
+Eleven years later the pattern is unchanged in shape: the platform catalogue is live in six storefronts on one reading day including markets with almost no licensing record (observation 10), while the licensing structure is market-specific, intermediary-dependent, and in one market wholly absent.
+The audience engine never went under an intermediary; the merchandise did, market by market, in five different ways.
+
+**What changed in 2025, and what cannot yet be said about it.**
+The worldwide licensing window moved to 株式会社ミキサー on 2025-04-01.
+The first and only overseas activation naming a Japanese rights-side party directly comes one year later, in Thailand (observation 12).
+Whether that is a change of operating model or one exhibitor's phrasing is **not** established: two data points, one market, and the China build could not test it because nothing mainland was fetchable.
+It is recorded as the thing to test next, not as a finding.
+
+---
+
+## 9c. THE PBC-RELEVANT READ (interpretation)
+
+**This subsection is interpretation, not evidence.**
+Everything above rests on quoted primary sources.
+Everything below is a reading of those sources, written for PBC's own use, and it is stated as "this case suggests".
+It is one IP.
+No sentence here is a claim about any market, and none of it generalises from n=1 to a rule.
+
+**1. This case suggests the licensing layer is a step change, not a ramp.**
+Eleven years of commercial illustration produced no licensing layer at all.
+A platform result in 2014 (LINE Creators Stamp AWARD runner-up) was followed within months by a broadcaster subsidiary's exclusive master licence, and licensee recruitment opened the day that was announced.
+The slow part of this story is the eleven years; the fast part is the last leg.
+For a creator PBC advises, the read is that the audience asset is built long before anyone will structure it, and that when structuring arrives it arrives as a single counterparty taking a broad position - not as a gradual accumulation of deals.
+
+**2. This case suggests the audience travels and the licensing structure does not.**
+Her stickers were purchasable in six storefronts on a single reading day, including a market with two activations and no intermediary.
+Her merchandise programme is continuous in exactly the two markets where a resident licensing agency is on the record, episodic where a non-specialist company held the slot, and near-absent where nobody did.
+The reading: **regional reach is a platform property; regional revenue is an intermediary property.** They are not the same asset and one does not convert into the other by itself.
+This is the observation PBC's fit-not-fame thesis would predict, arrived at from the opposite direction - the fame here was real, portable and free, and it still did not produce a market without someone local to convert it.
+
+**3. This case suggests the intermediary's *type* matters more than its size or its enthusiasm.**
+Korea's launch was the tidiest in the study: emoticons, a merchandise line into five named bookstore chains, and a first pop-up store, inside five months, all through one company that told the press it held the global character business rights.
+It is also the thinnest sustained record of any built market, with five subsequent years empty in the reachable index and the entry channel now off sale.
+Taiwan's and Hong Kong's intermediary was a character-licensing agency with a licensee intake form - less dramatic at launch, continuous for a decade.
+The read for a creator choosing a partner: a fast, well-resourced launch by a company whose core business is something else is not evidence of a durable market, and a licensing agency's boring intake pipeline may be worth more than a bigger partner's better opening.
+
+**4. This case suggests the marquee formats can debut outside the home market, and that this is a choice someone made twice.**
+The first large-scale solo exhibition anywhere was Taipei 2017.
+The 20th-anniversary exhibition premiered in Taipei in 2023 「世界に先駆けて」 and reached Japan nine months later as 「日本初上陸」.
+Both statements are the rights side's own.
+The read: "prove it at home, then export" is not how this IP's biggest formats actually ran. Where the intermediary and the demand were, the format went - and that was a smaller market than the home one.
+For PBC's creators, whose home market is Taiwan, that inversion is the directly relevant part: this is a case where Taiwan was the venue a Japanese IP chose to launch its largest format in, twice.
+
+**5. This case suggests what a creator can and cannot learn from public record - which is a caution about PBC's own diligence.**
+Across five overseas markets and 38 activations, this study could not establish a single appointment, territory, term or exclusivity.
+Rights lines appear in event-microsite footers, not in trade press.
+An agency's roster page dates a relationship better than its application form; a licensee's own corporate history is usable as a negative signal when a property drops out of it.
+The read for PBC: when advising a creator on who represents them where, the public record will show **who is operating** and will almost never show **on what terms**. Any diligence that expects to find terms in public sources will come back empty, and any confident claim about another party's territory or exclusivity, made from public sources, is not supportable.
+
+**6. What this case cannot be used for.**
+It cannot support a claim about how independent-origin IP scales in general - it is one IP, with a platform award, a broadcaster subsidiary and a decade of prior professional practice behind it.
+It cannot support a market-size or ranking claim anywhere: no market in this study published a sales figure attributable to this property except Taiwan, and those are the counterparty's own characterisations.
+It cannot support a claim that any market rejected or dropped the property. Korea's five-year gap, Hong Kong's missing exhibition layer, Thailand's two activations and mainland China's zero rows are all absences after a described search, three of them behind indexes this study has documented as narrow.
+And it cannot support a claim about the mainland Chinese market in either direction.
 
 ---
 
@@ -874,6 +1135,11 @@ Recorded so no later reader re-derives these as findings.
 - **Assuming a Thai character company that hosted an event holds the licence.** Explicitly rejected as an inference. The event title printed by a day magazine ends "by Sweet Summer", and Sweet Summer Co., Ltd. is a real Bangkok character-and-stationery company with a licensing contact page. But its own site carries **zero** Kanahei content - WordPress search on `kanahei`, `piske`, `usagi` and `คานาเฮ` each returns ไม่พบข้อมูล, the REST post search returns `[]`, its 2019 post list has no May entry, and a 3,000-URL Wayback CDX sweep of the domain returns no matching path. The company is named in this file only as the string that appears in the event title, with that limit stated.
 - **Thai national-press WordPress REST as a search route.** Mostly unavailable, and the pattern is worth recording because it differs from the Philippines and Indonesia. Of fifteen Thai portals tried on 2026-08-05: `thairath.co.th`, `sanook.com`, `mgronline.com`, `positioningmag.com` returned 404 on `/wp-json/wp/v2/posts` (no REST route); `matichon.co.th`, `prachachat.net` and `brandbuffet.in.th` returned 403; `themomentum.co` returned 401; `workpointtoday.com` returned 406; `marketeeronline.co` answered once then 429'd. Only `adaymagazine.com`, `thestandard.co`, `thumbsup.in.th`, `bltbangkok.com` and `dailynews.co.th` answered cleanly, and only the first two returned anything relevant. Any Thai absence claim has to carry this bound.
 - **The Thai LINE storefront count as a market-size or popularity figure.** Rejected as a reading, kept as an availability count. `store.line.me/api/search/sticker` returns products the storefront will sell in that country, matched on a Latin title/author string; it has no download, revenue or ranking field, it undercounts storefronts that localise titles into non-Latin scripts, and the matched set mixes her own sets with licensor-authored sets she drew and with unrelated creators whose names collide. Section 6.4 states all three caveats inline and no cross-market ranking is drawn from the six-country figures beyond the ordering itself.
+- **The three mainland pairings visible in Google News RSS (MINISO 2024-09-10, Oishi 上好佳 2025-09-09, Shanghai Transport Card 2025-09-16).** Recorded as leads, rejected as rows, and they must stay rejected until a first-party document is fetched. All three are Weibo reposts carried under the publication name 手机新浪网, whose Google News links are the opaque `CBMi…` protobuf-framed form rather than URLs, and Weibo is closed by every route tried (`m.weibo.cn` API returns `{"ok":-100}` with an SSO redirect, `weibo.com/ajax/profile/info` returns 403, Googlebot gets a 302, Wayback CDX is empty). The headline text is quoted in section 7.1 as index-entry evidence about what the index contains, which is a different claim from the collaboration having happened. One of the three was tested first-party and did not corroborate: see the next entry.
+- **The Shanghai Transport Card sweep as proof that collaboration did not happen.** Rejected as a reading, kept as a bounded first-party negative. `m.sctcd.com/m/product/query/<id>` over ids 1-1400 returned 1,369 product records on 2026-08-05, 107 of them in the `IP类` category and 50 more in 文创, with no product name containing 卡娜赫拉, P助, 粉红兔兔 or Kanahei - while the same catalogue carries Kakao Friends, One Piece, Disney and Borussia Dortmund cards. A delisted card, a card sold through another storefront, or an id outside the swept range would each produce exactly this result. What it establishes is that the storefront does license foreign character IP and that this property is not in the catalogue as read.
+- **Mainland Chinese search indexes, as a class.** Seventeen were tried on 2026-08-05 and none returned a usable result set; the full list with its failure modes is in section 7.5, and it includes `baidu.com/s` (1,488-byte page, zero result blocks) and `bing.com` (71KB page, zero result blocks). The consequence is stated rather than hidden: mainland China's absence in this file is bounded by tooling, not by evidence, and it is the weakest-bounded absence in the study. `r.inews.qq.com/searchMore` deserves a specific note because it looks like a working API - it returns HTTP 200 with well-formed JSON echoing the query term, and no article list.
+- **`kanahei.cn` and `kanahei.com.cn` as a mainland official channel.** Neither hostname resolves (DNS failure, 2026-08-05). No mainland-facing official site is cited anywhere in this file.
+- **The KLab China release as evidence of a mainland programme.** Rejected, and it is used in section 7.2 for the opposite purpose. The release is in Simplified Chinese from a Shanghai-registered subsidiary, but the language build it announces is **Traditional** Chinese, the social channels it routes players to are Facebook and Twitter, the stores it links are the Japanese App Store and Google Play, and its own summary of the collaboration record names Taiwan. It is a mainland-published document whose every channel points outward.
 - **7-ELEVEN Taiwan's live campaign URLs as evidence for past campaigns.** The event paths `/event/17KanaheiSummer/`, `/event/20Kanahei/` and `/event/21kanahei/` all still return HTTP 200 today, but the bodies are 532-byte stubs containing only the string `7-ELEVEN`. A live 200 here means nothing. The campaign content and its printed date ranges survive only in the Internet Archive, which is what the rows in section 8 cite.
 
 ---
@@ -903,7 +1169,12 @@ Recorded so no later reader re-derives these as findings.
 21. When did Kanahei stickers first become purchasable in the Thai LINE storefront? LINE's endpoint carries no release or first-availability date and the store pages are client-rendered. Without that date, Thailand's platform layer cannot be placed in the market sequence at all.
 22. Why is there a Taiwanese-localised sticker edition (`-TW ver.`) and no Thai one, when Thailand is one of LINE's large markets? Absence of a localised edition is documented; the reason is not stated anywhere read.
 23. Does any Thai retail activity exist that the reachable index simply cannot see? The Thai portal sweep was blocked at nine of fifteen domains (see section 10). A Thai-language retail-side route - mall newsroom pages, 7-Eleven Thailand campaign archives, Thai LINE official-account announcements - is the untried vein.
-24. Did the mechanism visible in the 2026 AFA Thailand release - the Japanese licensing window named directly on an overseas activation - replace the resident-intermediary pattern, or sit alongside it? Testable against any Taiwan or Hong Kong activation dated after 2025-04-01, and against the China build.
+24. Did the mechanism visible in the 2026 AFA Thailand release - the Japanese licensing window named directly on an overseas activation - replace the resident-intermediary pattern, or sit alongside it? Testable against any Taiwan or Hong Kong activation dated after 2025-04-01. The China build could **not** test it: nothing mainland was fetchable.
+25. Did the three mainland pairings indexed as Weibo reposts (MINISO 2024-09, 上好佳 2025-09, 上海交通卡 2025-09) actually happen, and under whose licence? Each needs one first-party document - a brand newsroom page, a Tmall or JD listing, a transit-card product page - and none was reachable from outside the mainland. This is the single highest-value unanswered question in the file, because three mainland pairings inside two years would change the shape of section 7 entirely.
+26. Is there a mainland-operating intermediary at all, and is `上海玛齐品牌管理有限公司` it? The entity exists on the Taiwan agent's own contact page and nothing read connects it to this property. `qcc.com` and `aiqicha.baidu.com` were both unreachable, so even its registered business scope is unread.
+27. Why does the rights holder's own news archive announce Taiwan seven times and mainland China never, across 350 posts and nine years? Two readings survive (no mainland programme, or a mainland programme announced only on a mainland channel) and distinguishing them requires reading 微博 or 微信公众号 output, neither of which was reachable.
+28. What is the follower count of the account referenced as 卡娜赫拉的小动物官方微博, and who operates it? Weibo is closed by every route tried, so mainland audience scale is the one scale question in this study that could not be attempted at all.
+29. Did the exhibition format's Taiwan-first ordering repeat by design or by circumstance? Two shows six years apart both premiered in Taipei, one of them explicitly 「世界に先駆けて」, and no source read states why. A promoter-side or rights-side interview would settle whether this reflects an intermediary's initiative, venue availability, or a deliberate strategy.
 
 ---
 
@@ -1015,8 +1286,17 @@ Every URL cited above, with what it establishes.
 - [THE STANDARD, 2023-03-31](https://thestandard.co/line-stickers-tips/) - the only Thai business-press appearance of the name found; a LINE representative naming her among Japanese creators sustaining popularity, in advice to Thai creators about the Japanese market.
 - `https://store.line.me/api/search/sticker?query=kanahei&offset=0&limit=40&country=TH&lang=en` - LINE STORE search endpoint; 64 products, all `onSale`, THB pricing; same query against `country=JP|TW|HK|KR|US` for the comparator totals; Thai-script query `คานาเฮ` for the localisation check. Read 2026-08-05. Caveats in section 6.4.
 
+**China (mainland)**
+- [klab.com/cn/press/release/2023/0824](https://www.klab.com/cn/press/release/2023/0824/klabklab2023824143_pp_p_p_plinesnsp_p.html) - the only Simplified-Chinese corporate release found about this IP. KLab China 可来软件开发（上海）有限公司, 2023-08-24, HTTP 200. Establishes: English and **Traditional** Chinese builds, 143+ countries and regions, Facebook and Twitter as the player channels, Japanese App Store and Google Play links, `© kanahei / TXCOM ©KLabGames`, and the overseas footprint described as 「在中国台湾等地与多个品牌推出联名合作」. Read 2026-08-05.
+- `https://m.sctcd.com/m/product/query/<id>` - Shanghai Transport Card storefront product API. Sweep of ids 1-1400 on 2026-08-05 returned 1,369 records, 107 in `IP类`, 50 in 文创, zero name matches on 卡娜赫拉 / P助 / 粉红兔兔 / Kanahei, against present Kakao Friends, One Piece, Disney and Borussia Dortmund cards. A bounded first-party negative on one lead, not proof of anything wider.
+- [Google News RSS, `hl=zh-CN&gl=CN&ceid=CN:zh-Hans`](https://news.google.com/rss/search?q=%E5%8D%A1%E5%A8%9C%E8%B5%AB%E6%8B%89%20%E8%81%94%E5%90%8D&hl=zh-CN&gl=CN&ceid=CN:zh-Hans) - used as a lead index only, across five query strings. Its Simplified-Chinese corpus for this IP is Weibo reposts under 手机新浪网 plus Taiwanese and Hong Kong outlets. Item links are the opaque `CBMi…` form and are unresolvable. Read 2026-08-05. Nothing from it is a row.
+- [sanbytecreative.com 聯絡我們](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110911) - `上海玛齐品牌管理有限公司`, Shanghai, listed as a sibling entity of the Taiwan agent. Existence and address only; brand scope unstated. Read 2026-08-05.
+
 **Rights-side self-description**
 - [kanaheis-small-animals.jp](https://kanaheis-small-animals.jp/) - official site TOP. Read 2026-08-05.
+- [kanaheis-small-animals.jp WP REST news index](https://kanaheis-small-animals.jp/wp-json/wp/v2/news?per_page=100&page=1) - pages 1-4 return 350 posts, 2017-02-03 to 2026-08-03. The machine-readable record of what the rights holder announces on its own channel. Establishes the seven-Taiwan-posts / two-non-activity-mainland-hits contrast in section 7.5. Read 2026-08-05.
+- [kanaheis-small-animals.jp/news/621-2/](https://kanaheis-small-animals.jp/news/621-2/) - 2023-06-21, Taipei 20th-anniversary exhibition, 「世界に先駆けて台湾で開催されます」, and the 中国語名 usage.
+- [kanaheis-small-animals.jp/news/_327/](https://kanaheis-small-animals.jp/news/_327/) - 2024-02-29, the same exhibition at Ginza Mitsukoshi 2024-03-27 to 04-15, announced as 「日本初上陸」 of the show held in Taiwan in 2023.
 - [kanaheis-small-animals.jp/works](https://kanaheis-small-animals.jp/works/) - collab sticker list, collab client list, book list. Read 2026-08-05.
 - [kanaheis-small-animals.jp/character/chara_1.html](https://kanaheis-small-animals.jp/character/chara_1.html) - Piske & Usagi character definition. Read 2026-08-05.
 
