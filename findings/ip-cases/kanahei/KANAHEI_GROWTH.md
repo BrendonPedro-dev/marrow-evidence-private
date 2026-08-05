@@ -17,13 +17,13 @@ Reading date for all web fetches in this build: 2026-08-05.
 | Origin | BUILT |
 | Japan (home) | BUILT |
 | Taiwan | BUILT |
-| Hong Kong | NOT YET BUILT |
+| Hong Kong | BUILT |
 | Korea | NOT YET BUILT |
 | Thailand | NOT YET BUILT |
 | China (mainland, outside-census-scope) | NOT YET BUILT |
 | Other markets | NOT YET BUILT |
-| Collab table | PARTIAL (Japan and Taiwan rows) |
-| Cross-market synthesis | NOT YET BUILT |
+| Collab table | PARTIAL (Japan, Taiwan and Hong Kong rows) |
+| Cross-market synthesis | PARTIAL (six source-constrained observations; sequence question answerable for three markets) |
 
 ---
 
@@ -282,18 +282,122 @@ Absence-of-evidence with search effort stated, never rejection.
 
 ## 4. HONG KONG
 
-NOT YET BUILT.
+### 4.1 ENTRY
 
-Lead 1, from the Japanese side: the 2014-11-06 TV Tokyo Holdings release states the overseas plan began with a trade show, not with a territory agent.
+**Earliest verifiable Hong Kong commercial activity found: a month-long limited-period official sales point inside LCX, Ocean Terminal, Harbour City, Tsim Sha Tsui, running 2016-03-01 to 2016-03-31.**
+The trade-press listing names the property directly and describes what was sold:
+"大家有用過Kanahei's Small animals「LINE貼圖」嗎? 早前喺日本開設Kanahei's Small animals POP-UP café，今次終於都嚟香港！"
+Translation: "Have you used the Kanahei's Small animals LINE stickers? A Kanahei's Small animals POP-UP café opened in Japan earlier, and this time it has finally come to Hong Kong."
+"場內亦特別設立期間限定的Kanahei's Small animals官方銷售點，所有貨品由日本直接空運到港"
+Translation: "A limited-period official Kanahei's Small animals sales point has also been set up on site; all goods are air-freighted to Hong Kong directly from Japan."
+Source: [UHK 港生活, 2016-03-10](https://hk.ulifestyle.com.hk/activity/detail/104212/), datePublished 2016-03-10, event dates printed as 2016年3月1日 - 2016年3月31日, address 尖沙咀海運大廈三階LCX.
+
+Three things about that entry are worth separating out, because each is a different kind of claim.
+
+1. The format was **import retail inside a mall, not a licensed local manufacture**.
+The listing's own words are 由日本直接空運到港 (air-freighted directly from Japan).
+Nothing in it names a Hong Kong licensee, a local manufacturer or an agent.
+
+2. The **platform is named as the reason the reader would already know the characters**: the article opens by asking whether the reader has used the LINE stickers.
+The audience is presumed to pre-exist the retail.
+
+3. **This is 14 months after the stated Hong Kong trade-show plan, and the two are not linked by any source read here.**
+The 2014-11-06 TV Tokyo Holdings release said the overseas push would open with a booth at the January 2015 Hong Kong International Licensing Show:
 "来年1月の香港国際ライセンシングショーの「ジャパンパビリオン」にTXCOMブースを出展するのを皮切りに海外にも展開する計画です。"
 Translation: "We plan to expand overseas as well, beginning with exhibiting a TXCOM booth at the Japan Pavilion of the Hong Kong International Licensing Show next January."
 Source: [PR TIMES, 2014-11-06](https://prtimes.jp/main/html/rd/p/000000304.000002734.html).
+Whether TXCOM actually exhibited in January 2015 is still unverified, and no source read connects that booth to the March 2016 LCX activation.
+The two facts sit next to each other in time and are not asserted here to be cause and effect.
 
-Lead 2, from the Taiwan side and new in this build: the Taiwanese agent 三貝多 lists two sibling offices on its contact page, `三貝多(香港)有限公司` at 香港九龍尖沙咀彌敦道132號美麗華廣場A座22樓2214室 and `上海玛齐品牌管理有限公司` in Shanghai.
+### 4.2 MECHANISM
+
+**The one Hong Kong activation whose own official site prints a rights line names a Taiwanese agent as the licensor.**
+The official event site for the 2022 Hong Kong charity themed run carries this footer verbatim:
+
+> ©️ kanahei / TXCOM | www.kanahei.com | Licensed by San-Byte Creative Co., Ltd. All Rights Reserved.
+
+Source: [ksarun.hk (official event site), Wayback capture 2021-12-14](https://web.archive.org/web/20211214084109/https://ksarun.hk/zh/).
+
+That single line carries three separable facts, and only these three.
+
+- The copyright notation at that date was `kanahei / TXCOM`, consistent with the Japanese master-licence state established in section 2.2.
+- The licensor named for this Hong Kong event is **San-Byte Creative Co., Ltd.**, which is the English name 三貝多 uses for itself and the same party established in section 3.2 as the Taiwan-resident agent.
+- The string carries **no territory qualifier**. It says "Licensed by San-Byte Creative Co., Ltd.", not "San-Byte Creative (Hong Kong) Limited". Nothing here establishes which group entity actually issued the Hong Kong licence, nor the territory, exclusivity or term of any agreement. Those are exactly the things the public record does not state and this file does not estimate.
+
+The same page names the promoter layer separately from the rights layer, the way the Taiwanese exhibition pages did:
+"主辦單位 領跑活動策劃有限公司" ("Organiser: R-aces Event Management Company Limited"), self-described as "專業活動策劃和顧問公司，專注舉辦主題跑步活動和亞洲封路賽事" ("a professional event-planning and consulting company focused on themed running events and road-closure races in Asia"), The beneficiary is given in Chinese only, as 香港復康力量, described on the same page as a Hong Kong-registered charitable rehabilitation-services body founded in 1995.
+Source: same capture.
+No English name for the beneficiary appears on the page, so none is supplied here.
+
+**Corporate-group facts that bound the reading, and do not extend it.**
+The Taiwanese agent's own contact page lists sibling entities `三貝多(香港)有限公司` at 香港九龍尖沙咀彌敦道132號美麗華廣場A座22樓2214室 and `上海玛齐品牌管理有限公司` in Shanghai.
 Source: [sanbytecreative.com 聯絡我們](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110911), read 2026-08-05.
-This is a corporate-group fact only.
-The page does not say which brands, if any, those offices handle, and nothing here asserts that either office represents Kanahei in its territory.
-It is recorded as the single most direct lead for both the Hong Kong and China sections.
+HKTDC's sourcing directory separately carries a supplier store for "San-Byte Creative Co Ltd" listed as **Osaka, Japan**, "Advertise since: 1 Feb 2014", supplier info last updated 17 Aug 2020.
+Source: [sourcing.hktdc.com](https://sourcing.hktdc.com/en/Supplier-Store/sanbytecreativecoltd), read 2026-08-05.
+So the group has at least Taipei, Hong Kong, Shanghai and Japan-side presences on the public record.
+That is a description of the agent's own footprint.
+It is not a statement of which entity holds what for this property, and no such statement was found.
+
+**What no Hong Kong source read here does.**
+Not one of the seventeen Hong Kong activations in section 8 names a Hong Kong licensee, sub-licensor or agent in its own trade-press coverage.
+The mall, retailer and operator are named; the rights chain is not.
+The run's own event site is the only Hong Kong-side document found that prints a licensor at all.
+
+### 4.3 GROWTH SHAPE
+
+What followed the 2016 import-retail entry was **sustained, roughly annual, and spread across formats rather than concentrated in one**.
+Seventeen dated Hong Kong activations are in the table in section 8, running 2016 to 2025 with no gap longer than about eighteen months.
+Four clusters are visible in that set, and each is sourced row by row.
+
+**Mall seasonal installations, which are the dominant format.**
+The ONE Tsim Sha Tsui Lunar New Year 「新春萌遊花園」 with a limited-period store and tiered spend-redemption, 2017-01-19 to 2017-02-19; 置富Malls (Fortune Malls) 「萌樂豬年春節祭」 across eleven named malls plus a limited-period store, 2019-01-10 to 2019-02-20; 新都會廣場 Metroplaza Kwai Fong cartoon farm, called 全港首個 (the first in Hong Kong) by both outlets that covered it, opening 2020-07-10 with the rooftop farm running to 2021-01-03; 香港仔中心 Aberdeen Centre Christmas installation with a stamp-collection unlock for a WhatsApp sticker set, 2021-12-11 to 2021-12-27; MOKO 新世紀廣場 Mong Kok summer-festival market, 2022-06-09 to 2022-06-26; 荷里活廣場 Plaza Hollywood Diamond Hill Christmas 「玩轉粉紅遊樂園」, 2024-11-22 to 2025-01-05.
+
+**Retail and convenience redemptions.**
+7-Eleven Hong Kong appears twice in 2018, first with two folding umbrellas (2018-07-03) and then with a four-item set of card holder, multi-purpose bag, eco bag and hair band (2018-08-20).
+Watsons Hong Kong ran photo installations at five named branches plus a chain-wide gift-with-purchase over two windows in April 2021.
+Maxim's MX put a five-product own-brand series into more than forty MX and Food² outlets from 2023-10-06 and 2023-10-20 on a spend-HK$58 redemption.
+
+**Food and beverage.**
+山下菓子 (Yamashita Kashi) ran a three-location limited-period store from 2017-07-06 to 2017-08-31, then a second collaboration at T.O.P. Mong Kok in 2019 with ticketed character meet-and-greet sessions on 2019-05-26 and 2019-06-02.
+A POP-UP CAFE ran inside the YATA supermarket at apm Kwun Tong with six themed food items.
+
+**Infrastructure-scale counterparties, the same shape Taiwan showed.**
+MTR Corporation issued a four-design commemorative ticket set plus phone accessories from late May 2018, placed by the covering outlet in the same series as its earlier Sanrio, Kumamon and Doraemon commemorative tickets.
+Source: [UHK 港生活, 2018-05-07](https://hk.ulifestyle.com.hk/activity/detail/110559/).
+This is the Hong Kong analogue of the Taiwan High Speed Rail programme in section 3.3, and it is **earlier** than the Taiwanese one (MTR 2018-05, THSR from 2019-11).
+
+The single event that is not retail, mall or F&B is the charity themed run: 「P助與粉紅兔兔繽紛跑」, registration opening 2021-11-10, originally set for 2022-01-23, postponed and held 2022-11-06 at Hong Kong Science Park, with timed 3km and 5km races and a non-timed 1.5km fun run.
+Source: [ksarun.hk Wayback capture 2021-12-14](https://web.archive.org/web/20211214084109/https://ksarun.hk/zh/); [UHK 港生活, 2022-08-03](https://hk.ulifestyle.com.hk/activity/detail/122572/).
+
+### 4.4 SCALE SIGNALS
+
+**No Hong Kong-specific audience figure for an official channel was found.**
+No official Hong Kong brand account for this property surfaced in any search run here.
+The largest Hong Kong-facing community page found states in its own description that it is unofficial:
+"由喜歡Kanahei的粉絲所成立的非官方頁面" ("an unofficial page set up by fans who like Kanahei"), 9,125 likes.
+Source: [facebook.com/KanaheiFansHkTw](https://www.facebook.com/KanaheiFansHkTw/), og:description read 2026-08-05.
+Follower-proxy caveat applies in full: that is a 2026 reading, it is a like count rather than a follower count, the page is fan-operated, and it spans Hong Kong and Taiwan together, so it cannot be attributed to either market.
+
+**Where Hong Kong does carry hard numbers, they are counterparty-footprint numbers, not audience numbers.**
+- Eleven named malls in the 置富Malls 2019 Lunar New Year programme (置富嘉湖、置富第一城、置富都會、馬鞍山廣場、都會駅、麗港城商場、麗城薈、華都大道、映灣薈、銀禧薈 and 荃薈). Source: [UHK 港生活, 2018-12-28](https://hk.ulifestyle.com.hk/activity/detail/113043/).
+- More than forty Maxim's MX restaurants plus Food² branches carrying the 2023 series, with four named MX branches explicitly excluded, and HK$250,000 donated to the Hong Kong Red Cross from that series. Source: [新假期, 2023-10-18](https://www.weekendhk.com/%E6%96%B0%E5%93%81%E9%80%9F%E9%81%9E/%E7%BE%8E%E5%BF%83mx-p%E5%8A%A9%E8%88%87%E5%85%94%E5%85%94-%E7%B2%BE%E5%93%81-ww01-1616573/).
+- The ONE 2017 redemption tiers, which are the only unit figure found: HK$800 spend or 5,000 member points for a two-pack of red packets, HK$1,500 spend or 10,000 points for a blanket, capped at 750 units. Source: [UHK 港生活, 2017-01-20](https://hk.ulifestyle.com.hk/activity/detail/107377/).
+- Five named Watsons branches for the April 2021 installations, with the gift-with-purchase running chain-wide on a HK$139 threshold. Source: [新假期, 2021-04-02](https://www.weekendhk.com/healthlife/p%E5%8A%A9%E8%88%87%E7%B2%89%E7%B4%85%E5%85%94%E5%85%94-%E5%B1%88%E8%87%A3%E6%B0%8F-gsk-%E6%84%9F%E5%86%92-%E5%BF%85%E7%90%86%E7%97%9B-1123763/).
+
+No attendance figure, no sales figure and no production-quantity figure surfaced for any Hong Kong activation.
+That is a real contrast with Taiwan, where the rail operator and the convenience chain both published volumes (section 3.4).
+
+### 4.5 WHAT DIDN'T HAPPEN (Hong Kong)
+
+Stated as absence of evidence after a described search, never as a claim about rejection.
+
+Search effort behind these statements: Google News RSS in `hl=zh-HK&gl=HK` across nine query forms (卡娜赫拉, 粉紅兔兔, Kanahei, P助 粉紅兔兔 香港, Piske Usagi 香港, 粉紅兔兔 荷里活廣場, 粉紅兔兔 屈臣氏, 粉紅兔兔 美心MX, P助 粉紅兔兔 7-Eleven 香港); domain-scoped web search over nine Hong Kong outlets; and a Wayback CDX sweep of `hk.ulifestyle.com.hk` filtered on the property's three name-strings for 2016-2019 and 2024-2026, which is what recovered the pre-2019 article URLs.
+
+- **No ticketed large-scale paid exhibition in Hong Kong surfaced.** Taiwan has four documented ticketed exhibitions between 2017 and 2023 (section 3.3). Every Hong Kong format found is a free mall installation, a retail redemption, an F&B collaboration or a paid-entry charity run. No Hong Kong venue listing equivalent to huashan1914.com appeared in any search.
+- **No permanent Hong Kong store or shop-in-shop surfaced.** Japan has a named permanent shop-in-shop from 2015 (Kiddy Land Osaka Umeda, section 2.3). Nothing comparable was found for Hong Kong; every Hong Kong retail presence found carries an end date.
+- **No convenience-chain points-collection campaign of the Taiwanese kind surfaced.** Taiwan's 7-ELEVEN ran four multi-week 集點送 campaigns with printed production quantities (section 3.3). Hong Kong's 7-Eleven appearances found are two single-drop new-product listings in 2018 and no campaign structure.
+- **No Hong Kong-side source names the Japanese rights counterparty as a party to any Hong Kong deal.** TXCOM appears in Hong Kong only as a copyright string in the run's footer, and Mixer does not appear in any Hong Kong source read here.
+- **Part of Hong Kong demand is visibly served by cross-border resale rather than by local licensing, and this is recorded as a channel observation only.** A 2018 Hong Kong shopping listing walked Hong Kong readers through buying Taiwanese-market Kanahei goods through a Taiwan proxy-buying service rather than through any Hong Kong channel, with the location field printed as `PG美人網/台灣代購`. Source: [UHK 港生活, 2018-04-01](https://hk.ulifestyle.com.hk/activity/detail/110152/). An Instagram account self-describing as a Hong Kong Kanahei shop and proxy-buying service also exists: [instagram.com/kanahei.hk](https://www.instagram.com/kanahei.hk/). Neither is evidence of a licence, and neither is counted as a collaboration row.
 
 ## 5. KOREA
 
@@ -325,7 +429,8 @@ Same caveat as Hong Kong: this establishes a corporate-group presence, not a Kan
 
 Every row is verified from its own source.
 No row here is recalled.
-PARTIAL: Japan and Taiwan rows in this build.
+PARTIAL: Japan, Taiwan and Hong Kong rows.
+48 rows at this build: 17 Japan, 14 Taiwan, 17 Hong Kong.
 
 | Market | Year | Brand / counterparty | Format | Source |
 |---|---|---|---|---|
@@ -360,6 +465,23 @@ PARTIAL: Japan and Taiwan rows in this build.
 | Taiwan | 2023 | 寬宏藝術經紀股份有限公司 (Kham Arts) | Ticketed 20th-anniversary exhibition `卡娜赫拉的小動物 荒唐世界博物館`, Huashan 1914, 2023-06-21 to 2023-09-10 | [huashan1914.com](https://www.huashan1914.com/w/huashan1914/exhibition_23053014563571664) |
 | Taiwan | 2024 | 統一超商 7-ELEVEN Taiwan | Points and flash-purchase campaign `卡娜赫拉精品集點活動`, from 2024-10-16, item windows to 2024-12-31 | [7-11.com.tw](https://www.7-11.com.tw/event/24mickey/kanahei.aspx) |
 | Taiwan | 2025 | 台灣高速鐵路股份有限公司 (THSR) | Flower-theme painted train wind-down announced, ending early July 2025; NT$25,000 12-car model set | [thsrc.com.tw 2025-04-08](https://www.thsrc.com.tw/ArticleContent/ae37fc11-953e-4dd1-9e6c-bf44d7556b18) |
+| Hong Kong | 2016 | LCX, 海運大廈 Ocean Terminal, Harbour City | Limited-period official sales point, goods air-freighted from Japan, 2016-03-01 to 2016-03-31 | [UHK 港生活 2016-03-10](https://hk.ulifestyle.com.hk/activity/detail/104212/) |
+| Hong Kong | 2017 | The ONE, 尖沙咀 | Lunar New Year 「新春萌遊花園」 installation plus limited-period store and tiered spend-redemption, 2017-01-19 to 2017-02-19 | [UHK 港生活 2017-01-20](https://hk.ulifestyle.com.hk/activity/detail/107377/) |
+| Hong Kong | 2017 | 山下菓子 (Yamashita Kashi) | Limited-period store at three locations (馬鞍山新港城中心, 荃灣廣場, 將軍澳廣場), 2017-07-06 to 2017-08-31 | [UHK 港生活 2017-07-05](https://hk.ulifestyle.com.hk/activity/detail/108597/) |
+| Hong Kong | 2017 | 一田超市 YATA at apm, 觀塘 | POP-UP CAFE with six themed food items and limited merchandise | [UHK 港生活 spot listing](https://hk.ulifestyle.com.hk/spot/detail/427903/); index date 2017-11-07 per ufood.com.hk in Google News |
+| Hong Kong | 2018 | 港鐵公司 (MTR Corporation) | Four-design commemorative ticket set plus phone accessories, from late May 2018 | [UHK 港生活 2018-05-07](https://hk.ulifestyle.com.hk/activity/detail/110559/) |
+| Hong Kong | 2018 | 7-Eleven Hong Kong | Two folding umbrellas (pink, pale blue) | [UHK 港生活 2018-07-03](https://hk.ulifestyle.com.hk/activity/detail/111030/) |
+| Hong Kong | 2018 | Zoff, 馬鞍山新港城中心 | Store-exclusive P助 / 粉紅兔兔 items at a new-store opening | [UHK 港生活 2018-07-18](https://hk.ulifestyle.com.hk/activity/detail/111146/) |
+| Hong Kong | 2018 | 7-Eleven Hong Kong | Four-item set: card holder, multi-purpose bag, eco bag, hair band | [UHK 港生活 2018-08-20](https://hk.ulifestyle.com.hk/activity/detail/111508/) |
+| Hong Kong | 2019 | 置富Malls (Fortune Malls) | 「萌樂豬年春節祭」 across eleven named malls plus a limited-period store, 2019-01-10 to 2019-02-20 | [UHK 港生活 2018-12-28](https://hk.ulifestyle.com.hk/activity/detail/113043/) |
+| Hong Kong | 2019 | 山下菓子 at T.O.P., 旺角 | Limited-period themed food and merchandise, plus ticketed meet-and-greet sessions 2019-05-26 and 2019-06-02 | [UHK 港生活 2019-04-17](https://hk.ulifestyle.com.hk/activity/detail/113988/) |
+| Hong Kong | 2020 | 新都會廣場 Metroplaza, 葵芳 | Cartoon farm called 全港首個 (first in Hong Kong), atrium 2020-07-10 to 2020-08-31 and rooftop farm to 2021-01-03, with points redemption | [am730 2020-06-23](https://www.am730.com.hk/%E7%94%9F%E6%B4%BB/35253/); [UHK 港生活 2020-07-09](https://hk.ulifestyle.com.hk/activity/detail/117571/) |
+| Hong Kong | 2021 | 屈臣氏 Watsons Hong Kong | Photo installations at five named branches, 2021-04-02 to 04-04 and 2021-04-16 to 04-18, plus chain-wide HK$139 gift-with-purchase | [新假期 2021-04-02](https://www.weekendhk.com/healthlife/p%E5%8A%A9%E8%88%87%E7%B2%89%E7%B4%85%E5%85%94%E5%85%94-%E5%B1%88%E8%87%A3%E6%B0%8F-gsk-%E6%84%9F%E5%86%92-%E5%BF%85%E7%90%86%E7%97%9B-1123763/) |
+| Hong Kong | 2021 | 香港仔中心 Aberdeen Centre | Christmas installation with stamp-collection unlock for a WhatsApp sticker set, 2021-12-11 to 2021-12-27 | [新假期 2021-12-02](https://www.weekendhk.com/%E9%A6%99%E6%B8%AF%E5%A5%BD%E5%8E%BB%E8%99%95/%E8%81%96%E8%AA%95-%E6%89%93%E5%8D%A1-%E9%A6%99%E6%B8%AF%E4%BB%94%E4%B8%AD%E5%BF%83-p%E5%8A%A9-%E7%B2%89%E7%B4%85%E5%85%94%E5%85%94-1227823/) |
+| Hong Kong | 2022 | MOKO 新世紀廣場, 旺角 | Summer-festival market with 3m installation, yukata costumes and a dessert pop-up, 2022-06-09 to 2022-06-26 | [UHK 港生活 2022-06-03](https://hk.ulifestyle.com.hk/activity/detail/124437/) |
+| Hong Kong | 2022 | 領跑活動策劃有限公司 (R-aces), beneficiary 香港復康力量 | 「P助與粉紅兔兔繽紛跑」 charity themed run, Hong Kong Science Park; registration opened 2021-11-10, held 2022-11-06 after postponement from 2022-01-23 | [ksarun.hk via Wayback 2021-12-14](https://web.archive.org/web/20211214084109/https://ksarun.hk/zh/); [UHK 港生活 2022-08-03](https://hk.ulifestyle.com.hk/activity/detail/122572/) |
+| Hong Kong | 2023 | 美心MX (Maxim's MX) | Five-product spend-HK$58 redemption series in 40+ MX and Food² outlets from 2023-10-06 and 2023-10-20; HK$250,000 donated to the Hong Kong Red Cross from the series | [新假期 2023-10-18](https://www.weekendhk.com/%E6%96%B0%E5%93%81%E9%80%9F%E9%81%9E/%E7%BE%8E%E5%BF%83mx-p%E5%8A%A9%E8%88%87%E5%85%94%E5%85%94-%E7%B2%BE%E5%93%81-ww01-1616573/) |
+| Hong Kong | 2024 | 荷里活廣場 Plaza Hollywood, 鑽石山 | Christmas 「玩轉粉紅遊樂園」 with two play zones and four photo zones, 2024-11-22 to 2025-01-05 | [新假期 2024-11-21](https://www.weekendhk.com/%E9%A6%99%E6%B8%AF%E5%A5%BD%E5%8E%BB%E8%99%95/%E9%91%BD%E7%9F%B3%E5%B1%B1-%E8%8D%B7%E9%87%8C%E6%B4%BB%E5%BB%A3%E5%A0%B4-p%E5%8A%A9-%E5%85%94%E5%85%94-js07-2198543/) |
 
 Table rule for later builds: a row enters only after its own source has been fetched and its date and counterparty read from that source.
 Titles seen in a search-results list are leads, not rows.
@@ -368,10 +490,11 @@ Titles seen in a search-results list are leads, not rows.
 
 ## 9. CROSS-MARKET SYNTHESIS
 
-NOT YET BUILT.
-Requires Hong Kong and at least one more overseas market before the sequence question can be answered honestly.
+PARTIAL.
+Japan, Taiwan and Hong Kong are built.
+Korea, Thailand and China are not, so nothing below is offered as the finished sequence.
 
-Three observations are already safe to record because each rests on a quoted primary source, and together they constrain what the synthesis can later say.
+Six observations are safe to record because each rests on a quoted primary source, and together they constrain what the synthesis can later say.
 
 1. The licensor's stated overseas method at the outset was **trade-show exhibition into a Japan Pavilion**, not appointment of a named territory agent.
 Source: [PR TIMES, 2014-11-06](https://prtimes.jp/main/html/rd/p/000000304.000002734.html).
@@ -385,6 +508,24 @@ Sources in section 3.2.
 Source: [huashan1914.com](https://www.huashan1914.com/w/huashan1914/exhibition_18022119193672164).
 That single fact is enough to rule out a naive "home market saturates first, then exports" reading, and any synthesis written later must account for it.
 
+4. **The earliest documented consumer-facing activity in Hong Kong (2016-03-01) precedes the earliest documented consumer-facing activity in Taiwan (2017-06-20).**
+Sources: [UHK 港生活, 2016-03-10](https://hk.ulifestyle.com.hk/activity/detail/104212/); [Wayback 2017-06-20 of the 7-ELEVEN Taiwan campaign](https://web.archive.org/web/20170620035616/http://www.7-11.com.tw/event/17KanaheiSummer/index.html).
+This does **not** establish that Hong Kong came before Taiwan.
+The Taiwanese consumer date is an archive capture bound, and the Taiwanese rights-side date is earlier still (the agent's own brand page carried the property by 2016-05-07).
+What it does establish is that the two markets opened within roughly the same fifteen-month window, which rules out any reading of Hong Kong as a late follower of a settled Taiwan operation.
+
+5. **The one Hong Kong document that prints a rights line names the Taiwanese agent, not a Hong Kong one.**
+"©️ kanahei / TXCOM | www.kanahei.com | Licensed by San-Byte Creative Co., Ltd. All Rights Reserved."
+Source: [ksarun.hk via Wayback, 2021-12-14](https://web.archive.org/web/20211214084109/https://ksarun.hk/zh/).
+On the evidence in hand the agent layer is **regional rather than per-territory**, at least across the two Chinese-language markets built so far.
+That is a single-document finding and is graded accordingly in `_VERDICT.md`.
+It is not a statement about the territory, exclusivity or term of any agreement, none of which any source read states.
+
+6. **Both Chinese-language markets ran a public-transport-operator collaboration, and Hong Kong's came first.**
+MTR Corporation commemorative ticket set, from late May 2018 ([UHK 港生活, 2018-05-07](https://hk.ulifestyle.com.hk/activity/detail/110559/)); Taiwan High Speed Rail merchandise and painted train, from November 2019 ([thsrc.com.tw, 2020-08-10](https://www.thsrc.com.tw/ArticleContent/dccf6923-ab8f-4810-843b-71f7e286f342)).
+The formats then diverged sharply: THSR ran a multi-year programme across merchandise waves, food and drink lines and a station store, while the MTR appearance is a single commemorative-ticket drop placed by its own covering outlet in the same series as Sanrio, Kumamon and Doraemon tickets.
+Same counterparty category, very different depth.
+
 ---
 
 ## 10. CHECKED AND REJECTED
@@ -395,6 +536,10 @@ Recorded so no later reader re-derives these as findings.
 - **PR TIMES date-range filtering on the keyword search.** Adding `released_since` / `released_until` parameters to the `searchkey` endpoint returned a byte-identical result set to the unfiltered query (257,436 vs 257,434 bytes, same 40 articles). The endpoint ignores them. Older releases must be reached another way (paging parameter, site-scoped search, or company-scoped release lists).
 - **Japanese-language learning/travel books as market evidence.** The WORKS list contains Taiwanese-Mandarin and Korean phrasebooks and English study books. These are Japan-published products with foreign-language subject matter. They are not evidence of Taiwan, Korea or English-market licensing and are excluded from the collab table. The Taiwan section as built does not rest on any of them.
 - **Dating an agency relationship from the agent's licensing-application form.** Tried and rejected as unreliable. On 三貝多's site the 授權合作申請 brand picker and the 授權業務 brand roster disagreed: the 2016-05-07 capture shows KANAHEI already on the 授權業務 page while the application form still listed the older nine-brand set, and the form only caught up by the 2017-08-08 capture. Use the business/brand page as the index and treat the form as lagging. A second trap: the roster used the Latin string `KANAHEI` until at least 2017 and `卡娜赫拉的小動物` later, so a Chinese-only grep returns a false negative for the earlier years.
+- **"P助 x 粉紅兔兔 first opened a cafe in Hong Kong in 2025."** Rejected. A Hong Kong outlet headline indexed as 香港01, 2025-02-11, reads 「P助x粉紅兔兔首來港開cafe」 ("P-suke x Usagi open a cafe in Hong Kong for the first time"). Two earlier Hong Kong cafe-format activations are documented above: the POP-UP CAFE inside YATA at apm Kwun Tong ([UHK 港生活 spot listing](https://hk.ulifestyle.com.hk/spot/detail/427903/), indexed 2017-11-07) and the 山下菓子 collaboration at T.O.P. Mong Kok ([UHK 港生活, 2019-04-17](https://hk.ulifestyle.com.hk/activity/detail/113988/)). Media "first in Hong Kong" claims are not used as dating evidence anywhere in this file. The same caution applies to 全港首個 phrasing in the 2020 Metroplaza coverage, which is quoted as the outlets' wording about that specific format, not adopted as a market-first claim.
+- **HKTDC's own SanByte success-story page as a source.** Both language versions (`hktdc.com/ncs/alc2020/tc|en/s/Success-Stories-SanByte-Ltd.html`) return HTTP 502 on curl and on WebFetch, and neither is in the Wayback Machine (empty CDX). Search engines surface summary text from it, but no fetched copy exists, so nothing from that page is used in this file. The HKTDC facts that are used come from `sourcing.hktdc.com`, which does render.
+- **webb-site.com as the Hong Kong company-registry route.** Tried and unavailable. The site states its main server was shut down on 2025-10-31 and the company-data pages no longer render. Incorporation date and directors of `三貝多(香港)有限公司` are therefore not established here, and no claim in section 4 depends on them.
+- **Resolving Google News RSS article links.** Not attempted beyond confirming it is unnecessary: the RSS feed already yields publication, date and headline, and the working route to the actual article URL is a Wayback CDX sweep of the outlet domain filtered on the property's name-strings. That sweep is what recovered the 2016-2019 `hk.ulifestyle.com.hk` URLs, which no search engine returned.
 - **7-ELEVEN Taiwan's live campaign URLs as evidence for past campaigns.** The event paths `/event/17KanaheiSummer/`, `/event/20Kanahei/` and `/event/21kanahei/` all still return HTTP 200 today, but the bodies are 532-byte stubs containing only the string `7-ELEVEN`. A live 200 here means nothing. The campaign content and its printed date ranges survive only in the Internet Archive, which is what the rows in section 8 cite.
 
 ---
@@ -408,7 +553,11 @@ Recorded so no later reader re-derives these as findings.
 5. LINE sticker sales or ranking data beyond the 2014 award. LINE does not publish per-title figures; the annual `あけおめスタンプ` and year-summary releases from LINEヤフー may carry ranked lists worth reading.
 6. Pre-2020 Japan collab rows. The 40-result PR TIMES window reached only back to 2024 plus the 2014/2015 releases found by targeted search. The 2016-2023 stretch is a documented gap in this build, not an absence.
 7. When and through whom was 三貝多 appointed for Taiwan, and does the appointment run through TXCOM, through Mixer since 2025-04-01, or directly from the creator? Nothing read states it. The 2016-05-07 archive capture is only a latest-by bound.
-8. Do 三貝多(香港)有限公司 and 上海玛齐品牌管理有限公司 handle this property in their territories? Their existence is sourced; their brand scope is not. This is the first thing to test in the Hong Kong build.
+8. PARTLY ANSWERED for Hong Kong. A Hong Kong event's own official site names **San-Byte Creative Co., Ltd.** as licensor ([ksarun.hk via Wayback, 2021-12-14](https://web.archive.org/web/20211214084109/https://ksarun.hk/zh/)), but the string carries no territory qualifier and does not identify which group entity issued the licence. Still open: whether `三貝多(香港)有限公司` specifically is the contracting party, and whether `上海玛齐品牌管理有限公司` handles this property in mainland China. The Shanghai half remains the first thing to test in the China build.
+11. Did TXCOM actually exhibit at the January 2015 Hong Kong International Licensing Show, and if so is there an exhibitor listing that proves it? The plan is sourced; execution is not. HKTDC's own event exhibitor pages 404 for old editions and the Wayback Machine holds no capture of the SanByte success story that would have carried adjacent detail.
+12. What is the rights chain between the Japanese holder and San-Byte, and when was it formed? Every Hong Kong and Taiwan document read names only the agent, never the appointment. No Hong Kong-side source read here mentions TXCOM outside a copyright string, or Mixer at all.
+13. Why does Hong Kong carry no ticketed exhibition and no permanent store when Taiwan carries four ticketed exhibitions, and why does Hong Kong publish no attendance, sales or production-quantity figures at all? Both are absences after a described search, not established facts about the market.
+14. Is there an official Hong Kong-facing brand channel? None surfaced. The largest Hong Kong-facing page found states it is unofficial. If an official one exists it would change the section 4.4 reading.
 9. Who operates the Taiwanese Facebook page facebook.com/kanahei.tw, and is it an official channel? The page states its purpose but not its operator.
 10. Taiwanese exhibition attendance. Four ticketed exhibitions are documented and not one attendance figure surfaced. Promoter-side or venue-side reporting may carry them.
 
@@ -471,6 +620,34 @@ Every URL cited above, with what it establishes.
 - [thsrc.com.tw, 2021-12-01](https://www.thsrc.com.tw/ArticleContent/4ca42c40-4171-4cd9-ae9c-393fc500a3b5) - 禮物列車 station pop-up, 2021-12-01 to 2022-01-02.
 - [thsrc.com.tw, 2025-04-08](https://www.thsrc.com.tw/ArticleContent/ae37fc11-953e-4dd1-9e6c-bf44d7556b18) - painted train ending early July 2025, model pricing.
 - [facebook.com/kanahei.tw](https://www.facebook.com/kanahei.tw/) - Taiwanese fan-information page, 54,756 likes. Read 2026-08-05.
+
+**Hong Kong: rights line and agent group**
+- [ksarun.hk, official site of 「P助與粉紅兔兔繽紛跑」, Wayback capture 2021-12-14](https://web.archive.org/web/20211214084109/https://ksarun.hk/zh/) - the only Hong Kong-side document found that prints a rights line: `©️ kanahei / TXCOM | www.kanahei.com | Licensed by San-Byte Creative Co., Ltd.`; also the organiser (領跑活動策劃有限公司 / R-aces), the beneficiary, the event dates and the postponement.
+- [r-aces.hk](https://www.r-aces.hk/) - promoter's live corporate site. Read 2026-08-05.
+- [sourcing.hktdc.com, San-Byte Creative Co Ltd supplier store](https://sourcing.hktdc.com/en/Supplier-Store/sanbytecreativecoltd) - listed as Osaka, Japan; "Advertise since: 1 Feb 2014"; supplier info last updated 17 Aug 2020. Read 2026-08-05.
+- [sanbytecreative.com 聯絡我們](https://www.sanbytecreative.com/front/bin/ptlist.phtml?Category=110911) - the Hong Kong and Shanghai sibling entities and their addresses. Read 2026-08-05.
+
+**Hong Kong: activations**
+- [UHK 港生活, 2016-03-10, LCX Ocean Terminal](https://hk.ulifestyle.com.hk/activity/detail/104212/) - earliest Hong Kong evidence found; 2016-03-01 to 2016-03-31; official sales point; goods air-freighted from Japan; LINE stickers named as the reader's prior familiarity.
+- [UHK 港生活, 2017-01-20, The ONE](https://hk.ulifestyle.com.hk/activity/detail/107377/) - Lunar New Year programme, limited-period store, redemption tiers and the 750-unit cap.
+- [UHK 港生活, 2017-07-05, 山下菓子](https://hk.ulifestyle.com.hk/activity/detail/108597/) - three-location limited-period store, 2017-07-06 to 2017-08-31.
+- [UHK 港生活, apm 觀塘 POP-UP CAFE spot listing](https://hk.ulifestyle.com.hk/spot/detail/427903/) - inside YATA at apm; six themed food items; no datePublished on the page, indexed 2017-11-07 via ufood.com.hk.
+- [UHK 港生活, 2018-05-07, MTR commemorative tickets](https://hk.ulifestyle.com.hk/activity/detail/110559/) - four ticket designs plus phone accessories from late May 2018; placed in the same series as MTR's Sanrio, Kumamon and Doraemon tickets.
+- [UHK 港生活, 2018-07-03, 7-Eleven umbrellas](https://hk.ulifestyle.com.hk/activity/detail/111030/)
+- [UHK 港生活, 2018-07-18, Zoff 馬鞍山](https://hk.ulifestyle.com.hk/activity/detail/111146/)
+- [UHK 港生活, 2018-08-20, 7-Eleven four-item set](https://hk.ulifestyle.com.hk/activity/detail/111508/)
+- [UHK 港生活, 2018-12-28, 置富Malls 萌樂豬年春節祭](https://hk.ulifestyle.com.hk/activity/detail/113043/) - eleven named malls; 2019-01-10 to 2019-02-20; limited-period store.
+- [UHK 港生活, 2019-04-17, 山下菓子 x T.O.P.](https://hk.ulifestyle.com.hk/activity/detail/113988/) - meet-and-greet sessions 2019-05-26 and 2019-06-02, ticketed via the operator's own site.
+- [am730, 2020-06-23, Metroplaza cartoon farm](https://www.am730.com.hk/%E7%94%9F%E6%B4%BB/35253/) and [UHK 港生活, 2020-07-09](https://hk.ulifestyle.com.hk/activity/detail/117571/) - dates, rooftop run to 2021-01-03, points-redemption thresholds.
+- [新假期, 2021-04-02, Watsons](https://www.weekendhk.com/healthlife/p%E5%8A%A9%E8%88%87%E7%B2%89%E7%B4%85%E5%85%94%E5%85%94-%E5%B1%88%E8%87%A3%E6%B0%8F-gsk-%E6%84%9F%E5%86%92-%E5%BF%85%E7%90%86%E7%97%9B-1123763/) - five named branches, two date windows, HK$139 threshold.
+- [新假期, 2021-12-02, 香港仔中心](https://www.weekendhk.com/%E9%A6%99%E6%B8%AF%E5%A5%BD%E5%8E%BB%E8%99%95/%E8%81%96%E8%AA%95-%E6%89%93%E5%8D%A1-%E9%A6%99%E6%B8%AF%E4%BB%94%E4%B8%AD%E5%BF%83-p%E5%8A%A9-%E7%B2%89%E7%B4%85%E5%85%94%E5%85%94-1227823/) - 2021-12-11 to 12-27; WhatsApp sticker unlock.
+- [UHK 港生活, 2022-06-03, MOKO](https://hk.ulifestyle.com.hk/activity/detail/124437/) - 2022-06-09 to 2022-06-26.
+- [UHK 港生活, 2022-08-03, 繽紛跑](https://hk.ulifestyle.com.hk/activity/detail/122572/) - postponement to 2022-11-06, race categories, refund contact at the promoter's domain.
+- [新假期, 2023-10-18, 美心MX](https://www.weekendhk.com/%E6%96%B0%E5%93%81%E9%80%9F%E9%81%9E/%E7%BE%8E%E5%BF%83mx-p%E5%8A%A9%E8%88%87%E5%85%94%E5%85%94-%E7%B2%BE%E5%93%81-ww01-1616573/) - 40+ outlets, product list and prices, HK$250,000 Red Cross donation, four excluded branches.
+- [新假期, 2024-11-21, Plaza Hollywood](https://www.weekendhk.com/%E9%A6%99%E6%B8%AF%E5%A5%BD%E5%8E%BB%E8%99%95/%E9%91%BD%E7%9F%B3%E5%B1%B1-%E8%8D%B7%E9%87%8C%E6%B4%BB%E5%BB%A3%E5%A0%B4-p%E5%8A%A9-%E5%85%94%E5%85%94-js07-2198543/) and [etnet 經濟通](https://www.etnet.com.hk/www/tc/attraction/384/) - 2024-11-22 to 2025-01-05.
+- [UHK 港生活, 2018-04-01, Taiwan-brand goods via proxy buying](https://hk.ulifestyle.com.hk/activity/detail/110152/) - used only in section 4.5 as a channel observation; not a collaboration row.
+- [facebook.com/KanaheiFansHkTw](https://www.facebook.com/KanaheiFansHkTw/) - fan page self-described as 非官方頁面, 9,125 likes. Read 2026-08-05.
+- [instagram.com/kanahei.hk](https://www.instagram.com/kanahei.hk/) - self-described Hong Kong shop and proxy-buying account. Read 2026-08-05. Not a licence and not a row.
 
 **Rights-side self-description**
 - [kanaheis-small-animals.jp](https://kanaheis-small-animals.jp/) - official site TOP. Read 2026-08-05.
