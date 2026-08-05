@@ -2,15 +2,15 @@
 
 Companion to `KANAHEI_GROWTH.md`.
 Build date: 2026-08-05.
-Build 3 of an in-progress study.
+Build 4 of an in-progress study.
 
 ## Status of the study as a whole
 
 INCOMPLETE.
-Four of the eleven required parts are built (origin, Japan, Taiwan, Hong Kong).
+Five of the eleven required parts are built (origin, Japan, Taiwan, Hong Kong, Korea).
 The stop condition (six priority markets each sourced or honestly absent, collab table complete, synthesis written) is NOT met.
-Three priority markets remain unbuilt: Korea, Thailand, China.
-Three of the six priority markets are now done, and the synthesis is partial rather than withheld.
+Two priority markets remain unbuilt: Thailand, China.
+Four of the six priority markets are now done, and the synthesis is partial rather than withheld.
 
 ## Confidence by section
 
@@ -32,11 +32,15 @@ Three of the six priority markets are now done, and the synthesis is partial rat
 | Hong Kong - growth shape | **established** | Seventeen rows spanning 2016 to 2025 with no gap longer than about eighteen months, in four format clusters (mall seasonal installations, retail and convenience redemptions, F&B, infrastructure counterparties plus one charity run). Every row's date and counterparty were read off the cited page, most of them from event-information blocks rather than prose. |
 | Hong Kong - scale signals | **thin** | No attendance, sales or production-quantity figure exists for any Hong Kong activation, and no official Hong Kong channel was found. What exists is counterparty footprint (11 malls, 40+ restaurants, 5 branches) plus one fan-page like count that spans Hong Kong and Taiwan together and therefore cannot be attributed to either. |
 | Hong Kong - what didn't happen | **partial** | Four absences, each with the search method written out. They are strongest where a positive Taiwan counterpart exists to contrast against (ticketed exhibitions, convenience points campaigns), weakest where they rest on nothing having surfaced. |
-| Korea | **not built** | One tertiary lead, needs a primary. |
-| Thailand | **not built** | One unread PR TIMES lead that may be incidental. |
+| Korea - entry | **established** as a latest-by date, **not established** as a start date | Two named publications carry the same launch on 2018-06-11, and both call it season 3, which places the true start earlier by an unknown interval. The licensee's own corporate history puts the KakaoTalk launch in 2018 at year granularity. Kakao publishes no release date on the product pages or in its item API, and no Wayback capture of those pages exists. |
+| Korea - mechanism | **partial** | A resident company, Danal Entertainment, is named as the Korean licensing party in two dated releases, and its rights claim is quoted in its own words (글로벌 캐릭터 사업 권리). But that claim is a licensee statement carried in press with no territory, exclusivity, term or scope attached, no Japanese-side source names Danal, and the 2024 and 2026 activations name no intermediary at all. The mechanism is documented for 2018 and undocumented after it. |
+| Korea - growth shape | **established** for 2018, **thin** for 2019-2026 | Three 2018 formats are each fetched from a dated release (emoticons, jigsaw line, pop-up store). After that, one activation in 2024 and one in 2026, with five intervening years producing nothing in the index used. |
+| Korea - scale signals | **thin**, the thinnest of any built market | No attendance, sales, production or ranking figure exists in any Korean source read. The only Korea-specific number is an undocumented platform field (`interestCount` 342 on the Kakao creator profile, read 2026-08-05), which Kakao does not define publicly. |
+| Korea - what didn't happen | **partial** | The search method is written out and the format absences are sharp because Taiwan and Hong Kong supply positive counterparts for each. The 2019-2023 gap is argued rather than proven: the index used did return items on both sides of it, but a Naver-side search was not reachable with the tools used. |
+| Thailand | **not built** | Two leads: one unread PR TIMES release that may be incidental, and one Korean-outlet mention of Thailand in a 2018 licensing-footprint summary, which is a pointer only. |
 | China (mainland) | **not built** | One lead: a Shanghai sibling entity of the Taiwan agent, brand scope unstated. |
-| Collab table | **partial** | 48 rows (17 Japan, 14 Taiwan, 17 Hong Kong), every one fetched from its own source and its date and counterparty read off that source. |
-| Cross-market synthesis | **partial** | Six source-constrained observations. The sequence question is now answerable across three markets and is answered with its own limits attached, but three priority markets are still missing, so nothing in section 9 is offered as the finished pattern. |
+| Collab table | **partial** | 53 rows (17 Japan, 14 Taiwan, 17 Hong Kong, 5 Korea), every one fetched from its own source and its date and counterparty read off that source. |
+| Cross-market synthesis | **partial** | Nine source-constrained observations. The sequence and mechanism questions are now answerable across four markets and are answered with their limits attached, but two priority markets are still missing, so nothing in section 9 is offered as the finished pattern. |
 
 ## What is safe to carry out of this build
 
@@ -53,10 +57,14 @@ Three of the six priority markets are now done, and the synthesis is partial rat
 11. Hong Kong entry was import retail inside a mall, with the covering outlet stating the goods were air-freighted directly from Japan and treating the LINE stickers as the reason readers already knew the characters. Platform-built audience first, imported product second, local licensing structure invisible in the coverage.
 12. Both Chinese-language markets ran a public-transport-operator collaboration and Hong Kong's came first (MTR May 2018, THSR November 2019), but the depth diverged sharply: a single commemorative-ticket drop against a multi-year programme.
 13. The Taiwanese counterparties are infrastructure-scale, not character-retail-scale: the largest convenience chain (four campaigns, one with a 240,000-unit first batch on a single SKU line) and the national high-speed rail operator (2019-11 to 2025-07, two painted trains, three merchandise waves, a food line, a station pop-up).
+14. Korea is the third distinct intermediary type in four markets. Not the rights holder acting directly (Japan) and not a character-licensing agency (Taiwan and Hong Kong), but a general content company - music distribution, original content, platform services - stating in press that it holds the character business rights and recruiting Korean licensees itself.
+15. Korea is the only built market whose entry platform was not LINE. It entered on KakaoTalk emoticons issued by a Korean company, and Kakao's own item API returns `"state":"NOT_SALE"` for all four products as of 2026-08-05, so that entry channel is currently closed.
+16. Korea's 2018 sequence is the tidiest single-year launch in the study - emoticons, then a merchandise line into five bookstore chains, then a first pop-up store, in five months through one company - and Korea also has the thinnest sustained record of any built market. A fast, well-organised launch is not by itself a signal of a durable market.
+17. A licensee's own roster is usable as a negative signal in two markets now. TXCOM's current IP page omits Kanahei (Japan), and Danal Entertainment's year-by-year character history names the property only in its 2018 row and in no later year (Korea). Both are evidence about what a company currently advertises, not proof that a contract ended.
 
 ## What must NOT be carried out of this build
 
-- Any statement about territory, exclusivity or deal terms beyond the exact words quoted. Neither Japanese source defines the scope of Mixer's "ライセンス窓口", and no Taiwanese source states 三貝多's terms at all.
+- Any statement about territory, exclusivity or deal terms beyond the exact words quoted. Neither Japanese source defines the scope of Mixer's "ライセンス窓口", no Taiwanese source states 三貝多's terms at all, and the Korean 글로벌 캐릭터 사업 권리 phrase carries no territory, term or scope.
 - Any claim that 三貝多 was appointed by TXCOM, by Mixer, or by the creator. Nothing read establishes the chain of title into Taiwan.
 - Any claim that 三貝多(香港)有限公司 specifically holds or issued the Hong Kong licence. The footer names `San-Byte Creative Co., Ltd.` with no territory qualifier, and which group entity contracted is not stated anywhere read.
 - Any claim that 上海玛齐品牌管理 represents this property. Its existence is sourced from a contact page; its brand scope is not stated anywhere read.
@@ -64,15 +72,18 @@ Three of the six priority markets are now done, and the synthesis is partial rat
 - Any claim that Hong Kong preceded Taiwan. The earliest documented Hong Kong consumer activity (2016-03-01) is earlier than the earliest documented Taiwan consumer activity (2017-06-20), but the Taiwan date is an archive capture bound and the Taiwan rights-side bound (2016-05-07) is only weeks after the Hong Kong event. The defensible statement is that both markets opened within roughly the same fifteen-month window.
 - Media "first in Hong Kong" phrasing as dating evidence, in either direction. A 2025 headline calls a cafe the first in Hong Kong when two earlier cafe-format activations are documented.
 - Anything from the HKTDC SanByte success story. Both language versions 502 and neither is archived, so only search-engine summaries exist and none of it is used.
-- Any current audience figure. The CocoPPa 2-million figure is from 2015 and is a platform-follower count on a third-party app. The Taiwanese Facebook figure is a like count, not a follower count, on a page whose operator is unstated.
-- The 2016-05-07 and 2017-06-20 Taiwan dates as start dates. They are archive capture dates and therefore latest-by bounds only.
-- Any cross-market pattern claim presented as settled. There are three markets in this build, one of them home and two of them Chinese-language, and three priority markets are missing.
+- Any current audience figure. The CocoPPa 2-million figure is from 2015 and is a platform-follower count on a third-party app. The Taiwanese Facebook figure is a like count, not a follower count, on a page whose operator is unstated. The Kakao `interestCount` of 342 is an undocumented field read today and cannot be applied to 2018 activity or compared across platforms.
+- The 2016-05-07 and 2017-06-20 Taiwan dates as start dates, and 2018-06-11 as Korea's start date. All three are latest-by bounds: two are archive capture dates and the third is explicitly labelled season 3 in its own release.
+- Danal Entertainment's 글로벌 캐릭터 사업 권리 claim as evidence of a worldwide grant. It is a licensee statement in Korean trade press, made in the same period that San-Byte Creative is named as licensor on a Hong Kong event and TXCOM holds the Japanese master licence.
+- The absence of Korean activity in 2019-2023 as proof that nothing happened. It is an absence in the index that was reachable, stated as such.
+- The 2018 Korean releases' descriptions of other markets (Hong Kong, Taiwan, Thailand, the United States) and of global brand partners (SoftBank, Honda, Amazon, Unilever) as verified pairings. They are a Korean outlet relaying a licensee's pitch and no row rests on them.
+- Any cross-market pattern claim presented as settled. There are four markets in this build, one of them home, and two priority markets are missing.
 - The 369-release PR TIMES count as a deal count. It is a press-release mention count.
 
 ## Next build should do, in order
 
-1. China (mainland). The Shanghai sibling entity `上海玛齐品牌管理有限公司` is the standing lead, and the Hong Kong build has now shown that the group's agent name is what appears on licensed-event rights lines, which is the string to search mainland event and product pages for.
-2. Korea and Thailand, where only weak leads exist, and where an honest recorded absence is an acceptable outcome under the task's own terms. Korea's only lead is still tertiary; Thailand's PR TIMES lead is still unread.
+1. China (mainland). The Shanghai sibling entity `上海玛齐品牌管理有限公司` is the standing lead, and the Hong Kong build has shown that the group's agent name is what appears on licensed-event rights lines, which is the string to search mainland event and product pages for.
+2. Thailand, where only weak leads exist and an honest recorded absence is an acceptable outcome under the task's own terms. The PR TIMES release is still unread, and the Korean 2018 mention of 태국 gives a period to search Thai-side sources against.
 3. Try to corroborate the Hong Kong rights line on a second Hong Kong activation, so the mechanism grade can move off a single document. The 2019 置富Malls programme and the 2024 Plaza Hollywood programme are the two most likely to have had their own microsite with a footer.
 4. Fix the PR TIMES paging problem so the 2016-2023 Japan gap can be closed, since that stretch is where any overseas expansion would have been announced from the Japan side.
 
@@ -81,3 +92,6 @@ Three of the six priority markets are now done, and the synthesis is partial rat
 - The Hong Kong sweep that worked: Google News RSS with `hl=zh-HK&gl=HK` as the index (titles, dates and publications only, no link resolution), then a Wayback CDX sweep of the outlet domain filtered on the property's name-strings to recover the actual article URLs. Search engines returned almost nothing before 2019; the CDX sweep returned the whole 2016-2019 run.
 - Hong Kong lifestyle-portal article pages carry a machine-readable `datePublished` and an `活動資訊` block printing the event's own date range and address. That block, not the prose, is what the rows are dated from.
 - Event microsites, not press coverage, are where Hong Kong rights lines live. Seventeen activations produced exactly one rights line, and it was in a footer.
+- The Korea sweep that worked, and it is different from Hong Kong's: Google News RSS with `hl=ko&gl=KR` as the index, then a bounded id-range sweep of the outlet's own `articleView.html?idxno=` sequence to recover the URL. Korean news sites running the common Korean CMS ignore `sc_word` over GET (four outlets tested), so on-site search is not available, and Wayback holds nothing useful for these outlets. Calibrate the sweep by probing a handful of ids for `article:published_time`, interpolate to the target date, then fetch only `<title>` across a few hundred ids in parallel. Two articles that no search engine returned were recovered this way.
+- Korean corporate sites carry English-language year-by-year business histories that name licensed properties by year. Danal Entertainment's Character page is what dated its Piske & Usagi involvement and what shows the property dropping out after 2018.
+- Kakao's emoticon shop is client-rendered and its public pages carry no useful metadata, but the undocumented endpoint `e.kakao.com/api/items/<slug>` returns creator name, IP name, creator id, price, discount and sale state as JSON. It carries no date field, so it establishes what is on sale and under whose name, never when something launched.

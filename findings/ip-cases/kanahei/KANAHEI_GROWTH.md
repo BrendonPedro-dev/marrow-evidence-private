@@ -18,12 +18,12 @@ Reading date for all web fetches in this build: 2026-08-05.
 | Japan (home) | BUILT |
 | Taiwan | BUILT |
 | Hong Kong | BUILT |
-| Korea | NOT YET BUILT |
+| Korea | BUILT |
 | Thailand | NOT YET BUILT |
 | China (mainland, outside-census-scope) | NOT YET BUILT |
 | Other markets | NOT YET BUILT |
-| Collab table | PARTIAL (Japan, Taiwan and Hong Kong rows) |
-| Cross-market synthesis | PARTIAL (six source-constrained observations; sequence question answerable for three markets) |
+| Collab table | PARTIAL (Japan, Taiwan, Hong Kong and Korea rows) |
+| Cross-market synthesis | PARTIAL (nine source-constrained observations; sequence question answerable for four markets) |
 
 ---
 
@@ -401,11 +401,144 @@ Search effort behind these statements: Google News RSS in `hl=zh-HK&gl=HK` acros
 
 ## 5. KOREA
 
-NOT YET BUILT.
+### 5.1 ENTRY
 
-Lead in hand: Japanese Wikipedia's corporate-sticker list names カカオジャパン (Kakao Japan) as a company-sticker client, which is a Japan-market deal with a Korean-owned platform and is not itself Korea-market evidence.
-Source: [ja.wikipedia.org/wiki/カナヘイ](https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%8A%E3%83%98%E3%82%A4) - TERTIARY, needs a primary before use.
-The official WORKS list also contains multiple Korean-language learning books published in Japan, which again are Japan products, not Korea licensing.
+**Earliest verifiable Korean commercial activity found: KakaoTalk emoticons issued by a Korean company, 다날엔터테인먼트 (Danal Entertainment), with season 3 dated 2018-06-11.**
+The launch release is carried by two named publications on the same day:
+
+> 콘텐츠 전문기업 다날엔터테인먼트는 일본의 인기 일러스트레이터이자 만화가인 카나헤이(Kanahei)의 대표 캐릭터 피스케와 우사기를 활용한 카카오톡 이모티콘 시즌3을 출시했다고 11일 밝혔다.
+
+Translation: "Content company Danal Entertainment announced on the 11th that it has released KakaoTalk emoticon season 3 using Piske and Usagi, the representative characters of the popular Japanese illustrator and cartoonist Kanahei."
+Sources: [전자신문 (etnews), 2018-06-11 15:25](https://www.etnews.com/20180611000310); [파이낸셜뉴스, 2018-06-11 14:10](https://www.fnnews.com/news/201806111408415989).
+
+Three separate limits apply to that date and each matters.
+
+1. **Season 3 implies seasons 1 and 2, and no source read here dates either.**
+The only dating in hand for the earlier seasons is the licensor's own corporate history page, which places "Launch of 'Piske & Usagi' emoticons on KakaoTalk" in its 2018 row and in no earlier year.
+Source: [danalenter.co.kr Character history](https://www.danalenter.co.kr/business/character), read 2026-08-05.
+That is a company self-description at year granularity, not a launch date, so Korea's entry is recorded as **by 2018-06-11, through KakaoTalk emoticons**, with the true first sticker date open.
+
+2. **The Korean entry ran on Kakao, not on LINE.**
+Japan's entry ran through LINE stickers (section 2.1) and Hong Kong's earliest coverage presumed LINE-sticker familiarity in its readers (section 4.1).
+Nothing read here shows a LINE route into Korea.
+The platform that carried the characters into the Korean market is the domestic messenger, and it was reached through a Korean company rather than through the platform relationship that existed in Japan.
+
+3. **A Japan-side Kakao deal is not Korea-market evidence and is not used as such.**
+Japanese-language tertiary listings name カカオジャパン (Kakao Japan) among corporate-sticker clients.
+That is a Japan-market sticker deal with a Korean-owned platform company and it is excluded here.
+The official WORKS list likewise contains Korean-language learning books published in Japan, which are Japan products and are also excluded.
+
+**The Korean emoticon line is four products, and all four are currently off sale.**
+Kakao's own item API returns, for each of `piske-usagi`, `piske-usagi-2`, `piske-usagi-3` and `big-piske-usagi`, `"state":"NOT_SALE"`, with `creator.name` = 카나헤이 and `creator.ipName` = 피스케 & 우사기.
+Source: `https://e.kakao.com/api/items/piske-usagi` and the three sibling paths, read 2026-08-05.
+The public shop pages for all four still resolve.
+Why they are off sale is not stated anywhere read here and is not inferred.
+
+### 5.2 MECHANISM
+
+**Korea is the one market so far where a resident company states in press that it holds the character business rights, and it is not a character-licensing house.**
+Danal Entertainment is a Korean content company in Bundang-gu, Seongnam-si, Gyeonggi-do, and its own site's business menu lists Music, Original series, Platform and Character as its four lines.
+Its footer's family-site list names 다날 (Danal), Danal Fintech, Danal F&B, b;eat corp. and AURORA, so it sits inside a wider group; the nature of those relationships is not stated on the page and is not asserted here.
+Source: [danalenter.co.kr](https://www.danalenter.co.kr/business/character), read 2026-08-05; company registration number 129-86-70437, CEO 현능호, printed in the site footer.
+
+The rights claim appears in its own words in the August 2018 release:
+
+> 다날엔터는 카나헤이 작가의 피스케&우사기, 임봉 작가의 바나&나나 등 글로벌 캐릭터 사업 권리를 보유하고 있으며, 온·오프라인을 아우르는 다양한 캐릭터 라이선스 사업을 활발히 전개하고 있다.
+
+Translation: "Danal Enter holds global character business rights for artist Kanahei's Piske & Usagi, artist Im Bong's Bana & Nana and others, and is actively running various character licensing businesses spanning online and offline."
+Source: [전자신문, 2018-08-10 11:10](https://www.etnews.com/20180810000117).
+
+That sentence is reported here exactly as far as it goes and no further.
+
+- It is **the licensee's own claim carried in press**, not a document from the rights holder, and no Japanese-side source read here names Danal at all.
+- The words used are 글로벌 캐릭터 사업 권리 ("global character business rights").
+- **No territory, exclusivity, term or scope is stated in it**, and none is estimated here.
+It is specifically not read as a worldwide grant, because the same period has San-Byte Creative named as licensor on a Hong Kong event (section 4.2) and the Japanese master licence sitting with TXCOM (section 2.2).
+
+**The intake route was the same shape as Taiwan's, run by the resident company rather than by the rights holder.**
+The June 2018 release states the plan directly:
+
+> 카나헤이 작가의 국내 마이크로 사이트를 통해 다양한 사업 제휴 파트너와 라이선시 모집을 진행할 계획
+
+Translation: "We plan to recruit various business alliance partners and licensees through artist Kanahei's domestic micro site."
+Source: [파이낸셜뉴스, 2018-06-11](https://www.fnnews.com/news/201806111408415989).
+The August release closes with 다날엔터는 여러 사업을 함께 진행할 제휴‧라이선스 파트너를 모집 중이다 ("Danal Enter is recruiting alliance and licence partners to run businesses together").
+Source: [전자신문, 2018-08-10](https://www.etnews.com/20180810000117).
+No such micro site was found live: `kanahei.co.kr`, `www.kanahei.co.kr` and `piske-usagi.co.kr` all returned no response over curl on 2026-08-05.
+
+**The licensor's own history page stops mentioning the property after 2018.**
+Danal Entertainment's Character page prints a year-by-year history.
+The 2018 row contains "Launch of 'Piske & Usagi' emoticons on KakaoTalk" alongside its Bana & Nana pop-up, its acquisition of the domestic master licence for 'Lemon & Sugar' and an exclusive management contract for 'Rico & Pinco'.
+The 2020, 2021, 2022 and 2023 rows name other properties and never name this one.
+Source: [danalenter.co.kr Character history](https://www.danalenter.co.kr/business/character), read 2026-08-05.
+This is the same kind of roster-absence signal used in section 2.2 for TXCOM.
+It is evidence about **what the company currently advertises**, not proof that a contract ended, and it is not read as proof of either.
+
+**Who carried the two post-2018 Korean activations is not stated by any source read here.**
+Neither the 2024 Nexon collaboration nor the 2026 Daiso line names a Korean rights intermediary, and neither names TXCOM, Mixer or San-Byte.
+Nexon's release names only 카나헤이 as the collaboration counterparty.
+So Korea's agency layer is documented for 2018 and undocumented for 2024 and 2026.
+
+### 5.3 GROWTH SHAPE
+
+Korea's shape is **a dense 2018 followed by a long documented silence and two isolated recent activations**, which is a different curve from Taiwan's and Hong Kong's roughly annual runs.
+
+**2018, three formats in five months, all through the same company.**
+Emoticons (2018-06-11), then physical merchandise, then a store.
+The merchandise step is an eight-design 108-piece jigsaw-puzzle line, described as chosen by the artist herself:
+"이번에 선보인 '피스케&우사기' 직소퍼즐은 바캉스, 해피, 쇼핑, 힐링, 드라이브, 럭키박스 등 카나헤이 작가가 직접 고른 작품을 8가지 콘셉트로 제작했으며, 각각 총 108피스(pcs)로 구성되어있다."
+Translation: "The Piske & Usagi jigsaw puzzles released this time were produced in eight concepts including Vacances, Happy, Shopping, Healing, Drive and Lucky Box, from works the artist Kanahei chose herself, each consisting of 108 pieces."
+The stated channel is bookstore chains: 영풍문고, YES24, 인터파크, 북스리브로 and 계룡문고.
+Source: [전자신문, 2018-08-10](https://www.etnews.com/20180810000117).
+
+Then the store step, dated by its own release:
+"다날엔터테인먼트는 오는 31일까지 한 달간 신세계 스타필드 코엑스점에서 '피스케&우사기(Piske&Usagi)' 팝업스토어를 국내 최초로 오픈한다고 1일 밝혔다."
+Translation: "Danal Entertainment announced on the 1st that it is opening a Piske & Usagi pop-up store, the first in Korea, at Shinsegae Starfield COEX for one month until the 31st."
+The SKU list is 봉제인형, 무릎담요, 파우치, 데스크매트, 에코백, 손거울, 직소퍼즐, 그립톡 (plush, lap blanket, pouch, desk mat, eco bag, hand mirror, jigsaw puzzle, grip tok), with online sale through 텐바이텐, 천삼백케이 and 카카오쇼핑하기.
+Source: [전자신문, 2018-10-01 11:05](https://www.etnews.com/20181001000112).
+The same release describes the property's licensing footprint at that moment as 일본을 비롯해 홍콩, 대만, 태국, 미국 ("Japan, plus Hong Kong, Taiwan, Thailand and the United States"), which is a Korean outlet's characterisation and is treated as a lead only, not as evidence for any of those markets.
+
+**2024, an in-game collaboration with no merchandise attached.**
+Nexon ran a 카나헤이의 작은동물 collaboration update inside the mobile MMORPG 메이플스토리M, announced 2024-05-31, with a 피크닉 바운스볼 player-versus-player event and a 토이 캐쳐 crane-game event to 2024-06-13, a 14-day attendance event to 2024-06-27, and an event currency (카나헤이의 작은동물 코인) exchangeable in an in-game coin shop.
+Source: [라이센스뉴스, 2024-05-31 14:34](https://www.lcnews.co.kr/news/articleView.html?idxno=76526).
+This is the only documented Korean activation between 2018 and 2026 found.
+
+**2026, a national variety-store stationery line.**
+Daiso Korea announced a Piske & Usagi collaboration on its own Instagram on 2026-05-11.
+The line as reported is random acrylic stands and clips (1,500 KRW), memo pads in three designs (48 sheets, 1,000 KRW), random masking tape (3m, 1,000 KRW), a snap-type pen case (1,500 KRW), a rubber-grip three-colour ballpoint and mechanical pencil (1,000 KRW), a letter set (8 sheets plus 4 envelopes, 1,000 KRW) and sheet stickers (1,000 KRW).
+Source: [금강일보, 2026-05-13 03:30](https://www.ggilbo.com/news/articleView.html?idxno=1157277), which cites 다이소 인스타그램 as its own source.
+Note the reporting chain: the article is bylined to a student reporter and the primary is Daiso's Instagram post, not a Daiso press release.
+The row is kept because the publication, date and product detail are specific and checkable, and the caveat travels with it.
+
+### 5.4 SCALE SIGNALS
+
+Korea publishes **less quantitative evidence than any market built so far**.
+No attendance figure, no sales figure, no production quantity and no sticker ranking appeared in any Korean source read here.
+
+The only Korea-specific number found is a platform field:
+- **Kakao emoticon creator profile, `interestCount` = 342.** Returned by Kakao's own item API for all four Piske & Usagi products, under `creator.detail`, with `creator.id` = `E8R4LG` and `itemCount` = 0. Read 2026-08-05.
+Source: `https://e.kakao.com/api/items/piske-usagi`.
+What that field counts is not documented publicly by Kakao, so it is recorded as the field name and its value and nothing more.
+It is today's figure and cannot be applied backwards to 2018 activity.
+The `itemCount` of 0 is consistent with all four products being `NOT_SALE`.
+
+Two channel-footprint facts stand in place of volume, in the same way Hong Kong's counterparty footprint did:
+- 2018 merchandise reached five named bookstore chains plus three named online malls.
+- 2018 retail reached one department-store-operator mall location, Starfield COEX.
+Both are counts of named channels from the releases cited in section 5.3, not sales.
+
+### 5.5 WHAT DIDN'T HAPPEN (Korea)
+
+Stated as absence of evidence after a described search, never as a claim that anything was refused.
+The search run for Korea was: Google News RSS (`hl=ko&gl=KR`) on 카나헤이, 피스케&우사기, 피스케 팝업 and 카나헤이 라이선스; web search in Korean on collaboration, exhibition, licensing-agent and popup phrasings; direct reads of Danal Entertainment's corporate site; Kakao's emoticon shop and its item API; and an id-range sweep of two Korean news CMSs (see section 10 for why site search could not be used).
+
+- **No exhibition of any kind surfaced in Korea.** Taiwan has four ticketed exhibitions 2017-2023 (section 3.3). No Korean venue listing, promoter release or ticketing page for this IP was found in any search run here.
+- **No Korean cafe or F&B collaboration surfaced.** Japan and Hong Kong both have them.
+- **No transport-operator, convenience-chain or mall-programme activation surfaced.** These are the backbone formats in Hong Kong and Taiwan, and the Korean equivalents (편의점 집점 campaigns, subway operator tie-ups, mall seasonal installations) produced nothing for this IP.
+- **No permanent store or shop-in-shop surfaced.** The only Korean retail presence found carries an end date, 2018-10-31.
+- **No official Korean-language brand channel surfaced.** The 2018 release refers readers to 카나헤이 공식 페이스북 페이지 without printing a URL, and no Facebook, Instagram or X account presenting itself as the official Korean channel was found. The Korean-language account found ([x.com/Kanahei_Info_KR](https://x.com/Kanahei_Info_KR)) presents itself as a fan information and group-buying account, which is not a licence and is not a row.
+- **No Korean-side source names the Japanese rights counterparty.** TXCOM does not appear in any Korean source read here, and neither does Mixer. This is the same silence Hong Kong showed, but Korea goes one step further: it has a resident company claiming rights, and no document connecting that company upstream.
+- **The 2019-2023 stretch produced nothing.** Five years with no found activation, against Hong Kong's and Taiwan's continuous runs across the same years. The Korean press index used does reach that period (it returned 2018 and 2024 items), so this is a real gap in the found record rather than an index limitation, though it is still an absence of evidence.
 
 ## 6. THAILAND
 
@@ -413,6 +546,11 @@ NOT YET BUILT.
 
 Lead in hand, unverified: a 2026-05-15 PR TIMES release by 株式会社リアルアキバ・コミュニケーションズ concerning Anime Festival Asia Thailand appears in the `カナヘイ` keyword result set.
 Source: [PR TIMES, 2026-05-15](https://prtimes.jp/main/html/rd/p/000000947.000060459.html) - NOT YET READ. It may mention her only incidentally, and must be read before any Thailand claim is made.
+
+Second lead, new in this build and weaker: a Korean trade release of 2018-10-01 describes the property as licensed in 일본을 비롯해 홍콩, 대만, 태국, 미국 ("Japan, plus Hong Kong, Taiwan, Thailand and the United States").
+Source: [전자신문, 2018-10-01](https://www.etnews.com/20181001000112).
+That is a Korean outlet relaying a Korean licensee's characterisation, so it is a pointer to look for Thai-side and US-side evidence dated on or before 2018, and nothing more.
+It is not evidence that any Thai licence existed and no Thailand row rests on it.
 
 ## 7. CHINA (mainland) - OUTSIDE CENSUS SCOPE
 
@@ -429,8 +567,8 @@ Same caveat as Hong Kong: this establishes a corporate-group presence, not a Kan
 
 Every row is verified from its own source.
 No row here is recalled.
-PARTIAL: Japan, Taiwan and Hong Kong rows.
-48 rows at this build: 17 Japan, 14 Taiwan, 17 Hong Kong.
+PARTIAL: Japan, Taiwan, Hong Kong and Korea rows.
+53 rows at this build: 17 Japan, 14 Taiwan, 17 Hong Kong, 5 Korea.
 
 | Market | Year | Brand / counterparty | Format | Source |
 |---|---|---|---|---|
@@ -482,6 +620,11 @@ PARTIAL: Japan, Taiwan and Hong Kong rows.
 | Hong Kong | 2022 | 領跑活動策劃有限公司 (R-aces), beneficiary 香港復康力量 | 「P助與粉紅兔兔繽紛跑」 charity themed run, Hong Kong Science Park; registration opened 2021-11-10, held 2022-11-06 after postponement from 2022-01-23 | [ksarun.hk via Wayback 2021-12-14](https://web.archive.org/web/20211214084109/https://ksarun.hk/zh/); [UHK 港生活 2022-08-03](https://hk.ulifestyle.com.hk/activity/detail/122572/) |
 | Hong Kong | 2023 | 美心MX (Maxim's MX) | Five-product spend-HK$58 redemption series in 40+ MX and Food² outlets from 2023-10-06 and 2023-10-20; HK$250,000 donated to the Hong Kong Red Cross from the series | [新假期 2023-10-18](https://www.weekendhk.com/%E6%96%B0%E5%93%81%E9%80%9F%E9%81%9E/%E7%BE%8E%E5%BF%83mx-p%E5%8A%A9%E8%88%87%E5%85%94%E5%85%94-%E7%B2%BE%E5%93%81-ww01-1616573/) |
 | Hong Kong | 2024 | 荷里活廣場 Plaza Hollywood, 鑽石山 | Christmas 「玩轉粉紅遊樂園」 with two play zones and four photo zones, 2024-11-22 to 2025-01-05 | [新假期 2024-11-21](https://www.weekendhk.com/%E9%A6%99%E6%B8%AF%E5%A5%BD%E5%8E%BB%E8%99%95/%E9%91%BD%E7%9F%B3%E5%B1%B1-%E8%8D%B7%E9%87%8C%E6%B4%BB%E5%BB%A3%E5%A0%B4-p%E5%8A%A9-%E5%85%94%E5%85%94-js07-2198543/) |
+| Korea | by 2018 | 다날엔터테인먼트 (Danal Entertainment) x 카카오톡 | KakaoTalk emoticon line; season 3 released 2018-06-11; four products on the shop today (`피스케 & 우사기` 1/2/3 and `큰 피스케 & 우사기`), all `NOT_SALE` as of 2026-08-05 | [전자신문 2018-06-11](https://www.etnews.com/20180611000310); [파이낸셜뉴스 2018-06-11](https://www.fnnews.com/news/201806111408415989); [e.kakao.com item API](https://e.kakao.com/api/items/piske-usagi) |
+| Korea | 2018 | 다날엔터테인먼트 (Danal Entertainment) | Eight-design 108-piece jigsaw-puzzle line, artist-selected artwork, sold through 영풍문고 / YES24 / 인터파크 / 북스리브로 / 계룡문고 | [전자신문 2018-08-10](https://www.etnews.com/20180810000117) |
+| Korea | 2018 | 신세계 스타필드 코엑스 (Starfield COEX), operator 다날엔터테인먼트 | First Korean pop-up store, one month to 2018-10-31, 8 SKU types, online through 텐바이텐 / 천삼백케이 / 카카오쇼핑하기 | [전자신문 2018-10-01](https://www.etnews.com/20181001000112) |
+| Korea | 2024 | 넥슨 (Nexon), 메이플스토리M | In-game collaboration update announced 2024-05-31: PvP event and crane event to 2024-06-13, 14-day attendance event to 2024-06-27, event coin and coin shop | [라이센스뉴스 2024-05-31](https://www.lcnews.co.kr/news/articleView.html?idxno=76526) |
+| Korea | 2026 | 다이소 (Daiso Korea) | Stationery line announced on Daiso's Instagram 2026-05-11: acrylic stands and clips, memo pads, masking tape, pen case, pens, letter set, sheet stickers, 1,000-1,500 KRW | [금강일보 2026-05-13](https://www.ggilbo.com/news/articleView.html?idxno=1157277) |
 
 Table rule for later builds: a row enters only after its own source has been fetched and its date and counterparty read from that source.
 Titles seen in a search-results list are leads, not rows.
@@ -491,10 +634,10 @@ Titles seen in a search-results list are leads, not rows.
 ## 9. CROSS-MARKET SYNTHESIS
 
 PARTIAL.
-Japan, Taiwan and Hong Kong are built.
-Korea, Thailand and China are not, so nothing below is offered as the finished sequence.
+Japan, Taiwan, Hong Kong and Korea are built.
+Thailand and China are not, so nothing below is offered as the finished sequence.
 
-Six observations are safe to record because each rests on a quoted primary source, and together they constrain what the synthesis can later say.
+Nine observations are safe to record because each rests on a quoted primary source, and together they constrain what the synthesis can later say.
 
 1. The licensor's stated overseas method at the outset was **trade-show exhibition into a Japan Pavilion**, not appointment of a named territory agent.
 Source: [PR TIMES, 2014-11-06](https://prtimes.jp/main/html/rd/p/000000304.000002734.html).
@@ -526,6 +669,28 @@ MTR Corporation commemorative ticket set, from late May 2018 ([UHK 港生活, 20
 The formats then diverged sharply: THSR ran a multi-year programme across merchandise waves, food and drink lines and a station store, while the MTR appearance is a single commemorative-ticket drop placed by its own covering outlet in the same series as Sanrio, Kumamon and Doraemon tickets.
 Same counterparty category, very different depth.
 
+7. **The mechanism differs by market in a way that is now visible in three distinct shapes, not two.**
+Japan: the rights holder itself issues campaign releases under a master licence (section 2.2).
+Taiwan and Hong Kong: a character-licensing agency, 三貝多 / San-Byte Creative, sits between the rights holder and the counterparties, and is the only named licensor on the one Hong Kong document that prints one (sections 3.2 and 4.2).
+Korea: a **general content company, not a character-licensing house**, states in press that it holds the character business rights and recruits licensees itself (section 5.2).
+Danal Entertainment's own business lines are music distribution, original content and platform services.
+Source: [danalenter.co.kr](https://www.danalenter.co.kr/business/character), read 2026-08-05.
+That is three different intermediary types across four markets, which is the strongest evidence so far against a single reusable overseas mechanism.
+
+8. **Korea is the only built market where the platform that carried the IP in was not LINE.**
+Japan's audience engine is LINE stickers (section 2.1).
+Hong Kong's earliest coverage assumes LINE-sticker familiarity in its readers (section 4.1).
+Korea entered through KakaoTalk emoticons issued by a Korean company (section 5.1).
+Korea is also the only built market where that entry channel is currently closed: all four KakaoTalk products return `"state":"NOT_SALE"` from Kakao's own item API, read 2026-08-05.
+Source: `https://e.kakao.com/api/items/piske-usagi` and siblings.
+The reason is not stated anywhere read here.
+
+9. **Depth after entry is not predicted by how quickly a market opened.**
+Korea moved fastest inside its first year of documented activity: emoticons, a merchandise line and a first pop-up store within five months of 2018, all through one company.
+It then produced no found activation for five years, and the two later ones (Nexon 2024, Daiso 2026) are single-counterparty drops with no named intermediary.
+Taiwan and Hong Kong opened earlier and ran continuously through those same five years.
+On this evidence the market with the tidiest entry sequence is the one with the thinnest sustained record, which is a caution against reading a fast, well-organised launch as the signal of a durable market.
+
 ---
 
 ## 10. CHECKED AND REJECTED
@@ -540,6 +705,10 @@ Recorded so no later reader re-derives these as findings.
 - **HKTDC's own SanByte success-story page as a source.** Both language versions (`hktdc.com/ncs/alc2020/tc|en/s/Success-Stories-SanByte-Ltd.html`) return HTTP 502 on curl and on WebFetch, and neither is in the Wayback Machine (empty CDX). Search engines surface summary text from it, but no fetched copy exists, so nothing from that page is used in this file. The HKTDC facts that are used come from `sourcing.hktdc.com`, which does render.
 - **webb-site.com as the Hong Kong company-registry route.** Tried and unavailable. The site states its main server was shut down on 2025-10-31 and the company-data pages no longer render. Incorporation date and directors of `三貝多(香港)有限公司` are therefore not established here, and no claim in section 4 depends on them.
 - **Resolving Google News RSS article links.** Not attempted beyond confirming it is unnecessary: the RSS feed already yields publication, date and headline, and the working route to the actual article URL is a Wayback CDX sweep of the outlet domain filtered on the property's name-strings. That sweep is what recovered the 2016-2019 `hk.ulifestyle.com.hk` URLs, which no search engine returned.
+- **Korean news-site search endpoints over GET.** Tried and rejected across four outlets. `articleList.html?sc_area=A&sc_word=...` on ggilbo.com, lcnews.co.kr, enewstoday.co.kr and it.chosun.com all return the site's latest-articles list instead of a result set: the keyword parameter is stripped or ignored in front of the CMS, while `sc_sdate`/`sc_edate` do partially apply. Site-scoped `site:` queries through search engines also failed to surface either target article. The route that worked was: Google News RSS (`hl=ko&gl=KR`) as the index for headline, date and publication, then a bounded id-range sweep of the outlet's own `articleView.html?idxno=` sequence, calibrated by probing a few ids for `article:published_time` and interpolating. That recovered both the 금강일보 Daiso article (idxno 1157277) and the 라이센스뉴스 Nexon article (idxno 76526) that no search returned.
+- **Reading a Korean outlet's description of other markets as evidence for those markets.** The 2018-10-01 전자신문 release describes the property as licensed in 일본을 비롯해 홍콩, 대만, 태국, 미국 ("Japan, plus Hong Kong, Taiwan, Thailand and the United States"), and the 2018-06-11 파이낸셜뉴스 release names 소프트뱅크, 혼다, 아마존, 유니레버 as global collaboration partners. None of those pairings is used as a table row. They are a Korean outlet's summary of a licensee's pitch, exactly the kind of recalled pairing the Marugame rule bars. The Thailand mention is carried into section 6 as a lead to verify from a Thai-side source, not as a finding.
+- **`kanahei.co.kr` as the Korean micro site.** The June 2018 release states licensees would be recruited through 국내 마이크로 사이트 ("domestic micro site") without printing a URL. `kanahei.co.kr`, `www.kanahei.co.kr` and `piske-usagi.co.kr` all returned no response over curl on 2026-08-05 (`000`). No Korean micro site is cited anywhere in this file.
+- **Kakao's emoticon shop pages as a dating source.** The public `e.kakao.com/t/<slug>` pages are client-rendered and carry only generic shop metadata, no release date and no author line, and the Wayback Machine holds no capture of any of the four Piske & Usagi paths (empty CDX). The undocumented JSON endpoint `e.kakao.com/api/items/<slug>` does render creator name, IP name, price and sale state, but carries no date field either. Korea's sticker-line start date therefore remains unestablished.
 - **7-ELEVEN Taiwan's live campaign URLs as evidence for past campaigns.** The event paths `/event/17KanaheiSummer/`, `/event/20Kanahei/` and `/event/21kanahei/` all still return HTTP 200 today, but the bodies are 532-byte stubs containing only the string `7-ELEVEN`. A live 200 here means nothing. The campaign content and its printed date ranges survive only in the Internet Archive, which is what the rows in section 8 cite.
 
 ---
@@ -560,6 +729,11 @@ Recorded so no later reader re-derives these as findings.
 14. Is there an official Hong Kong-facing brand channel? None surfaced. The largest Hong Kong-facing page found states it is unofficial. If an official one exists it would change the section 4.4 reading.
 9. Who operates the Taiwanese Facebook page facebook.com/kanahei.tw, and is it an official channel? The page states its purpose but not its operator.
 10. Taiwanese exhibition attendance. Four ticketed exhibitions are documented and not one attendance figure surfaced. Promoter-side or venue-side reporting may carry them.
+15. When did the KakaoTalk sticker line actually start? Season 3 is dated 2018-06-11 and seasons 1 and 2 are undated in every source read. Kakao publishes no release date on the product pages or in its item API, and no Wayback capture of those pages exists.
+16. What is the relationship, if any, between Danal Entertainment's stated 글로벌 캐릭터 사업 권리 and the Japanese master licence held by TXCOM at the same date? No Japanese-side source read names Danal, and no Korean-side source read names TXCOM. Both statements exist and nothing read connects them.
+17. Why do all four Korean KakaoTalk products read `NOT_SALE` today, and when did they come off sale? Kakao states no reason and carries no date.
+18. Who licensed the 2024 Nexon collaboration and the 2026 Daiso line? Neither release names an intermediary, so it is unknown whether Danal, San-Byte, Mixer or a party not yet seen carried them.
+19. Is the 2019-2023 Korean gap real or an artefact of which Korean outlets Google News indexes? The index used returned both 2018 and 2024 items, which argues the gap is real, but a Naver-side search (not reachable by the tools used here) would test it properly.
 
 ---
 
@@ -648,6 +822,18 @@ Every URL cited above, with what it establishes.
 - [UHK 港生活, 2018-04-01, Taiwan-brand goods via proxy buying](https://hk.ulifestyle.com.hk/activity/detail/110152/) - used only in section 4.5 as a channel observation; not a collaboration row.
 - [facebook.com/KanaheiFansHkTw](https://www.facebook.com/KanaheiFansHkTw/) - fan page self-described as 非官方頁面, 9,125 likes. Read 2026-08-05.
 - [instagram.com/kanahei.hk](https://www.instagram.com/kanahei.hk/) - self-described Hong Kong shop and proxy-buying account. Read 2026-08-05. Not a licence and not a row.
+
+**Korea: licensee, platform and activations**
+- [danalenter.co.kr, Character business page](https://www.danalenter.co.kr/business/character) - Danal Entertainment's own year-by-year character history; the Piske & Usagi KakaoTalk emoticon launch appears in the 2018 row and the property appears in no later row; company registration number, CEO and Seongnam address in the footer. Read 2026-08-05.
+- [전자신문 (etnews), 2018-06-11](https://www.etnews.com/20180611000310) - KakaoTalk emoticon season 3 release, 24 designs.
+- [파이낸셜뉴스, 2018-06-11](https://www.fnnews.com/news/201806111408415989) - same launch; the 한국에서는 다날엔터테인먼트와 라이선스 사업을 전개할 계획 line; the domestic micro-site licensee-recruitment plan; a list of global brand collaborations used here only as a lead.
+- [전자신문 (etnews), 2018-08-10](https://www.etnews.com/20180810000117) - eight-design jigsaw line and its bookstore channel; Danal's own 글로벌 캐릭터 사업 권리 claim; partner recruitment.
+- [전자신문 (etnews), 2018-10-01](https://www.etnews.com/20181001000112) - first Korean pop-up store at Starfield COEX to 2018-10-31; SKU list; three online malls; the Korean characterisation of the property's overseas licensing footprint.
+- [라이센스뉴스, 2024-05-31](https://www.lcnews.co.kr/news/articleView.html?idxno=76526) - Nexon 메이플스토리M in-game collaboration, event names and end dates, event currency.
+- [금강일보, 2026-05-13](https://www.ggilbo.com/news/articleView.html?idxno=1157277) - Daiso Korea stationery line and prices, sourced by the outlet to Daiso's Instagram post of 2026-05-11.
+- [e.kakao.com item API, `piske-usagi`](https://e.kakao.com/api/items/piske-usagi) plus `piske-usagi-2`, `piske-usagi-3`, `big-piske-usagi` - creator name 카나헤이, IP name 피스케 & 우사기, creator id `E8R4LG`, `interestCount` 342, `itemCount` 0, `"state":"NOT_SALE"` on all four. Read 2026-08-05.
+- [e.kakao.com/t/piske-usagi](https://e.kakao.com/t/piske-usagi) and its three sibling shop pages - the public product pages, which render title only. Read 2026-08-05.
+- [x.com/Kanahei_Info_KR](https://x.com/Kanahei_Info_KR) - Korean-language fan information and group-buying account. Read 2026-08-05. Not a licence and not a row.
 
 **Rights-side self-description**
 - [kanaheis-small-animals.jp](https://kanaheis-small-animals.jp/) - official site TOP. Read 2026-08-05.
