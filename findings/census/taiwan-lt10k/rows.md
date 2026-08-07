@@ -15,6 +15,7 @@ Retrieval date for everything below: 2026-08-07.**
 > **Six rows keep `yes`; nineteen become `unclear`.** Because rows 4 and 18 are the same creator, the file evidences **five addressable creators, not twenty-five**.
 > The new **`representable basis`** column states, per row, which test was met and on what string. Method, rule and the three close calls: section 16.
 > The channel that made this cheap: Threads serves the **full, untruncated** biography under a Googlebot user-agent, and the bio is where 「合作信箱」 and 「授權」 lines live. Instagram's `og:description` truncates them and is dead anyway.
+> **Two findings recorded in their own right in section 16.** (1) The Threads user-agent requirement **fails silently** - a browser UA returns HTTP 200 and a ~576KB body with no `biography` field, which reads as an empty profile rather than as a blocked read, and build 6's "answers over plain curl" was never true. (2) **`licensee-names-contact` scored zero across all five licensees** - not one brand in this file publishes a route back to the creator it licensed, which is the missing half of the brokered-channel mechanism.
 > The share is separately restated: the ibon cohort is **12 of 15 resolved (80%)**, not 12 of 16 (75%), because 木子島工作室 is unresolved rather than out of band.
 
 > **Build 6 headline: the character test finally has a channel to run on.**
@@ -385,12 +386,14 @@ Build 5 wrote the rule and could not run it.
 Instagram's `og:description` route died mid-run (`/accounts/login/?...&is_from_rle` on every user-agent, plus `Disallow: /` for ClaudeBot in `instagram.com/robots.txt`), and the profile endpoint additionally faults with HTTP 400 `Asset asset://laser.provider/ig_business_category_subvertical has been deleted` on any business-category account - which is most working creators.
 Five in-band rejections could not be re-tested at all.
 
-**`https://www.threads.com/@<handle>` answers over plain curl with HTTP 200 and the account fully server-rendered.** Reproducible extraction:
+**`https://www.threads.com/@<handle>` answers with HTTP 200 and the account fully server-rendered - _under a Googlebot user-agent, and only under one._** Reproducible extraction:
 
 ```
 curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" \
   "https://www.threads.com/@<handle>"
 ```
+
+> **Correction, build 7.** Build 6 wrote that this route "answers over plain curl". **It does not**, and the way it fails is the dangerous part - see the failure signature in section 16. Build 6 happened to pass the Googlebot UA in every command it ran, so the claim was never tested and the sentence above has been corrected rather than left standing.
 
 - `"biography":"..."` - the JSON-escaped bio, decode with `json.loads`
 - `"caption":{...,"text":"..."}` - 3-25 recent post captions, the actual adjudication material
@@ -418,14 +421,38 @@ That is an absence of evidence and it was the file's largest caveat for six buil
 Everything else is `unclear`. The `representable basis` column states which applies, per row, with the string it rests on.
 Absence of a named agent is recorded as **`no-agent-named`** and is never sufficient.
 
-**The channel that made this testable.** Section 15's Threads route serves the profile only under a **Googlebot user-agent**; a browser UA and plain curl both return a 576KB shell with no `biography` field at all.
+#### Finding: the Threads user-agent requirement fails silently, and the failure looks like an empty profile
+
+This is recorded as a finding rather than as a note on the method, because the failure mode is the kind that fabricates negative results rather than producing an error.
+
+**The working command:**
 
 ```
-curl -sL -A "Googlebot/2.1 (+http://www.google.com/bot.html)" https://www.threads.com/@<handle>
+curl -sL -A "Googlebot/2.1 (+http://www.google.com/bot.html)" "https://www.threads.com/@<handle>"
 ```
 
-The bio is the licensing-solicitation surface. Instagram bios are truncated in `og:description` and that route is dead anyway; the Threads `"biography"` field is the **full, untruncated** bio, which is where 合作信箱 and 授權 lines live.
-23 handles probed, 19 served a biography, 4 did not (three have no Threads account, two accounts serve an empty bio).
+**The failure signature.** With a desktop-browser user-agent, or with plain curl and no `-A` at all, the same URL returns:
+
+- **HTTP 200** - not a 403, not a redirect, not a challenge page
+- a body of **~576KB** - large enough to look like a real page
+- **no `"biography"` field, no `"follower_count"` field, and no `"caption"` blocks anywhere in it**
+
+So a pipeline that fetches, greps for `"biography"`, finds nothing and records "this creator publishes no bio" is recording a **blocked read as an empty profile**. Nothing in the status code, the response size or the absence of an error distinguishes the two. On the first pass of this build every one of 23 handles came back that way and the honest reading of the output was "these creators say nothing about themselves", which is false.
+
+**Measured, one pass, same 23 handles, same minute:**
+
+| user-agent | HTTP | body | handles serving `"biography"` |
+|---|---|---|---|
+| `Googlebot/2.1 (+http://www.google.com/bot.html)` | 200 | 292KB - 2,088KB | **19 of 23** |
+| `Mozilla/5.0 (Windows NT 10.0; Win64; x64)` | 200 | ~576KB, uniform | **0 of 23** |
+| plain curl, no `-A` | 200 | ~576KB, uniform | **0 of 23** |
+| `facebookexternalhit/1.1` | 200 | ~576KB | **0 of 23** |
+
+**The tell is the uniform body size.** A real profile page varies with post count (292KB to 2MB across these 23); the shell is ~576KB for every handle. If a sweep returns the same body length for every account, it is not reading accounts. The four Googlebot misses are genuine - three handles have no Threads account and two serve an empty bio - and they are distinguishable because the rest of the JSON is present.
+
+The consequence beyond this file: **build 6 recorded "answers over plain curl" and it was never true.** That claim survived a whole build because build 6 passed the Googlebot UA in every command it actually ran, so the shortcut was documented but never exercised. Any run inheriting that sentence would have swept a cohort, got 200s throughout, and concluded the channel was empty.
+
+**Why the bio matters at all.** It is the licensing-solicitation surface. Instagram bios are truncated in `og:description` and that route is dead anyway; the Threads `"biography"` field is the **full, untruncated** bio, which is where 合作信箱 and 授權 lines live. Every one of the six `yes` rows below rests on a string that sits past the point where `og:description` cut off - which is why six builds wrote rows for creators whose licensing solicitations they had never seen.
 
 **Result: 6 rows keep `yes`, 19 downgrade to `unclear`.**
 
@@ -444,6 +471,28 @@ Rows 4 and 18 are one creator (灰黑集白), so the file evidences **five addre
 **A keyword trap this pass found.** Build 5's proposed detection rule greps the creator's description for 總代理 / 代理 / 經紀 / 授權合作洽談. Run naively it produces a **false positive on row 16**: 鼠粒控's bio reads 「老鼠會會長代理人」, where 代理人 is a joke title inside the 老鼠會 conceit and not an agent. The rule needs the surrounding phrase read, not the substring matched.
 
 **What this does not establish.** `unclear` is not `no`. Nineteen rows are creators whose channels simply do not discuss commercial terms, which is the normal state of a small creator's bio, not a signal of exclusivity. Equally, the six `yes` rows prove the creator invites approaches - **not** that no exclusive licensor sits behind them. The only true `no` in the file remains the population-level 無所事事小海豹 case, whose exhibitor page names a 總代理 outright.
+
+#### Finding: no licensee in this file publishes a route back to the creator it licensed
+
+`licensee-names-contact` scored **zero rows out of twenty-five**. That is not a gap in the basis taxonomy, it is a measurement, and it is the one this file did not expect to make.
+
+**Five licensees, five industries, all of them silent.**
+
+| licensee | industry | rows | names a contact for the creator? |
+|---|---|---|---|
+| RHINOSHIELD 犀牛盾 (Design Studio) | phone accessories | 3-12, 23, 24 | **no** - the roster record carries a bio, a launch date, SKU art and the creator's Instagram handle, and no contact route |
+| DEVILCASE 惡魔防摔殼 | phone accessories | 1, 2, 25 | **no** - crossover pages link DEVILCASE's own accounts only, re-checked on `/crossover/276` |
+| 7-ELEVEN 統一超商 (ibon 雲端列印) | convenience retail, 7,300 stores | 14-20, 22 | **no** - the creators are named in a press release; the brand's own surface is a JS shell |
+| 南港老爺行旅 Hotel Royal Nikko Nangang | hospitality | 13 | **no** - the organiser announces the room and names the IP |
+| 台灣航業 澎湖輪 | ferry operator | 21 | **no** - same, via the organiser's release |
+
+**The reading.** These are not brands hiding their partners - all five publish the creator's *name*, and four of five publish the handle. What none of them publishes is a way to reach the creator for the *next* deal. The licensee names the IP as a credential for its own product and stops there.
+
+**Why this is a finding and not a footnote.** It is the missing half of the brokered-channel mechanism that rows 13-22 already evidence. Those rows show the route *in* to a national brand runs through the 文博會 organiser rather than through the brand's inbound channel; this shows the route does not run *back out* either. A brand collaboration with a sub-10k Taiwanese IP therefore generates **no public addressability for that IP** - it produces a credential the creator can cite (灰黑集白 does exactly that, citing RHINOSHIELD on its exhibitor page to win the 7-ELEVEN deal) but not a contact anyone else can follow.
+
+That has a direct consequence for how a file like this can ever be built: **every route back to these twenty-five creators runs through the creator's own channel or through the trade show.** There is no licensee-side path at all. It also explains why the census's press-built rows carry no addressability data - press reports the deal, and the deal does not carry a contact.
+
+**Scope of the claim, stated plainly.** Five licensees in one market is a small n, and it may be a Taiwanese or a small-IP artefact rather than a general one. The cheap test is to run the same check on the licensee side of another market's rows - it needs no new retrieval, only re-reading sources already fetched.
 
 ---
 
@@ -999,7 +1048,7 @@ Every URL below was curl-verified on **2026-08-07**.
 
 1. **`unclear` is now the file's most common value and it is genuinely uncertain, not negative.** Nineteen rows sit there because a small creator's bio does not normally discuss commercial terms. Distinguishing "no agent" from "agent not mentioned" needs a source no channel in this run provides: a licensing-agency roster, a contract registry, or asking the creator. The 台灣角色品牌授權協會 (named in the 2026 opening release) is the obvious untried index.
 2. **The three close calls in section 16 - rows 9, 10 and 16 - should be re-read by a human**, not by another build. Each turns on whether an unlabelled contact address counts as soliciting collaboration, which is a judgment call rather than a retrieval problem.
-3. **The `licensee-names-contact` basis has zero rows and that is itself a finding.** Not one licensee in this file - two phone-case brands, a convenience-store chain, a hotel, a ferry operator - publishes a contact route for the creator it licensed. Every route back to these creators runs through the creator's own channel or the trade show. That is consistent with the brokered-channel mechanism in rows 13-22 and worth testing on a market that is not Taiwan.
+3. **The zero on `licensee-names-contact` is written up as a finding in section 16** and what it leaves owed is the cross-market test: re-read the licensee side of another market's rows and see whether the zero holds. That needs no new retrieval, only re-reading sources already fetched, and five licensees in one market is too small an n to generalise from on its own.
 
 ---
 
