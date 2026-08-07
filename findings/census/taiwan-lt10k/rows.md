@@ -6,8 +6,18 @@ The ten-market census (`findings/census/taiwan-v2/ip_scale_bands.md`) holds **ze
 This file is the dedicated hunt for the missing cell.
 
 **Status: in progress.
-Build 4 of the run - 20 verified rows of a 25-row stop condition.
+Build 5 of the run - 22 verified rows of a 25-row stop condition.
 Retrieval date for everything below: 2026-08-07.**
+
+> **Build 5 headline, and it is a method correction rather than a new vein.**
+> Build 4 named the character test as the binding constraint on row count. Build 5 found that the test was being run against **the wrong document**.
+> Every character adjudication in builds 2-4 was made from the *licensee's or the organiser's* blurb - a RHINOSHIELD roster bio, a 文博會 exhibitor page. Those are marketing copy about a brand, and they routinely do not mention the character even when one exists.
+> Run the same test against **the creator's own channel** and it flips: 羊號角Piper, rejected by build 4 as "fantasy/nature illustration, no character", posts serialised stories about a named forest witch-doctor, **皮塔**, and built a six-month solo exhibition around him. That is row 22.
+> The same correction produced row 21: 閃亮亮樂園's exhibitor blurb names no character, but its Instagram is a channel about **哈囉鵝 Hello Goose**, and it carries the creator's own account of the deal - 「也榮幸獲得文博媒合與澎湖輪合作，第一次有這麼有趣的案子」.
+> **Rule going forward: the licensee's copy can only confirm a character, never refute one. A character-test rejection requires reading the creator's own channel.**
+>
+> **Build 5's second contribution is a measurement the run has needed since build 1.** The whole file rests on the claim that press coverage is a scale filter. 自由時報's full-text search works over plain curl, so that claim was tested rather than asserted: 536 名 文博會 exhibitors with known follower counts, queried against the paper's whole archive.
+> Coverage rises monotonically with scale (13.1% sub-10k → 30.9% at `50k_200k` → 55.6% at `200k_1m`), and hand-reading every sub-10k hit returns **zero** independent-character brand collaborations - against the twenty this file already holds from non-press indexes. See `ltn-press-coverage-by-band.md`.
 
 > **Build 4 headline.** The two brand-directory veins were worked out, so build 4 went looking for a third brand and found the wrong thing in the right place.
 > The 文博會 organiser publishes its own **異業合作** (cross-industry partnership) section - a curated list of who partnered with whom, written by the party that brokered the deals.
@@ -51,7 +61,9 @@ What it does is make every other vein bandable, and it supplies the second exact
 | **F. Creative Expo Taiwan 2026 exhibitor directory** `creativexpo.tw/zh-TW/exhibitor_list/<id>` | The 文博會 public exhibitor directory; one server-rendered page per exhibitor, carrying that exhibitor's own social links | **WORKS as a name-to-handle map, and is NOT a row source.** 629 exhibitor pages, **405 publishing an Instagram handle**, 402 banded. This is the CJK name-to-handle index builds 1 and 2 both concluded did not exist. It produced 1 row (via Vein E) and unblocked 23 Vein A partners. Exhibiting is not a collaboration, so nothing is sourced from it directly. Full map: `cet2026-exhibitor-handle-map.md` |
 | **F2. Creative Expo Taiwan 2025 exhibitor directory** `2025.creativexpo.tw/zh-TW/brands/<id>` | The previous edition of the same directory, on a **different path shape** (`brands`, not `exhibitor_list`) | **WORKS, and extends the dictionary.** ids 1-759 → **449 real brand pages, 378 publishing an Instagram handle**. Adds 23 new handle resolutions to Vein A that the 2026 edition did not carry. Full map: `cet2025-exhibitor-handle-map.md`. Editions 2022-2024 do not resolve by DNS |
 | **G. Creative Expo Taiwan 異業合作 sections** `creativexpo.tw` and `2025.creativexpo.tw` `/zh-TW/collaboration_responses/<id>` | The organiser's own writeup of every cross-industry partnership it brokered for that edition - hotel, transit, mall, beverage, print, scooter-share | **WORKS, and is a genuine row source - the first non-brand-directory one in this run.** 18 entries on the 2026 site, 12 on the 2025 site. Unlike Veins A/E/F this is an index of *collaborations*, so a hit is a row candidate rather than a name lookup. Produced rows 13-20 directly or by pointing at them. Full corpus: `cet-cross-industry-collaborations.md` |
-| **H. 7-ELEVEN / ibon 雲端列印 x 文博會 特印企劃** | Convenience-store cloud-print service; 140+ licensed print SKUs from 16 named 新銳 creators, sold in 7,300 stores | **WORKS, and is the richest single collaboration in the file.** 12 of the 16 named creators are sub-10k and 7 clear the character test. `print.ibon.com.tw` itself is a JS shell whose API is `robots.txt`-disallowed, so the creator list came from the trade press, not the brand |
+| **H. 7-ELEVEN / ibon 雲端列印 x 文博會 特印企劃** | Convenience-store cloud-print service; 140+ licensed print SKUs from 16 named 新銳 creators, sold in 7,300 stores | **WORKS, and is the richest single collaboration in the file.** 12 of the 16 named creators are sub-10k and **8** clear the character test once the test is run against the creator's own channel (build 5 added 羊號角Piper). `print.ibon.com.tw` itself is a JS shell whose API is `robots.txt`-disallowed, so the creator list came from the trade press, not the brand |
+| **G2. Creative Expo Taiwan organiser *news feed*** `2025.creativexpo.tw/zh-TW/posts/<id>` | The 2025 edition's own press releases - the section build 4 swept on the 2026 host but never on the 2025 one | **WORKS, and carries deals the 異業合作 section omits entirely.** 20 real posts of ids 1-60. Four brokered 2025 partnerships appear only here: 台灣航業 澎湖輪 x 4 IPs (**row 21**), WeMo Scooter x noii noii, ibon x 16 IPs (the 2025 cohort), and We TAIWAN 大阪世博 x 10 新秀 IPs. This is the second time the news feed beat the partnership page, so treat it as the rule and not the exception |
+| **I. 自由時報 full-text search** `search.ltn.com.tw/list?keyword=<q>&type=all` | Taiwan's largest daily, with a standing 藝文 desk; answers over plain curl with real, parseable results | **WORKS as a search index and produces essentially nothing as a row source - which is itself the finding.** 536 名 exhibitors joined against the whole archive: 0 accepted `lt_10k` rows, 1 real licence rejected on class (蘭獸), 1 mis-banded exhibitor exposed (無所事事小海豹). It is the instrument that converts "press is a scale filter" from an argument into a number. See `ltn-press-coverage-by-band.md` |
 
 ---
 
@@ -271,7 +283,7 @@ The article - `https://www.cdns.com.tw/articles/1429446`, 2026-07-14, HTTP 200 -
 | 3 | 張哲 | `@changche.drawing` | **1,608** | `lt_10k` | fail - oil-pastel painter, image licensing, no character |
 | 4 | SPARK的行動計畫 | `@actionplan24` | **2,144** | `lt_10k` | **pass** - 「以原創角色 SPARK 為核心」 |
 | 5 | 虎嚕吼嚕嚕 | `@hooru.horuru` | **3,078** | `lt_10k` | **pass** - 黑色虎爺「虎嚕 HOORU」, self-described "original character IP" |
-| 6 | 羊號角Piper | `@piper.illu` | **3,604** | `lt_10k` | fail - fantasy/nature illustration, no character |
+| 6 | 羊號角Piper | `@piper.illu` | **3,604** (3,630 on 2026-08-07 re-read) | `lt_10k` | **pass, corrected by build 5** - build 4 read the exhibitor blurb and recorded "fantasy/nature illustration, no character"; the creator's own channel serialises 森林醫師**皮塔**. **Row 22** |
 | 7 | 鼠粒控 | `@3co_studio_` | **3,934** | `lt_10k` | **pass** - mouse cast, 「老鼠會」 |
 | 8 | 兩顆糖製造機 | `@2sugarstudio` | **4,049** | `lt_10k` | **pass** - 棉花糖鱷魚「齁咪呀」, 鴨嘴獸「巴拉王子」 |
 | 9 | 灰黑集白 | `@aasta_blacknwhite` | **4,443** | `lt_10k` | **pass** - 黑貓「馬路」Maru |
@@ -283,8 +295,65 @@ The article - `https://www.cdns.com.tw/articles/1429446`, 2026-07-14, HTTP 200 -
 | 15 | 嘎嘎雞 | `@gaga_g_scream_chicken` | 19,000 | `10k_50k` | out of band |
 | 16 | 木子島工作室 | - | - | - | unresolved - in neither CET edition |
 
-**12 of 16 named creators are sub-10k; 7 of those clear the character test and become rows 14-20.**
+**12 of 16 named creators are sub-10k; 8 of those clear the character test - 7 as rows 14-20, plus 羊號角Piper as row 22 after build 5 re-ran the test against the creator's own channel.**
 Every count above is a live Instagram `og:description` read on 2026-08-07 against the handle the exhibitor publishes on their own 文博會 page, and every display name carries the IP's own name, so the handle-squat guard is satisfied twice over.
+
+### 12. The character test was being run against the wrong document (build 5)
+
+This is the most consequential thing build 5 did and it costs nothing to apply retrospectively.
+
+Builds 2, 3 and 4 all adjudicated "is this an independent *character* IP?" from whichever document the vein happened to supply: RHINOSHIELD's roster bio line, or the creator's 文博會 exhibitor description.
+Both of those are **written to sell a stand or a collection**, not to describe an IP. They lead on medium, mood and materials.
+The consequence is a systematic false-negative rate, and it is measurable on two cases:
+
+| creator | what the licensee/organiser blurb says | what the creator's own channel says |
+|---|---|---|
+| 閃亮亮樂園 (3,693) | 「以戳針、插畫與陶藝為主的個人創作品牌…品牌核心為『日常的事物都有其閃亮特質』」 - punch needle, illustration, ceramics. No character. | Ten of twelve recent posts are about **哈囉鵝 Hello Goose** 🪿 - 「Hello Goose on a snack mission」, 「哈囉鵝和食物夥伴們」, 哈囉鵝的透明防水貼紙 |
+| 羊號角Piper (3,630) | 「以奇幻與自然為核心，將森林與魔法化作細膩的插畫故事」 - fantasy and nature illustration. No character. | Serialised stories about **皮塔 (Pita)**, a forest witch-doctor - 「身為巫醫的皮塔」, 「森林醫師皮塔」 - plus a catalogued world (`FM-26-IN-0514 水青粉蝶`, 屬性｜微光探測者) and a six-month solo exhibition, 森棲棲, built on it |
+
+**Rule.** The licensee's or organiser's copy can *confirm* a character (as it does for rows 14-20, where 「以原創角色 SPARK 為核心」 is explicit) but it cannot *refute* one.
+A character-test rejection is only sound if the creator's own channel was read.
+
+Applied to build 4's five in-band character-test rejections, four survive re-examination on the creator's own channel and one reverses:
+
+| creator | own-channel evidence | verdict after re-test |
+|---|---|---|
+| 洋樓拾憶文創工作室 (395) | Kinmen 洋樓 heritage: pop-up books, 得月樓, Red Dot award, community walking tours. No character anywhere in 67 posts | rejection **stands** |
+| 魚氏 (1,200) | 水彩 / 插畫 / 漫畫; the recurring tag is `#YUcomic`, a comic strip, with no named cast | rejection **stands** |
+| 張哲 (1,638) | Landscapes, furniture, 1980-89 car catalogues, tattoo stickers. No character | rejection **stands** |
+| 羊號角Piper (3,630) | 皮塔, see above | **REVERSED → row 22** |
+| 日句時刻所 (7,493) | account unreadable (see the Instagram note below) | rejection **unverified**, carried forward |
+
+The same re-test was run against three of build 2's readable "character not evidenced" RHINOSHIELD rejections - 旅貓實驗室 (1,785), 阿薛 (2,428) and 張哲 - and all three stand: 旅貓實驗室 draws and photographs *real* cats, 阿薛 is a travel illustrator. The remaining ones could not be re-tested (below).
+
+**Instagram access changed during this build, and the change constrains what can be re-tested.**
+The `og:description` route every earlier build used is gone: `https://www.instagram.com/<handle>/` now returns **302 to `/accounts/login/?...&is_from_rle`** for every user-agent tried (Googlebot, Googlebot-smartphone, facebookexternalhit, Twitterbot, desktop Chrome, Applebot).
+`instagram.com/robots.txt` states that automated collection is prohibited without written permission and carries `User-agent: ClaudeBot / Disallow: /`.
+**No bulk sweep was run.** Follower and bio reads in this build were individual lookups against creators already named in this file, which is what the task's verification step requires; a planned 240-account scan of the sub-10k cohort was written and then abandoned on reading that policy, and future builds should not run one either.
+Where an account carries a business category the profile endpoint returns HTTP 400 with `Asset asset://laser.provider/ig_business_category_subvertical has been deleted` - a server-side fault, not a rate limit, and it is why 日句時刻所, 窩窩頭, 時薪一加侖鮮奶, 舒媞 and AndreaCat could not be re-tested at all.
+
+### 13. Vein G2 - sweep the *previous* edition's news feed too (build 5)
+
+Build 4 established that the organiser's news feed carries deals its 異業合作 section does not, and proved it on the 2026 host (`posts/38` → 7-ELEVEN).
+Build 5 ran the same sweep on the 2025 host, which no earlier build had: ids 1-60, keeping only pages whose final URL id matches the request, gives **20 real posts**.
+
+`2025.creativexpo.tw/zh-TW/posts/14` (2025-07-24) is the 2025 equivalent of `posts/38` and it names four brokered partnerships that appear nowhere in `collaboration_responses`:
+
+| partnership | named IPs | bands | outcome |
+|---|---|---|---|
+| 台灣航業 澎湖輪 x 4 IPs, 海盜船主題 | 其實他是鵝, **閃亮亮樂園**, 小喵WE, 維尼有畫想說 | 22K / **3,693** / 43,541 / 15K | **ROW 21** + 3 out of band |
+| WeMo Scooter 聯名車款 + IP 安全帽 | noii noii | 44K | rejected - out of band |
+| ibon 雲端列印 x 16 IPs (the **2025** cohort) | only 5 of 16 named: 啾啾噗噗 168K, 伸縮自如的雞與鴨 36K, 其實他是鵝 22K, 兔君 24K, 嗚比的朋友 104K | all out of band | **the other 11 were not recoverable** - see owed |
+| We TAIWAN 大阪・關西世博 x 10 新秀 IP (accessories for the `a-We TO GO` game) | 恐龍的房間 94K, 妯米 10K, Tabbi L 11K, 小圓麵包 12K, 阿翰 58K, 安怎？Ann-Nua 20K, 幽默之星 11K, POPO鴿的鳥日子 67K, 蛋塔熊妹 37K, noii noii 44K | all at or above 10K | rejected - none in band. 妯米 reads exactly `10,000`, so it is boundary-ambiguous under the rounding rule and is recorded rather than banded |
+
+Two further reads from the same sweep, both deals rather than rows:
+`posts/30` records that 文化部 published **58 completed licensing cases** at the 2025 黑潮星樂園 and `posts/32` that the zone closed **84 signed contracts** - the largest deal index seen in this run. Neither is worked here, and both are a scale filter by design: the 黑潮 programme selects IPs with 「5年以上資歷」 and existing 授權實績.
+
+### 14. Vein I - using a newspaper archive as an instrument rather than a source (build 5)
+
+Full detail and the reproducible method are in `ltn-press-coverage-by-band.md`. In brief: `search.ltn.com.tw` answers over plain curl, its result *count* is a fuzzy OR count that must be discarded, and the exact name has to be re-checked inside each returned title and snippet.
+Joining 536 名 文博會 exhibitors of known band against 自由時報's whole archive gives a coverage rate that rises monotonically with scale and **zero** accepted `lt_10k` rows.
+One incidental but important mechanic: `news.ltn.com.tw` article bodies are absent from the desktop HTML and present when the same URL is requested with an iPhone user-agent.
 
 ---
 
@@ -341,12 +410,21 @@ Follower counts are live Instagram `og:description` reads on 2026-08-07 - a `cur
 | 19 | 吉文考古 Auspicious Pattern Archeology | https://creativexpo.tw/zh-TW/exhibitor_list/293 | `lt_10k` | **6,951**, `@apa0824`, display name 吉文考古｜插畫｜平面設計｜圖像授權 | yes | Twin creators turning Taiwanese auspicious motifs into 「可愛角色與故事」 with a named world (吉地探險) and a named creature class (吉獸). The account's own bio ends in **圖像授權** - the creator advertises image licensing as a service, which is about as direct an addressability signal as this file contains |
 | 20 | ATW STUDIO (怪噗 Guaipu / 飛克 Faker) | https://creativexpo.tw/zh-TW/exhibitor_list/347 | `lt_10k` | **8,116**, `@atw_studio`, display name ATW studio | yes | Two named characters, 怪噗 and 飛克, described as the perspectives the work is made through. The largest of the seven and the closest to the 10,000 boundary, but not close enough to be ambiguous under the rounding rule (Instagram serves an exact figure below 10,000) |
 
-**Read on the twenty rows.** Build 1 could say the cell exists.
+**Rows 21 and 22, from build 5.** Both come from the corrected character test in section 12 rather than from a new vein.
+
+| # | brand_name | ip_name | market | year | year basis | source_ref | follower_band | count seen | representable | ip_class | notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 21 | 台灣航業 澎湖輪 (Taiwan Navigation, Penghu ferry) | 閃亮亮樂園 KIRA KIRA LAND (哈囉鵝 Hello Goose) | TW | 2025 | Organiser release `posts/14` is dated **2025-07-24** and describes the tie-up as running with the 2025 文博會 (8/2-8/11); the creator's own post says the on-board install was built and then visited at the end of that month. No inference beyond the dateline | https://2025.creativexpo.tw/zh-TW/posts/14 (HTTP 200, 2026-08-07) | `lt_10k` | **3,693** Instagram followers, `@kirakira_land`, display name `KIRA KIRA LAND 閃亮亮樂園`, read 2026-08-07 | yes | INDEPENDENT | A pop-up themed space aboard the Penghu inter-island ferry: 「2025 臺灣文博會 × 台灣航業｜澎湖輪 快閃主題空間 - 四位創作者的**原創角色**聯手登船，展開一場尋寶任務」, the characters hidden through the cabins, the rest area, the windows and the corridors as a treasure hunt. **The brokered-channel finding again, and this time in the creator's own words**: 「也榮幸獲得文博媒合與澎湖輪合作，第一次有這麼有趣的案子」 - a creator saying the trade show matched them to the deal, and that it was their first. Its 2025 booth was in the **IP新秀** (emerging IP) zone, S-065. Character test carried by the creator's channel, not the exhibitor blurb - see section 12. The other three IPs on the ferry (其實他是鵝 22K, 小喵WE 43,541, 維尼有畫想說 15K) are all out of band |
+| 22 | 7-ELEVEN 統一超商 (ibon 雲端列印) | 羊號角Piper (皮塔 Pita) | TW | 2026 | The 中華日報 release states the two waves as **2026-07-08 and 2026-07-15**, running to 2026-08-31 - same basis as rows 14-20 | https://www.cdns.com.tw/articles/1429446 (HTTP 200, 2026-08-07); secondary https://creativexpo.tw/zh-TW/exhibitor_list/440 (HTTP 200) | `lt_10k` | **3,630** Instagram followers, `@piper.illu`, display name 羊號角Piper插畫, read 2026-08-07 | yes | INDEPENDENT | **A build-4 rejection reversed.** Build 4 read the exhibitor blurb (「以奇幻與自然為核心」) and recorded "no character". The creator's own channel runs serialised episodes about a named protagonist, the forest witch-doctor **皮塔 (Pita)** - 「身為巫醫的皮塔」, 「森林醫師皮塔的藥水瓶」 - inside a catalogued world with its own specimen numbering (`FM-26-IN-0514 水青粉蝶`, 屬性｜微光探測者), and a solo exhibition 「森棲棲-插畫家的綠色狂想」 ran 2025-09-26 to 2026-03-01 on it. The creator confirms the deal directly: 「2026文博-IBON的合作終於可以曝光啦，即日起到8/31，全台IBON都可以找到這些魔法酷東西」. This makes the ibon cohort **8 of 12 sub-10k creators accepted**, not 7 |
+
+**Read on the twenty-two rows.** Build 1 could say the cell exists.
 Build 2 could say what it looks like: a second Taiwanese-market licensee, larger and better documented, landing eight more sub-10k character deals, one of them running 48 SKUs.
 Build 3 closes Vein E (every record parsed, every resolvable handle resolved), corrects the dating basis, and adds the two rows that were hiding behind the handle gap - one of them only reachable by cross-referencing a second directory.
 Build 4 breaks the shape of the answer rather than extending it: **four brands, twenty rows**, and the two new brands are not phone-case makers.
 One is a hotel and one is the largest convenience-store chain in Taiwan, which is the point - builds 1-3 could be read as "print-on-demand accessory brands will licence anyone", and rows 13-20 are not that.
 The census's zero was a property of press indexing, and that is now shown four ways: two brand rosters, a trade-show floor, and an organiser-published list of brokered deals.
+
+**Build 5 adds a fifth way, and it is the only one that measures the filter directly rather than routing around it.** 536 名 文博會 exhibitors of known band, joined against 自由時報's whole archive: the chance of a creative brand being named at all rises from 13.1% sub-10k to 55.6% at `200k_1m`, and the number of sub-10k *licensing* write-ups in the entire archive is **zero**. Build 5's own two rows are consistent with that - row 21 came from a ferry operator's press release via the organiser, row 22 from correcting an adjudication, and neither from a newspaper.
 
 **Three things rows 13-20 establish that rows 1-12 could not.**
 
@@ -363,6 +441,8 @@ The census's zero was a property of press indexing, and that is now shown four w
 | DEVILCASE Taiwanese/overseas-character partners resolvable via the CET map (a **licensing roster**) | 23 | 0 | **0%** (one at exactly 10K) |
 | **7-ELEVEN / ibon x 文博會 2026 licensed creators** (a **single brand's actual signed cohort**) | 16 | **12** | **75%** |
 | the ten-market census, Taiwan (**press-built**) | - | 0 | **0%** |
+| 自由時報 archive coverage of 文博會 exhibitors, sub-10k band (**a press *filter*, measured**) | 183 | 24 named at all, **0** with a licensing write-up | **13.1% named / 0% licensed** |
+| the same, `50k_200k` band | 55 | 17 named | **30.9%** |
 
 **The 75% is the most consequential number in this file.** The other denominators measure who is *available* to be licensed; this one measures who a specific national brand *actually signed*, and three quarters of them were sub-10k. It is one deal and it was explicitly framed as a 新銳 (emerging-talent) programme, so it is not a general estimate of 7-ELEVEN's licensing - but it is a direct counter-example to the reading that sub-10k IP is not commercially licensable in Taiwan, and it is exactly denominated.
 
@@ -387,7 +467,40 @@ Each step drops the sub-10k share, and the last step drops it to nothing.
 
 ## Rejected candidates
 
-**Total rejected across four builds: 73 named (11 in build 1, 13 in build 2, 26 in build 3, 23 in build 4), plus the population-level rejections below.**
+**Total rejected across five builds: 91 named (11 in build 1, 13 in build 2, 26 in build 3, 23 in build 4, 19 in build 5, less 羊號角Piper which build 5 reversed into row 22), plus the population-level rejections below.**
+
+### Build 5 rejected: 19 named
+
+**a. From Vein G2 (the 2025 organiser news feed), 17 named across four brokered partnerships.** (其實他是鵝 and noii noii each appear in two of the four and are counted once.)
+
+| Candidate | Followers | Deal | Reason |
+|---|---|---|---|
+| 其實他是鵝 `@hui____7` | 22,000 | 澎湖輪 + ibon 2025 | out of band |
+| 小喵WE `@wewe_0413` | **43,541** | 澎湖輪 | out of band |
+| 維尼有畫想說 `@spx_wie` | 15,000 | 澎湖輪 | out of band |
+| noii noii `@noiinoii_official` | 44,000 | WeMo Scooter 聯名車款 + 安全帽; also We TAIWAN 大阪 | out of band. Would otherwise be a strong row - a co-branded scooter livery is a real licence |
+| 啾啾噗噗 `@jjjlllove_1209` | 168,000 | ibon 2025 | out of band |
+| 伸縮自如的雞與鴨 `@iyayahaaa` | 36,000 | ibon 2025 | out of band |
+| 兔君 `@lubonnie_art` | 24,000 | ibon 2025 | out of band |
+| 嗚比的朋友 `@woobi_dooggy` | 104,000 | ibon 2025 | out of band |
+| 恐龍的房間 `@dinosaurs.room` | 94,000 | We TAIWAN 大阪世博 | out of band |
+| nozomii 妯米 `@nozomii.art` | **10,000** | We TAIWAN 大阪世博 | **boundary-ambiguous.** Instagram rounds at and above 10,000, so this reading covers roughly 9,950-10,499 and cannot decide a threshold stated as "at or under 10,000". Recorded, not banded - same call as DEVILCASE's 小怪家 |
+| Tabbi L `@tabbiliaw_art` | 11,000 | We TAIWAN 大阪世博 | out of band |
+| 小圓麵包 `@frodog_10` | 12,000 | We TAIWAN 大阪世博 | out of band |
+| 阿翰 `@todayfor_han` | 58,000 | We TAIWAN 大阪世博 | out of band |
+| 安怎？Ann-Nua `@ann_nua_handmade` | 20,000 | We TAIWAN 大阪世博 | out of band |
+| 幽默之星 `@twinkle_twinkle_humor_star` | 11,000 | We TAIWAN 大阪世博 | out of band |
+| POPO鴿的鳥日子 `@popolifetw` | 67,000 | We TAIWAN 大阪世博 | out of band |
+| 蛋塔熊妹 `@eggybear._.poka` | 37,000 | We TAIWAN 大阪世博 | out of band |
+
+**b. From Vein I (自由時報 full-text join), 2 named - and one of them is a new rejection category.**
+
+| Candidate | Followers | Reason |
+|---|---|---|
+| 蘭獸 ORCHIDSAUR `@orchidsaur_official` | **3,485** | **Rejected on IP class - institutional / event mascot.** The deal is real and in window: 世茂農業生技 x 「世茂×ORCHIDSAUR」聯名母親節限定花款, a pop-up at 台南遠東百貨成功店 from 2025-04-27 to 2025-05-11, nano-dyed orchids carrying the character (`news.ltn.com.tw/news/life/breakingnews/5024990`, HTTP 200). The character is properly constructed - CET2026 exhibitor 403 describes 「蘭花吉祥物-蘭獸」, born of a symbiosis legend between orchids and dinosaurs, new-shoot horns, eight legs. But the Facebook page the exhibitor register publishes for it (`facebook.com/tiostwn`) resolves to **臺灣國際蘭展暨花卉科技展 Taiwan International Orchid Show**, a state-backed industry exposition at 農業部花卉創新園區, so the rights holder is an institution, not an independent creator. **This is a new category, distinct from the corporate-mascot rejection (捷米 JAMIE): there the brand and the IP were the same party, here they are genuinely two parties and the IP class is what fails.** Worth flagging for a human - if the census's INDEPENDENT/MIXED line is drawn to admit institutional character IP, this is a row |
+| 無所事事小海豹 (`@happacreative`, 3,033) | **not truly in band** | **Rejected on scale, after the dictionary got it wrong.** 無所事事小海豹 is one of Taiwan's best-known sticker characters and 自由時報 alone carries eight articles about it. The 3,033 reading is 樹葉文創有限公司's *corporate* account: the exhibitor page states 「樹葉文創有限公司為《無所事事小海豹》總代理同時也是小海豹的創作團隊」. Also `representable: no` on its face - an IP with a named 總代理 is not addressable. See the agent-account trap in `ltn-press-coverage-by-band.md` |
+
+**c. Carried but not resolved.** 閃亮亮樂園's three ferry co-headliners are listed above; 日句時刻所 (7,493) stays a build-4 rejection that build 5 could not re-test because its Instagram profile endpoint faults.
 
 ### Build 4 rejected: 23 named
 
@@ -645,6 +758,65 @@ Every URL below was curl-verified on **2026-08-07**.
 | www.candies.tw | 404 | Third-brand probe |
 | www.zeczec.com, www.feds.com.tw, meet.eslite.com | 403 | 募資 platform and two department stores - closed to plain curl |
 | searx.be/search?format=json | 200 but **anti-bot challenge** | Search battery re-test; `startpage`, `brave` (429), `mojeek` (0 results), `yandex` (302) all still closed |
+
+### Build 5 additions (all curl-verified 2026-08-07)
+
+**Row sources.**
+
+| URL | HTTP | What it establishes |
+|---|---|---|
+| https://2025.creativexpo.tw/zh-TW/posts/14 | **200** | `source_ref` for row 21. Organiser release 2025-07-24 naming 台灣航業 澎湖輪 and the four IPs, plus the WeMo, ibon-2025 and We TAIWAN partnerships |
+| https://2025.creativexpo.tw/zh-TW/brands/29 | **200** | Row 21 - booth S-065, brand description, and the handle `@kirakira_land` |
+| https://creativexpo.tw/zh-TW/exhibitor_list/440 | **200** | Row 22 - booth S-070, handle `@piper.illu`, and the blurb that build 4 rejected on |
+| https://www.cdns.com.tw/articles/1429446 | **200** | Row 22's primary source - re-verified; the same 中華日報 release behind rows 14-20 |
+| Instagram profile reads for `kirakira_land` (3,693) and `piper.illu` (3,630) | **200** | The two follower counts and both character claims |
+
+**Rejection and adjudication sources.**
+
+| URL | HTTP | What it establishes |
+|---|---|---|
+| https://news.ltn.com.tw/news/life/breakingnews/5024990 | **200** | 世茂農業生技 x ORCHIDSAUR, 2025-04-27 - the one real sub-10k licence Vein I surfaced, rejected on class |
+| https://creativexpo.tw/zh-TW/exhibitor_list/403 | **200** | 蘭獸's own character description |
+| https://www.facebook.com/tiostwn/ | **200** | Resolves 蘭獸's publisher to 臺灣國際蘭展暨花卉科技展 - the evidence for the institutional-mascot rejection |
+| https://2025.creativexpo.tw/zh-TW/brands/151 | **200** | 「樹葉文創有限公司為《無所事事小海豹》總代理」 - the agent-account trap, in the exhibitor's own words |
+| Instagram profile reads for `quemoy_memory`, `yulin.ovo`, `changche.drawing`, `travelpaint.cat`, `hsueh.illu` | **200 each** | The five character-test re-examinations that upheld earlier rejections |
+
+**Vein and index infrastructure.**
+
+| URL | HTTP | Note |
+|---|---|---|
+| https://2025.creativexpo.tw/zh-TW/posts/1..60 | 200 on **20** | Vein G2. Ids 7, 9, 10, 13, 15, 16, 18-21, 24, 25, 27 and 33-60 all 302 to `?locale=zh-TW` - the same redirect trap build 4 documented |
+| https://creativexpo.tw/zh-TW/collaboration_responses/1..70 | 200 on **18** | Re-swept after the 2026 expo opened. **No new entries** - Vein G's 2026 edition is closed |
+| https://creativexpo.tw/zh-TW/posts/1..60 | 200 on **12** | Same; no new release naming the NeverHaveIEver cohort |
+| `https://search.ltn.com.tw/list?keyword=<q>&type=all` | **200, parseable** | **Vein I. 536 queries at 0.7s spacing with zero rate-limit responses.** The result *count* is a fuzzy OR count and must be discarded |
+| https://news.ltn.com.tw/news/... (desktop UA) | 200 but **body absent** | Article text is not in the desktop HTML - only the `og:description` lede |
+| https://news.ltn.com.tw/news/... (iPhone UA) | 200, **full body** | The same URL with a mobile user-agent serves the article |
+| https://art.ltn.com.tw/article/breakingnews/5530413 | **200** | 2026-08-07 LTN report on the NeverHaveIEver / Shoppe Object New York tie-up - **names the deal but not the 10 IPs**, so the lead stays open |
+| https://www.instagram.com/`<handle>`/ | **302 → /accounts/login/** | On every user-agent tried. The `og:description` route all earlier builds used is **gone** |
+| https://www.instagram.com/robots.txt | 200 | `User-agent: ClaudeBot / Disallow: /`, plus a header notice prohibiting automated collection without written permission. **The planned 240-account cohort sweep was abandoned on reading this** |
+| https://print.ibon.com.tw/sitemap.xml | **200** | ibon publishes a `/licenseproduct` section - a national-brand licensing directory of Vein-A shape, ids running past 646 |
+| https://print.ibon.com.tw/licenseproduct/`<id>` | 200 but **empty JS shell** | Including via Wayback (`web.archive.org/web/20260804072043/...`, 10.6 KB, no content). The catalogue lives behind `/api/`, which `robots.txt` disallows, so **this vein is visible and unreadable** |
+| https://taicca.tw, https://www.taicca.tw | **403** | 文策院 - closed to plain curl |
+| https://tccf.tw, https://yodex.com.tw, https://www.pinkoi.com | 200 | Other-organiser probes that resolve; none swept |
+| licensingexpo.com.tw, taiwanlicensingexpo.com.tw, comicexpo.net, designexpo.tw, kaohsiungdesignfestival.tw | **curl exit 000** | Other-organiser probes that do not resolve by DNS |
+| https://www.bing.com/search?q=...&format=rss | 200 | Re-confirmed useless for CJK - a 木子島工作室 query returned Google Docs help pages |
+| `https://store.line.me/api/search/sticker?query=木子島` | 200, `totalCount: 0` | 木子島工作室 is absent from LINE STORE as well as from both CET editions and 自由時報 |
+
+---
+
+## What build 5 leaves owed
+
+**22 of 25 rows.** Three short. The shortfall is no longer a discovery problem *or* a character-test problem - build 5 fixed the test - it is that the four richest deal cohorts found in this run are all scale-filtered upward at source.
+
+1. **The 2025 ibon cohort is still 11 creators short and it is the single highest-value missing thing.** The 2026 edition of exactly this programme produced eight rows. The 2025 release names only 5 of 16, and all five are the large ones - which is the press-release pattern, not the cohort. Every route tried failed: 自由時報, Google News RSS (four query formulations), 立報, ocacnews, the MOC release, and ibon's own surface. Untried: 7-ELEVEN's corporate newsroom (`www.7-11.com.tw/company/news`, HTTP 200 and unswept), ibon's Facebook page under a Googlebot user-agent, and a Wayback sweep of `print.ibon.com.tw/licenseproduct/645` and `/646` - both captured on 2025-07-31 and 2025-08-03, right inside the campaign.
+2. **ibon's `/licenseproduct` directory is a national-brand licensing directory that this run has now *seen* and cannot read.** Ids run past 646, `robots.txt` allows the path, and the pages are an empty JS shell whose data sits behind a disallowed `/api/`. The 2019-2023 generation of the same site *was* server-rendered (`licenseproduct/Detail?LicenseProductId=<n>`) and Wayback has captures. That older block is only partly in window, but it would establish whether ibon licenses small IP outside the 文博會 programme.
+3. **NeverHaveIEver x 10 組臺灣原創IP → Shoppe Object New York.** Reported by 自由時報 on 2026-08-07 and by the organiser, with the ten IPs unnamed in both. Also unresolved on class: setting up a 「Creative Expo Taiwan」 booth at a US trade show may be representation rather than licensing, in which case it is a rejection under build 4's collaboration-type rule.
+4. **The 58 published licensing cases and 84 signed contracts from the 2025 黑潮星樂園.** The largest deal index this run has located. 文化部 「公佈已成功合作的58個授權案例」 with certificates presented on stage - so a list exists. It is a scale filter by construction (the programme requires five years' history and existing 授權實績), so expect few or no sub-10k hits, but 84 contracts is worth a targeted look for the exception.
+5. **The character-test re-examination is incomplete.** Five in-band creators - 日句時刻所, 窩窩頭, 時薪一加侖鮮奶, 舒媞, AndreaCat - could not be re-tested because their Instagram profile endpoint faults on a server-side schema error. Each is a documented licensing deal with a sub-10k creator, and section 12 has now shown that a blurb-based rejection is unreliable. **These five are the cheapest remaining path to rows 23-25 and they need a channel other than Instagram** (Facebook page, Threads, personal site, 賣貨便 storefront).
+6. **The 46.8% 文博會 denominator now has a known upward bias of unknown size**, because at least one exhibitor (無所事事小海豹) is banded off its licensing agent's corporate account. The detection rule - the exhibitor's own description contains 總代理 / 代理 / 經紀 - is cheap to run across both dictionary editions and has not been run.
+7. **Representability is still asserted, not tested** - now across twenty-two rows. Unchanged from build 4. The 無所事事小海豹 case shows the test has real content: an exhibitor that names a 總代理 is not addressable, and nothing in this file has been checked for one.
+8. **Instagram is no longer available as a bulk channel**, by policy as well as in practice. Any future build that needs to band a cohort rather than verify a named candidate must use a different source - the exhibitor directories' own published counts, Facebook page like-counts via Googlebot, or Wayback snapshots.
+9. **Vein A's ~97 unresolved DEVILCASE partners and the 39 VTubers.** Unchanged across all five builds.
 
 ---
 
