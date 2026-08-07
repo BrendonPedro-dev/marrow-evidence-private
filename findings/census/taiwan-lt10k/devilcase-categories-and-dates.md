@@ -268,3 +268,45 @@ Cross-check against build 1's Wayback bracketing: crossover 308 (茶包先生, r
 | 324 | 臺灣創作與角色 | 安怎？ Ann Nua | 2026-07-23 |
 | 325 | 熱門經典角色 | 胡子碰碰 OHIGE no PON | 2026-07-29 |
 | 326 | 海外創作與角色 | 意志薄弱狗 | 2026-07-29 |
+
+---
+
+## Build 4 addition: 23 further partners resolved from the 2025 文博會 dictionary
+
+The 2026 exhibitor directory resolved 23 of the 143 in-scope partners (build 3).
+The **2025** edition (`cet2025-exhibitor-handle-map.md`) resolves 23 more that the 2026 edition does not carry - 16 by exact name and 7 by a partial match adjudicated against the DEVILCASE partner page.
+Roughly 97 of the 143 remain unresolved.
+
+| crossover id | partner | Instagram | followers | band | match |
+|---|---|---|---|---|---|
+| 166 | 風速新營XYWS | `@xyws_motards` | **6,011** | `lt_10k` | partial (2025 name is 風速新營) |
+| 179 | 小學課本的逆襲 | `@turtledrawturtle` | 271,000 | `200k_1m` | exact |
+| 180 | 青青小樹 | `@doromon01` | 27,000 | `10k_50k` | exact |
+| 192 | 加零在電線桿下 | `@jia0kelvin` | 42,000 | `10k_50k` | exact |
+| 208 | 阿軒與一隻灰塵 | `@xuann_illustrator` | 40,000 | `10k_50k` | exact |
+| 231 | 阿啾小劇場 | `@achusan0817` | 227,000 | `200k_1m` | exact |
+| 238 | 肥肥與阿胡 | `@ffah_diary` | 92,000 | `50k_200k` | exact |
+| 239 | dtto friends | `@dttofriends` | 115,000 | `50k_200k` | exact |
+| 263 | 伸縮自如的雞與鴨 | `@iyayahaaa` | 36,000 | `10k_50k` | exact |
+| 266 | 啾啾噗噗 | `@jjjlllove_1209` | 168,000 | `50k_200k` | exact |
+| 268 | 來碗寬片片 | `@kuanpianpian` | 16,000 | `10k_50k` | exact |
+| 270 | 牙技師的牙齒們 | `@yajishi_de_teeth` | 22,000 | `10k_50k` | exact |
+| 271 | 小怪家 | `@yiekubo` (2025 dir) | **no `og:description`** | - | exact, but unusable |
+| 298 | 其實他是鵝 | `@hui____7` | 22,000 | `10k_50k` | exact |
+| 304 | 阿翰 | `@todayfor_han` | 58,000 | `50k_200k` | exact |
+| 308 | 茶包先生 | `@mr.teabag_` | 8,288 | `lt_10k` | exact - **already row 1** |
+| 324 | 安怎？ Ann Nua | `@ann_nua_handmade` | 20,000 | `10k_50k` | exact |
+| - | 消極男子 Mainasu otoko | `@mainasu_com` | 133,000 | `50k_200k` | partial |
+| - | YUANCHi | `@yuanchisart` | 114,000 | `50k_200k` | partial (2025 name 萌萌與他的恐龍朋友 & YUANCHi) |
+| - | 河童卡斯柏 Kasper | `@pcklt.kapa` | 40,000 | `10k_50k` | partial |
+| - | 小心臟Little Heart | `@jeoyu` | 35,000 | `10k_50k` | partial |
+| - | YuYing | `@yuying_1203` | 28,000 | `10k_50k` | partial |
+| - | 高雄捷運－蜜柑站長 | `@krtcmikan` | 235,000 | `200k_1m` | partial - transit-operator mascot |
+
+All counts are live Instagram `og:description` reads on 2026-08-07.
+
+**What this settles about Vein A.** Across builds 3 and 4, **46 of the 143 in-scope DEVILCASE partners now have a resolved follower count, and exactly one is sub-10k** - 風速新營 XYWS at 6,011, which then fails the character test (an 「插畫雙人組」 named after their hometown, no character in either the DEVILCASE bio or their 文博會 page).
+Build 1's two sub-10k DEVILCASE rows are the tail of this roster, not its centre.
+The selection caveat still cuts the other way - the 97 unresolved are the partners who exhibited at neither edition of 文博會, and exhibiting plausibly correlates with scale - but two independent samples of 23 each returning one sub-10k partner between them is now a reasonably firm read on the roster.
+
+**小怪家 stays boundary-ambiguous.** The 2025 directory publishes `@yiekubo` for it, which serves no `og:description` at all; build 3's `@guaaii__` read of "10K" still governs, and 10K under Instagram's rounding covers roughly 9,950-10,499.
